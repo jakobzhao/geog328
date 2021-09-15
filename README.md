@@ -60,48 +60,52 @@ This week we’ll focus on providing you all with the fundamental skill set for 
 
 This week’s focus is on processing geospatial data for your digital geographies projects. We will begin by introducing the structure of the geojson format, and then look at techniques for collecting, converting and visualizing geojson objects/features in a web or desktop environment such as QGIS. After completing Lab 2, students will have learned how to collect geo-tagged tweets using specific keywords/topics (e.g., etc.), and methods for visualizing the spatial distribution of the locations for those tweets.
 
+
+
 -   **Readings:** 
-        [W3School Tutorials on Html, javascript, css and jquery](weeks/week02/tech-readings.md)
+        [W3School Tutorials on Html, css](weeks/week02/tech-readings.md)
 
      
--   **Lab 2:** [Geo-tagged tweet collection and visualization](labs/lab02) `Due: Jan 29th, by 11:59pm`
+-   **quizzes:** [selector page edits](labs/lab02) 
+
+-   **Lab 3:** [load geojson data as a table](labs/lab03) `Due:Feb 12th, by 11:59pm`
+
+
 
 ### Week 4 : Front-end Coding: Javascript and GeoJson
 
 <!-- Geospatial Data Transferring and visualization -->
 
--   **Readings:** a) [Javascript](https://www.forbes.com/sites/drsarahbond/2017/10/20/how-is-digital-mapping-changing-the-way-we-visualize-racism-and-segregation/#4df35c7d33fa); b) [GeoJSON](weeks/week03/assets/geojson.pdf)
+-   **Readings:** a) [Javascript](https://www.forbes.com/sites/drsarahbond/2017/10/20/how-is-digital-mapping-changing-the-way-we-visualize-racism-and-segregation/#4df35c7d33fa); b) [GeoJSON](weeks/week03/assets/geojson.pdf); c) GEOJSON.IO
 
+through ajax. await
 
 <!-- Jan 25 to 29 -->
-
--   **Lab 3:** [](labs/lab03) `Due:Feb 12th, by 11:59pm`
-
 
 ### Week 5 : UX/UI Design
 
 <!-- Feb 1 to 5 -->
 
--   **Lecture Notes:** 
--   **Readings:** a) 3WSchool UI Design, b) [The Guide to Map Design](weeks/week05/mapbox-design.pdf), b) [BaseMap design using Mapbox Studio](https://docs.mapbox.com/studio-manual/overview/) 
+-   **Readings:** a) 3WSchool UI Design, side panel, time slider, navbar, etc. b) icons.
 
 
--   **Lab 4:** [Map Design and Tile Generation](labs/lab04) `Due: Feb 19th, by 11:59pm`
 
+<!--  b) [The Guide to Map Design](weeks/week05/mapbox-design.pdf), b) [BaseMap design using Mapbox Studio](https://docs.mapbox.com/studio-manual/overview/)  -->
 
 -   **Online Mid-term:** `Feb 2nd 11:30 AM - 12:50 PM` [_Study Guide_](assets/midterm_studyguide.md)
 
 ### Week 6 : Thematic Map
 
-12.	Heatmap
-13.	choropleth
-
-
 <!-- Feb 8 to 12 -->
 
--   **Lecture Notes:** [Create a smart dashboard](weeks/week06/), Examples: [COVID-19 Dashboard](https://hgis.uw.edu/virus)
--   **Readings:** a) [The praxis and politics of building urban dashboards](https://drive.google.com/file/d/1l3V1drqXMxn9rib7nTuDtxJC5YcWL0pY/view?usp=sharing), b) [History of the Urban Dashboard](https://placesjournal.org/article/mission-control-a-history-of-the-urban-dashboard/), c) [3 Ways Data Dashboards Can Mislead You](https://hbr.org/2017/01/3-ways-data-dashboards-can-mislead-you#comment-section), d) [Dynamic Charts](https://c3js.org/examples.html), and e) [extended readings](weeks/week06/readings.md).
--   **Think Piece 6:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1434645/discussion_topics/6000376) `Due: Feb 11th, by 5:00pm`
+
+-   **Readings:**
+
+
+12.	marker map, map icons
+13. Heatmap
+14.	choropleth
+
 
 ### Week 7 : Geocoding 
 
@@ -109,29 +113,29 @@ This week’s focus is on processing geospatial data for your digital geographie
 
 This week we will explore the concept of geo-narrative, the use of storytelling in mapping practice, by looking at existing geo-narrative mapping projects and engaging in a group discussion and map critique.
 
--   **Lecture Notes:** a) [A Geo-Narrative Template](weeks/week07/), b) [Planning and outlining your story map](https://www.esri.com/arcgis-blog/products/arcgis-storymaps/sharing-collaboration/planning-and-outlining-your-story-map-how-to-set-yourself-up-for-success/). Exaples: a) [Oregon Atlas](http://oregonwater.info/atlas.html), b) [Stand with #Standing Rock](https://jakobzhao.github.io/standwithstandingrock/)
--   **Readings:** a) [Affective Geovisualisations](https://drive.google.com/file/d/1aqMFkewNT9s9nrAecAVYiaBAbtCrf7xj/view?usp=sharing), b) [Anti-Eviction Mapping Project Handbook](https://static1.squarespace.com/static/52b7d7a6e4b0b3e376ac8ea2/t/5bc76571b208fc10defc815a/1539794295823/AEMP+Handbook.pdf), c)[extended readings](weeks/week07/readings.md).
--   **Think Piece 7:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1434645/discussion_topics/6000379) `Due: Feb 18th, by 5:00pm`
 
-### Week 8 : Time and Routing
+-   **Readings:**  geocoder.
 
-<!--(Feb 22 to 26) -->
 
-This week will focus on two emerging topics related to digital geographies, including cloud point visualization and real-time environment data collection, and explore their promise and pitfalls.
 
--   **Lecture Notes:** [Point cloud (Lidar Data) visualization](https://jakobzhao.github.io/sfm/index.html), [sample data](https://github.com/ucdavis/metashape) and [Real-time environmental data visualization](weeks/week08/rpi-iot).
--   **Readings:** a) [Real-time GIS](https://drive.google.com/file/d/1COD2OYBxEJThG5Lfx7-nzV0EGtGedndT/view?usp=sharing), b) [Anatomy of an AI System](https://anatomyof.ai/), c) [Abolishing Racist Police Algorithms](https://www.technologyreview.com/2020/06/05/1002709/the-activist-dismantling-racist-police-algorithms/), and d) [extended readings](weeks/week08/readings.md).
--   **Think Piece 8:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1434645/discussion_topics/6000381) `Due: Feb 25th, by 5:00pm`
-
-### Week 9 : Spatial analysis (distance, buffer) 
+### Week 8 : Spatial analysis I Time and Routing
 
 <!--(Feb 22 to 26) -->
 
 This week will focus on two emerging topics related to digital geographies, including cloud point visualization and real-time environment data collection, and explore their promise and pitfalls.
 
--   **Lecture Notes:** [Point cloud (Lidar Data) visualization](https://jakobzhao.github.io/sfm/index.html), [sample data](https://github.com/ucdavis/metashape) and [Real-time environmental data visualization](weeks/week08/rpi-iot).
--   **Readings:** a) [Real-time GIS](https://drive.google.com/file/d/1COD2OYBxEJThG5Lfx7-nzV0EGtGedndT/view?usp=sharing), b) [Anatomy of an AI System](https://anatomyof.ai/), c) [Abolishing Racist Police Algorithms](https://www.technologyreview.com/2020/06/05/1002709/the-activist-dismantling-racist-police-algorithms/), and d) [extended readings](weeks/week08/readings.md).
--   **Think Piece 8:** [Think Piece Canvas Link](https://canvas.uw.edu/courses/1434645/discussion_topics/6000381) `Due: Feb 25th, by 5:00pm`
+
+-   **Readings:** a)  time. and route plan
+
+
+### Week 9 : Spatial analysis II (distance, buffer) 
+
+<!--(Feb 22 to 26) -->
+
+This week will focus on two emerging topics related to digital geographies, including cloud point visualization and real-time environment data collection, and explore their promise and pitfalls.
+
+-   **Readings:** 
+
 
 ### Week 10 : Summary and the Next step 
 
