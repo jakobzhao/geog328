@@ -54,6 +54,9 @@ This week we’ll focus on providing you all with the fundamental skill set for 
     - [Intro to the Web](weeks/week01/intro-web)
     - [System architecture](weeks/week02/architecture)
 
+-   **quiz 1:** [web fundamentals](labs/lab02) 
+
+
 ### Week 3 : Front-end Coding: Html and CSS
 
 <!-- Jan 18 to 22 -->
@@ -66,9 +69,11 @@ This week’s focus is on processing geospatial data for your digital geographie
         [W3School Tutorials on Html, css](weeks/week02/tech-readings.md)
 
      
--   **quizzes:** [selector page edits](labs/lab02) 
+-   **quiz 2:** [html](labs/lab02) 
+-   **quiz 3:** [css](labs/lab02) 
 
--   **Lab 3:** [load geojson data as a table](labs/lab03) `Due:Feb 12th, by 11:59pm`
+
+-   **Lab 2:** [Load geojson data as a table](labs/lab03) `Due:Feb 12th, by 11:59pm`
 
 
 
@@ -80,7 +85,9 @@ This week’s focus is on processing geospatial data for your digital geographie
 
 through ajax. await
 
-<!-- Jan 25 to 29 -->
+-   **quiz 4:** [javascript](labs/lab02) 
+-   **quiz 5:** [geojson](labs/lab02) 
+
 
 ### Week 5 : UX/UI Design
 
@@ -89,12 +96,10 @@ through ajax. await
 -   **Readings:** a) 3WSchool UI Design, side panel, time slider, navbar, etc. b) icons.
 
 
-
 <!--  b) [The Guide to Map Design](weeks/week05/mapbox-design.pdf), b) [BaseMap design using Mapbox Studio](https://docs.mapbox.com/studio-manual/overview/)  -->
 
--   **Online Mid-term:** `Feb 2nd 11:30 AM - 12:50 PM` [_Study Guide_](assets/midterm_studyguide.md)
 
-### Week 6 : Thematic Map
+### Week 6 : Thematic Maps
 
 <!-- Feb 8 to 12 -->
 
@@ -106,6 +111,8 @@ through ajax. await
 13. Heatmap
 14.	choropleth
 
+
+-   **Lab 3:** [a web site?](labs/lab01) `Due: Jan 16th, by 11:59pm`
 
 ### Week 7 : Geocoding 
 
@@ -127,6 +134,7 @@ This week will focus on two emerging topics related to digital geographies, incl
 
 -   **Readings:** a)  time. and route plan
 
+-   **Lab 4:** [a web site?](labs/lab01) `Due: Jan 16th, by 11:59pm`
 
 ### Week 9 : Spatial analysis II (distance, buffer) 
 
@@ -137,7 +145,7 @@ This week will focus on two emerging topics related to digital geographies, incl
 -   **Readings:** 
 
 
-### Week 10 : Summary and the Next step 
+### Week 10 : Summary and Final Project Presentation
 
 <!-- Mar 1 to 12 -->
 
