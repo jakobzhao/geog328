@@ -37,7 +37,7 @@ From this course, students can learn both the principles of web-based cartograph
 
 This week’s lecture and lab will prepare you for the course, and provide a theoretical and technical foundation to build from. We’ll work through the syllabus together, and answer any questions you all may have. Each student is expected to read the Ash et al (2018) paper. After completing Lab 1, you will be able to clone/synchronize the course material, set up a personal website, and gain practical experience using github to manage your digital geographies projects.
 
--   **Readings:** 
+-   **Readings** 
     - 扫描 Web GIS 这本书
 
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Jan 16th, by 11:59pm`
@@ -45,34 +45,30 @@ This week’s lecture and lab will prepare you for the course, and provide a the
 ### Week 2: Web Fundamentals
 
 <!-- Oct 4 -->
-
-This week we’ll focus on providing you all with the fundamental skill set for web programming.  We will begin with an overview of the system architecture required for a digital geographies project,  then guide you through some of the essential front-end fundamentals. Including, internet basics, html, javascript, and css. This week requires a lot of self-learning,  and includes fairly lengthy readings and practical exercises. Please be prepared.
-
--   **Lecture Notes:** 
-
     
--   **Readings:** 
-    - [Intro to the Web](weeks/week01/intro-web)
-    - [System architecture](weeks/week02/architecture)
+-   **Readings** 
+    - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This is a concise series introducing you to the practicalities of web development. You'll set up the tools you need to construct a simple webpage and publish your own simple code.
+    - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
+    - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
 
--   **quiz 1:** [web fundamentals](labs/lab02) 
+-   **Quiz** 
+    - [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) 
 
 
 ### Week 3 : Front-end Coding: Html and CSS
 
-<!-- Jan 18 to 22 -->
+<!-- Oct 11 -->
+To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define.
 
-This week’s focus is on processing geospatial data for your digital geographies projects. We will begin by introducing the structure of the geojson format, and then look at techniques for collecting, converting and visualizing geojson objects/features in a web or desktop environment such as QGIS. After completing Lab 2, students will have learned how to collect geo-tagged tweets using specific keywords/topics (e.g., etc.), and methods for visualizing the spatial distribution of the locations for those tweets.
+Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
 
+-   **Reading** 
+    - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). This document sets the stage, getting you used to important concepts and syntax, looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a webpage.
+    -[Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding) This document explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire other webpages.
 
-
--   **Readings:** 
-        [W3School Tutorials on Html, CSS](weeks/week02/tech-readings.md)
-
-     
--   **quiz 2:** [html](labs/lab02) 
--   **quiz 3:** [css](labs/lab02) 
-
+-   **Quizzes:** 
+    - [html fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) 
+    - [css fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) 
 
 -   **Lab 2:** [html page design](labs/lab03) `Due:Feb 12th, by 11:59pm`
 
