@@ -29,7 +29,7 @@ From this course, students can learn both the principles of web-based cartograph
 #### Weekly Expectations:
 
 -   You should try to attend both lecture and lab sections each week.
--   You should complete all weekly readings before the Friday Lab sections, and submit weekly think pieces by Thursday @ 5 pm PST (further instructions below)
+-   You should complete all weekly readings before the Friday Lab sections
 
 ### Week 1: Intro to Web GIS
 
@@ -49,6 +49,7 @@ This week’s lecture and lab will prepare you for the course, and provide a the
 This week we’ll focus on providing you all with the fundamental skill set for web programming.  We will begin with an overview of the system architecture required for a digital geographies project,  then guide you through some of the essential front-end fundamentals. Including, internet basics, html, javascript, and css. This week requires a lot of self-learning,  and includes fairly lengthy readings and practical exercises. Please be prepared.
 
 -   **Lecture Notes:** 
+
     
 -   **Readings:** 
     - [Intro to the Web](weeks/week01/intro-web)
@@ -66,27 +67,27 @@ This week’s focus is on processing geospatial data for your digital geographie
 
 
 -   **Readings:** 
-        [W3School Tutorials on Html, css](weeks/week02/tech-readings.md)
+        [W3School Tutorials on Html, CSS](weeks/week02/tech-readings.md)
 
      
 -   **quiz 2:** [html](labs/lab02) 
 -   **quiz 3:** [css](labs/lab02) 
 
 
--   **Lab 2:** [Load geojson data as a table](labs/lab03) `Due:Feb 12th, by 11:59pm`
-
+-   **Lab 2:** [html page design](labs/lab03) `Due:Feb 12th, by 11:59pm`
 
 
 ### Week 4 : Front-end Coding: Javascript and GeoJson
 
 <!-- Geospatial Data Transferring and visualization -->
 
--   **Readings:** a) [Javascript](https://www.forbes.com/sites/drsarahbond/2017/10/20/how-is-digital-mapping-changing-the-way-we-visualize-racism-and-segregation/#4df35c7d33fa); b) [GeoJSON](weeks/week03/assets/geojson.pdf); c) GEOJSON.IO
+-   **Readings:** a) [Javascript](https://www.forbes.com/sites/drsarahbond/2017/10/20/how-is-digital-mapping-changing-the-way-we-visualize-racism-and-segregation/#4df35c7d33fa); b) [GeoJSON](weeks/week03/assets/geojson.pdf); c) GEOJSON.IO； d) create geojson
 
 through ajax. await
 
 -   **quiz 4:** [javascript](labs/lab02) 
--   **quiz 5:** [geojson](labs/lab02) 
+
+-   **Lab 3:** [Load geojson data as a table](labs/lab03) `Due:Feb 12th, by 11:59pm` 
 
 
 ### Week 5 : UX/UI Design
@@ -112,7 +113,9 @@ through ajax. await
 14.	choropleth
 
 
--   **Lab 3:** [a web site?](labs/lab01) `Due: Jan 16th, by 11:59pm`
+-   **Lab 4:** [a web site?](labs/lab01) `Due: Jan 16th, by 11:59pm`
+   1. 给一个网站，让大家做一个类似的？
+   2. 然后制作相应的控件。（或者就是那个美国的）
 
 ### Week 7 : Geocoding 
 
@@ -120,21 +123,20 @@ through ajax. await
 
 This week we will explore the concept of geo-narrative, the use of storytelling in mapping practice, by looking at existing geo-narrative mapping projects and engaging in a group discussion and map critique.
 
-
--   **Readings:**  geocoder.
-
+-   **Readings:**  geocoder.  以及数据的geocoder。
 
 
-### Week 8 : Spatial analysis I Time and Routing
+
+### Week 8 : Spatial analysis I: Time and Routing
 
 <!--(Feb 22 to 26) -->
 
 This week will focus on two emerging topics related to digital geographies, including cloud point visualization and real-time environment data collection, and explore their promise and pitfalls.
 
 
--   **Readings:** a)  time. and route plan
+-   **Readings:**  time . and route plan， mapbox
+-   **Lab 5:** [final](labs/lab01) `Due: Jan 16th, by 11:59pm`
 
--   **Lab 4:** [a web site?](labs/lab01) `Due: Jan 16th, by 11:59pm`
 
 ### Week 9 : Spatial analysis II (distance, buffer) 
 
@@ -142,62 +144,20 @@ This week will focus on two emerging topics related to digital geographies, incl
 
 This week will focus on two emerging topics related to digital geographies, including cloud point visualization and real-time environment data collection, and explore their promise and pitfalls.
 
--   **Readings:** 
+-   **Readings:** distance，buffer 的课件。
+
 
 
 ### Week 10 : Summary and Final Project Presentation
 
-<!-- Mar 1 to 12 -->
-
-During these two weeks, each group will focusing on their final projects and essay. The instructor and teaching assistant are available during the normal lecture period, lab sections and office hours if help is needed. Below are some resources for you to develop your final project.
-
-[Request an individual meeting with the Instructor via Zoom](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI)
-
-- **Final Project Milestones:**
-  - Draft a project proposal
-    - a) Content inventory
-    - b) Project Type (web mapping, dashboard, geo-narrative, etc.)
-    - c) Creat a GitHub repo for project management
-    - d) Save the item a) and b) to the `readme.md`
-  - `Optional` Project mockup:
-    - a) [Web mapping](https://www.figma.com/file/USVi3eiJjhaUoHEcl3ryiR/Damron-Seattle-mockup)
-    - b) [Smart Dashboard](https://www.figma.com/file/Dm30UzxUlOlw6XrjMaPh1c/Covid-Workers-Dash?node-id=0%3A1)
-    - c) [GeoNarrative](https://www.figma.com/file/gxADc3Bjrrr1GtubAD6paz/CoPe-Geonarrative-1-Mockup)
-  - Initialize the project using a template
-    - a) [web mapping template](weeks/week04/starter)
-    - b) [smart dashboard](weeks/week06/)
-    - c) [geonarrative](weeks/week07)
-    - d) feel free to create/use your own template.
-  - Geospatial data gathering
-    - a) data to the `assets` folder
-    - b) save data inventory to the `readme.md`.
-    - resources: [Washington State Data](https://wagda.lib.washington.edu/data/geography/wa_state/), [UW Geospatial data Archives](https://guides.lib.uw.edu/research/gis)
-  - Map designs
-    - a) Basemaps:
-      - [cartodb free tiles](https://github.com/CartoDB/basemap-styles)
-      - [leaflet-provider preview](https://leaflet-extras.github.io/leaflet-providers/preview/)
-      - customized tiles by MapBox studio
-    - b) Thematic layers: Design them through Q or Arc, and then coding them using the Leaflet library.
-    - c) Save the map layer list to the `readme.md`
-  - Miscellanenous items
-    - a) multimedia: [Unsplash `image only`](https://unsplash.com/), [Pixabay](https://pixabay.com/), and [Pexels](https://www.pexels.com/)
-    - b) icons: [Font Awesome](https://fontawesome.com/v4.7.0/icons/), [Bootstrap icons](https://icons.getbootstrap.com/)
-    - c) web fonts: [Google Fonts](https://fonts.google.com/)
-    - d) `optional` Favicon: [Favicon Generator](https://realfavicongenerator.net/)
-    - e) Save the multimedia inventory to the `readme.md`
-  - Coding and debugging
-  - Presentation and peer-review:
-    - Presentations in the lecture meetings in the finals week
-    - Each student needs to review at least five final projects
-  - Fine-tuning and submission
-
-
-
-### Finals Week : Final project presentations
-
 <!-- Mar 15 to 19 -->
 
 During the last two meeting sessions, each group will present their final projects. More information about final project will be shared after the mid-term.
+
+
+During these two weeks, each group will focusing on their final projects and essay. The instructor and teaching assistant are available during the normal lecture period, lab sections and office hours if help is needed. Below are some resources for you to develop your final project.
+
+
 
 ## :bell: Course Requirement
 
@@ -209,7 +169,7 @@ The Student Tech Loan Program is expanding as quickly as possible. We announced 
 
 **Labs:** You need to finish all four labs by the due date. In order to help you work on each lab, we will walk through most of the labs in class.
 
-**Think Pieces:** for week 1 to 8, there will be weekly reading assignments. To evaluate your reflection upon each week's reading material, we set up a discussion board for each week. You need to submit think pieces to **3** out of the 8 weeks' discussion topics. Your think pieces should be completed by Thursday @ 5 pm PST for the weeks you are submitting a piece. Your think pieces should be at least 350 words and engage substantially with the reading materials, and connections to the lab assignements and lectures. Guiding questions or prompts will be included in each week's discussion section on canvas to help frame your thinking. Submit your think pieces on Canvas in the applicable week's discussion section (https://canvas.uw.edu/courses/1434645/discussion_topics).
+**Think Pieces:** for week 1 to 8, there will be weekly reading assignments. To evaluate your reflection upon each week's reading material, we set up a discussion board for each week. You need to submit think pieces to **3** out of the 8 weeks' discussion topics. Your think pieces should be completed by Thursday @ 5 pm PST for the weeks you are submitting a piece. Your think pieces should be at least 350 words and engage substantially with the reading materials, and connections to the lab assignments and lectures. Guiding questions or prompts will be included in each week's discussion section on canvas to help frame your thinking. Submit your think pieces on Canvas in the applicable week's discussion section (https://canvas.uw.edu/courses/1434645/discussion_topics).
 
 **Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
 
@@ -226,11 +186,9 @@ This course targets students who have a background in fundamental geographic inf
 | Grading items   | %   |
 | --------------- | --- |
 | Participation   | 5%  |
-| Think Pieces    | 15% |
+| Quizzes         | 25% |
 | Lab Assignments | 30% |
-| Mid-term        | 25% |
 | Final project   | 15% |
-| Essay           | 10% |
 
 > The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function). As well as participation in the weekly lab/discussion sections.
 
