@@ -121,7 +121,7 @@ Cascading Stylesheets — or CSS — is the first technology you should start le
 <!--  b) [The Guide to Map Design](weeks/week05/mapbox-design.pdf), b) [BaseMap design using Mapbox Studio](https://docs.mapbox.com/studio-manual/overview/)  -->
 
 
-### Week 6 : Thematic Maps
+### Week 6 : Thematic Map Design 
 
 <!-- Nov 1 -->
 
@@ -154,7 +154,7 @@ This week we will explore the concept of geo-narrative, the use of storytelling 
     - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Lab 5:** [final](labs/lab01) `Due: Jan 16th, by 11:59pm`
 
-### Week 9 : Temporal Analysis 
+### Week 9 : Dealing with Time
 
 <!-- Nov 22 -->
 
