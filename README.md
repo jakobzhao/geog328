@@ -35,11 +35,10 @@ From this course, students can learn both the principles of web-based cartograph
 
 <!-- Sept 29 -->
 
-This week’s lecture and lab will prepare you for the course, and provide a theoretical and technical foundation to build from. We’ll work through the syllabus together, and answer any questions you all may have. Each student is expected to read the Ash et al (2018) paper. After completing Lab 1, you will be able to clone/synchronize the course material, set up a personal website, and gain practical experience using github to manage your digital geographies projects.
-
 -   **Readings** 
     - 扫描 Web GIS 这本书
-    - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+    - [Git Handbook](https://guides.github.com/introduction/git-handbook/)Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes. Unlike once popular centralized version control systems, DVCSs like Git don’t need a constant connection to a central repository. Developers can work anywhere and collaborate asynchronously from any time zone.
+    - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
 
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Jan 16th, by 11:59pm`
 
@@ -56,7 +55,7 @@ This week’s lecture and lab will prepare you for the course, and provide a the
     - [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) 
 
 
-### Week 3 : Front-end Coding: Html and CSS
+### Week 3: Front-end Coding: Html and CSS
 
 <!-- Oct 11 -->
 To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define.
@@ -71,15 +70,15 @@ Cascading Stylesheets — or CSS — is the first technology you should start le
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
 
 -   **Quizzes:** 
-    - [html fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) 
-    - [css fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) 
+    - [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) 
+    - [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) 
 
 -   **Lab 2:** [html page design](labs/lab03) `Due:Feb 12th, by 11:59pm`
 
 
-### Week 4 : Front-end Coding: Javascript and GeoJson
+### Week 4: Front-end Coding: Javascript and GeoJSON
 
-<!-- Geospatial Data Transferring and visualization -->
+<!-- Oct 18 -->
 
 -   **Readings** 
     - [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps). In this document,we first answer some fundamental questions such as "what is JavaScript?", "what does it look like?", and "what can it do?", before moving on to taking you through your first practical experience of writing JavaScript. After that, we discuss some key building blocks in detail, such as variables, strings, numbers and arrays.
@@ -99,18 +98,24 @@ Cascading Stylesheets — or CSS — is the first technology you should start le
     <!--https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data-->
     
 
-through ajax. await
+-   **quiz 4:** [Javascript Fundamentals](labs/lab02) 
 
--   **quiz 4:** [javascript](labs/lab02) 
-
--   **Lab 3:** [Load geojson data as a table](labs/lab03) `Due:Feb 12th, by 11:59pm` 
-
+-   **Lab 3:** [Load geojson data as a table](labs/lab03) `Due:Feb 12th, by 11:59pm`
+        - [Zebra Striped Table](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
+        - [Sort a Table](https://www.w3schools.com/howto/howto_js_sort_table.asp)
 
 ### Week 5 : UX/UI Design
 
-<!-- Feb 1 to 5 -->
+<!-- Oct 25 -->
 
--   **Readings:** a) 3WSchool UI Design, side panel, time slider, navbar, etc. b) icons.
+-   **Readings**
+    - [Responsive SideBar](https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp)
+    - [Fixed Sidebar](https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp)
+    - [a Sidebar with Icons](https://www.w3schools.com/howto/howto_css_sidebar_icons.asp)
+    - [Meet The Team" Page](https://www.w3schools.com/howto/howto_css_team.asp)
+    - [Section Counter](https://www.w3schools.com/howto/howto_css_section_counter.asp)
+    - [Mobile Menu](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+    - [Scroll Drawing](https://www.w3schools.com/howto/howto_js_scrolldrawing.asp)
 
 
 <!--  b) [The Guide to Map Design](weeks/week05/mapbox-design.pdf), b) [BaseMap design using Mapbox Studio](https://docs.mapbox.com/studio-manual/overview/)  -->
@@ -118,15 +123,12 @@ through ajax. await
 
 ### Week 6 : Thematic Maps
 
-<!-- Feb 8 to 12 -->
+<!-- Nov 1 -->
 
 
 -   **Readings:**
-
-
-12.	marker map, map icons
-13. Heatmap
-14.	choropleth
+    - [making thematic map using mapbox](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
+    - [Add custom markers in Mapbox GL JS](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
 
 
 -   **Lab 4:** [a web site?](labs/lab01) `Due: Jan 16th, by 11:59pm`
@@ -135,38 +137,45 @@ through ajax. await
 
 ### Week 7 : Geocoding 
 
-<!-- Feb 15 to 19 -->
+<!-- Nov 8 -->
 
 This week we will explore the concept of geo-narrative, the use of storytelling in mapping practice, by looking at existing geo-narrative mapping projects and engaging in a group discussion and map critique.
 
--   **Readings:**  geocoder.  以及数据的geocoder。
+-   **Readings:** 
+    [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
 
 
-### Week 8 : Spatial analysis I: Time and Routing
+### Week 8 : Spatial analysis I: Sorting by distance
 
-<!--(Feb 22 to 26) -->
+<!-- Nov 15 -->
 
-This week will focus on two emerging topics related to digital geographies, including cloud point visualization and real-time environment data collection, and explore their promise and pitfalls.
-
-
--   **Readings:**  time . and route plan， mapbox
+-   **Readings:** 
+    - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Lab 5:** [final](labs/lab01) `Due: Jan 16th, by 11:59pm`
 
+### Week 9 : Temporal Analysis 
 
-### Week 9 : Spatial analysis II (distance, buffer) 
+<!-- Nov 22 -->
 
-<!--(Feb 22 to 26) -->
-
-This week will focus on two emerging topics related to digital geographies, including cloud point visualization and real-time environment data collection, and explore their promise and pitfalls.
-
--   **Readings:** distance，buffer 的课件。
+-   **Readings:** 
+    [Show changes over time with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
 
 
+### Week 10 : Spatial analysis II
 
-### Week 10 : Summary and Final Project Presentation
+<!-- Nov 29 -->
 
-<!-- Mar 15 to 19 -->
+-   **Readings:** 
+    [nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
+    [buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
+
+
+
+
+### Week 11 : Summary and Final Project Presentation
+
+<!-- Dec 6 -->
 
 During the last two meeting sessions, each group will present their final projects. More information about final project will be shared after the mid-term.
 
