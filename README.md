@@ -2,7 +2,7 @@
 
 **Meetings:**
 -   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM PST on [Zoom]()
--   **Labs:** Friday 12:30 - 1:20 PM PST in SMI 401
+-   **Labs:** Friday 12:30 - 1:20 PM PST in [SMI 401](https://www.google.com/maps/place/Smith+Hall+(SMI)/@47.6564039,-122.3096954,17z/data=!3m1!4b1!4m5!3m4!1s0x5490148d3c47332b:0x804039aa1d9e590b!8m2!3d47.6563716!4d-122.3074586)
 
 **Personnel:**
 -   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3 to 6:00 PM PST on [Zoom](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) or by appointment
