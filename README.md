@@ -28,7 +28,7 @@ From this course, students can learn both the principles of web-based cartograph
 
 <!-- Sept 29 -->
 
--   **Readings** 
+-   **Readings:** 
     - [Intro to Web GIS]()
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes. Unlike once popular centralized version control systems, DVCSs like Git don’t need a constant connection to a central repository. Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
@@ -39,7 +39,7 @@ From this course, students can learn both the principles of web-based cartograph
 
 <!-- Oct 4 -->
     
--   **Readings** 
+-   **Readings:** 
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This is a concise series introducing you to the practicalities of web development. You'll set up the tools you need to construct a simple webpage and publish your own simple code.
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
@@ -54,7 +54,7 @@ To build websites, you should know about HTML — the fundamental technology use
 
 Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
 
--   **Readings** 
+-   **Readings:** 
     - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). This document sets the stage, getting you used to important concepts and syntax, looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a webpage.
     - [Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding) This document explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire other webpages.
     - [CSS First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps) CSS (Cascading Style Sheets) is used to style and lay out web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.
@@ -75,7 +75,7 @@ Cascading Stylesheets — or CSS — is the first technology you should start le
 
 <!-- Oct 18 -->
 
--   **Readings** 
+-   **Readings:** 
     - [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps). In this document,we first answer some fundamental questions such as "what is JavaScript?", "what does it look like?", and "what can it do?", before moving on to taking you through your first practical experience of writing JavaScript. After that, we discuss some key building blocks in detail, such as variables, strings, numbers and arrays.
 
     - [Javascript Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks). In this document, we continue our coverage of all JavaScript's key fundamental features, turning our attention to commonly-encountered types of code blocks such as conditional statements, loops, functions, and events. You've seen this stuff already in the course, but only in passing — here we'll discuss it all explicitly.
@@ -105,7 +105,7 @@ Cascading Stylesheets — or CSS — is the first technology you should start le
     - [Scroll Drawing](https://www.w3schools.com/howto/howto_js_scrolldrawing.asp)
 
 
-### Week 6 : Thematic Map Design 
+### Week 6 : Thematic Map Design on the web
 
 <!-- Nov 1 -->
 
@@ -128,7 +128,7 @@ This week we will explore the concept of geo-narrative, the use of storytelling 
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
 
-### Week 8 : Spatial analysis I: Sorting by distance
+### Week 8 : Web-based spatial analysis I: Sorting by distance
 
 <!-- Nov 15 -->
 
@@ -136,7 +136,7 @@ This week we will explore the concept of geo-narrative, the use of storytelling 
     - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Final Project:** [Web-based spatial analysis](labs/lab05) `Due: Jan 16th, by 11:59pm`
 
-### Week 9 : Dealing with Time
+### Week 9 : Dealing with time on the web
 
 <!-- Nov 22 -->
 
@@ -144,7 +144,7 @@ This week we will explore the concept of geo-narrative, the use of storytelling 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
 
 
-### Week 10 : Spatial analysis II
+### Week 10 : Web-based spatial analysis II
 
 <!-- Nov 29 -->
 
@@ -199,7 +199,7 @@ We welcome the opportunity to work with any students with disabilities in this c
 
 Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at [Religious Accommodations Policy](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://https:/registrar.washington.edu/students/religious-accommodations-request/).
 
- ## :memo:  Student Care & Safety. 
+ ## :memo:  Student Care & Safety
  
 It is important that you take care of yourselves inside and outside of class as you work through stress and other obstacles. There are many different support services
 on campus that can help, such as the Counseling Center, Hall Health, and the IMA. UW’s Student Care program can help you connect to these and other resources. Learn more an contact them directly: http://depts.washington.edu/livewell/student-care/ , livewell@uw.edu, or 206.543.6085. If you are concerned about yourself or a friend who is struggling SafeCampus is a helpful resource. Please add 206.685.7233 to your phones
