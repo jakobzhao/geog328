@@ -145,7 +145,7 @@ If you implement the above two commands in a Mac or Linux system, you might need
 
 ## 3\. Project management
 
-In this section, we will introduce a series of operations related to project management, such as create a project repository, compile a markdown file, and upload files to GitHub, and at last, publish a repository. As a practice, we will build a GitHub repository for your online resume. To see an integrated demo of this section, please check [here](repo-git.md).
+In this section, we will introduce a series of operations related to project management, such as create a project repository, compile a markdown file, and upload files to GitHub, and at last, publish a repository. Since you will build a web GIS based project at the end of this course, we would like you to start brainstorming ideas for your final projects early. As a practice, we will build a GitHub repository for a wiki page of your interested topic.
 
 ### 3.1 Create a repository for your project
 
@@ -157,86 +157,57 @@ In this section, we will introduce a series of operations related to project man
 
 ![](img/create-new-repository-3.png)
 
-3\. Next, click the `Create repository` button. As a result, a new repository `[github_username].github.io` is created. You can access this repository through the link `https://github.com/[github_username]/[github_username].github.io`. For example,  you can access the repository geovizlabtest.github.io through the link [https://github.com/geovizlabtest/ geovizlabtest.github.io](https://github.com/geovizlabtest/geovizlabtest.github.io).
+3\. Next, click the `Create repository` button. As a result, a new repository `[github_username].github.io` is created. You can access this repository through the link `https://github.com/[github_username]/[github_username].github.io`. For example,  you can access the repository geovizlabtest.github.io through the link [https://github.com/geovizlabtest/geovizlabtest.github.io](https://github.com/geovizlabtest/geovizlabtest.github.io).
 
 ### 3.2 Compose a Markdown file
 
-1\. On your local computer, create a text file, and name it `resume.md`.
+1\. On your local computer, create a text file, and name it `wiki.md`.
 
-2\. Open this file `resume.md` with `Visual Studio Code`. Then, you can work on your resume. If you are not familiar with Markdown, please refer to a tutorial at [**here**](https://guides.github.com/features/mastering-markdown/). Or you can start with copying and pasting the template below. Please note that this template is only for your reference. You probably do not want to share too much about your personal information such as phone number, address and etc. If you feel uncomfortable sharing your own resume online, feel free to create one for an imaginary person.  Please remember that this lab assignment is only for you to practice your skills working with markdown files!
+2\. Open this file `wiki.md` with `Visual Studio Code`. Then, you can work on your wiki page. If you are not familiar with Markdown, please refer to a tutorial at [**here**](https://guides.github.com/features/mastering-markdown/). Or you can start with copying and pasting the template below. Please note that this template is only for your reference. This lab assignment is only for you to practice your skills working with markdown files! So feel free to change elements in this template, as long as the wikipage is well-organized.
 
 ```markdown
-# Your Name
+# Topic Title
+![](url for an image about your topic)
 
-your.name@example.com
-
-http://www.example.com
-
-http://www.linkedin.com/in/yourname
-
-# Summary
-
-Quick Summary (not objective) specifically highlighting why you qualify for the job.
-
-# Work Experience (only last 10 years)
-
-## University Name 1 (City, State)
-
-* [University 1][] description, particularly if not well-known.*
-
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
-
-Summary of your role
-
-- Accomplishment that contains **bold text**.
-- Accomplishment
-- Accomplishment
-- Accomplishment
-
-## University Name 2 (City, State)
-*[University 2][] description, particularly if not well-known.*
-
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
-
-Summary of your role
-
-- Accomplishment that contains **bold text**.
-- Accomplishment
-- Accomplishment
-- Accomplishment
-
-## University Name 3 (City, State)
-* [University 3][] description, particularly if not well-known.*
-
-** Position Title (include alternate titles in parentheses)** (Start Date - End Date)
-
-Summary of your role
-
-- Accomplishment
-- Accomplishment
-- Accomplishment
-- Accomplishment
+A short desciprion / abstract of the topic you choose. For the textx here and below, feel free to use **bold** and *italic* fonts, [linked texts](url),  ![images](url), or any other element you think would be helpful for your audience to understand the topic.
 
 
-[University 1]: http://www.univ1.edu
-[University 2]: http://www.univ2.edu
-[University 3]: http://www.univ3.edu
+## Section 1
+One or several paragraphs.
+
+## Section 2
+One or several paragraphs.
+### (Optional) Subsection 1
+One or several paragraphs.
+### (Optional) Subsection 2
+One or several paragraphs.
+
+## Section 3
+One or several paragraphs for subsection 3.
+
+## See also
+- [Resource 1](url)
+- [Resource 2](url)
+- [Resource 3](url)
+
+## References
+1. Reference 1
+2. Reference 2
+3. Reference 3
 ```
-**Note:** This resume template is from [http://www.jasonfilley.com/resumeinmarkdown.html](http://www.jasonfilley.com/resumeinmarkdown.html).
-
 
 
 3\. In fact, you can use any text editor to generate Markdown files. If you do not have `Visual Studio Code` at hand, you can use `Notepad` on Windows or `TextEdit` on MacOS as well. Another more advanced Markdown editor I highly recommend is `Typora`. Please let the instructor know if you meet any difficulty in installing this plugin.
 
 ### 3.3 Upload files to GitHub
 
-Once you have drafted out your resume in the `resume.md` file. You will upload this file to the **root** of the project repository `https://github.com/[github_username]/[github_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one.
+Once you have drafted out your resume in the `wiki.md` file. You will upload this file to the **root** of the project repository `https://github.com/[github_username]/[github_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one.
 
 #### 3.3.1 Drag & drop
 
 1\. Open a web browser such as `Chrome`, navigate to the front page of the repository you have just created.
 
-2\. Next, use your mouse to drag the `resume.md` file to the front page. Once you see a notice saying **Drop to upload your files**, you can then release your mouse. A new interface will appear as below.
+2\. Next, use your mouse to drag the `wiki.md` file to the front page. Once you see a notice saying **Drop to upload your files**, you can then release your mouse. A new interface will appear as below.
 
 **Note:** Certainly, you can drag and drop multiple files and/or folders. In this lab, we just upload one single file.
 
@@ -246,9 +217,9 @@ Once you have drafted out your resume in the `resume.md` file. You will upload t
 
 #### 3.3.2 Git push
 
-You can also upload the `resume.md` through `git push` command on either command prompt or terminal.
+You can also upload the `wiki.md` through `git push` command on either command prompt or terminal.
 
-1\. Since GitHub no longer accepts account passwords when authenticating Git operations on GitHub.com since August 2021, we will need to use **a personal access token** as the password for pushing to the repository. Click **[here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)** to see how to create one for yourself.
+1\. Since GitHub no longer accepts account passwords when authenticating Git operations when you are using command line tools since August 2021, we will need to use **a personal access token** as the password for pushing to the repository. Click **[here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)** to see how to create one for yourself.
 
 2\. Download the repository  `https://github.com/[github_username]/[github_username].github.io`  following the instruction in Section 2 **"Download the course material"**.
 
@@ -286,13 +257,13 @@ We can also use `Visual Studio Code` to upload files to GitHub repository or mor
 
 1\. Download the repository  `https://github.com/[github_username]/[github_username].github.io`  following the instruction in Section 2 *"Download the course material"*. Note here you need to **download the repo you created** earlier, not the class repository
 
-2\. In the root directory of the downloaded repository, please copy the edited `resume.md` to the root.
+2\. In the root directory of the downloaded repository, please copy the edited `wiki.md` to the root.
 
 3\. Open Visual Studio Code, and open the downloaded repository folder following the instruction in Section 2 *"Download the course material"*.
 
-4\. Once you open this repository, you can edit the `resume.md` in Visual Studio Code. Remember to save (`ctrl+s`) your files after editing
+4\. Once you open this repository, you can edit the `wiki.md` in Visual Studio Code. Remember to save (`ctrl+s`) your files after editing
 
-5\. To update any edit changes, click on the "Source Control" button on the left toolbar. Then click on the "Stage All Changes" button (plus sign), input your commit message in the textbox above, click on the "Commit" button (check sign), and then click on the "Views and More Action..." button (three dots) and choose "Push".
+5\. To update any edit changes, click on the "Source Control" button on the left toolbar. Then click on the "Stage All Changes" button (plus sign, be sure to click on the button  on the right side of "Changes"), input your commit message in the textbox above, click on the "Commit" button (check sign), and then click on the "Views and More Action..." button (three dots) and choose "Push".
 
 ![vscode-gh-push](img/vscode-gh-push.gif)
 
@@ -308,48 +279,17 @@ Now you have already known how to commit a change. In practice, you will use thi
 
 ### 3.4 Publish your repository
 
-Once the `resume.md` is uploaded to the root of the GitHub Repository, you can see this file listed in the root. Moreover, GitHub provide a new function named **GitHub Page** that converts a markdown file as a web page. Because your resume is located at the root of the repository, you can directly access your resume by visiting `http://[github_username].github.io/resume` if you implement the following steps.
+Once the `resume.md` is uploaded to the root of the GitHub Repository, you can see this file listed in the root. Moreover, GitHub provide a new function named **GitHub Page** that converts a markdown file as a web page. Because your resume is located at the root of the repository, you can directly access your resume by visiting `http://[github_username].github.io/wiki` if you implement the following steps.
 
 1\. please click the `Settings`tab on the top bar of the repository front page.
 
-2\. On the `GitHub Pages` Section, make sure `master branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
+2\. On the `Pages` Section, make sure `master branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
 
-3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your resume from `http://[github_username].github.io/resume`.
+3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your resume from `http://[github_username].github.io/wiki`.
 
 **Note：** Similar to the step 8 in section 2, You can also update a local repository from a remote github repository using Visual Studio Code. To do that, right click the github operation status on the bottom bar, and select the option `Pull`. The github operation status can be either `Fetch`, `Pull`, `Push`, `Force Push`.
 
-## 4. Website host using GitHub Pages
-
-Github allows its user to convert a repository as a website automatically. In this section, you will need to download a website template and modify it according to your needs, and upload it to the repository `https://github.com/[github_username]/[github_username].github.io` you have just created. After you finish this sesction, you can visit this webiste at `https://[github_username].github.io`.
-
-
-[Start Bootstrap](https://startbootstrap.com/) hosts a few website Boostrap-based templates. Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components.
-
-1\. Visit url [https://startbootstrap.com/templates/the-big-picture/](https://startbootstrap.com/templates/the-big-picture/) and download this template. (a cope of this template is stored in the [assets](assets/) subfolder of this PE.)
-
-![](img/big-picture.png)
-
-2\. Unzip/Extract the files from the zipped file and move to the local folder of the github repository `[github_username].github.io` in your workspace.
-
-**Note:** If your local PC or MacOSX does not support the unzip function, please install [7zip](https://www.7-zip.org/download.html) if you are a windows user or [Keka](https://www.keka.io/en/) if you are a MacOSX user.
-
-3\. Upload all the extracted files except the `readme.me` to the root of `https://github.com/[github_username]/[github_username].github.io`. To do so, please use the github synchronization function provided by Visual Studio Code **(refer to Section 3.3.3)**.
-
-![](img/front-page.png)
-
-4\. After you successfully push the local repository to github. You can visit the website at `https://[github_username].github.io`. For example, I can vist the website at `https://geovizlabtest.github.io`. Usually, the URL will automaticaly navigate to the default page under the root of the repo. Usually, the name of the default page is `index.html`.
-
-![](img/front-page-index.png)
-
-5\. Please modify the web page codes at the local repoistory. Once you push the changes to the github, please visit the url `https://geovizlabtest.github.io` to see whether the web pages have updated or not. If you want to get more familiar with web development, we encourage you walk through [w3school online web tutorials](https://www.w3schools.com/), especially the following items.
-
-- [HTML](https://www.w3schools.com/html/default.asp)
-- [JavaScript](https://www.w3schools.com/js/default.asp)
-- [CSS](https://www.w3schools.com/css/default.asp)
-- [Boostrap 4](https://www.w3schools.com/bootstrap4/default.asp)
-- [jQuery](https://www.w3schools.com/jquery/default.asp)
-
-## 5. Deliverable
+## 4. Deliverable
 
 Before submitting the deliverable, please make sure the **GitHub Pages** work properly. You are expected to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github_username]/[github_username].github.io`. To submit, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
 
@@ -357,16 +297,14 @@ Before submitting the deliverable, please make sure the **GitHub Pages** work pr
 
 2\. The repository should be named after `[github_username].github.io`. (5 POINTS)
 
-3\. The `GitHub pages` function of the repository should work properly. That said, your resume can be visited from `https://[github_username].github.io/resume` (5 POINTS);
+3\. The `GitHub pages` function of the repository should work properly. That said, your wiki page can be visited from `https://[github_username].github.io/wiki` (5 POINTS);
 
-4\. To hone your skills in Markdown syntax, the resume could be built upon the template that was shown in `Section 3.2`, but we still encourage you customize your resume. In terms of the format, your online resume should contain (15 POINTS):
+4\. To hone your skills in Markdown syntax, the resume could be built upon the template that was shown in `Section 3.2`, but we still encourage you customize your wiki page. In terms of the format, your wiki page should contain (15 POINTS):
 
 * Different levels of headers;
-* A block quote;
+* Different font styles
 * Several url links;
 * One or several images; and
 * A list;
-
-5\. Create a website under this newly created repository. This website can be [an online resume](https://startbootstrap.com/themes/resume/), [a project webiste](https://startbootstrap.com/themes/creative/), [an administrator dashboard](https://startbootstrap.com/themes/sb-admin-2/) and so on. I encourage you use any bootstrap4 template on [Start Bootstrap](https://startbootstrap.com/), and further modify the webpage if needed. You are not expected to make a complicated websites of several pages, but at least, a website represents some idea you planned to work on.(15 POINTS)
 
 **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
