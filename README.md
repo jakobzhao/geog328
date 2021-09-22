@@ -3,7 +3,7 @@
 **Meetings:**
 
 -   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM PST on [Zoom]()
--   **Labs** Friday 12:30 - 1:20 PM PST in SMI 401 and remotely on [Zoom]() by Appointment 
+-   **Labs** Friday 12:30 - 1:20 PM PST in SMI 401
 
 **Personnel:**
 
@@ -24,7 +24,7 @@ From this course, students can learn both the principles of web-based cartograph
 
 ## :calendar: Weekly Schedule
 
-#### Preparation: [**Gear up the working environment**](assets/gearup.md) :computer:  :beer:
+#### Preparation: [**Gear up the working environment**](assets/gearup.md) :computer: :beer:
 
 #### Weekly Expectations:
 
@@ -37,7 +37,7 @@ From this course, students can learn both the principles of web-based cartograph
 
 -   **Readings** 
     - 扫描 Web GIS 这本书
-    - [Git Handbook](https://guides.github.com/introduction/git-handbook/)Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes. Unlike once popular centralized version control systems, DVCSs like Git don’t need a constant connection to a central repository. Developers can work anywhere and collaborate asynchronously from any time zone.
+    - [Git Handbook](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes. Unlike once popular centralized version control systems, DVCSs like Git don’t need a constant connection to a central repository. Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
 
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Jan 16th, by 11:59pm`
@@ -167,10 +167,8 @@ This week we will explore the concept of geo-narrative, the use of storytelling 
 <!-- Nov 29 -->
 
 -   **Readings:** 
-    [nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
-    [buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
-
-
+    [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
+    [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
 
 
 ### Week 11 : Summary and Final Project Presentation
