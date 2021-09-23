@@ -19,7 +19,7 @@ Web & Mobile GIS, the combination of web, mobile technology, and GIS, is a promi
 
 ## :calendar: Weekly Schedule
 
-- **Preparation:** [Gear up the working environment](assets/gearup.md) :computer: :beer:
+- **Preparation:** [Gear up the working environment](gearup.md) :computer: :beer:
 - **Weekly Expectations:** Each student is supposed to a) attend both lecture and lab sections each week, b) complete all weekly readings before the lecture begins.
 
 ### Week 1: Intro to Web GIS
