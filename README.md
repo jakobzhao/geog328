@@ -119,7 +119,7 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 ### Week 7 : Geocoding 
 
-In this week, we will start a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding based on mapbox Geocoding API. The Mapbox Geocoding API allows you to make forward geocodes, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
+In this week, we will start a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding based on mapbox Geocoding API. The Mapbox Geocoding API allows you to make forward geocoding, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
 
 <!-- Nov 8 -->
 
@@ -129,7 +129,7 @@ In this week, we will start a series of lectures on web-based spatial analysis. 
 
 ### Week 8 : Web-based spatial analysis I: Sorting by distance
 
-In this week, we will introduce you to a basic spatial analysis - using distance to sort geographical data. This application is made upon MapBox too. 
+In this week, we will introduce you to a basic spatial analysis that uses distance to sort geographical data. This application is made upon MapBox too. Starting from this week, you will work on your final project. Its requirement will be introduced in this week's lab session. In short, you will need to make an advanced spatial analysis to deal with a real-world problem.
 
 <!-- Nov 15 -->
 
@@ -139,6 +139,8 @@ In this week, we will introduce you to a basic spatial analysis - using distance
 
 ### Week 9 : Dealing with time on the web
 
+In this week, we will introduce how to deal with time on the web. During the lectures, the instructor will walk you through a more complicated application that illustrate how geographical data changes over time. In the lab session, you will continue to work on your final project.
+
 <!-- Nov 22 -->
 
 -   **Readings:** 
@@ -146,6 +148,8 @@ In this week, we will introduce you to a basic spatial analysis - using distance
 
 
 ### Week 10 : Web-based spatial analysis II
+
+This week will still focus on web-based spatial analysis. One is on nearest neighbor analysis and the second is on buffer and isochrone analysis.
 
 <!-- Nov 29 -->
 
@@ -156,9 +160,10 @@ In this week, we will introduce you to a basic spatial analysis - using distance
 
 ### Week 11 : Summary and Final Project Presentation
 
-<!-- Dec 6 -->
+In the first lecture of this week, the instructor will share with you a summary of this course and some emerging topics to explore. During the lecture on Thursday and the lab session, each student will present the final project to the whole class. More information about final project will be shared after the mid-term.
 
-During the last two meeting sessions, each group will present their final projects. More information about final project will be shared after the mid-term.
+
+<!-- Dec 6 -->
 
 
 
