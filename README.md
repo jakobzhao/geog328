@@ -44,7 +44,7 @@ From this course, students can learn both the principles of web-based cartograph
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
 
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) 
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301)   `Due: Jan 16th, by 11:59pm`
 
 
 ### Week 3: Front-end Coding: Html and CSS
