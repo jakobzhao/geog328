@@ -1,7 +1,7 @@
 # GEOGRAPHY 495B: Web & Mobile GIS
 
 **Meetings:**
--   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM PST on [Zoom]()
+-   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98531562117?pwd=aFpWZUNBWGtoYmFXZ2pWS3BjOHlRUT09)
 -   **Labs:** Friday 12:30 - 1:20 PM PST in [SMI 401](https://www.google.com/maps/place/Smith+Hall+(SMI)/@47.6564039,-122.3096954,17z/data=!3m1!4b1!4m5!3m4!1s0x5490148d3c47332b:0x804039aa1d9e590b!8m2!3d47.6563716!4d-122.3074586)
 
 **Personnel:**
@@ -16,7 +16,7 @@ Web & Mobile GIS, the combination of web, mobile technology, and GIS, is a promi
 
 This course introduces concepts and techniques of web programming, digital storytelling, online project management, and web-based cartographic principles for developing, evaluating, and using web maps. To promote the equal access to web mapping technology, we ensure all the web mapping applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind web mapping, including system architecture, responsive user graphic design, map design and geo-narrative. The lab exercises focus on practical skills for web programming, 2d and 3d web mapping, web mapping services, and digital storytelling. 
 
-From this course, students can learn both the principles of web-based cartography and the practical skills for web mapping, and develop the capabilities of map aesthetics and critique. **The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on the github repository front page. Please ensure to check it frequently.** If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhao2@oregonstate.edu).
+From this course, students can learn both the principles of web-based cartography and the practical skills for web mapping, and develop the capabilities of map aesthetics and critique. **The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on the github repository front page. Please ensure to check it frequently.** If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu).
 
 
 ## :calendar: Weekly Schedule
