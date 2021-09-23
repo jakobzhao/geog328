@@ -64,11 +64,12 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the t
 
 -   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due: Oct 13th, by 11:59pm`
 -   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due: Oct 15th, by 11:59pm`
-
 -   **Lab 2:** [Responsive web page design](labs/lab03) `Due: Oct 22th, by 11:59pm`
 
 
 ### Week 4: Front-end Coding: Javascript and GeoJSON
+
+In this week, we will focus on learning JavaScript. Also, for web applications, geographical data are stored in the JavaScript Object Notation (JSON) format, or namely GeoJSON. This week will introduce you to the general format of GeoJSON, demonstrate how to asynchronously load GeoJSON data to your Web GIS application. Similar to the previous week, we offer a quiz on JavaScript and a new lab on how to load, parse and map GeoJSON data on the web.
 
 <!-- Oct 18 -->
 
@@ -85,13 +86,12 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the t
     - [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON). GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JSON format. In addition, a notable offspring of GeoJSON is TopoJSON, an extension of GeoJSON that encodes geospatial topology and that typically provides smaller file sizes.
 
 -   **Quiz 4:** [Javascript Fundamentals](labs/lab02) `Due: Oct 22th, by 11:59pm`
-
 -   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due:Feb 12th, by 11:59pm`
 
-        - [Zebra Striped Table](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
-        - [Sort a Table](https://www.w3schools.com/howto/howto_js_sort_table.asp)
 
-### Week 5 : UX/UI Design
+### Week 5 : User interface design for web applications
+
+The user interface is the graphical layout of an application. It consists of the buttons users click on, the text they read, the images, sliders, text entry fields, and all the rest of the items the user interacts with. This includes screen layout, transitions, interface animations and every single micro-interaction. Any sort of visual element, interaction, or animation must all be designed.  UI design is one of the most primary tasks for any Web GIS applications. In this week, we will walk through you on a few UI design applications. By doing so, we hope you can get more familiar with the UI design process. 
 
 <!-- Oct 25 -->
 
@@ -104,6 +104,8 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the t
 
 ### Week 6 : Thematic Map Design on the web
 
+In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. In this week, we will walk you through at least two mapbox applications, and you will use mapbox to make an interactive web map in the lab session.
+
 <!-- Nov 1 -->
 
 -   **Readings:**
@@ -112,14 +114,14 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the t
 
 
 -   **Lab 4:** [Interactive web mapping](labs/lab04) `Due: Jan 16th, by 11:59pm`
-    - https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-1/
+
 
 
 ### Week 7 : Geocoding 
 
-<!-- Nov 8 -->
+In this week, we will start a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding based on mapbox Geocoding API. The Mapbox Geocoding API allows you to make forward geocodes, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
 
-This week we will explore the concept of geo-narrative, the use of storytelling in mapping practice, by looking at existing geo-narrative mapping projects and engaging in a group discussion and map critique.
+<!-- Nov 8 -->
 
 -   **Readings:** 
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
@@ -127,10 +129,12 @@ This week we will explore the concept of geo-narrative, the use of storytelling 
 
 ### Week 8 : Web-based spatial analysis I: Sorting by distance
 
+In this week, we will introduce you to a basic spatial analysis - using distance to sort geographical data. This application is made upon MapBox too. 
+
 <!-- Nov 15 -->
 
 -   **Readings:** 
-    - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
+    - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
 -   **Final Project:** [Web-based spatial analysis](labs/lab05) `Due: Jan 16th, by 11:59pm`
 
 ### Week 9 : Dealing with time on the web
