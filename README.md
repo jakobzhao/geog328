@@ -53,9 +53,7 @@ Today, almost everyone have used the Internet for multiple purposes. To develop 
 
 <!-- Oct 11 -->
 
-To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define.
-
-Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
+To build websites, you should know about HTML, CSS and JavaScript. HTML is the the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. We will spend two weeks to focus on these three primary coding languages of the Web. This week introduces you to HTML and CSS. To evaluate your learning outcomes,  we offered two quizzes and a lab for your practice. 
 
 -   **Readings:** 
     - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). This document sets the stage, getting you used to important concepts and syntax, looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a webpage.
@@ -68,9 +66,6 @@ Cascading Stylesheets — or CSS — is the first technology you should start le
 -   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due: Oct 15th, by 11:59pm`
 
 -   **Lab 2:** [Responsive web page design](labs/lab03) `Due: Oct 22th, by 11:59pm`
-    - [Responsive SideBar](https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp)
-    - [Mobile Menu](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
-    - [a Sidebar with Icons](https://www.w3schools.com/howto/howto_css_sidebar_icons.asp)
 
 
 ### Week 4: Front-end Coding: Javascript and GeoJSON
