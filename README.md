@@ -12,11 +12,9 @@
 
 ![course cover](assets/img/cover.jpg)
 
-Web & Mobile GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web & mobile GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. To cultivate the spirit of open source, all the required software, packages are open source, and the course handout will be shared on GitHub. 
+Web & Mobile GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web & mobile GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. To cultivate the spirit of open source, all the required software, packages are open source, and the course handout will be shared on GitHub. To promote the equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including the web architecture, front-end coding, responsive design, web based spatial analyses.
 
-This course introduces concepts and techniques of web programming, digital storytelling, online project management, and web-based cartographic principles for developing, evaluating, and using web maps. To promote the equal access to web mapping technology, we ensure all the web mapping applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind web mapping, including system architecture, responsive user graphic design, map design and geo-narrative. The lab exercises focus on practical skills for web programming, 2d and 3d web mapping, web mapping services, and digital storytelling. 
-
-From this course, students can learn both the principles of web-based cartography and the practical skills for web mapping, and develop the capabilities of map aesthetics and critique. **The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on the github repository front page. Please ensure to check it frequently.** If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu).
+**The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on the github repository front page. Please ensure to check it frequently.** If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu).
 
 
 ## :calendar: Weekly Schedule
@@ -25,12 +23,14 @@ From this course, students can learn both the principles of web-based cartograph
 - **Weekly Expectations:** Each student is supposed to a) attend both lecture and lab sections each week, b) complete all weekly readings before the lecture begins.
 
 ### Week 1: Intro to Web GIS
-
+ 
 <!-- Sept 29 -->
+
+The first lecture introduces you to the fundamentals of Web GIS. Over this quarter, you wil frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web based project using GitHub.
 
 -   **Readings:** 
     - [Intro to Web GIS]()
-    - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. DVCSs allow full access to every file, branch, and iteration of a project, and allows every user access to a full and self-contained history of all changes. Unlike once popular centralized version control systems, DVCSs like Git don’t need a constant connection to a central repository. Developers can work anywhere and collaborate asynchronously from any time zone.
+    - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
 
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Oct 8th, by 11:59pm`
@@ -38,9 +38,11 @@ From this course, students can learn both the principles of web-based cartograph
 ### Week 2: Web Fundamentals
 
 <!-- Oct 4 -->
+
+Today, almost everyone have used the Internet for multiple purposes. To develop Web or Mobile GIS, you need to dive into some more fundamentals of the Web. So, in this week, you will learn the basics of the web, its mechanics and standards. To maximize your learning outcome,  we highly encourage you to read over the reading materials before the lectures. To test how well you are familiar with the reading materials and the lecture content, you need to complete the Quiz 1 all by yourself before the due day. 
     
 -   **Readings:** 
-    - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This is a concise series introducing you to the practicalities of web development. You'll set up the tools you need to construct a simple webpage and publish your own simple code.
+    - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
 
@@ -50,6 +52,7 @@ From this course, students can learn both the principles of web-based cartograph
 ### Week 3: Front-end Coding: Html and CSS
 
 <!-- Oct 11 -->
+
 To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define.
 
 Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML. While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
