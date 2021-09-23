@@ -29,7 +29,7 @@ Web & Mobile GIS, the combination of web, mobile technology, and GIS, is a promi
 The first lecture introduces you to the fundamentals of Web GIS. Over this quarter, you wil frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web based project using GitHub.
 
 -   **Readings:** 
-    - [Intro to Web GIS]()
+    - [Intro to Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81407677)
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
 
