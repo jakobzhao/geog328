@@ -295,16 +295,16 @@ Before submitting the deliverable, please make sure the **GitHub Pages** work pr
 
 1\. A GitHub account is registered, You have followed the instructor's GitHub account and `star-ed` the course GitHub repository. (10 POINTS)
 
-2\. The repository should be named after `[github_username].github.io`. (5 POINTS)
+2\. Create your own repository, and the repository should be named after `[github_username].github.io`. (10 POINTS)
 
-3\. The `GitHub pages` function of the repository should work properly. That said, your wiki page can be visited from `https://[github_username].github.io/wiki` (5 POINTS);
-
-4\. To hone your skills in Markdown syntax, the resume could be built upon the template that was shown in `Section 3.2`, but we still encourage you customize your wiki page. In terms of the format, your wiki page should contain (15 POINTS):
+3\. To hone your skills in Markdown syntax, the resume could be built upon the template that was shown in `Section 3.2`, but we still encourage you customize your wiki page. In terms of the format, your wiki page should contain (15 POINTS):
 
 * Different levels of headers;
 * Different font styles
 * Several url links;
 * One or several images; and
 * A list;
+
+4\. Push the markdown file you created to your GitHub repo. Make sure that the `GitHub pages` function of the repository should work properly. That said, your wiki page can be visited from `https://[github_username].github.io/wiki` (15 POINTS);
 
 **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.

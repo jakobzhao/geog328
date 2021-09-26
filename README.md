@@ -23,7 +23,7 @@ Web & Mobile GIS, the combination of web, mobile technology, and GIS, is a promi
 - **Weekly Expectations:** Each student is supposed to a) attend both lecture and lab sections each week, b) complete all weekly readings before the lecture begins.
 
 ### Week 1: Intro to Web GIS
- 
+
 <!-- Sept 29 -->
 
 The first lecture introduces you to the fundamentals of Web GIS. Over this quarter, you wil frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web based project using GitHub.
@@ -86,7 +86,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
     - [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON). GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JSON format. In addition, a notable offspring of GeoJSON is TopoJSON, an extension of GeoJSON that encodes geospatial topology and that typically provides smaller file sizes.
 
 -   **Quiz 4:** [Javascript Fundamentals](labs/lab02) `Due: Oct 22th, by 11:59pm`
--   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due:Feb 12th, by 11:59pm`
+-   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) 
 
 
 ### Week 5 : User interface design for web applications
@@ -113,7 +113,7 @@ In this week, we will introduce you to map making on the web. The web based inte
     - [Add custom markers in Mapbox GL JS](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
 
 
--   **Lab 4:** [Interactive web mapping](labs/lab04) `Due: Jan 16th, by 11:59pm`
+-   **Lab 4:** [Interactive web mapping](labs/lab04) 
 
 
 
@@ -135,7 +135,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 -   **Readings:** 
     - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
--   **Final Project:** [Web-based spatial analysis](labs/lab05) `Due: Jan 16th, by 11:59pm`
+-   **Final Project:** [Web-based spatial analysis](labs/lab05) 
 
 ### Week 9 : Dealing with time on the web
 
