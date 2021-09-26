@@ -2,7 +2,7 @@
 
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
 
-**Due:** Jan 16th, by 11:59pm | **Points Available** = 50
+**Due:** Oct 8thth, by 11:59pm | **Points Available** = 50
 
 In this lab, we will briefly introduce how to set up the project environment, how to synchronize the course material, and more importantly to help you get familiar with the major operations on project management using GitHub. You will need to install the required software on your own PC or Mac, register a GitHub account, and then learn how to use git, visual studio code and github. To test the learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
 
