@@ -1,7 +1,7 @@
 # GEOGRAPHY 495B: Web & Mobile GIS
 
 **Meetings:**
--   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM *(All the lectures before November 1st will be held on [Zoom](https://washington.zoom.us/j/98531562117?pwd=aFpWZUNBWGtoYmFXZ2pWS3BjOHlRUT09), while the lectures after November 1st will be held in person in SIG 224.)*
+-   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM *(All the lectures before November 1st will be held on [Zoom](https://washington.zoom.us/j/98531562117), while the lectures after November 1st will be held in person in SIG 224.)*
 -   **Labs:** Friday 12:30 - 1:20 PM in [SMI 401](https://www.google.com/maps/place/Smith+Hall+(SMI)/@47.6564039,-122.3096954,17z/data=!3m1!4b1!4m5!3m4!1s0x5490148d3c47332b:0x804039aa1d9e590b!8m2!3d47.6563716!4d-122.3074586)
 
 **Instructional Team:**
