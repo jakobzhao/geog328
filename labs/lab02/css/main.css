@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
   overflow: hidden;
 }
 
@@ -23,33 +23,38 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #002fff;
   color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+/* Hide the icon that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
+/* Style for page content */
 .content {
   padding: 14px;
   font-size: 22px;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 800 pixels wide, */
 @media screen and (max-width: 800px) {
-  .topnav a:not(:first-child) {
+  /* Hide all links, except for the selected tab */
+  .topnav a:not(.active) {
     display: none;
   }
-
+  /* Show the icon that should open and close the topnav*/
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+/* When the screen is less than 800 pixels wide, if the user clicks on the icon, */
+/* the "responsive" class attribute will be added to the topnav by the JavaScript code. */
+/* This media query sets the style for the unfolded topnav. */
+/* It makes the topnav look good on small screens (display the links vertically instead of horizontally)  */
 @media screen and (max-width: 800px) {
   .topnav.responsive {
     position: relative;
