@@ -175,11 +175,13 @@ The Student Tech Loan Program is expanding as quickly as possible. We announced 
 
 **GitHub:** This course material will be hosted on GitHub instead of UW Canvas. On this dedicated GitHub repository, you can find most of the course material, participate in group discussions by submitting GitHub issues, and create new GitHub repositories to turn in the lab deliverables. By the end of this quarter, you will be more proficient in operating a cloud-based coding environment and able to host your work online as a way to gain public and peer attentions.
 
-**Labs:** You need to finish all four labs by the due date. In order to help you work on each lab, we will walk through most of the labs during the lab sessions.
+**Labs:** You need to finish all four labs by the due date. In order to help you work on each lab, we will walk through most of the labs during the lab sessions. If you have any questions about the lab, please look for tech support from the TA. 
+
+**Quizzes：** In the first half of the quarter, we have set up four quizzes to help you get familiar with the web and front-end coding. For each quiz, you have unlimited time to answer it. You can refer to any lecture notes or internet resource to answer it, but you can only just try each quiz once. Please ensur work on each quiz ALL BY YOURSELF. 
 
 **Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
 
-**Final Project:**  [the detailed requirement for final project](project/project.md)
+**Final Project:**  [the detailed requirement for final project](project.md)
 
 
 ## :heavy_check_mark: Grading
