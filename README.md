@@ -64,7 +64,7 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the t
 
 -   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due: Oct 13th, by 11:59pm`
 -   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due: Oct 15th, by 11:59pm`
--   **Lab 2:** [Responsive web page design](labs/lab03) `Due: Oct 22th, by 11:59pm`
+-   **Lab 2:** [Responsive web page design](labs/lab02) `Due: Oct 22th, by 11:59pm`
 
 
 ### Week 4: Front-end Coding: Javascript and GeoJSON
@@ -85,7 +85,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
     
     - [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON). GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JSON format. In addition, a notable offspring of GeoJSON is TopoJSON, an extension of GeoJSON that encodes geospatial topology and that typically provides smaller file sizes.
 
--   **Quiz 4:** [Javascript Fundamentals](labs/lab02) `Due: Oct 22th, by 11:59pm`
+-   **Quiz 4:** [Javascript Fundamentals](labs/lab03) `Due: Oct 22th, by 11:59pm`
 -   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) 
 
 
@@ -172,6 +172,17 @@ In the first lecture of this week, the instructor will share with you a summary 
 **Student Tech Support:**
 
 The Student Tech Loan Program is expanding as quickly as possible. We announced this to undergrads as soon as it hit the airwaves, in hopes some of them who need hardware can reserve for spring quarter. They expect new/additional machines to arrive in April. STLP Website: <https://stlp.uw.edu/> (check the [Spring Announcement](https://drive.google.com/file/d/1qlbUBPdQFJt_jXS2fAOtORwNrBVtZqCb/view)).
+
+
+**E-mail:**
+E-mail is the easiest way of reaching me. I will respond to all e-mails during office hours, and will periodically return e-mail at other times. Please note that the answer to many commonly e-mailed questions can be found in the syllabus or on the course website. Please also note that in order to respond your e-mail you MUST include the following information in every e-mail:
+
+-  A Salutation (Both Dr. Zhao and Professor Zhao are acceptable)
+-  Your Full Name
+-  What class you are in
+-  Subject line summarizing your e-mail (i.e. “Question regarding Map Design” for example)
+
+`For all the questions related to quizzes and labs, please contact the TA.`
 
 **GitHub:** This course material will be hosted on GitHub instead of UW Canvas. On this dedicated GitHub repository, you can find most of the course material, participate in group discussions by submitting GitHub issues, and create new GitHub repositories to turn in the lab deliverables. By the end of this quarter, you will be more proficient in operating a cloud-based coding environment and able to host your work online as a way to gain public and peer attentions.
 
