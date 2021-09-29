@@ -8,7 +8,7 @@ In this lab, we will exercise on how to build a simple website with a responsive
 
 ## 1. Create a new GitHub repository
 
-Recalling what we did in lab 1, you should **create a new public GitHub repository** for this lab and give it a name. It is recommended to **add a README file** to your repo. If you have the opportunity to look at some repositories on GitHub, you will find that most of them have a README file, which serves as **a brief description of the project**. You can read more about the functionality of READMEs [**here**]([About READMEs - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)).
+Recalling what we did in lab 1, you should **create a new public GitHub repository** for this lab and give it a name. We recommend you to **give your repository a more descriptive name** instead of  using "geog495_lab02" It is also recommended to **add a README file** to your repo. If you have the opportunity to look at some repositories on GitHub, you will find that most of them have a README file, which serves as **a brief description of the project**. You can read more about the functionality of READMEs [**here**]([About READMEs - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)).
 
 ![create_repo](img/create_repo.PNG)
 
@@ -186,19 +186,19 @@ For your lab deliverable, we would like to ask you to convert your markdown wiki
 
 We expect the followings for your deliverable:
 
-- Create a new GitHub repository. (4 pts)
+- Create a new GitHub repository. (3 pts)
 
-- The GitHub Pages function is enabled (we can see your website by visiting `http://[your_github_username].github.io/[your_repository_name]/index.html`). (4pts)
+- The GitHub Pages function is enabled (we can see your website by visiting `http://[your_github_username].github.io/[your_repository_name]/index.html`). (3 pts)
 
-- The navigation bar is responsive (try adjust the `max-width` value to make it suit your navigation bar content) (4pts)
+- The navigation bar is well designed and responsive (try adjust the `max-width` value to make it suit your navigation bar content) (6 pts)
 
-- The navigation bar color, the `hover` color, and the `active` color should be changed based on your preference. (12 pts)
+- The navigation bar color, the `hover` color, and the `active` color should be changed based on your preference. (6 pts)
 
-- Websites modified to show the information on the wikipage you created for lab 1. (12 pts)
+- For the webpage content, you should adopt at least 3 more customized styles following the instructions from [W3Schools How TO - Code snippets for HTML, CSS and JavaScript](https://www.w3schools.com/howto/). For example, you can [add a fullscreen video as the background of your home page](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp), or [create a summarizing table for your topic](https://www.w3schools.com/howto/howto_css_table_zebra.asp), just like what you often see in a Wikipedia entry. Be creative and feel free to edit the information on your wiki page based on the customized element you choose! (21 pts)
 
-- At least one multimedia element, for example, an image or a video (You should keep an eye on the size of the multimedia element you put, as you don't want it to be much larger than your window size). (8 pts)
+- At least one multimedia element, for example, an image or a video (You should keep an eye on the size of the multimedia element you put, as you don't want it to be much larger than your window size). (6 pts)
 
-- Please make sure the internal structure of the files in your repository is well organized. For example, it may be similar to the file structure below. (6 pts)
+- Please make sure the internal structure of the files in your repository is well organized. For example, it may be similar to the file structure below. (5 pts)
 
   ```
   [your_repository_name]
