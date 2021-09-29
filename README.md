@@ -97,7 +97,7 @@ The user interface is the graphical layout of an application. It consists of the
 
 -   **Readings**
 
-    - [Meet The Team" Page](https://www.w3schools.com/howto/howto_css_team.asp)
+    - [Meet "The Team" Page](https://www.w3schools.com/howto/howto_css_team.asp)
     - [Section Counter](https://www.w3schools.com/howto/howto_css_section_counter.asp)
     - [Scroll Drawing](https://www.w3schools.com/howto/howto_js_scrolldrawing.asp)
 
@@ -177,11 +177,11 @@ The Student Tech Loan Program is expanding as quickly as possible. We announced 
 
 **Labs:** You need to finish all four labs by the due date. In order to help you work on each lab, we will walk through most of the labs during the lab sessions. If you have any questions about the lab, please look for tech support from the TA. 
 
-**Quizzes：** In the first half of the quarter, we have set up four quizzes to help you get familiar with the web and front-end coding. For each quiz, you have unlimited time to answer it. You can refer to any lecture notes or internet resource to answer it, but you can only just try each quiz once. Please ensur work on each quiz ALL BY YOURSELF. 
+**Quizzes：** In the first half of the quarter, we have set up four quizzes to help you get familiar with the web and front-end coding. For each quiz, you have unlimited time to answer it. You can refer to any lecture notes or internet resource to answer it, but you can only just try each quiz once. Please work on each quiz ALL BY YOURSELF. 
 
 **Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
 
-**Final Project:**  [the detailed requirement for final project](project.md)
+**Final Project:**  [Requirement](project.md)
 
 
 ## :heavy_check_mark: Grading
