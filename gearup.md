@@ -20,12 +20,6 @@ Many designers and developers find it useful to have a test computer running a d
 
 The web has gone mobile! That means it is absolutely critical that you test the appearance and performance of your site on browsers on smartphones and tablet devices.
 
-**Reference:**
-
-[1] https://en.wikipedia.org/wiki/Raspberry_Pi
-
-[2] https://wiki.ubuntu.com/ARM/RaspberryPi
-
 ## 2. Desktop software
 
 There’s no shortage of software available for creating web pages. In the early days, we just made do with tools originally designed for print. Today, there are wonderful tools created specifically with web design in mind that make the process more efficient. It is a delicate business listing software in a book such as this because a) there are so many programs, b) everyone has their personal favorite, and c) new tools come along so rapidly that there are surely newer, cooler options that you have access to that didn’t exist as I wrote this.
@@ -122,7 +116,6 @@ We won't go into massive detail on how Terminal works but it's best to learn the
 [4] https://computers.tutsplus.com/tutorials/10-terminal-commands-that-every-mac-user-should-know--mac-4825
 
 ### VS Code
-
 
 Visual Studio Code is a code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
 
