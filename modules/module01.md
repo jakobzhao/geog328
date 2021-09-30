@@ -11,7 +11,7 @@
 
 1. The early history of Web GIS.
 
-2. What is the major differences between Web GIS 2.0 and the early version of Web GIS?
+2. Web GIS 2.0 v.s. the early version of Web GIS?
 
 3. What is the major features of Web GIS in the age of Web 2.0?
 
@@ -24,4 +24,23 @@
 3. the features, functions and uses of Web GIS
 
 4. the functions of Web GIS
+
+### GitHub
+
+1. The definition of VCS, DVCS.
+
+2. What is Git and its difference with GitHub.
+
+3. What is a repository, or repo for short.
+
+4. Get familiar with the basic git commands.
+
+5. The GitHub flow. Check out [this youtube video](https://www.youtube.com/watch?v=47E-jcuQz5c&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4&index=2) on a detailed intro to the GitHub workflow.
+
+#### Markdown
+
+1. get familiar with the basic syntax of Markdown.
+
+
+
 

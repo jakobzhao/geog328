@@ -32,6 +32,9 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
     - [Intro to Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81407677)
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
+    - `To grasp the git of the reading material, you can refer to the [study questions](modules/module01.md) of this week.`
+
+    
 
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Oct 8th, by 11:59pm`
 
