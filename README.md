@@ -45,6 +45,7 @@ Today, almost everyone have used the Internet for multiple purposes. To develop 
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
+    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81660132)
 
 -   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) `Due: Oct 8th, by 11:59pm`
 
