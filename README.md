@@ -6,7 +6,7 @@
 
 **Instructional Team:**
 -   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3 to 6:00 PM on [Zoom](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) or by appointment
--   **Steven Bao**, Teaching Assistant, bxq98@uw.edu |  Office Hour: Fridays 10 to 11:30 AM  on [Zoom](https://washington.zoom.us/j/96550080363) or by appointment
+-   **Steven Bao**, Teaching Assistant, bxq98@uw.edu |  Office Hour: Fridays 10 to 11:30 AM  on [Zoom](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UURaSkhXOURSSUd4fGRlZmF1bHR8Y2I1OTM0ODUyODg3ZDZiNWZiYjVlOTY3MjhmMWMwYjQ) or by appointment
 
 > _This web page is the syllabus - There is no printed version, please refer here instead. Make sure refer to this page as often as possible. Also, Feel free to ask the instructor for clarifications whenever needed._
 
