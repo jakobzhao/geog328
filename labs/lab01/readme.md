@@ -4,7 +4,7 @@
 
 **Due:** Oct 8th, by 11:59pm | **Points Available** = 50
 
-In this lab, we will briefly introduce how to set up the project environment, how to synchronize the course material, and more importantly to help you get familiar with the major operations on project management using GitHub. You will need to install the required software on your own PC or Mac, register a GitHub account, and then learn how to use git, visual studio code and github. To test the learning outcomes, you will be asked to create a GitHub repository to publish a wiki page on the web. Okay, let us get started!
+In this lab, we will briefly introduce how to set up the project environment, how to synchronize the course material, and more importantly to help you get familiar with the major operations on project management using GitHub. You will need to install the required software on your own PC or Mac, register a GitHub account, and then learn how to use git, visual studio code and github. To test the learning outcomes, you will be asked to create a GitHub repository to publish your wiki page on the web. Okay, let us get started!
 
 ## 1. Preparations
 
@@ -273,19 +273,19 @@ You may be prompted to enter your authentication information during the process,
 
 > **Note:** As you might already aware of, the logics of approach 2 and 3 are very similar. The difference is, approach 2 works on a terminal/command prompt environment (a command-line user interface), while approach 3 works in Visual Studio Code(a graphic user interface).
 >
-> Using either of the three approaches (3.3.1 to 3.3.3), you can upload teh wiki page or any other files to GitHub. Then, log on to this repository on GitHub to see whether the uploaded content is applied. However, the third one - `Visual Studio Code based commit and push`.** (3.3.3) is recommended.
+> Using either of the three approaches (3.3.1 to 3.3.3), you can upload your wiki page or any other files to GitHub. Then, log on to this repository on GitHub to see whether the uploaded content is applied. However, the third one - `Visual Studio Code based commit and push`.** (3.3.3) is recommended.
 
 Now you have already known how to commit a change. In practice, you will use this operation very frequently. Other than committing changes, you may also need to synchronize, both fetch and push, the latest version of your GitHub repository.
 
 ### 3.4 Publish your repository
 
-Once the `wiki.md` is uploaded to the root of the GitHub Repository, you can see this file listed in the root. Moreover, GitHub provide a new function named **GitHub Page** that converts a markdown file as a web page. Because the wiki page is located at the root of the repository, you can directly access the wiki page by visiting `http://[github_username].github.io/wiki` if you implement the following steps.
+Once the `wiki.md` is uploaded to the root of the GitHub Repository, you can see this file listed in the root. Moreover, GitHub provide a new function named **GitHub Page** that converts a markdown file as a web page. Because your wiki page is located at the root of the repository, you can directly access your wiki page by visiting `http://[github_username].github.io/wiki` if you implement the following steps.
 
 1\. please click the `Settings`tab on the top bar of the repository front page.
 
 2\. On the `Pages` Section, make sure `master branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
 
-3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read the wiki page from `http://[github_username].github.io/wiki`.
+3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your wiki page from `http://[github_username].github.io/wiki`.
 
 **Note：** Similar to the step 8 in section 2, You can also update a local repository from a remote github repository using Visual Studio Code. To do that, right click the github operation status on the bottom bar, and select the option `Pull`. The github operation status can be either `Fetch`, `Pull`, `Push`, `Force Push`.
 
