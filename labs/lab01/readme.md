@@ -116,7 +116,7 @@ In the project list panel, navigate to the `README.md` in the project tree panel
 
 ```powershell
 C:\Workspace\geog495>git checkout --force
-Your branch is up-to-date with 'origin/master'.
+Your branch is up-to-date with 'origin/main'.
 
 C:\Workspace\geog495>git pull
 remote: Counting objects: 3, done.
@@ -124,7 +124,7 @@ remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 From https://github.com/jakobzhao/geog495
-   13b2cab..baf74b1  master     -> origin/master
+   13b2cab..baf74b1  main     -> origin/main
 Updating 13b2cab..baf74b1
 Fast-forward
  readme.md | 3 ++-
@@ -283,7 +283,7 @@ Once the `wiki.md` is uploaded to the root of the GitHub Repository, you can see
 
 1\. please click the `Settings`tab on the top bar of the repository front page.
 
-2\. On the `Pages` Section, make sure `master branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
+2\. On the `Pages` Section, make sure `main branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
 
 3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your wiki page from `http://[github_username].github.io/wiki`.
 
