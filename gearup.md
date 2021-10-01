@@ -265,6 +265,17 @@ To use Git, developers use specific commands to copy, create, change, and combin
 
 Learn more from [a full reference guide to Git commands](https://git-scm.com/docs).
 
+#### The GitHub flow
+The GitHub flow is a lightweight, branch-based workflow built around core Git commands used by teams around the globe—including ours.
+
+The GitHub flow has six steps, each with distinct benefits when implemented:
+
+1. Create a branch: Topic branches created from the canonical deployment branch (usually master) allow teams to contribute to many parallel efforts. Short-lived topic branches, in particular, keep teams focused and results in quick ships.
+2. Add commits: Snapshots of development efforts within a branch create safe, revertible points in the project’s history.
+3. Open a pull request: Pull requests publicize a project’s ongoing efforts and set the tone for a transparent development process.
+4. Discuss and review code: Teams participate in code reviews by commenting, testing, and reviewing open pull requests. Code review is at the core of an open and participatory culture.
+5. Merge: Upon clicking merge, GitHub automatically performs the equivalent of a local ‘git merge’ operation. GitHub also keeps the entire branch development history on the merged pull request.
+6. Deploy: Teams can choose the best release cycles or incorporate continuous integration tools and operate with the assurance that code on the deployment branch has gone through a robust workflow.
 
 **Reference**
 
@@ -279,32 +290,7 @@ Learn more from [a full reference guide to Git commands](https://git-scm.com/doc
 
 ### GitHub
 
-GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-This tutorial teaches you GitHub essentials like repositories, branches, commits, and Pull Requests. You’ll create your own Hello World repository and learn GitHub’s Pull Request workflow, a popular way to create and review code.
-
-No coding necessary
-To complete this tutorial, you need a GitHub.com account and Internet access. You don’t need to know how to code, use the command line, or install Git (the version control software GitHub is built on).
-
-Tip: Open this guide in a separate browser window (or tab) so you can see it while you complete the steps in the tutorial.
-
-#### How GitHub fits in
-GitHub is a Git hosting repository that provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. With collaboration layers like the GitHub flow, a community of 15 million developers, and an ecosystem with hundreds of integrations, GitHub changes the way software is built.
-
-#### How GitHub works
-GitHub builds collaboration directly into the development process. Work is organized into repositories, where developers can outline requirements or direction and set expectations for team members. Then, using the GitHub flow, developers simply create a branch to work on updates, commit changes to save them, open a pull request to propose and discuss changes, and merge pull requests once everyone is on the same page.
-
-#### The GitHub flow
-The GitHub flow is a lightweight, branch-based workflow built around core Git commands used by teams around the globe—including ours.
-
-The GitHub flow has six steps, each with distinct benefits when implemented:
-
-1. Create a branch: Topic branches created from the canonical deployment branch (usually master) allow teams to contribute to many parallel efforts. Short-lived topic branches, in particular, keep teams focused and results in quick ships.
-2. Add commits: Snapshots of development efforts within a branch create safe, revertible points in the project’s history.
-3. Open a pull request: Pull requests publicize a project’s ongoing efforts and set the tone for a transparent development process.
-4. Discuss and review code: Teams participate in code reviews by commenting, testing, and reviewing open pull requests. Code review is at the core of an open and participatory culture.
-5. Merge: Upon clicking merge, GitHub automatically performs the equivalent of a local ‘git merge’ operation. GitHub also keeps the entire branch development history on the merged pull request.
-6. Deploy: Teams can choose the best release cycles or incorporate continuous integration tools and operate with the assurance that code on the deployment branch has gone through a robust workflow.
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. It provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. With collaboration layers like the GitHub flow, a community of 15 million developers, and an ecosystem with hundreds of integrations, GitHub changes the way software is built.
 
 #### GitHub page
 
@@ -312,9 +298,8 @@ GitHub Pages are public webpages hosted for free through GitHub. GitHub users ca
 
 **Reference:**
 
-[1] Interactive guide https://guides.github.com/introduction/flow/
-
 [2] Github page http://jmcglone.com/guides/github-pages/
+
 
 ### MapBox
 
