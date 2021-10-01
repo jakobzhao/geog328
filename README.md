@@ -4,7 +4,7 @@
 -   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM
     - All the lectures prior to November 1st will be held on [Zoom](https://washington.zoom.us/j/98531562117), while ones after November 1st will be held in person in SIG 224;
     - If you happen to be on campus during the lecture session, feel free to use SIG 224 to remotely access the lectures;
-    - Watch the [recorded videos](https://canvas.uw.edu/courses/1479441/pages/recorded-lectures).
+    - Watch the [recorded lectures](https://canvas.uw.edu/courses/1479441/pages/recorded-lectures).
 -   **Labs:** Friday 12:30 - 1:20 PM in [SMI 401](https://www.google.com/maps/place/Smith+Hall+(SMI)/@47.6564039,-122.3096954,17z/data=!3m1!4b1!4m5!3m4!1s0x5490148d3c47332b:0x804039aa1d9e590b!8m2!3d47.6563716!4d-122.3074586)
 
 **Instructional Team:**
@@ -97,17 +97,18 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 -   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) 
 
 
-### Week 5 : User interface design for web applications
+### Week 5: Geospatial Web Server
 
 The user interface is the graphical layout of an application. It consists of the buttons users click on, the text they read, the images, sliders, text entry fields, and all the rest of the items the user interacts with. This includes screen layout, transitions, interface animations and every single micro-interaction. Any sort of visual element, interaction, or animation must all be designed.  UI design is one of the most primary tasks for any Web GIS applications. In this week, we will walk through you on a few UI design applications. By doing so, we hope you can get more familiar with the UI design process. 
 
 <!-- Oct 25 -->
 
--   **Readings**
-
-    - [Meet "The Team" Page](https://www.w3schools.com/howto/howto_css_team.asp)
+-   **Readings:**
+    - GeoServer
+    - MapBox Studio
+    <!-- - [Meet "The Team" Page](https://www.w3schools.com/howto/howto_css_team.asp)
     - [Section Counter](https://www.w3schools.com/howto/howto_css_section_counter.asp)
-    - [Scroll Drawing](https://www.w3schools.com/howto/howto_js_scrolldrawing.asp)
+    - [Scroll Drawing](https://www.w3schools.com/howto/howto_js_scrolldrawing.asp) -->
 
 
 ### Week 6 : Thematic Map Design on the web
