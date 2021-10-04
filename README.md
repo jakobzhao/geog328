@@ -36,7 +36,7 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
     - [Intro to Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81407677)
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
-    - `To grasp the git of the reading material, you can refer to the` [study questions](modules/module01.md) `of this week.`
+    - `To grasp the git of the reading material, you can refer to the` [study questions](modules/module01/readme.md) `of this week.`
 
     
 
@@ -53,12 +53,12 @@ Today, almost everyone have used the Internet for multiple purposes. To develop 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
     - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81660132)
-    - `To grasp the git of the reading material, you can refer to the` [study questions](modules/module02.md) `of this week.`
+    - `To grasp the git of the reading material, you can refer to the` [study questions](modules/module02/readme.md) `of this week.`
 
 -   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) `Due: Oct 8th, by 11:59pm`
 
 
-### Week 3: Front-end Coding: Html and CSS
+### Week 3: Front-end Coding: HTML and CSS
 
 <!-- Oct 11 -->
 
@@ -100,7 +100,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 ### Week 5: Geospatial Web Server
 
-The user interface is the graphical layout of an application. It consists of the buttons users click on, the text they read, the images, sliders, text entry fields, and all the rest of the items the user interacts with. This includes screen layout, transitions, interface animations and every single micro-interaction. Any sort of visual element, interaction, or animation must all be designed.  UI design is one of the most primary tasks for any Web GIS applications. In this week, we will walk through you on a few UI design applications. By doing so, we hope you can get more familiar with the UI design process. 
+In this week, we will focus on geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source). 
 
 <!-- Oct 25 -->
 
