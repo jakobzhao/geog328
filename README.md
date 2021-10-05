@@ -55,7 +55,7 @@ Today, almost everyone have used the Internet for some purposes. To develop Web 
     - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81660132)
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module02/readme.md) `of this week.`
 
--  [**Lecture Slides]**](modules/module02/module02.pdf)
+-  [Lecture Slides](modules/module02/module02.pdf)
 
 -   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) `Due: Oct 8th, by 11:59pm`
 
