@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Load data from an external GeoJSON file</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        #table {
+            flex-basis: 500px;
+            overflow-y: scroll;
+        }
+
+        #map {
+            flex-grow: 1;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="table">
+
+            <h2>Zebra Striped Table</h2>
+            <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd)
+                table rows:</p>
+            <p><button onclick="sortTable()">Sort</button></p>
+
+            <table id="tt">
+                <tr>
+                    <th>id</th>
+                    <th>magnitude</th>
+                    <th>timestamp</th>
+                </tr>
+            </table>
+
+        </div>
+        <div id="map"></div>
+
+    </div>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+            zoom: 7, // starting zoom
+            center: [138.043, 35.201] // starting center
+        });
+
+
+        async function geojsonFetch() {
+            let response = await fetch('assets/earthquakes.geojson');
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            let earthquakes = await response.json();
+
+            map.addSource('earthquakes', {
+                type: 'geojson',
+                data: earthquakes
+            });
+
+            map.addLayer({
+                'id': 'earthquakes-layer',
+                'type': 'circle',
+                'source': 'earthquakes',
+                'paint': {
+                    'circle-radius': 8,
+                    'circle-stroke-width': 2,
+                    'circle-color': 'red',
+                    'circle-stroke-color': 'white'
+                }
+            });
+
+
+            var table = document.getElementsByTagName("table");
+            for (let i = 0; i < earthquakes.features.length; i++) {
+                console.log(earthquakes.features[i].properties.id);
+
+                var lng = earthquakes.features[i].geometry.coordinates[0];
+                var lat = earthquakes.features[i].geometry.coordinates[1];
+                if (lng > -150 && lng < -125 && lat > 25 && lat <50) {
+                    // Create an empty <tr> element and add it to the 1st position of the table:
+                    var row = table[0].insertRow(-1);
+
+                    var cell1 = row.insertCell(0);
+                    var cell2 = row.insertCell(1);
+                    var cell3 = row.insertCell(2);
+                    cell1.innerHTML = earthquakes.features[i].properties.id;
+                    cell2.innerHTML = earthquakes.features[i].properties.mag;
+                    cell3.innerHTML = new Date(earthquakes.features[i].properties.time).toLocaleDateString("en-US");
+
+                }
+            }
+
+
+            response = await fetch('assets/japan.json');
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            let japan = await response.json();
+
+
+            map.addSource('japan', {
+                type: 'geojson',
+                data: japan
+            });
+
+            map.addLayer({
+                'id': 'japan-layer',
+                'type': 'fill',
+                'source': 'japan',
+                'paint': {
+                    'fill-color': '#0080ff', // blue color fill
+                    'fill-opacity': 0.5
+                }
+            });
+
+
+        }
+
+        geojsonFetch()
+            .catch(e => {
+                console.log('There has been a problem with your fetch operation: ' + e.message);
+            });
+
+
+
+        function sortTable() {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("tt");
+            switching = true;
+            /*Make a loop that will continue until
+            no switching has been done:*/
+            while (switching) {
+                //start by saying: no switching is done:
+                switching = false;
+                rows = table.rows;
+                /*Loop through all table rows (except the
+                first, which contains table headers):*/
+                for (i = 1; i < (rows.length - 1); i++) {
+                    //start by saying there should be no switching:
+                    shouldSwitch = false;
+                    /*Get the two elements you want to compare,
+                    one from current row and one from the next:*/
+                    x = parseFloat(rows[i].getElementsByTagName("td")[1].innerHTML);
+                    y = parseFloat(rows[i + 1].getElementsByTagName("td")[1].innerHTML);
+                    //check if the two rows should switch place:
+                    if (x < y) {
+                        //if so, mark as a switch and break the loop:
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+                    /*If a switch has been marked, make the switch
+                    and mark that a switch has been done:*/
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

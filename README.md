@@ -106,12 +106,8 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 <!-- Oct 25 -->
 
 -   **Readings:**
-    - GeoServer
-    - MapBox Studio
-    <!-- - [Meet "The Team" Page](https://www.w3schools.com/howto/howto_css_team.asp)
-    - [Section Counter](https://www.w3schools.com/howto/howto_css_section_counter.asp)
-    - [Scroll Drawing](https://www.w3schools.com/howto/howto_js_scrolldrawing.asp) -->
-
+    - [Web Map Service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
+    - [Publish a shapefile](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
 
 ### Week 6 : Thematic Map Design on the web
 
@@ -215,7 +211,8 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 | Lab Assignments | 30% |
 | Final project   | 15% |
 
-> The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function). As well as participation in the weekly lab/discussion sections.
+> The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function). 
+
 
 ## :notebook_with_decorative_cover: Equity & Inclusivity
 
