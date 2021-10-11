@@ -75,9 +75,9 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the t
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 
--   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due: Oct 13th, by 11:59pm`
--   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due: Oct 15th, by 11:59pm`
--   **Lab 2:** [Responsive web page design](labs/lab02) `Due: Oct 22th, by 11:59pm`
+-   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due: Oct 15th, by 11:59pm`
+-   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due: Oct 17th, by 11:59pm`
+-   **Lab 2:** [Responsive web page design](labs/lab02) `Due: Oct 22nd, by 11:59pm`
 
 
 ### Week 4: Front-end Coding: Javascript and GeoJSON
