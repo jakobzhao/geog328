@@ -3,7 +3,6 @@
 
 ### Introduction to HTML
 
-
 1. the Anatomy of an HTML element
 
 2. What are the elements in the HTML head
