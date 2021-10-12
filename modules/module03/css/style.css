@@ -18,12 +18,10 @@ html, body {
   /* || typography */
   
   h1, h2, h3 {
-    font-family: 'Sonsie One', cursive;
     color: #2a2a2a;
   }
   
   p, input, li {
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #2a2a2a;
   }
   
