@@ -56,7 +56,7 @@ Today, almost everyone have used the Internet for some purposes. To develop Web 
     - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81660132)
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module02/readme.md) `of this week.`
 
--  [Lecture Slides](modules/module02/module02.pdf) test
+-  [Lecture Slides](modules/module02/module02.pdf) 
 
 -   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) `Due: Oct 8th, by 11:59pm`
 
@@ -74,6 +74,8 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the t
     - [CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) In CSS, selectors are used to target the HTML elements on our web pages that we want to style. There are a wide variety of CSS selectors available, allowing for fine-grained precision when selecting elements to style. In this article and its sub-articles we'll run through the different types in great detail, seeing how they work.
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
+
+-  [Lecture Slides](modules/module03/module03.pdf) 
 
 -   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due: Oct 15th, by 11:59pm`
 -   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due: Oct 17th, by 11:59pm`
