@@ -99,6 +99,9 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
     - [Making asynchronous programming easier with async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) More recent additions to the JavaScript language are async functions and the await keyword, added in ECMAScript 2017. These features basically act as syntactic sugar on top of promises, making asynchronous code easier to write and to read afterwards. They make async code look more like old-school synchronous code, so they're well worth learning. This article gives you what you need to know.
     
     - [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON). GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JSON format. In addition, a notable offspring of GeoJSON is TopoJSON, an extension of GeoJSON that encodes geospatial topology and that typically provides smaller file sizes.
+    - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module04/readme.md) `of this week.`
+
+-  [Lecture Slides](modules/module04/module04.pdf) 
 
 -   **Quiz 4:** [Javascript Fundamentals](labs/lab03) `Due: Oct 22th, by 11:59pm`
 -   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) 
