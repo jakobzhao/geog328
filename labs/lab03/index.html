@@ -82,6 +82,8 @@
 
 
         async function geojsonFetch() {
+
+            
             let response = await fetch('assets/earthquakes.geojson');
 
             if (!response.ok) {
@@ -90,7 +92,43 @@
 
             let earthquakes = await response.json();
 
-            map.addSource('earthquakes', {
+
+            response = await fetch('assets/japan.json');
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            let japan = await response.json();
+
+
+            var table = document.getElementsByTagName("table");
+            for (let i = 0; i < earthquakes.features.length; i++) {
+                console.log(earthquakes.features[i].properties.id);
+
+                var lng = earthquakes.features[i].geometry.coordinates[0];
+                var lat = earthquakes.features[i].geometry.coordinates[1];
+           
+                    // Create an empty <tr> element and add it to the 1st position of the table:
+                    var row = table[0].insertRow(-1);
+
+                    var cell1 = row.insertCell(0);
+                    var cell2 = row.insertCell(1);
+                    var cell3 = row.insertCell(2);
+                    cell1.innerHTML = earthquakes.features[i].properties.id;
+                    cell2.innerHTML = earthquakes.features[i].properties.mag;
+                    cell3.innerHTML = new Date(earthquakes.features[i].properties.time).toLocaleDateString("en-US");
+
+            }
+
+
+
+
+            map.on('load', () => {
+
+   
+
+                map.addSource('earthquakes', {
                 type: 'geojson',
                 data: earthquakes
             });
@@ -108,34 +146,9 @@
             });
 
 
-            var table = document.getElementsByTagName("table");
-            for (let i = 0; i < earthquakes.features.length; i++) {
-                console.log(earthquakes.features[i].properties.id);
+           
 
-                var lng = earthquakes.features[i].geometry.coordinates[0];
-                var lat = earthquakes.features[i].geometry.coordinates[1];
-                if (lng > -150 && lng < -125 && lat > 25 && lat <50) {
-                    // Create an empty <tr> element and add it to the 1st position of the table:
-                    var row = table[0].insertRow(-1);
-
-                    var cell1 = row.insertCell(0);
-                    var cell2 = row.insertCell(1);
-                    var cell3 = row.insertCell(2);
-                    cell1.innerHTML = earthquakes.features[i].properties.id;
-                    cell2.innerHTML = earthquakes.features[i].properties.mag;
-                    cell3.innerHTML = new Date(earthquakes.features[i].properties.time).toLocaleDateString("en-US");
-
-                }
-            }
-
-
-            response = await fetch('assets/japan.json');
-
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-
-            let japan = await response.json();
+   
 
 
             map.addSource('japan', {
@@ -154,6 +167,15 @@
             });
 
 
+
+
+
+
+            });
+
+  
+
+
         }
 
         geojsonFetch()
@@ -165,7 +187,7 @@
 
         function sortTable() {
             var table, rows, switching, i, x, y, shouldSwitch;
-            table = document.getElementById("tt");
+            table = document.getElementsByTagName("table");
             switching = true;
             /*Make a loop that will continue until
             no switching has been done:*/
