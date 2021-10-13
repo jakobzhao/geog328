@@ -104,7 +104,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
 -   **Quiz 4:** [Javascript Fundamentals](labs/lab03) `Due: Oct 22th, by 11:59pm`
--   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) 
+-   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due: Oct 29th, by 11:59pm`
 
 
 ### Week 5: Geospatial Web Server
@@ -128,7 +128,7 @@ In this week, we will introduce you to map making on the web. The web based inte
     - [Add custom markers in Mapbox GL JS](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
 
 
--   **Lab 4:** [Interactive web mapping](labs/lab04) 
+-   **Lab 4:** [Interactive web mapping](labs/lab04) `Due: Nov 12th, by 11:59pm`
 
 
 
