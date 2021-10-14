@@ -108,9 +108,9 @@
                 cell1 = row.insertCell(0);
                 cell2 = row.insertCell(1);
                 cell3 = row.insertCell(2);
-                cell1.innerHTML = await earthquakes.features[i].properties.id;
-                cell2.innerHTML = await earthquakes.features[i].properties.mag;
-                cell3.innerHTML = await new Date(earthquakes.features[i].properties.time).toLocaleDateString(
+                cell1.innerHTML =  earthquakes.features[i].properties.id;
+                cell2.innerHTML =  earthquakes.features[i].properties.mag;
+                cell3.innerHTML =  new Date(earthquakes.features[i].properties.time).toLocaleDateString(
                     "en-US");
             }
 
@@ -151,11 +151,7 @@
                     }
                 });
 
-
             });
-
-
-
 
         }
 

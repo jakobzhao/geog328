@@ -6,6 +6,7 @@
 
 In this lab, we will exercise on loading geoJSON data asynchronously and visualize the data as table and map. Loading geospatial data will be frequently implemented in a Web or Mobile GIS. This lab will prepare you for this fundamental skill. With it, you can conduct more advanced geospatial analyses upon the loaded dataset. More specific, you will load two pieces of geojson data - one is a point format for the global distributed earthquakes, the other is a polygon format for all the counties in Japan. Once the data were loaded, the earthquake data will be shown in a table on the left of the window screen. The table can also sorted by the earthquake magnitude. The earthquake and the county boundaries can be plotted to the map on the right of the window screen. The map is built upon the mapbox library. At the end of this lab, you will be asked to create a web page in the same function but use another pieces of geospatial data. 
 
+![](img/screenshot.png)
 
 ## 1. Create a new GitHub repository
 
@@ -15,7 +16,43 @@ Recalling what we did in lab 1, you should **create a new public GitHub reposito
 
 After you create your own repo, clone it to your local computer. Then copy and paste the lab material from the course repository. You can find the lab material at `geog495/labs/lab02`.
 
-## 2. Explore the files
+
+
+You can see the file structure as below:
+
+```
+[your_repository_name]
+    │index.html
+    │section1.html
+    │section2.html
+    │section3.html
+    │see_also.html
+    │references.html
+    │readme.md
+    ├─css
+    │      main.css
+    ├─img
+    │      xxx.jpg
+    │      xxx.png
+    └─js
+           main.js
+```
+
+## 2. Web content structure
+
+body and head
+
+## 3. Create a map instance
+
+## 4. Load GeoJSON asynchronously
+
+## 5. Add Map Layers
+
+## 7. Generate Table
+
+## 8. Sort the Table
+
+
 
 In this section, we will go over the provided website template to get you familiar with the structure of a website as well as the web-programming code.
 
