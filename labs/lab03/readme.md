@@ -10,211 +10,191 @@ In this lab, we will exercise on loading geoJSON data asynchronously and visuali
 
 ## 1. Create a new GitHub repository
 
-Recalling what we did in lab 1, you should **create a new public GitHub repository** for this lab and give it a name. We recommend you to **give your repository a more descriptive name** instead of  using "geog495_lab02" It is also recommended to **add a README file** to your repo. If you have the opportunity to look at some repositories on GitHub, you will find that most of them have a README file, which serves as **a brief description of the project**. You can read more about the functionality of READMEs [**here**]([About READMEs - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)).
+Like the previous two labs, you need to create a new repository to complete this lab. We recommend you **give your repository a more descriptive name** instead of  using "geog495_lab03". 
 
-![create_repo](img/create_repo.PNG)
+Once the repository is created, please create a `readme.md` file, an `index.html`, an `earthquake.html`, and another `assets` folder to the root of this repo. In the directory for Lab 3, we saved two geojson files in the folder [assets](assets). Please move these two files to the assets folder of the newly build repository.
 
-After you create your own repo, clone it to your local computer. Then copy and paste the lab material from the course repository. You can find the lab material at `geog495/labs/lab02`.
+Now, the repository should follow the file structure below:
 
-
-
-You can see the file structure as below:
-
-```
+```powershell
 [your_repository_name]
     │index.html
-    │section1.html
-    │section2.html
-    │section3.html
-    │see_also.html
-    │references.html
+    │earthquake.html
     │readme.md
-    ├─css
-    │      main.css
-    ├─img
-    │      xxx.jpg
-    │      xxx.png
-    └─js
-           main.js
+    ├─assets
+    │      earthquakes.geojson
+    │      japan.json
+
 ```
+
+> **Note:** Before loading the data, I encourage you to evaluate these two pieces of geojson data. To do so, you can see whether these two files can be visualized correctly on [https://geojson.io](https://geojson.io).
+
+![](img/geojsonio.png)
+
+> evaluate geojson data on geojson.io
+
 
 ## 2. Web content structure
 
-body and head
+To begin with, you need to create the skeleton of your html page. As we planed, this page will show a table of earthquake in a side panel on the left and a map of earthquakes on the right. Considering the general graphical user interface design, we create the skeleton of the html page as below.
 
-## 3. Create a map instance
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+ </head>
+ <body>
+    <main id="container">
+        <div id="side-panel">
+        </div>
+        <div id="map"></div>
+    </main>
+ </body>   
+<html>    
+```
 
-## 4. Load GeoJSON asynchronously
+in the head element, we will include the mapbox library for map making, title, character set, an internal css holder. So, the `head` element looks as below.
 
-## 5. Add Map Layers
+```html
+<head>
+    <meta charset="utf-8">
+    <title>Earthquake List</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <style>
+    </style>
+</head> 
+```
+
+ The table is actually nested in the side panel on the left. There are three columns for each record, including `id`, `magnitude`, and `Timestamp`. On the top of the side panel, we show the name of this application and a button for sorting the table. To the end of parsing this html, we will run a piece of JavaScript snippet to load the data and implement the visualization. Therefore, a `script` element is added to the end of the `body` element. So, the `body` element should look as below.
+
+ ```html
+ <body>
+    <main id="container">
+        <div id="side-panel">
+
+            <h2>Earthquake List</h2>
+            <button>Sort by Magnitude</button>
+
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>magnitude</th>
+                    <th>timestamp</th>
+                </tr>
+            </table>
+
+        </div>
+        <div id="map"></div>
+    </main>
+    <script>
+    </script>
+</body>
+ ```
+
+## 3. Style the html Page
+
+Now that the skeleton of the html page was created, we will then add some css properties to style the html elements. In the style element in the head, we will add the following css properties.
+
+```css
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: stretch;
+}
+```
+
+These two selectors can make the main viewport of this html page can occupy the full window.
+
+
+```css
+#side-panel {
+    flex-basis: 500px;
+    overflow-y: scroll;
+}
+
+#map {
+    flex-grow: 1;
+}
+```
+
+Then we divide the main viewport to two parts, the side-panel on the left, while the map on the right. We use **flex display** to arrange these two elements. Flex is frequently used display strategy, it can responsively determine the size of space, and then extend or shrink the flex boxes. To apply the flex strategy, we need to declare the display property as flex for the container element of the designed flex boxes. In our cases, they are the side panel and the map.
+
+```css
+button {
+    margin-bottom: 10px;
+}
+```
+This button will keep a `10px` margin to the element at its bottom.
+
+```css
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+```
+
+These properties will determine the style of the table. Notably, with tr:nth-child, the even rows in the table can be selected and their background color become a little grayer. Accordingly, the style for even rows and odd rows would be different.
+
+
+![](img/even-rows.png)
+
+
+## 4. Create a map instance
+
+Now that the html page skeleton and the style have been determined, we will then create dynamic objects and increase interactivity.
+
+We will use mapbox to create the map application. You wil need to apply for a mapbox access token from its official website. 
+
+Once you obtain your own access token, please define a token at the beginning of the Javascript code.
+
+```javascript
+mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+```
+
+Then, create a map object,  assign the container property to the right placeholder of the map. A base map layer is needed, in this lab, we choose the satellite imagery layer. In MapBox, each public-facing layer will have a unique style url. For satellite imagery, the url is 'mapbox://styles/mapbox/satellite-v9'. In addition, you need to also properly place the map and center the map. In this lab, the map is placed to the center of Japan. As shown in the code snippet below.
+
+```javascript
+let map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+    zoom: 5.5, // starting zoom
+    center: [138, 38] // starting center
+});
+```
+
+
+## 5. Load GeoJSON asynchronously
+
+
+
+
+## 6. Add Map Layers
 
 ## 7. Generate Table
 
 ## 8. Sort the Table
 
 
-
-In this section, we will go over the provided website template to get you familiar with the structure of a website as well as the web-programming code.
-
-### 2.1 Set up your computer as a local web server
-
-Websites live on web servers. So here we will use the Visual Studio Code plugin `Live Server` that we installed in Lab 1 to turn our own computer into a web server. In this way, your local computer will be both a **Client** (as you use it to browse your website) and a **Server** (as you also use it to host your website).
-
-Open `Visual Studio Code` and open the folder for the new repository you created. You will see something like this:
-
-![open-repo](img/open-repo.PNG)
-
-If you have installed the `Live Server` plugin correctly, you should be able to see the `Go Live` button at the bottom right corner of your VSCode window.
-
-![go-live](img/go-live.PNG)
-
-Click on the `Go Live` button, in a few seconds, a new browser window will pop up. This means that your local server has been successfully set up!
-
-![local-webpage](img/local-webpage.PNG)
-
-> **Note**: In the address bar, you see `127.0.0.1:5500`. `127.0.0.1` is a special IP address called **loopback** address. Unlike other IP addresses, which direct to other computers in the network, it always directs to the local machine itself. The number `5500` is the **port number**. One port can only be used for one service. Here the `Live Server` plugin establishes a local webserver on port 5500. You may see it using a different port number sometimes. That means the default port `5500` is actually being used by another service on your computer, so that `Live Server` plugin has to choose another port to run on.
-
-Try to change the window size and you will find that the navigation bar on the top have two different layouts. If you shrink the window width to a certain extent, the navigation bar will change to a more mobile friendly layout.
-
-### 2.2 A deeper look into the files
-
-You can see the file structure as below:
-
-```
-[your_repository_name]
-    │index.html
-    │section1.html
-    │section2.html
-    │section3.html
-    │see_also.html
-    │references.html
-    │readme.md
-    ├─css
-    │      main.css
-    ├─img
-    │      xxx.jpg
-    │      xxx.png
-    └─js
-           main.js
-```
-
-In the root folder, there are your `.html` and `readme.md` files. The `index.html` file is the default page. If you type `127.0.0.1:5500` into your address bar and hit enter, you will see exactly the same when you use `127.0.0.1:5500/index.html`. 
-
-Then we have separate folders for images, JavaScript files, and CSS files. You may wonder why we need a dedicated folder for one `.css` or`.js` file. This lab only guides you to make a very simple website. In the future, you will encounter situations where you need multiple different `.css` or `.js` files to be included in your  HTML. Setting up folders for different files types will make your project folder/repository clean and organized.
-
-#### 2.2.1 HTML
-
-Let's first take a look into the `index.html` file. Open it in `Visual Code Studio`. 
-
-**`<head>` tag:**
-
-```html
-<head>
-    <title>GEOG 495 LAB 02 EXAMPLE</title>
-
-    <script src="js/main.js"></script>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-```
-
-In the `<head>` tag, we have `<title>GEOG 495 LAB 02 EXAMPLE</title>` to define the website title, then we link the customized `.js ` and `.css` files. In addition, we see reference to a `font-awesome.min.css` file, which is used for getting the icon image for the hamburger button in the mobile version layout.
-
-**`<body>` tag:**
-
-In the `<body>` tag, we have two different `<div>` tags, one is for the navigation bar, the other is for the page content. Let's look at them one by one.
-
-**`<div class="topnav" id="myTopnav">` tag**:
-
-```html
-<div class="topnav" id="myTopnav">
-    <a class="active" href="index.html">Abstract</a>
-    <a href="section1.html">Section 1</a>
-    <a href="section2.html">Section 2</a>
-    <a href="section3.html">Section 3</a>
-    <a href="see_also.html">See Also</a>
-    <a href="references.html">References</a>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-</div>
-```
-
-In the first `<div>` tag, we define it to be in the `topnav` class with a specific id `myTopnav`. Then in there, we have six `<a>` tags, each correspond with an element in the navigation bar. For the first tag for "Abstract", we make it as an `active` class, indicating that this is the currently active section. By assigning it to a different class, we can define a different CSS style for it, which we will see later. In the `href` attribute, we put the file address for the corresponding `.html` file.
-
-The last `<a>` tag is a bit different, as it defines the hamburger menu button for the narrower view. `href` attribute usually means to open a new link. But here we use `href="javascript:void(0);"` to make it do nothing, as our intended function for it is not to open a new page. Then we make it a different "icon" class for styling. `onclick` attribute means to execute a JavaScript when an element is clicked. When the hamburger menu button is clicked, we would like to unfold the sections for the user to see the selections. How this could be achieved is defined in the `myFunction` JavaScript function, which we will talk about later. Then inside the `<a>` tag, we use `<i class="fa fa-bars"></i>` to add the hamburger icon. This is realized by [Font Awesome](https://fontawesome.com/) API. If you want to know more about how to use it in your future work, click [here](https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use).
-
-**`<div class="content">` tag:**
-
-```html
-<div class="content">
-    This is abstract section.
-    <br>
-    <br>
-    Here is the course cover image in a scaled size:
-    <br>
-    <img src="img/cover.jpg" style="width: 100%; height: auto;">
-    <br>
-    <br>
-    Here is the course cover image in its original size:
-    <img src="img/cover.jpg">
-</div>
-```
-
-This tag is for the main content you see on the website. As you can see, we use `<br>` for starting a new line. `<img>` tag for adding an image. Inline CSS is also used here by adding `style` attribute to make the image be responsive as well. For the first image, if you resize the browser window, the image size will adjust automatically.
-
-
-
-Above is a detailed explanation of how each part of the `index.html` file works. The other several `.html` files are for other sections you can see in the navigation bar. Their general structures are very similar. The only differences are 1) the `active` class should be assigned to the current page. 2) the page content.
-
-#### 2.2.2 CSS
-
-Open the `css/main.css` file.
-
-The comments for the `main.css` file did a very good explanation of what each code block is doing. Don't be scared by all these different CSS properties! You don't need to memorize how each property works. [Here](https://cssreference.io/) is a good reference for you to learn about how each CSS property works. Feel free to use Google or any resource you think is helpful! Try editing some properties and refresh the webpage to see how the page will change could also help you get a better understanding of CSS!
-
-While the first 40 lines define the basic style for our webpage, **the lines from 41-70 are the key to make our webpage responsive.** 
-
-`@media screen and (max-width: 800px)` [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) is applied when the browser width is smaller that `800px`.
-
-The first media query is used for showing/hiding the hamburger menu button that we see on smaller window size.
-
-The second media query is used for changing the style for the unfolded vertical navigation bar on smaller window size.
-
-#### 2.2.3 JavaScript
-
-This lab requires relatively little amount of JavaScript. But it also is crucial here for changing the style of our navigation bar when the window resizes. 
-
-Here is the logic of how it works:
-
-From the previous CSS section, we know that: 
-
-1) When we see the hamburger menu button, we are already in the mobile version, which means that our navigation bar has been folded to suit the mobile view. 
-2) Our previously defined style for `topnav` now only works well for the *folded* navigation bar.
-
-**So now we need a *new* style for the *unfolded* navigation bar. And this is where the js code comes into play.**
-
-From the HTML code, we know that the js function `myFunction` will be called when the hamburger menu button is clicked.
-
-When `myFunction` is called, it searches for the element with the id `myTopnav` and stores it it a variable named `x`.
-
-Before any action, the original navigation bar should be defined as a `topnav` class. When we click on the menu button, we change it from `topnav` to `topnav responsive`. So that the unfolded navigation bar could use the style we defined for `topnav responsive` in our `.css` file.
-
-When the navigation bar is unfolded and we want to fold it again, we can just change the class name from `topnav responsive` back to `topnav`, so that the style of the navigation bar will change correspondingly.
-
-Then we wrap the code into a function named `myFunction`, and we have the code below:
-
-```js
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-```
 
 Now you should have a good understanding of how this website template works!
 
