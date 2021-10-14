@@ -113,41 +113,42 @@
 
             let stateData = await response.json();
 
-            map.addSource('stateData', {
-                type: 'geojson',
-                data: stateData
-            });
-
-            map.addLayer({
-                'id': 'stateData-layer',
-                'type': 'fill',
-                'source': 'stateData',
-                'paint': {
-                    'fill-color': [
-                        'step',
-                        ['get', 'density'],
-                        '#FFEDA0',
-                        10,
-                        '#FFEDA0',
-                        20,
-                        '#FED976',
-                        50,
-                        '#FEB24C',
-                        100,
-                        '#FD8D3C',
-                        200,
-                        '#FC4E2A',
-                        500,
-                        '#E31A1C',
-                        1000,
-                        "#BD0026"
-                    ],
-                    'fill-opacity': 0.6,
-                    'fill-outline-color': '#BBBBBB'
-                }
-            });
 
             map.on('load', () => {
+                map.addSource('stateData', {
+                    type: 'geojson',
+                    data: stateData
+                });
+
+                map.addLayer({
+                    'id': 'stateData-layer',
+                    'type': 'fill',
+                    'source': 'stateData',
+                    'paint': {
+                        'fill-color': [
+                            'step',
+                            ['get', 'density'],
+                            '#FFEDA0',
+                            10,
+                            '#FFEDA0',
+                            20,
+                            '#FED976',
+                            50,
+                            '#FEB24C',
+                            100,
+                            '#FD8D3C',
+                            200,
+                            '#FC4E2A',
+                            500,
+                            '#E31A1C',
+                            1000,
+                            "#BD0026"
+                        ],
+                        'fill-opacity': 0.6,
+                        'fill-outline-color': '#BBBBBB'
+                    }
+                });
+
                 const layers = [
                     '0-10',
                     '10-20',
