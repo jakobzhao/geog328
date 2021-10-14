@@ -74,13 +74,12 @@ Let's first take a look into the `index.html` file. Open it in `Visual Code Stud
 <head>
     <title>GEOG 495 LAB 02 EXAMPLE</title>
 
-    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 ```
 
-In the `<head>` tag, we have `<title>GEOG 495 LAB 02 EXAMPLE</title>` to define the website title, then we link the customized `.js ` and `.css` files. In addition, we see reference to a `font-awesome.min.css` file, which is used for getting the icon image for the hamburger button in the mobile version layout.
+In the `<head>` tag, we have `<title>GEOG 495 LAB 02 EXAMPLE</title>` to define the website title, then we link the customized `.css` file. In addition, we see reference to a `font-awesome.min.css` file, which is used for getting the icon image for the hamburger button in the mobile version layout.
 
 **`<body>` tag:**
 
@@ -97,7 +96,7 @@ In the `<body>` tag, we have two different `<div>` tags, one is for the navigati
     <a href="see_also.html">See Also</a>
     <a href="references.html">References</a>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon">
         <i class="fa fa-bars"></i>
       </a>
 </div>
@@ -105,7 +104,7 @@ In the `<body>` tag, we have two different `<div>` tags, one is for the navigati
 
 In the first `<div>` tag, we define it to be in the `topnav` class with a specific id `myTopnav`. Then in there, we have six `<a>` tags, each correspond with an element in the navigation bar. For the first tag for "Abstract", we make it as an `active` class, indicating that this is the currently active section. By assigning it to a different class, we can define a different CSS style for it, which we will see later. In the `href` attribute, we put the file address for the corresponding `.html` file.
 
-The last `<a>` tag is a bit different, as it defines the hamburger menu button for the narrower view. `href` attribute usually means to open a new link. But here we use `href="javascript:void(0);"` to make it do nothing, as our intended function for it is not to open a new page. Then we make it a different "icon" class for styling. `onclick` attribute means to execute a JavaScript when an element is clicked. When the hamburger menu button is clicked, we would like to unfold the sections for the user to see the selections. How this could be achieved is defined in the `myFunction` JavaScript function, which we will talk about later. Then inside the `<a>` tag, we use `<i class="fa fa-bars"></i>` to add the hamburger icon. This is realized by [Font Awesome](https://fontawesome.com/) API. If you want to know more about how to use it in your future work, click [here](https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use).
+The last `<a>` tag is a bit different, as it defines the hamburger menu button for the narrower view. `href` attribute usually means to open a new link. But here we use `href="javascript:void(0);"` to make it do nothing, as our intended function for it is not to open a new page. Then we make it a different "icon" class for CSS styling purpose. Then inside the `<a>` tag, we use `<i class="fa fa-bars"></i>` to add the hamburger icon. This is achieved by [Font Awesome](https://fontawesome.com/) API. If you want to know more about how to use it in your future work, click [here](https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use). We will customize the behavior for clicking on the button by using Javascript, which will be introduced later.
 
 **`<div class="content">` tag:**
 
@@ -125,6 +124,14 @@ The last `<a>` tag is a bit different, as it defines the hamburger menu button f
 ```
 
 This tag is for the main content you see on the website. As you can see, we use `<br>` for starting a new line. `<img>` tag for adding an image. Inline CSS is also used here by adding `style` attribute to make the image be responsive as well. For the first image, if you resize the browser window, the image size will adjust automatically.
+
+**`<script>`tag:**
+
+```html
+<script src="js/main.js"></script>
+```
+
+At the end of the html, we include the JavaScript file. We put it at the end because in the `.js` file we are going to access an html element. If we put this `<script>` tag before the `<body>` part, we will receive an error message in console when loading the website, telling us that the js code cannot find the specific element, as the code hasn't reached the part for creating the tag yet. 
 
 
 
@@ -157,19 +164,35 @@ From the previous CSS section, we know that:
 
 **So now we need a *new* style for the *unfolded* navigation bar. And this is where the js code comes into play.**
 
-From the HTML code, we know that the js function `myFunction` will be called when the hamburger menu button is clicked.
+First, we need to locate the element that will be clicked on when someone tries to fold/unfold the navbar. Therefore, we use the line of code below to get the corresponding tag and save it in a variable.
 
-When `myFunction` is called, it searches for the element with the id `myTopnav` and stores it it a variable named `x`.
+```javascript
+let icon = document.getElementsByClassName("icon")[0];
+```
 
-Before any action, the original navigation bar should be defined as a `topnav` class. When we click on the menu button, we change it from `topnav` to `topnav responsive`. So that the unfolded navigation bar could use the style we defined for `topnav responsive` in our `.css` file.
+The `document.getElementsByClassName()` function will return an array with all the elements with the same class name. Here we only have one element with the class name `icon`, so we can get the element by using index `0`.
+
+Then, by using the code below, we will add a `click` event to this element. When the `icon` element (i.e., the hamburger menu button) is clicked, the function `responsive_control` will be called immediately.
+
+```javascript
+icon.addEventListener('click', responsive_control);
+```
+
+
+
+
+
+When `responsive_control` is called, it searches for the element with the id `myTopnav` and stores it it a variable named `x`.
+
+Before any action, the original navigation bar should have the predefined class name `topnav`. When we click on the menu button, we change it from `topnav` to `topnav responsive`. So that the unfolded navigation bar could use the style we defined for `topnav responsive` in our `.css` file.
 
 When the navigation bar is unfolded and we want to fold it again, we can just change the class name from `topnav responsive` back to `topnav`, so that the style of the navigation bar will change correspondingly.
 
-Then we wrap the code into a function named `myFunction`, and we have the code below:
+Then we wrap the code into a function named `responsive_control`, and we have the code below:
 
 ```js
-function myFunction() {
-  var x = document.getElementById("myTopnav");
+function responsive_control() {
+  let x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
@@ -182,7 +205,7 @@ Now you should have a good understanding of how this website template works!
 
 ## 3. Deliverable
 
-For your lab deliverable, we would like to ask you to convert your markdown wiki page for lab 1 to a website. After you finish making your website, please upload it to your newly created github repository and turn on the GitHub Pages function, so that we can take a look at your website without using a local web server. Feel free to use the template that we went through in Section 2. You can also create your own website if you want, as long as it is well organized.
+For your lab deliverable, we would like to ask you to convert your markdown wiki page for lab 1 to a website. After you finish making your website, please upload it to your newly created github repository and turn on the GitHub Pages function, so that we can take a look at your website without using a local web server. Feel free to use the template that we went through in Section 2. You can also create your own website if you want, as long as it is well organized. **You are expected to submit the url of the GitHub repository to the Canvas Dropbox of this course. This url should be in the format of `http://[your_github_username].github.io/[your_repository_name]/index.html`**
 
 We expect the followings for your deliverable:
 
