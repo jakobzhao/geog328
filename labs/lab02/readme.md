@@ -12,7 +12,7 @@ Recalling what we did in lab 1, you should **create a new public GitHub reposito
 
 ![create_repo](img/create_repo.PNG)
 
-After you create your own repo, clone it to your local computer. Then copy and paste the lab material from the course repository. You can find the lab material at `geog495/labs/lab02`.
+**After you create your own repo, clone it to your local computer. Then copy and paste the lab material from the course repository. You can find the lab material at `geog495/labs/lab02`.**
 
 ## 2. Explore the files
 
@@ -23,6 +23,8 @@ In this section, we will go over the provided website template to get you famili
 Websites live on web servers. So here we will use the Visual Studio Code plugin `Live Server` that we installed in Lab 1 to turn our own computer into a web server. In this way, your local computer will be both a **Client** (as you use it to browse your website) and a **Server** (as you also use it to host your website).
 
 Open `Visual Studio Code` and open the folder for the new repository you created. You will see something like this:
+
+> Note: Remember to copy the lab material from the course repository (`geog495/labs/lab02`) to your own repository folder; otherwise you will just see an empty folder (or only with an README.md in it)!
 
 ![open-repo](img/open-repo.PNG)
 
