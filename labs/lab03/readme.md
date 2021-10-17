@@ -358,7 +358,7 @@ function sortTable(e) {
 ```
 
 
-Now you should have a good understanding of how this application works!
+Now if you click the sort by magnitude button. All the listed earthquakes will be sorted from higher value of magnitude to lower value.
 
 ## 3. Deliverable
 
