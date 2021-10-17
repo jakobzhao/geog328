@@ -315,8 +315,7 @@ function sortTable(e) {
 
 ```
 
-The sortTable function can compare two adjacent values and switch them if they are not in the right order. This compare located in a while loop. This loop will only stop when no switch is needed.
-
+The sortTable function can compare two adjacent values and switch them if they are not in the right order. This compare located in a while loop. This loop will only stop when no switch is needed. For the details of the code, you can refer to the in-line comments.
 
 
 ```javascript
@@ -358,51 +357,58 @@ function sortTable(e) {
 ```
 
 
-Now if you click the sort by magnitude button. All the listed earthquakes will be sorted from higher value of magnitude to lower value.
+Now if you click the `sort by magnitude` button. All the listed earthquakes will be sorted from higher value of magnitude to lower value.
 
-## 3. Deliverable
+## 9. Sharing on GitHub Page
 
-For your lab deliverable, we would like to ask you to convert your markdown wiki page for lab 1 to a website. After you finish making your website, please upload it to your newly created github repository and turn on the GitHub Pages function, so that we can take a look at your website without using a local web server. Feel free to use the template that we went through in Section 2. You can also create your own website if you want, as long as it is well organized.
+By the end of this step, you should complete the map of earthquakes. You can test all the functions by pressing the `go live` bottom, you can visit the web page at [http://127.0.0.1:5500/earthquake.html](http://127.0.0.1:5500/earthquake.html). Here `127.0.0.1` is the IP of the computer that you are using right now. The port `5500` is picked by VS code purposefully for testing the web page on browsers.
+
+Now we will publish this repository as a web application. As always, commit the local updates, and then push/synchronize these commits to the repo on the github. To transform this remote repo as a web page, you will need to navigate from **`Settings --> Pages`**, in the source section, choose your site is built from the `Branch:main`, under the `root` of the repo. Keep the parameters under other sections like `Theme Chooser`, `custom domain`, `enforce HTTPS` as default values. After you press the save button under the source section, you will be notified where the site has been published to on the current screen. You can visit the earthquake map through [https://[username].github.io/[your_repo_name]/earthquake.html](https://[username].github.io/[your_repo_name]/earthquake.html).
+
+
+![](img/githubpage.png)
+
+
+> **Note: ** localhost is a hostname that refers to the current computer used to access it. It is used to access the network services that are running on the host via the loopback network interface. Using the loopback interface bypasses any local network interface hardware. The name localhost normally resolves to the IPv4 loopback address 127.0.0.1, and to the IPv6 loopback address ::1.
+
+## 10. Deliverable
+
+For your lab deliverable, we would like to ask you to make another web page application using a piece of data set from you. This data could be generated through geojson.io, or converted from another sources. Make sure to compress the geojson data to a relatively small size. We would appreciate any geojson file in size smaller than <span style="color:red">2 megabytes</span> in order not to jam the traffic of Internet transmission. Your web map should be compiled in the `index.html` page.
+
 
 We expect the followings for your deliverable:
 
 - Create a new GitHub repository. (3 pts)
 
-- The GitHub Pages function is enabled (we can see your website by visiting `http://[your_github_username].github.io/[your_repository_name]/index.html`). (3 pts)
+- The earthquake example can be found at `http://[your_github_username].github.io/[your_repository_name]/earthquake.html`). (3 pts)
 
-- The navigation bar is well designed and responsive (try adjust the `max-width` value to make it suit your navigation bar content) (6 pts)
+- The GitHub Pages function is enabled (we can see your website by visiting `http://[your_github_username].github.io/[your_repository_name]/index.html`). (4 pts)
 
-- The navigation bar color, the `hover` color, and the `active` color should be changed based on your preference. (6 pts)
 
-- For the webpage content, you should adopt at least 3 more customized styles following the instructions from [W3Schools How TO - Code snippets for HTML, CSS and JavaScript](https://www.w3schools.com/howto/). For example, you can [add a fullscreen video as the background of your home page](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp), or [create a summarizing table for your topic](https://www.w3schools.com/howto/howto_css_table_zebra.asp), just like what you often see in a Wikipedia entry. Also, if you want to redesign some of your webpages, feel free to do so! (Two example templates here are 1) [Meet The Team Page](https://www.w3schools.com/howto/howto_css_team.asp) and 2) [Section Counter](https://www.w3schools.com/howto/howto_css_section_counter.asp)) Be creative and feel free to edit the information on your wiki page based on the customized element you choose! (21 pts)
+- For the webpage, there will be at least two geojson data sets will be added to the index.html. (10pts)
 
-- At least one multimedia element, for example, an image or a video (You should keep an eye on the size of the multimedia element you put, as you don't want it to be much larger than your window size). (6 pts)
+- pick map styles different from the ones for the earthquake map. (5pts)
+
+- make the map covering the full screen, while the side panel hovering on the map on the right. The side panel will contain the map title as well as the table (10pts)
+
+- when the width of the map application is smaller than 1024px, the side panel disappears. (5pts)
+
+- make a sort table function. (5pts)
 
 - Please make sure the internal structure of the files in your repository is well organized. For example, it may be similar to the file structure below. (5 pts)
 
-  ```
-  [your_repository_name]
-      │index.html
-      │html2.html
-      |html3.html
-      │readme.md
-      ├─css
-      │      main.css
-      ├─img
-      │      xxx.jpg
-      └─js
-             main.js
-  ```
+```powershell
+[your_repository_name]
+    │index.html
+    │earthquake.html
+    │readme.md
+    ├─assets
+    │      earthquakes.geojson
+    │      japan.json
 
+```
 
-
-## Acknowledgement
-
-The code for the website template is adapted from [How To Create a Responsive Top Navigation Menu (w3schools.com)](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp).
-
-
-
-References:
+## References:
 - [Zebra Striped Table](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
 - [Sort a Table](https://www.w3schools.com/howto/howto_js_sort_table.asp)
 - [async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
