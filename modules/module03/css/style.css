@@ -41,6 +41,7 @@ html, body {
     font-size: 2.2rem;
   }
   
+
   p, li {
     font-size: 1.6rem;
     line-height: 1.5;
@@ -127,5 +128,11 @@ html, body {
   }
   
   footer {
-    margin-top: 10px;
+    margin-top: 60px;
   }
+/* 
+#specialid {
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+} */
