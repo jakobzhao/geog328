@@ -185,18 +185,180 @@ let map = new mapboxgl.Map({
 
 ## 5. Load GeoJSON asynchronously
 
+The asynchronous data loading is an important feature of Web 2.0. Over the years, there have been multiple asynchronous approaches such as  timeout and interval, AJAX, promise  mechanism. More recent additions to the JavaScript language are async functions and the await keyword, added in ECMAScript 2017. These features basically act as syntactic sugar on top of promises, making asynchronous code easier to write and to read afterwards. They make async code look more like old-school synchronous code, we plan to use async and await for asynchronous geojson data loading.
 
+> **Syntactic Sugar:** In computer science, syntactic sugar is syntax within a programming language that is designed to make things easier to read or to express. It makes the language "sweeter" for human use: things can be expressed more clearly, more concisely, or in an alternative style that some may prefer.
+
+First of all we have the async keyword, which you put in front of a function declaration to turn it into an async function. An async function is a function that knows how to expect the possibility of the await keyword being used to invoke asynchronous code.
+
+```javascript
+async function geojsonFetch() { 
+    // fetch geojson
+ };
+
+geojsonFetch();
+```
+
+The advantage of an async function only becomes apparent when you combine it with the await keyword. **await only works inside async functions within regular JavaScript code.** The await keyword causes the JavaScript runtime to pause your code on this line, not allowing further code to execute in the meantime until the async function call has returned its result — very useful if subsequent code relies on that result.
+
+To load geojson data we use the fetch method, which provides an easy, logical way to fetch resources asynchronously across the network.
+
+This kind of functionality was previously achieved using XMLHttpRequest. Fetch provides a better alternative that can be easily used by other technologies. In our lab,  two geojson objects are fetched. The simplest use of fetch() takes one argument — the path to the resource you want to fetch — and return the JSON response body to the response object. Then the response object is serialized as two geojson objects as earthquakes and japan. 
+
+
+```javascript
+async function geojsonFetch() {
+    let response, earthquakes, japan, table;
+    response = await fetch('assets/earthquakes.geojson');
+    earthquakes = await response.json();
+    response = await fetch('assets/japan.json');
+    japan = await response.json();
+};
+
+geojsonFetch();
+```
 
 
 ## 6. Add Map Layers
 
+
+After the two geojson files are fetched, we will add them as two independent map layers. Apparently, the map layers should be loaded once the map has successfully created and loaded. So, the map layer generation functions will be implemented in the function that is stimulated by the map load event.
+
+```javascript
+//load data to the map as new layers and table on the side.
+map.on('load', function loadingData() {
+
+    map.addSource('earthquakes', {
+        type: 'geojson',
+        data: earthquakes
+    });
+
+    map.addLayer({
+        'id': 'earthquakes-layer',
+        'type': 'circle',
+        'source': 'earthquakes',
+        'paint': {
+            'circle-radius': 8,
+            'circle-stroke-width': 2,
+            'circle-color': 'red',
+            'circle-stroke-color': 'white'
+        }
+    });
+
+
+    map.addSource('japan', {
+        type: 'geojson',
+        data: japan
+    });
+
+    map.addLayer({
+        'id': 'japan-layer',
+        'type': 'fill',
+        'source': 'japan',
+        'paint': {
+            'fill-color': '#0080ff', // blue color fill
+            'fill-opacity': 0.5
+        }
+    });
+
+});
+```
+
+As shown in the code snippet above, each geojson data needs to be added to the map as a new data source (i.e., the addSource method of the map object), and then the layer can be added by indicating the name of source (i.e., the addLayer method of the map object). For each layer, the `paint` property can be used to define the style of geometric features. The value of the paint property is a list of declarations. Each declaration includes a style property name and the corresponding style property value.
+
+By this step, you should see the map on the right portion of the browser window if you press the "Go Live" button on the status line at the bottom right.
+
+![](img/golive.png)
+
+
 ## 7. Generate Table
+
+Now that the map has been generated, let us create the earthquake list. This list will be made by the same geojson data for the earthquakes. So, it is unnecessary to fetch the geojson data again.
+
+The code snippet selects the table element in the html page. Then, four variable are declared to create a row in the table. Each row stores three major parameters of an earthquake, including id, magnitude, and a timestamp. 
+
+
+```javascript
+table = document.getElementsByTagName("table")[0];
+let row, cell1, cell2, cell3;
+for (let i = 0; i < earthquakes.features.length; i++) {
+    // Create an empty <tr> element and add it to the 1st position of the table:
+    row = table.insertRow(-1);
+    cell1 = row.insertCell(0);
+    cell2 = row.insertCell(1);
+    cell3 = row.insertCell(2);
+    cell1.innerHTML = earthquakes.features[i].properties.id;
+    cell2.innerHTML = earthquakes.features[i].properties.mag;
+    cell3.innerHTML = new Date(earthquakes.features[i].properties.time).toLocaleDateString(
+        "en-US");
+}
+```
+
+It is worth noting that, there are multiple methods for html element selection in addition to `getElementsByTagName()`. Also,  an element object can assign HTML or text to its content by the property `innerHTML`.
+
+By this step, you should also see the table in the side panel on the left.
+
 
 ## 8. Sort the Table
 
+To sort the table by its magnitude level, we  first create a button named `Sort by Magnitude`, and then in the javascript, we add an click event for this button.
+
+```javascript
+let btn = document.getElementsByTagName("button")[0];
+
+btn.addEventListener('click', sortTable);
+
+// define the function to sort table
+function sortTable(e) {
+
+}
+
+```
+
+The sortTable function can compare two adjacent values and switch them if they are not in the right order. This compare located in a while loop. This loop will only stop when no switch is needed.
 
 
-Now you should have a good understanding of how this website template works!
+
+```javascript
+// define the function to sort table
+function sortTable(e) {
+    let table, rows, switching, i, x, y, shouldSwitch;
+    table = document.getElementsByTagName("table")[0];
+    switching = true;
+    /*Make a loop that will continue until
+    no switching has been done:*/
+    while (switching) {
+        //start by saying: no switching is done:
+        switching = false;
+        rows = table.rows;
+        /*Loop through all table rows (except the
+        first, which contains table headers):*/
+        for (i = 1; i < (rows.length - 1); i++) {
+            //start by saying there should be no switching:
+            shouldSwitch = false;
+            /*Get the two elements you want to compare,
+            one from current row and one from the next:*/
+            x = parseFloat(rows[i].getElementsByTagName("td")[1].innerHTML);
+            y = parseFloat(rows[i + 1].getElementsByTagName("td")[1].innerHTML);
+            //check if the two rows should switch place:
+            if (x < y) {
+                //if so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+            }
+        }
+        if (shouldSwitch) {
+            /*If a switch has been marked, make the switch
+            and mark that a switch has been done:*/
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+        }
+    }
+}
+```
+
+
+Now you should have a good understanding of how this application works!
 
 ## 3. Deliverable
 

@@ -85,12 +85,6 @@
         });
 
 
-        geojsonFetch();
-
-        let btn = document.getElementsByTagName("button")[0];
-
-        btn.addEventListener('click', sortTable);
-
 
         async function geojsonFetch() {
 
@@ -101,16 +95,16 @@
             japan = await response.json();
 
             table = document.getElementsByTagName("table")[0];
-            let lng, lat, row, cell1, cell2, cell3;
+            let row, cell1, cell2, cell3;
             for (let i = 0; i < earthquakes.features.length; i++) {
                 // Create an empty <tr> element and add it to the 1st position of the table:
                 row = table.insertRow(-1);
                 cell1 = row.insertCell(0);
                 cell2 = row.insertCell(1);
                 cell3 = row.insertCell(2);
-                cell1.innerHTML =  earthquakes.features[i].properties.id;
-                cell2.innerHTML =  earthquakes.features[i].properties.mag;
-                cell3.innerHTML =  new Date(earthquakes.features[i].properties.time).toLocaleDateString(
+                cell1.innerHTML = earthquakes.features[i].properties.id;
+                cell2.innerHTML = earthquakes.features[i].properties.mag;
+                cell3.innerHTML = new Date(earthquakes.features[i].properties.time).toLocaleDateString(
                     "en-US");
             }
 
@@ -154,6 +148,12 @@
             });
 
         }
+
+        geojsonFetch();
+
+        let btn = document.getElementsByTagName("button")[0];
+
+        btn.addEventListener('click', sortTable);
 
         // define the function to sort table
         function sortTable(e) {
