@@ -29,3 +29,5 @@
 4. How to create a GeoJSON, convert shapefile or CSV to GeoJSON on QGIS
 
 5. How to simplify a GeoJSON on MapShaper
+
+6. `optional` Geospatial data from scratch (Data entry --> geocoding --> csv to geojson conversion)
