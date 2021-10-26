@@ -117,6 +117,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - [Web Map Service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
     - [Publish a shapefile](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
 
+
 ### Week 6 : Thematic Map Design on the web
 
 In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. In this week, we will walk you through at least two mapbox applications, and you will use mapbox to make an interactive web map in the lab session.
@@ -179,7 +180,6 @@ In the first lecture of this week, the instructor will share with you a summary 
 
 
 <!-- Dec 6 -->
-
 
 
 ## :bell: Course Requirement
