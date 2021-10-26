@@ -116,6 +116,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 -   **Readings:**
     - [Web Map Service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
     - [Publish a shapefile](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
+    - starting from this week, we will have active learnings in class. So please make sure read the reading materials before class. Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
 
 
 ### Week 6 : Thematic Map Design on the web
