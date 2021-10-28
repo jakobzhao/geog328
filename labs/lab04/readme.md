@@ -262,7 +262,7 @@ According to the [Mapbox GL JS API documentation for `step`](https://docs.mapbox
 
 **NOTE: We spotted an error in the Mapbox's API Documentation while we were creating this lab tutorial, please refer to the corrected information below for how to use `step`.**
 
-> [**Step**] produces discrete, stepped results by evaluating a piecewise-constant function defined by pairs of input and output values ("stops"). The `input` may be any numeric expression (e.g., `["get", "population"]`). Stop inputs must be numeric literals in strictly ascending order. Returns the output value of the stop just less than the input, or the first output if the input is less than the first stop. The last output will be returned when the input is equal to or greater than the previous stop input.
+> [**Step**] produces discrete, stepped results by evaluating a piecewise-constant function defined by pairs of input and output values ("stops"). The `input` may be any numeric expression (e.g., `["get", "population"]`). Stop inputs must be numeric literals in strictly ascending order. Returns the output value of the stop just less than the input, or the ~~first output if the input is less than the first stop~~ *last output if the input is equal to or larger than the last stop*.
 >
 > **Syntax**
 >
