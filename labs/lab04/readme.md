@@ -408,7 +408,7 @@ Now if the cursor is hovering over a state, the information window should show t
 Now we will publish this repository as a web application. As always, commit the local updates, and then push/synchronize these commits to the repo on the github. To transform this remote repo as a web page, you will need to navigate from **`Settings --> Pages`**, in the source section, choose your site is built from the `Branch:main`, under the `root` of the repo. Keep the parameters under other sections like `Theme Chooser`, `custom domain`, `enforce HTTPS` as default values. After you press the save button under the source section, you will be notified where the site has been published to on the current screen. You can visit the earthquake map through [https://[username].github.io/[your_repo_name]/pop_density.html](https://[username].github.io/[your_repo_name]/pop_density.html).
 
 
-![](../geog495/labs/lab03/img/githubpage.png)
+![](img/githubpage.png)
 
 ## 5. Deliverable
 
