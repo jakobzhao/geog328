@@ -268,12 +268,12 @@ According to the [Mapbox GL JS API documentation for `step`](https://docs.mapbox
 >
 > ```javascript
 > ["step",
->     input: number,
->     stop_output_0: OutputType, stop_input_0: number,
->  	stop_output_1: OutputType, stop_input_1: number,
->  	...
->     stop_output_n: OutputType, stop_input_n: number, 
->  	stop_output_n+1: OutputType
+>   input: number,
+>   stop_output_0: OutputType, stop_input_0: number,
+>   stop_output_1: OutputType, stop_input_1: number,
+>   ...
+>   stop_output_n: OutputType, stop_input_n: number, 
+>   stop_output_n+1: OutputType
 > ]: OutputType
 > ```
 
