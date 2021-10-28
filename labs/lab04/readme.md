@@ -281,7 +281,7 @@ Here we used another [expression](https://docs.mapbox.com/mapbox-gl-js/style-spe
 
 Therefore, to put the `fill-color` code in everyday language:
 
-```
+```javascript
 'fill-color': [
     'step',      // use step expression to provide fill color based on values
     
@@ -314,7 +314,7 @@ Therefore, to put the `fill-color` code in everyday language:
 
 After providing the fill colors, we finally add an outline color by using:
 
-```
+```javascript
 'fill-outline-color': '#BBBBBB'
 ```
 
