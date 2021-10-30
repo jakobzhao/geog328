@@ -31,3 +31,6 @@
 5. How to simplify a GeoJSON on MapShaper
 
 6. `optional` Geospatial data from scratch (Data entry --> geocoding --> csv to geojson conversion)
+  - Google maps (collect from google map --> extract the properties as well as lat long, --> aggregrate the data to a spreadsheet --》 convert it as a geojson in Q)
+  - geojson.io
+  
