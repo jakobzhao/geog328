@@ -251,7 +251,8 @@ map.addLayer({
             1000,        // stop_input_6
             "#800026"    // stop_output_7
         ],
-        'fill-outline-color': '#BBBBBB'
+        'fill-outline-color': '#BBBBBB',
+        'fill-opacity': 0.7,
     }
 });
 ```
@@ -312,10 +313,16 @@ Therefore, to put the `fill-color` code in everyday language:
 ],
 ```
 
-After providing the fill colors, we finally add an outline color by using:
+After providing the fill colors, we add an outline color by using:
 
 ```javascript
 'fill-outline-color': '#BBBBBB'
+```
+
+We can also give some opacity to the polygons, so that we could also see some information from the base map.
+
+```javascript
+'fill-opacity': 0.7,
 ```
 
 
@@ -330,28 +337,32 @@ Creating a list of the stops you used when styling your layer that contains stat
 
 ```javascript
 const layers = [
-    '0-9.99',
-    '10-19.99',
-    '20-49.99',
-    '50-100.99',
-    '100-199.99',
-    '200-499.99',
-    '500-999.99',
+    '0-9',
+    '10-19',
+    '20-49',
+    '50-100',
+    '100-199',
+    '200-499',
+    '500-999',
     '1000 and more'
 ];
 const colors = [
-    '#FFEDA0',
-    '#FED976',
-    '#FEB24C',
-    '#FD8D3C',
-    '#FC4E2A',
-    '#E31A1C',
-    '#BD0026',
-    '#800026'
+    '#FFEDA070',
+    '#FED97670',
+    '#FEB24C70',
+    '#FD8D3C70',
+    '#FC4E2A70',
+    '#E31A1C70',
+    '#BD002670',
+    '#80002670'
 ];
 ```
 
+For the color values, you can notice that the there is a `70` at the end of the values that we used for coloring the polygons, this is for [hex code colors with alpha values](https://www.digitalocean.com/community/tutorials/css-hex-code-colors-alpha-values). This correspond with the opacity value `0.7` we set for our polygons.
 
+> Using an alpha value to update a color’s transparency will change the hex code format from `#RRGGBB` to `#RRGGBBAA` (where alpha is `A`). The first six values (the red, green, and blue ones) remain the same.
+>
+> The `AA` value in `#RRGGBBAA` can range from the lowest value possible (`00`) to the highest value possible (`FF`). Lowering the value will cause the visibility to become fainter and fainter until it becomes transparent. Raising the value will cause the visibility to become more and more opaque.
 
 #### 3.4.2 Add the legend
 
