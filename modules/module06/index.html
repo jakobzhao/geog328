@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mapbox Customized Map Design</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+
+        #map {
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main id="container">
+
+        <div id="map"></div>
+
+    </main>
+    <script>
+        // define the mapbox access token
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+
+        // define the map object
+        let map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/jakobzhao/ckkrb3f9o01n018nz6rdsno2w', // style URL
+            zoom: 11.5, // starting zoom
+            center: [-122.32, 47.67] // starting center
+        });
+
+    </script>
+
+</body>
+
+</html>

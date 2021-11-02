@@ -126,8 +126,8 @@ In this week, we will introduce you to map making on the web. The web based inte
 <!-- Nov 1 -->
 
 -   **Readings:**
-    - [making thematic map using mapbox](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
-    - [Add custom markers in Mapbox GL JS](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
+    - [Making thematic map](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
+    - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
 
 
 -   **Lab 4:** [Interactive web mapping](labs/lab04) `Due: Nov 12th, by 11:59pm`
