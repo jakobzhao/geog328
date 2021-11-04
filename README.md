@@ -152,7 +152,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 -   **Readings:** 
     - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
--   **Final Project:** [Web-based spatial analysis](labs/lab05) 
+-   **Final Project:** [Web GIS Application](project/readme.md) 
 
 ### Week 9 : Dealing with Time on the Web
 
@@ -175,9 +175,9 @@ This week will still focus on web-based spatial analysis. One is on nearest neig
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
 
 
-### Week 11 : Summary and Final Project Presentation
+### Week 11 : Summary
 
-In the first lecture of this week, the instructor will share with you a summary of this course and some emerging topics to explore. During the lecture on Thursday and the lab session, each student will present the final project to the whole class. More information about final project will be shared after the mid-term.
+The lecture on Tuesday will be cancelled. In the second lecture of this week, the instructor will share with you a summary of this course and some emerging topics to explore. 
 
 
 <!-- Dec 6 -->
