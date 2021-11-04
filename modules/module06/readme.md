@@ -26,4 +26,6 @@
  - customized icons
  - popup content
  - download and/or create icons.
-### 
+
+
+### heatmap tutorial: https://docs.mapbox.com/mapbox-gl-js/example/heatmap-layer/
