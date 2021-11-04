@@ -119,7 +119,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - starting from this week, we will have active learnings in class. So please make sure read the reading materials before class. Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
 
 
-### Week 6 : Thematic Map Design on the web
+### Week 6 : Thematic Map Design on the Web
 
 In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. In this week, we will walk you through at least two mapbox applications, and you will use mapbox to make an interactive web map in the lab session.
 
@@ -144,7 +144,7 @@ In this week, we will start a series of lectures on web-based spatial analysis. 
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
 
-### Week 8 : Web-based spatial analysis I: Sorting by distance
+### Week 8 : Web-based Spatial Analysis I: Sorting by Distance
 
 In this week, we will introduce you to a basic spatial analysis that uses distance to sort geographical data. This application is made upon MapBox too. Starting from this week, you will work on your final project. Its requirement will be introduced in this week's lab session. In short, you will need to make an advanced spatial analysis to deal with a real-world problem.
 
@@ -154,7 +154,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
     - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
 -   **Final Project:** [Web-based spatial analysis](labs/lab05) 
 
-### Week 9 : Dealing with time on the web
+### Week 9 : Dealing with Time on the Web
 
 In this week, we will introduce how to deal with time on the web. During the lectures, the instructor will walk you through a more complicated application that illustrate how geographical data changes over time. In the lab session, you will continue to work on your final project.
 
@@ -164,7 +164,7 @@ In this week, we will introduce how to deal with time on the web. During the lec
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
 
 
-### Week 10 : Web-based spatial analysis II
+### Week 10 : Web-based Spatial Analysis II
 
 This week will still focus on web-based spatial analysis. One is on nearest neighbor analysis and the second is on buffer and isochrone analysis.
 
