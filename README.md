@@ -114,8 +114,8 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 <!-- Oct 25 -->
 
 -   **Readings:**
-    - [Web Map Service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
-    - [Publish a shapefile](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
+    - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
+    - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
     - starting from this week, we will have active learnings in class. So please make sure read the reading materials before class. Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
 
 
@@ -126,9 +126,9 @@ In this week, we will introduce you to map making on the web. The web based inte
 <!-- Nov 1 -->
 
 -   **Readings:**
-    - [Making thematic map](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
+    - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
     - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
-
+    list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
 
 -   **Lab 4:** [Interactive web mapping](labs/lab04) `Due: Nov 12th, by 11:59pm`
 
