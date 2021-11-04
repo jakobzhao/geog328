@@ -36,7 +36,7 @@ To submit your final project, you will need to share the url link of your final 
 
 ## 2\. Online Presentation
 
-Please create a post to share your project to your classmate in the discussion board at our course repository. In the post you created, please share the content of the readme.me file for your final project. Please get it done by **Thursday (Dec 8th by 11:59pm)**.
+Please create a `new discussion` post to share your project to your classmate in the discussion board at our course repository. In the post you created, please share the content of the readme.me file for your final project. Please get it done by **Thursday (Dec 8th by 11:59pm)**.
 
 ## 3\. Peer Review
 
