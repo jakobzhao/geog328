@@ -20,3 +20,10 @@
 - Watch this video: https://docs.mapbox.com/help/tutorials/create-new-map-style-with-cartogram-video/
 
 
+### Create a web map on github.
+ - create github repo
+ - customized fonts
+ - customized icons
+ - popup content
+ - download and/or create icons.
+### 
