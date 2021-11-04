@@ -29,10 +29,6 @@ The final project is a major component of this course. Each student is expected 
 > this description must be no less than 800 words.
 
 
-## 4\. Submission
-
-
-To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by the end of the finals week on **Friday (Dec 10th) by 11:59 pm.**
 
 ## 2\. Online Presentation
 
@@ -41,6 +37,12 @@ Please create a `new discussion` post to share your project to your classmate in
 ## 3\. Peer Review
 
 Each student will need to share some constructive comments to at least **FIVE** of your classmates' final projects. The comments need to be submitted as a new reply to the final project post in the discussion board. Your comment could start with something the map author does well, and then list a few items the author can improve in the future. Please get it done by **Sunday (Dec 12th by 11:59pm)**.
+
+
+## 4\. Submission
+
+
+To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by the end of the finals week on **Sunday (Dec 12th) by 11:59 pm.**
 
 
 >  **Note:** The requirements to the project may be slightly changed according the progress of this course. The final requirements are subject to the instructor's notification.
