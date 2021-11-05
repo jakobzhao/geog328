@@ -26,6 +26,7 @@ Now, the repository should follow the file structure below:
     │      wa-covid-data-102521.geojson
 
 ```
+**Once you have created and downloaded the files, you can follow the steps below to edit your `pop_density.html`**
 
 ## 2. Web content structure & CSS Style
 
