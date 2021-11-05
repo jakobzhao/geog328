@@ -4,7 +4,7 @@
 
 **Due:** Nov. 12th, by 11:59pm | **Points Available** = 50
 
-In this lab, we will make an interactive choropleth web map that allows you to see more information when hovering above certain areas. You will be guided to make a web map showing state-level population densities in the U.S. You will load a local GeoJSON file and add it as a map layer, similar to what you did in our previous lab. Then you will need to use different colors for different population density values, add a title and a legend. Lastly and most importantly, you will write code that allow you to see specific values when you hover your mouse over a specific state. As for your final deliverable for this lab, you will be asked to create a different interactive choropleth map using of the COVID-19 related dataset that we provide.
+In this lab, we will make an interactive choropleth web map that allows you to see more information when hovering above certain areas. You will be guided to make a web map showing state-level population densities in the U.S. You will load a local GeoJSON file and add it as a map layer, similar to what you did in our previous lab. Then you will need to use different colors for different population density values, add a title and a legend. Lastly and most importantly, you will write code that allow you to see specific values when you hover your mouse over a specific state. As for your final deliverable for this lab, you will be asked to create a different interactive choropleth map using the COVID-19 related dataset that we provide.
 
 ![screenshot](img/screenshot.png)
 
@@ -12,7 +12,7 @@ In this lab, we will make an interactive choropleth web map that allows you to s
 
 Like the previous two labs, you need to create a new repository to complete this lab. We recommend you **give your repository a more descriptive name** instead of  using "geog495_lab04". 
 
-Once the repository is created, please create a `readme.md` file, an `index.html`, an `pop_density.html`, and another `assets` folder to the root of this repo. In the directory for Lab 3, we saved two geojson files in the folder [assets](assets). Please move these two files to the assets folder of the newly build repository.
+Once the repository is created, please create a `readme.md` file, an `index.html`, an `pop_density.html`, and another `assets` folder to the root of this repo. In the directory for Lab 4, we saved two geojson files in the folder [assets](assets). Please move these two files to the assets folder of the newly build repository.
 
 Now, the repository should follow the file structure below:
 
