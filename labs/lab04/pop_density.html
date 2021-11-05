@@ -186,11 +186,11 @@
             });
 
             map.on('mousemove', ({point}) => {
-                const states = map.queryRenderedFeatures(point, {
+                const state = map.queryRenderedFeatures(point, {
                     layers: ['stateData-layer']
                 });
-                document.getElementById('text-escription').innerHTML = states.length ?
-                    `<h3>${states[0].properties.name}</h3><p><strong><em>${states[0].properties.density}</strong> people per square mile</em></p>` :
+                document.getElementById('text-escription').innerHTML = state.length ?
+                    `<h3>${state[0].properties.name}</h3><p><strong><em>${state[0].properties.density}</strong> people per square mile</em></p>` :
                     `<p>Hover over a state!</p>`;
             });
         }

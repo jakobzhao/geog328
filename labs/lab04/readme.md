@@ -399,16 +399,16 @@ To do this, add a listener for the `mousemove` event, identify which state is at
 
 ```javascript
 map.on('mousemove', ({point}) => {
-    const states = map.queryRenderedFeatures(point, {
+    const state = map.queryRenderedFeatures(point, {
         layers: ['stateData-layer']
     });
-    document.getElementById('text-escription').innerHTML = states.length ?
-        `<h3>${states[0].properties.name}</h3><p><strong><em>${states[0].properties.density}</strong> people per square mile</em></p>` :
+    document.getElementById('text-escription').innerHTML = state.length ?
+        `<h3>${state[0].properties.name}</h3><p><strong><em>${state[0].properties.density}</strong> people per square mile</em></p>` :
         `<p>Hover over a state!</p>`;
 });
 ```
 
-First, you store the map layer `stateData-layer` in a new constant variable `states`. After that,`states[0].properties.name` is how you can access the `name` attribute value in your data, and similarly, `states[0].properties.density` is how you can access the `density` attribute value in your data.
+First, you store the state data, which is the location of your cursor at, from your map layer `stateData-layer` in a new constant variable `state`. After that,`state[0].properties.name` is how you can access the `name` attribute value in your data, and similarly, `state[0].properties.density` is how you can access the `density` attribute value in your data.
 
 
 
