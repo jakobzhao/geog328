@@ -23,6 +23,7 @@ Now, the repository should follow the file structure below:
     │readme.md
     ├─assets
     │      stateData.geojson
+    │      wa-covid-data-102521.geojson
 
 ```
 
