@@ -318,7 +318,7 @@ Therefore, to put the `fill-color` code in everyday language:
 After providing the fill colors, we add an outline color by using:
 
 ```javascript
-'fill-outline-color': '#BBBBBB'
+'fill-outline-color': '#BBBBBB',
 ```
 
 We can also give some opacity to the polygons, so that we could also see some information from the base map.
