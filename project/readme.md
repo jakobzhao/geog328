@@ -30,6 +30,18 @@ The final project is a major component of this course. Each student is expected 
 
 
 
+Data sources that you may find helpful:
+
+- [Datasets - CKAN](https://catalog.data.gov/dataset)
+
+- [Washington State Geospatial Open Data Portal](https://geo.wa.gov/)
+
+- [King County GIS Open Data (arcgis.com)](https://gis-kingcounty.opendata.arcgis.com/)
+
+- [Seattle GeoData (arcgis.com)](https://data-seattlecitygis.opendata.arcgis.com/)
+
+  If you need help in finding the data you want to use for your project, please feel free to reach out to your TA.
+
 ## 2\. Online Presentation
 
 Please create a `new discussion` post to share your project to your classmate in the discussion board at our course repository. In the post you created, please share the content of the readme.me file for your final project. Please get it done by **Thursday (Dec 8th by 11:59pm)**.
