@@ -47,7 +47,7 @@ First, we create the skeleton of the html page as below.
     <div id="map"></div>
     <div class='map-overlay' id='features'>
         <h2>US population density</h2>
-        <div id='text-escription'>
+        <div id='text-description'>
             <p>Hover over a state!</p>
         </div>
     </div>
