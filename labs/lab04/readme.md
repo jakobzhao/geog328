@@ -402,7 +402,7 @@ map.on('mousemove', ({point}) => {
     const state = map.queryRenderedFeatures(point, {
         layers: ['stateData-layer']
     });
-    document.getElementById('text-escription').innerHTML = state.length ?
+    document.getElementById('text-description').innerHTML = state.length ?
         `<h3>${state[0].properties.name}</h3><p><strong><em>${state[0].properties.density}</strong> people per square mile</em></p>` :
         `<p>Hover over a state!</p>`;
 });
