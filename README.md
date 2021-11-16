@@ -151,7 +151,8 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 <!-- Nov 15 -->
 
 -   **Readings:** 
-    - [Sort data by Distance](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
+    - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
+    - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Final Project:** [Web GIS Application](project/readme.md) 
 
 ### Week 9 : Dealing with Time on the Web
