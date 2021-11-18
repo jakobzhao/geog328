@@ -10,5 +10,4 @@
 
 ## create customized icons
 
-test
 ## turf.js
