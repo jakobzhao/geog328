@@ -8,5 +8,4 @@
 
 ## the use of sliders
 
-
 ## Chroma.js
