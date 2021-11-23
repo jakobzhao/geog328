@@ -121,93 +121,103 @@
             zoom: 11
         });
 
-        map.on('load', () => {
-            let filterHour = ['==', ['number', ['get', 'Hour']], 12];
-            let filterDay = ['!=', ['string', ['get', 'Day']], 'placeholder'];
 
-            map.addLayer({
-                id: 'collisions',
-                type: 'circle',
-                source: {
-                    type: 'geojson',
-                    data: 'assets/collisions1601.geojson' // replace this with the url of your own geojson
-                },
-                paint: {
-                    'circle-radius': [
-                        'interpolate',
-                        ['linear'],
-                        ['number', ['get', 'Casualty']],
-                        0,
-                        4,
-                        5,
-                        24
-                    ],
-                    'circle-color': [
-                        'interpolate',
-                        ['linear'],
-                        ['number', ['get', 'Casualty']],
-                        0,
-                        '#2DC4B2',
-                        1,
-                        '#3BB3C3',
-                        2,
-                        '#669EC4',
-                        3,
-                        '#8B88B6',
-                        4,
-                        '#A2719B',
-                        5,
-                        '#AA5E79'
-                    ],
-                    'circle-opacity': 0.8
-                },
-                'filter': ['all', filterHour, filterDay]
-            });
+        async function geojsonFetch() {
 
-            // update hour filter when the slider is dragged
-            document.getElementById('slider').addEventListener('input', (event) => {
-                const hour = parseInt(event.target.value);
-                // update the map
-                filterHour = ['==', ['number', ['get', 'Hour']], hour];
-                map.setFilter('collisions', ['all', filterHour, filterDay]);
+            let response, stores;
+            response = await fetch('assets/stores.json');
+            collisions = await response.json()
 
-                // converting 0-23 hour to AMPM format
-                const ampm = hour >= 12 ? 'PM' : 'AM';
-                const hour12 = hour % 12 ? hour % 12 : 12;
 
-                // update text in the UI
-                document.getElementById('active-hour').innerText = hour12 + ampm;
-            });
+            map.on('load', () => {
+                let filterHour = ['==', ['number', ['get', 'Hour']], 12];
+                let filterDay = ['!=', ['string', ['get', 'Day']], 'placeholder'];
 
-            document
-                .getElementById('filters')
-                .addEventListener('change', (event) => {
-                    const day = event.target.value;
-                    // update the map filter
-                    if (day === 'all') {
-                        filterDay = ['!=', ['string', ['get', 'Day']], 'placeholder'];
-                    } else if (day === 'weekday') {
-                        filterDay = [
-                            'match',
-                            ['get', 'Day'],
-                            ['Sat', 'Sun'],
-                            false,
-                            true
-                        ];
-                    } else if (day === 'weekend') {
-                        filterDay = [
-                            'match',
-                            ['get', 'Day'],
-                            ['Sat', 'Sun'],
-                            true,
-                            false
-                        ];
-                    } else {
-                        console.error('error');
-                    }
-                    map.setFilter('collisions', ['all', filterHour, filterDay]);
+                map.addLayer({
+                    id: 'collisions',
+                    type: 'circle',
+                    source: {
+                        type: 'geojson',
+                        data: collisions // replace this with the url of your own geojson
+                    },
+                    paint: {
+                        'circle-radius': [
+                            'interpolate',
+                            ['linear'],
+                            ['number', ['get', 'Casualty']],
+                            0,
+                            4,
+                            5,
+                            24
+                        ],
+                        'circle-color': [
+                            'interpolate',
+                            ['linear'],
+                            ['number', ['get', 'Casualty']],
+                            0,
+                            '#2DC4B2',
+                            1,
+                            '#3BB3C3',
+                            2,
+                            '#669EC4',
+                            3,
+                            '#8B88B6',
+                            4,
+                            '#A2719B',
+                            5,
+                            '#AA5E79'
+                        ],
+                        'circle-opacity': 0.8
+                    },
+                    'filter': ['all', filterHour, filterDay]
                 });
-        });
+
+                // update hour filter when the slider is dragged
+                document.getElementById('slider').addEventListener('input', (event) => {
+                    const hour = parseInt(event.target.value);
+                    // update the map
+                    filterHour = ['==', ['number', ['get', 'Hour']], hour];
+                    map.setFilter('collisions', ['all', filterHour, filterDay]);
+
+                    // converting 0-23 hour to AMPM format
+                    const ampm = hour >= 12 ? 'PM' : 'AM';
+                    const hour12 = hour % 12 ? hour % 12 : 12;
+
+                    // update text in the UI
+                    document.getElementById('active-hour').innerText = hour12 + ampm;
+                });
+
+                document
+                    .getElementById('filters')
+                    .addEventListener('change', (event) => {
+                        const day = event.target.value;
+                        // update the map filter
+                        if (day === 'all') {
+                            filterDay = ['!=', ['string', ['get', 'Day']], 'placeholder'];
+                        } else if (day === 'weekday') {
+                            filterDay = [
+                                'match',
+                                ['get', 'Day'],
+                                ['Sat', 'Sun'],
+                                false,
+                                true
+                            ];
+                        } else if (day === 'weekend') {
+                            filterDay = [
+                                'match',
+                                ['get', 'Day'],
+                                ['Sat', 'Sun'],
+                                true,
+                                false
+                            ];
+                        } else {
+                            console.error('error');
+                        }
+                        map.setFilter('collisions', ['all', filterHour, filterDay]);
+                    });
+            });
+        };
+        geojsonFetch();
     </script>
 </body>
 
