@@ -1,0 +1,71 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Village Branch",
+          "Address": "2185 Versailles Rd"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.548369, 38.047876]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Northside Branch",
+          "ADDRESS": "1733 Russell Cave Rd"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.47135, 38.079734]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Central Library",
+          "ADDRESS": "140 E Main St"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.496894, 38.045459]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Beaumont Branch",
+          "Address": "3080 Fieldstone Way"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.557948, 38.012502]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Tates Creek Branch",
+          "Address": "3628 Walden Dr"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.498679, 37.979598]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Name": "Eagle Creek Branch",
+          "Address": "101 N Eagle Creek Dr"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.442219, 37.999437]
+        }
+      }
+    ]
+  }
