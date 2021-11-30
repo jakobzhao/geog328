@@ -12,3 +12,8 @@
 
 
 https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+
+
+## filter expression
+
+https://docs.mapbox.com/mapbox-gl-js/style-spec/expressions/
