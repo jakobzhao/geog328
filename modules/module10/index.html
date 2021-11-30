@@ -36,6 +36,21 @@
         });
 
 
+
+        map.loadImage(
+            'img/h.png',
+            (error, image) => {
+                if (error) throw error;
+                map.addImage('hospital', image);
+            });
+
+            map.loadImage(
+            'img/l.png',
+            (error, image) => {
+                if (error) throw error;
+                map.addImage('library', image);
+            });
+
         async function geojsonFetch() {
 
             let response, hospitals, libraries;
@@ -45,44 +60,49 @@
             libraries = await response.json()
 
 
+
+
+
             map.on('load', () => {
-                    map.addLayer({
-                        id: 'hospitals',
-                        type: 'symbol',
-                        source: {
-                            type: 'geojson',
-                            data: hospitals
-                        },
-                        layout: {
-                            'icon-image': 'hospital-15',
-                            'icon-allow-overlap': true
-                        },
-                        paint: {}
-                    });
-
-                    map.addLayer({
-                        id: 'libraries',
-                        type: 'symbol',
-                        source: {
-                            type: 'geojson',
-                            data: libraries
-                        },
-                        layout: {
-                            'icon-image': 'library-15',
-                            'icon-allow-overlap': true
-                        },
-                        paint: {}
-                    });
-
-                    map.addSource('nearest-hospital', {
+                map.addLayer({
+                    id: 'hospitals',
+                    type: 'symbol',
+                    source: {
                         type: 'geojson',
-                        data: {
-                            'type': 'FeatureCollection',
-                            'features': []
-                        }
-                    });
+                        data: hospitals
+                    },
+                    layout: {
+                        'icon-image': 'hospital',
+                        'icon-allow-overlap': true,
+                        'icon-size': 0.4
+                    },
+                    paint: {}
+                });
 
-             
+                map.addLayer({
+                    id: 'libraries',
+                    type: 'symbol',
+                    source: {
+                        type: 'geojson',
+                        data: libraries
+                    },
+                    layout: {
+                        'icon-image': 'library',
+                        'icon-allow-overlap': true,
+                        'icon-size': 0.4
+                    },
+                    paint: {}
+                });
+
+                map.addSource('nearest-hospital', {
+                    type: 'geojson',
+                    data: {
+                        'type': 'FeatureCollection',
+                        'features': []
+                    }
+                });
+
+
                 const popup = new mapboxgl.Popup();
 
                 map.on('mousemove', (event) => {
@@ -91,6 +111,7 @@
                     });
                     if (!features.length) {
                         popup.remove();
+                        map.getCanvas().style.cursor = '';
                         return;
                     }
 
@@ -101,7 +122,7 @@
                         .setHTML(feature.properties.Name)
                         .addTo(map);
 
-                    map.getCanvas().style.cursor = features.length ? 'pointer' : '';
+                    map.getCanvas().style.cursor = 'pointer';
                 });
 
                 map.on('click', (event) => {
@@ -141,7 +162,7 @@
             });
 
         };
-                geojsonFetch();
+        geojsonFetch();
     </script>
 </body>
 
