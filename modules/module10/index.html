@@ -38,10 +38,10 @@
 
 
         map.loadImage(
-            'img/h.png',
+            'img/h2.png',
             (error, image) => {
                 if (error) throw error;
-                map.addImage('hospital', image);
+                map.addImage('hospital2', image);
             });
 
             map.loadImage(
@@ -60,10 +60,9 @@
             libraries = await response.json()
 
 
-
-
-
             map.on('load', () => {
+
+
                 map.addLayer({
                     id: 'hospitals',
                     type: 'symbol',
@@ -72,7 +71,7 @@
                         data: hospitals
                     },
                     layout: {
-                        'icon-image': 'hospital',
+                        'icon-image': 'hospital2',
                         'icon-allow-overlap': true,
                         'icon-size': 0.4
                     },
