@@ -49,7 +49,7 @@ Data sources that you may find helpful:
 
 Please create a `new discussion` post to share your project to your classmate in the discussion board at our course repository. In the post you created, please share the content of the readme.me file for your final project. Please get it done by **Thursday (Dec 8th by 11:59pm)**.
 
-## 3\. Peer Review  (3PNTS per review 15PNTS in total)
+## 3\. Peer Review  (3PNTS per review，15PNTS in total)
 
 Each student will need to share some constructive comments to at least **FIVE** of your classmates' final projects. The comments need to be submitted as a new reply to the final project post in the discussion board. Your comment could start with something the map author does well, and then list a few items the author can improve in the future. Please get it done by **Sunday (Dec 12th by 11:59pm)**.
 
