@@ -42,7 +42,7 @@ The final project is a major component of this course. Each student is expected 
 
 ## 2\. Online Presentation  (15 PNTS)
 
-Please create a `new discussion` post to share your project to your classmate in the [discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project) at our course repository on GitHub. In the post you created, please share the content of the readme.me file for your final project. Please get it done by **Thursday (Dec 8th by 11:59pm)**.
+Please create a `new discussion` post to share your project to your classmate in the [discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project) at our course repository on GitHub. In the post you created, please share the url of your final project github repo and a summary of the readme.me file, a screenshot of your web gis application. Please get it done by **Thursday (Dec 8th by 11:59pm)**.
 
 ## 3\. Peer Review  (3 PNTS per review，15 PNTS in total)
 
