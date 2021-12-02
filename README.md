@@ -209,7 +209,7 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 
 **Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
 
-**Final Project:**  [Requirement](project.md)
+**Final Project:**  [Requirement](project/readme.md)
 
 
 ## :heavy_check_mark: Grading
