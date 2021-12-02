@@ -14,7 +14,7 @@ The final project is a major component of this course. Each student is expected 
 - You application will have base map and thematic map layers. 
     - You will need to design your own style of base map.  (15 PNTS)
     - The thematic layer(s) must to be hosted in the github repository as geojson data.  (25 PNTS)
-    > on your web gis application, please also incorporate a) legend, asynchronous data loading, title, and b) sidebar, toolbar, or console panel if/when necessary.
+    > on your web GIS application, please also incorporate a) legend, asynchronous data loading, title, and b) sidebar, toolbar, or console panel if/when necessary.
 
 - You need to create a `readme.md` file and save it in the root of the final project repository. This description must be **no less than 800 words**. In the repository, please describe the web map. Your description needs to include, but not limited to, the following items:  (40 PNTS)
     - Project title
@@ -42,7 +42,9 @@ The final project is a major component of this course. Each student is expected 
 
 ## 2\. Online Presentation  (15 PNTS)
 
-Please create a `new discussion` post to share your project to your classmate in the [discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project) at our course repository on GitHub. In the post you created, please share the url of your final project github repo and a summary of the readme.me file, a screenshot of your web gis application. Please get it done by **Thursday (Dec 8th by 11:59pm)**.
+Please create a `new discussion` post to share your project to your classmate in the [discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project) at our course repository on GitHub. In the post you created, please share the url of your final project github repo and a brief summary of the readme.me file, a screenshot of your web gis application. Please get it done by **Thursday (Dec 8th by 11:59pm)**. 
+
+> A post sample can be find from [here](https://github.com/jakobzhao/geog495/discussions/41).
 
 ## 3\. Peer Review  (3 PNTS per review，15 PNTS in total)
 
