@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Get started with the Isochrone API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Mapbox GL JS -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #console {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            /* height: 200px; */
+            background-color: white;
+            padding: 10px; 
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <div id="console">
+        <form id="params">
+            <h4>Choose a travel mode:</h4>
+            <div>
+                <label>
+                    <input name="profile" type="radio" value="walking" />
+                    <div>Walking</div>
+                </label>
+                <label>
+                    <input name="profile" type="radio" value="cycling" checked />
+                    <div>Cycling</div>
+                </label>
+                <label>
+                    <input name="profile" type="radio" value="driving" />
+                    <div>Driving</div>
+                </label>
+            </div>
+            <h4>Choose a maximum duration:</h4>
+            <div>
+                <label>
+                    <input name="duration" type="radio" value="10" checked />
+                    <div>10 min</div>
+                </label>
+                <label>
+                    <input name="duration" type="radio" value="20" />
+                    <div>20 min</div>
+                </label>
+                <label>
+                    <input name="duration" type="radio" value="30" />
+                    <div>30 min</div>
+                </label>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+
+        const map = new mapboxgl.Map({
+            container: 'map', // container id
+            style: 'mapbox://styles/mapbox/streets-v11', // stylesheet
+            center: [-77.0369, 38.895], // starting position [lng, lat]
+            zoom: 11.5 // starting zoom
+        });
+
+        // Target the params form in the HTML
+        const params = document.getElementById('params');
+
+        // Create variables to use in getIso()
+        const urlBase = 'https://api.mapbox.com/isochrone/v1/mapbox/';
+        const lon = -77.034;
+        const lat = 38.899;
+        let profile = 'cycling';
+        let minutes = 10;
+
+        // Set up a marker that you can use to show the query's coordinates
+        const marker = new mapboxgl.Marker({
+            'color': '#314ccd'
+        });
+
+        // Create a LngLat object to use in the marker initialization
+        // https://docs.mapbox.com/mapbox-gl-js/api/#lnglat
+        const lngLat = {
+            lon: lon,
+            lat: lat
+        };
+
+        // Create a function that sets up the Isochrone API query then makes a fetch call
+        async function getIso() {
+            const query = await fetch(
+                `${urlBase}${profile}/${lon},${lat}?contours_minutes=${minutes}&polygons=true&access_token=${mapboxgl.accessToken}`, {
+                    method: 'GET'
+                }
+            );
+            const data = await query.json();
+            // Set the 'iso' source's data to what's returned by the API query
+            map.getSource('iso').setData(data);
+        }
+
+        // When a user changes the value of profile or duration by clicking a button, change the parameter's value and make the API query again
+        params.addEventListener('change', (event) => {
+            if (event.target.name === 'profile') {
+                profile = event.target.value;
+            } else if (event.target.name === 'duration') {
+                minutes = event.target.value;
+            }
+            getIso();
+        });
+
+        map.on('load', () => {
+            // When the map loads, add the source and layer
+            map.addSource('iso', {
+                type: 'geojson',
+                data: {
+                    'type': 'FeatureCollection',
+                    'features': []
+                }
+            });
+
+            map.addLayer({
+                    'id': 'isoLayer',
+                    'type': 'fill',
+                    'source': 'iso',
+                    'layout': {},
+                    'paint': {
+                        'fill-color': '#5a3fc0',
+                        'fill-opacity': 0.3
+                    }
+                },
+                'poi-label'
+            );
+
+            // Initialize the marker at the query coordinates
+            marker.setLngLat(lngLat).addTo(map);
+
+            // Make the API call
+            getIso();
+        });
+    </script>
+</body>
+
+</html>
