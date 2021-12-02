@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Demo: Analyze data with Turf.js and Mapbox GL JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+    <!-- <script src="https://api.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js"></script> -->
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        const map = new mapboxgl.Map({
+            container: 'map', // container id
+            style: 'mapbox://styles/mapbox/light-v10', // stylesheet location
+            center: [-84.5, 38.05], // starting position
+            zoom: 12 // starting zoom
+        });
+
+
+
+        map.loadImage(
+            'img/h2.png',
+            (error, image) => {
+                if (error) throw error;
+                map.addImage('hospital2', image);
+            });
+
+
+        async function geojsonFetch() {
+
+            let response, hospitals;
+            response = await fetch('assets/hospital.json');
+            hospitals = await response.json();
+
+
+            map.on('load', () => {
+
+
+                map.addLayer({
+                    id: 'hospitals',
+                    type: 'symbol',
+                    source: {
+                        type: 'geojson',
+                        data: hospitals
+                    },
+                    layout: {
+                        'icon-image': 'hospital2',
+                        'icon-allow-overlap': true,
+                        'icon-size': 0.4
+                    },
+                    paint: {}
+                });
+
+
+                map.addSource('hospital-voronoi', {
+                    type: 'geojson',
+                    data: {
+                        'type': 'FeatureCollection',
+                        'features': []
+                    }
+                });
+
+
+                const popup = new mapboxgl.Popup();
+
+
+                map.on('click', (event) => {
+                    options = {
+
+                        bbox: [-84.6, 37.98, -84.4, 38.10]
+                    }
+                    const hosVoronoi = turf.voronoi(hospitals, options);
+
+                    if (hosVoronoi === null) return;
+                    map.getSource('hospital-voronoi').setData(hosVoronoi);
+
+                    if (map.getLayer('hospital-voronoi')) {
+                        map.removeLayer('hospital-voronoi');
+                    }
+
+                    map.addLayer({
+                            id: 'hospital-voronoi',
+                            'type': 'fill',
+                            source: 'hospital-voronoi',
+                            paint: {
+                                'fill-color': '#0080ff', // blue color fill
+                                'fill-opacity': 0.5
+                            }
+                        },
+                        'hospitals'
+                    );
+                });
+            });
+
+        };
+        geojsonFetch();
+    </script>
+</body>
+
+</html>
