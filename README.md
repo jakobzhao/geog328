@@ -1,5 +1,15 @@
 # GEOGRAPHY 495B: Web & Mobile GIS
 
+**Final Project Announcement:**
+   - [Requirement](project/readme.md)
+   - [Discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project)
+   - Deadlines
+      - share your final project on the discussion board by **Thursday (Dec 8th by 11:59pm)**.
+      - submit at least five pieces of peer review by  **Sunday (Dec 12th by 11:59pm)**.
+      - Submit your final project on canvas by the end of Week 11 **Sunday (Dec 12th) by 11:59 pm**.
+    - *Check the [requirement](project/readme.md) on how to share your final project on the discussion bard, leave a peer review, and submit your final project *.
+
+
 **Meetings:**
 -   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM
     - All the lectures prior to November 1st will be held on [Zoom](https://washington.zoom.us/j/98531562117), while ones after November 1st will be held in person in SIG 224;
