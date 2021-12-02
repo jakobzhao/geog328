@@ -188,7 +188,7 @@ This week will still focus on web-based spatial analysis. One is on nearest neig
 
 ### Week 11 : Summary
 
-The lecture on Tuesday will be cancelled. In the second lecture of this week, the instructor will share with you a summary of this course and some emerging topics to explore. 
+**The lecture on Tuesday will be cancelled.** Then you can focus on your final project. In the second lecture of this week, the instructor will share with you a summary of this course and some emerging topics that you can explore in the future. 
 
 
 <!-- Dec 6 -->
