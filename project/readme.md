@@ -8,11 +8,14 @@ The final project is a major component of this course. Each student is expected 
 
 - Host your project on github. By doing so, your project can be visited via a url link such as `[username].github.io/[repo_name]`. (15PNT)
 
-- the template of your web map should be any of the templates that we introduced in Week 7 - 11. If you are willing to do something else, please contact the Instructor to approve your request.  (25 PNT)
+- the template of your web map should be any of the templates (e.g., geocoding, turf based spatial functions, sorting, etc.) that we introduced in Week 7 - 11. If you are willing to do something else, please contact the Instructor to approve your request.  (25 PNT)
+- > In addition to the main map, please also design tool bar, side panel or console panel if needed.
+
 
 - You application will have base map and thematic map layers. 
     - You will need to design your own style of base map.  (15PNT)
     - The thematic layer(s) must to be hosted in the github repository as geojson data.  (25PNT)
+    - > legend, asychrnous data loading,etc.
 
 - You need to create a `readme.md` file and save it in the root of the final project repository. In the repository, please describe the web map. Your description needs to include, but not limited to, the following items:  (40PNT)
     - Project title
