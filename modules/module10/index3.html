@@ -72,7 +72,7 @@
                 });
 
 
-                map.addSource('hospital-voronoi', {
+                map.addSource('hospital-voronoi-data', {
                     type: 'geojson',
                     data: {
                         'type': 'FeatureCollection',
@@ -92,7 +92,7 @@
                     const hosVoronoi = turf.voronoi(hospitals, options);
 
                     if (hosVoronoi === null) return;
-                    map.getSource('hospital-voronoi').setData(hosVoronoi);
+                    map.getSource('hospital-voronoi-data').setData(hosVoronoi);
 
                     if (map.getLayer('hospital-voronoi')) {
                         map.removeLayer('hospital-voronoi');
@@ -101,7 +101,7 @@
                     map.addLayer({
                             id: 'hospital-voronoi',
                             'type': 'fill',
-                            source: 'hospital-voronoi',
+                            source: 'hospital-voronoi-data',
                             paint: {
                                 'fill-color': '#0080ff', // blue color fill
                                 'fill-opacity': 0.5
