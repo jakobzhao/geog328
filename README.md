@@ -7,7 +7,7 @@
       - share your final project on the discussion board by **Thursday (Dec 8th by 11:59pm)**.
       - submit at least five pieces of peer review by  **Sunday (Dec 12th by 11:59pm)**.
       - Submit your final project on canvas by the end of Week 11 **Sunday (Dec 12th) by 11:59 pm**.
-    - *Check the [requirement](project/readme.md) on how to share your final project on the discussion bard, leave a peer review, and submit your final project *.
+    - *Check the [requirement](project/readme.md) on how to share your final project on the discussion bard, leave a peer review, and submit your final project*.
 
 
 **Meetings:**
