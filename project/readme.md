@@ -17,16 +17,17 @@ The final project is a major component of this course. Each student is expected 
     > on your web GIS application, please also incorporate a) legend, asynchronous data loading, title, and b) sidebar, toolbar, or console panel if/when necessary.
 
 - You need to create a `readme.md` file and save it in the root of the final project repository. This description must be **no less than 800 words**. In the repository, please describe the web map. Your description needs to include, but not limited to, the following items:  (40 PNTS)
-    - Project title
-    - Project description
-    - Project goal (such as, what is the message you want to deliver through your project?)
-    - The application URL (not the repository url)
-    - Screenshots
-    - Main functions
-    - Data sources
-    - Applied libraries (e.g., mapbox gl js) and Web Services (e.g., github, basemap) in use
+    - Project title (3 PNTS)
+    - Project description (9 PNTS)
+    - Project goal (such as, what is the message you want to deliver through your project?) (9 PNTS)
+    - The application URL (not the repository url) (2 PNTS)
+    - Screenshots (2 PNTS)
+    - Main functions (5 PNTS)
+    - Data sources (3 PNTS)
+    - Applied libraries (e.g., mapbox gl js) and Web Services (e.g., github, basemap) in use (2 PNTS)
+    - Acknowledgment (2PNTS)
     - Other things that are necessary to inform the audience.
-    - Acknowledgment
+    - Your `readme.md` file should be well-formatted and free of grammatical errors (3 PNTS)
 
 **Geospatial Data sources that you may find helpful**
 
