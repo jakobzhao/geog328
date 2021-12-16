@@ -227,9 +227,9 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 | Grading items   | %   |
 | --------------- | --- |
 | Participation   | 5%  |
-| Quizzes         | 25% |
-| Lab Assignments | 30% |
-| Final project   | 15% |
+| Quizzes         | 30% |
+| Lab Assignments | 40% |
+| Final project   | 25% |
 
 > The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function). 
 
