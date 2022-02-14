@@ -21,10 +21,11 @@ Web GIS, the combination of web, mobile technology, and GIS, is a promising and 
 
 ## :dart: Course Objectives
 
-- grasp the fundamental knowledge of web systematic architecture, GIS project management, geospatial data client, server, and web based spatial analyses.
-- develop web based GIS applications using either open source or proprietary geospatial web frameworks.
-- demonstrate competence with hands-on experiences in managing web GIS projects (e.g., web server, apache 2 server, tomcat, etc), coding with latest web technologies (e.g., html, css, javascript), getting familiar with web based geospatial cloud technologies (e.g., mapbox, leaflet, openstreetmaps, etc.), and conducting spatial analysis on the web.
-- assess the user experience of a real-world web GIS application, and reflect upon its social implications (e.g., geo-privacy, national security, deepfake, etc)
+- Grasp the fundamental knowledge of web systematic architecture, GIS project management, geospatial data client, server, and web based spatial analyses.
+- Develop web based GIS applications using either open source or proprietary geospatial web frameworks.
+- Demonstrate competence with hands-on experiences in managing web GIS projects (e.g., web server, apache 2 server, tomcat, etc.), coding with latest web technologies (e.g., html, css, JavaScript), getting familiar with web based geospatial cloud technologies (e.g., mapbox, leaflet, openstreetmaps, etc.), and conducting spatial analysis on the web.
+- Assess the user experience of a real-world web GIS application, and reflect upon its social implications (e.g., geo-privacy, national security, deepfake, etc.)
+
 
 
 **The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on the github repository front page. Please ensure to check it frequently.** If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu).
@@ -73,7 +74,7 @@ Today, almost everyone have used the Internet for some purposes. To develop Web,
 
 <!-- Oct 11 -->
 
-To build websites, you should know about HTML, CSS and JavaScript. HTML is the the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. We will spend two weeks to focus on these three primary coding languages of the Web. This week introduces you to HTML and CSS. To evaluate your learning outcomes,  we offered two quizzes and a lab for your practice. 
+To build websites, you should know about HTML, CSS and JavaScript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. We will spend two weeks to focus on these three primary coding languages of the Web. This week introduces you to HTML and CSS. To evaluate your learning outcomes,  we offered two quizzes and a lab for your practice. 
 
 -   **Readings:** 
     - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). This document sets the stage, getting you used to important concepts and syntax, looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a webpage. *The section on "Debugging HTML" and the two following assessments are not required.* 
