@@ -19,7 +19,7 @@
 
 Web GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. To cultivate the spirit of open source, all the required software, packages are open source, and the course handout will be shared on GitHub. To promote the equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including the web architecture, front-end coding, responsive design, web based spatial analyses.
 
-**Course Objectives**
+## :target: Course Objectives
 
 - grasp the fundamental knowledge of web systematic architecture, GIS project management, geospatial data client, server, and web based spatial analyses.
 - develop web based GIS applications using either open source or proprietary geospatial web frameworks.
