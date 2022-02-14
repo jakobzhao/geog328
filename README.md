@@ -1,16 +1,6 @@
-# GEOGRAPHY 495B: Web & Mobile GIS
+# GEOGRAPHY 495B: Web Programming for GIS Applications
 
-**Final Project Announcement:**
-   - [Requirement](project/readme.md)
-   - [Discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project)
-   - Deadlines
-      - share your final project on the discussion board by **Thursday (Dec 9th by 11:59pm)**.
-      - submit at least five pieces of peer review by  **Sunday (Dec 12th by 11:59pm)**.
-      - Submit your final project on canvas by the end of Week 11 **Sunday (Dec 12th) by 11:59 pm**.
-    - *Check the [requirement](project/readme.md) on how to share your final project on the discussion board, leave a peer review, and submit your final project*.
-
-
-**Meetings:**
+**Meetings:*
 -   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM
     - All the lectures prior to November 1st will be held on [Zoom](https://washington.zoom.us/j/98531562117), while ones after November 1st will be held in person in SIG 224;
     - If you happen to be on campus during the lecture session, feel free to use SIG 224 to remotely access the lectures;
@@ -27,7 +17,7 @@
 ![course cover](assets/img/cover.jpg)
 
 
-Web & Mobile GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web & mobile GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. To cultivate the spirit of open source, all the required software, packages are open source, and the course handout will be shared on GitHub. To promote the equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including the web architecture, front-end coding, responsive design, web based spatial analyses.
+Web GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web & mobile GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. To cultivate the spirit of open source, all the required software, packages are open source, and the course handout will be shared on GitHub. To promote the equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including the web architecture, front-end coding, responsive design, web based spatial analyses.
 
 **The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on the github repository front page. Please ensure to check it frequently.** If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu).
 
@@ -57,7 +47,7 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
 
 <!-- Oct 4 -->
 
-Today, almost everyone have used the Internet for some purposes. To develop Web or Mobile GIS, you need to dive into some more fundamentals of the Web. So, in this week, you will learn the basics of the web, its mechanics and standards. To maximize your learning outcome,  we highly encourage you to read over the reading materials before the lectures. To test how well you are familiar with the reading materials and the lecture content, you need to complete the Quiz 1 all by yourself before the due day. 
+Today, almost everyone have used the Internet for some purposes. To develop Web, you need to dive into some more fundamentals of the Web. So, in this week, you will learn the basics of the web, its mechanics and standards. To maximize your learning outcome,  we highly encourage you to read over the reading materials before the lectures. To test how well you are familiar with the reading materials and the lecture content, you need to complete the Quiz 1 all by yourself before the due day. 
     
 -   **Readings:** 
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
