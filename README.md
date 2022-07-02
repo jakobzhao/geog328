@@ -84,7 +84,7 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 -   [Lecture Slides](modules/module03/module03.pdf) 
--   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues in Human Geography-2020-Mooney-Juhasz-Mapping COVID-19- How web-based maps contribute to the infodemic_2.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 3` `Thinkpiece #1 comments due by the end of week 4`
+-   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 3` `Thinkpiece #1 comments due by the end of week 4`
 -   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) 
 -   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) 
 -   **Lab 2:** [Responsive web page design](labs/lab02) `Due by the end of week 4`
@@ -138,7 +138,7 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 -   **Presentation 5 & 6**
     
--   **Thinkpiece #2**: Main article - [Humanistic GIS: Toward a Research Agenda](readings/thinkpiece2/Humanistic GIS: Toward a Research Agenda.pdf), [Extended readings](readings/thinkpiece2) `Thinkpiece #2 post due by the end of week 6` `Thinkpiece #2 comments due by the end of week 7`
+-   **Thinkpiece #2**: Main article - [Humanistic GIS: Toward a Research Agenda](readings/thinkpiece2/Humanistic-GIS-Toward-a-Research-Agenda.pdf), [Extended readings](readings/thinkpiece2) `Thinkpiece #2 post due by the end of week 6` `Thinkpiece #2 comments due by the end of week 7`
     
 -   **Readings:**
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
