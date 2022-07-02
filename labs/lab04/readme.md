@@ -188,7 +188,7 @@ Then, we will again use the `async function` for our following operations, inclu
 ```javascript
 async function geojsonFetch() { 
     // other operations
- };
+}
 
 geojsonFetch();
 ```

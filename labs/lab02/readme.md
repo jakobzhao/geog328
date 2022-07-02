@@ -200,7 +200,7 @@ function responsive_control() {
   } else {
     x.className = "topnav";
   }
-}
+};
 ```
 
 Now you should have a good understanding of how this website template works!

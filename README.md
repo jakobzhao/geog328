@@ -50,7 +50,7 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
 
     
 
--   **Lab 1:** [Project management using GitHub](labs/lab01) `Due: Oct 8th, by 11:59pm`
+-   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by the end of week 1`
 
 ### Week 2: Web Fundamentals
 
@@ -83,12 +83,11 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) In CSS, selectors are used to target the HTML elements on our web pages that we want to style. There are a wide variety of CSS selectors available, allowing for fine-grained precision when selecting elements to style. In this article and its sub-articles we'll run through the different types in great detail, seeing how they work.
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
-
--  [Lecture Slides](modules/module03/module03.pdf) 
-
--   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due: Oct 15th, by 11:59pm`
--   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due: Oct 17th, by 11:59pm`
--   **Lab 2:** [Responsive web page design](labs/lab02) `Due: Oct 22nd, by 11:59pm`
+-   [Lecture Slides](modules/module03/module03.pdf) 
+-   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues in Human Geography-2020-Mooney-Juhasz-Mapping COVID-19- How web-based maps contribute to the infodemic_2.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 3` `Thinkpiece #1 comments due by the end of week 4`
+-   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) 
+-   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) 
+-   **Lab 2:** [Responsive web page design](labs/lab02) `Due by the end of week 4`
 
 
 ### Week 4: Front-end Coding: Javascript and GeoJSON
@@ -112,8 +111,10 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
--   **Quiz 4:** [Javascript Fundamentals](labs/lab03) `Due: Oct 22th, by 11:59pm`
--   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due: Oct 29th, by 11:59pm`
+-  **Presentation 1 & 2**
+
+-   **Quiz 4:** [Javascript Fundamentals](labs/lab03) 
+-   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6`
 
 
 ### Week 5: Geospatial Web Server
@@ -122,6 +123,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 
 <!-- Oct 25 -->
 
+-   **Presentation 3 & 4**
 -   **Readings:**
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
@@ -134,12 +136,16 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 <!-- Nov 1 -->
 
+-   **Presentation 5 & 6**
+    
+-   **Thinkpiece #2**: Main article - [Humanistic GIS: Toward a Research Agenda](readings/thinkpiece2/Humanistic GIS: Toward a Research Agenda.pdf), [Extended readings](readings/thinkpiece2) `Thinkpiece #2 post due by the end of week 6` `Thinkpiece #2 comments due by the end of week 7`
+    
 -   **Readings:**
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
     - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
     list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
 
--   **Lab 4:** [Interactive web mapping](labs/lab04) `Due: Nov 12th, by 11:59pm`
+-   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by the end of week 8`
 
 
 
@@ -149,6 +155,7 @@ In this week, we will start a series of lectures on web-based spatial analysis. 
 
 <!-- Nov 8 -->
 
+-   **Presentation 7 & 8**
 -   **Readings:** 
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
@@ -170,6 +177,7 @@ In this week, we will introduce how to deal with time on the web. During the lec
 
 <!-- Nov 22 -->
 
+-   **Presentation 9 & 10**
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
 
@@ -214,21 +222,24 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 
 **Labs:** You need to finish all four labs by the due date. In order to help you work on each lab, we will walk through most of the labs during the lab sessions. If you have any questions about the lab, please look for tech support from the TA. 
 
-**Quizzes：** In the first half of the quarter, we have set up four quizzes to help you get familiar with the web and front-end coding. For each quiz, you have unlimited time to answer it. You can refer to any lecture notes or internet resource to answer it, but you can only just try each quiz once. Please work on each quiz ALL BY YOURSELF. 
+**In-class presentation:** Each group will lead the presentation about an assigned topic at least once throughout this quarter. We will start assign the group presentation assignment in Week 4. Each group will present an pre-assigned web GIS related example or tutorial. If you prepare slides for the presentation, please send it to the instructor before class via email.
+
+**Think Pieces:** For week 3 and 6, there will be reading assignments. To evaluate your reflection upon each week's reading material, we set up a discussion board for the weeks. You need to submit your written response (think piece) to the assigned readings. Your think pieces should be at least 350 words and engage substantially with the reading materials, and connections to the lab assignments and lectures. Guiding questions or prompts will be included in each week's discussion section on canvas to help frame your thinking. After each think piece post is due, you will have one week to read your classmates' thinkpieces and then provide comments or thoughts on your classmates thoughts. You should submit at least two meaningful comments, with each of them being 100 words or more. Submit your think pieces on Canvas in the applicable week's discussion section (https://canvas.uw.edu/courses/1434645/discussion_topics).
 
 **Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
 
-**Final Project:**  [Requirement](project/readme.md)
+**Final Project:**  Final project will be conducted by a group of 4 to 5 students who are from the same Lab session. It needs to be submitted by June 8th, 11:59pm. Check out [the detailed requirement for final project](project/readme.md).project/readme.md)
 
 
 ## :heavy_check_mark: Grading
 
-| Grading items   | %   |
-| --------------- | --- |
-| Participation   | 5%  |
-| Quizzes         | 30% |
-| Lab Assignments | 40% |
-| Final project   | 25% |
+| Grading items         | %    |
+| --------------------- | ---- |
+| Participation         | 10%  |
+| In-class Presentation | 10%  |
+| Thinkpiece            | 10%  |
+| Lab Assignments       | 40%  |
+| Final Project         | 30%  |
 
 > The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function). 
 

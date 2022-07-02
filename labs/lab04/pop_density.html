@@ -88,7 +88,7 @@
     <div id="map"></div>
     <div class='map-overlay' id='features'>
         <h2>US population density</h2>
-        <div id='text-escription'>
+        <div id='text-description'>
             <p>Hover over a state!</p>
         </div>
     </div>
@@ -189,7 +189,7 @@
                 const state = map.queryRenderedFeatures(point, {
                     layers: ['stateData-layer']
                 });
-                document.getElementById('text-escription').innerHTML = state.length ?
+                document.getElementById('text-description').innerHTML = state.length ?
                     `<h3>${state[0].properties.name}</h3><p><strong><em>${state[0].properties.density}</strong> people per square mile</em></p>` :
                     `<p>Hover over a state!</p>`;
             });
