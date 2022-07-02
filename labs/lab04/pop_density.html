@@ -106,19 +106,19 @@
 
         // load data and add as layer
         async function geojsonFetch() {
-            let response = await fetch('assets/stateData.geojson');
-            let stateData = await response.json();
+            let response = await fetch('assets/state_data.geojson');
+            let state_data = await response.json();
 
             map.on('load', function loadingData() {
-                map.addSource('stateData', {
+                map.addSource('state_data', {
                     type: 'geojson',
-                    data: stateData
+                    data: state_data
                 });
 
                 map.addLayer({
-                    'id': 'stateData-layer',
+                    'id': 'state_data_layer',
                     'type': 'fill',
-                    'source': 'stateData',
+                    'source': 'state_data',
                     'paint': {
                         'fill-color': [
                             'step',
@@ -187,7 +187,7 @@
 
             map.on('mousemove', ({point}) => {
                 const state = map.queryRenderedFeatures(point, {
-                    layers: ['stateData-layer']
+                    layers: ['state_data_layer']
                 });
                 document.getElementById('text-description').innerHTML = state.length ?
                     `<h3>${state[0].properties.name}</h3><p><strong><em>${state[0].properties.density}</strong> people per square mile</em></p>` :
