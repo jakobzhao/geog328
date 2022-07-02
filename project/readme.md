@@ -4,7 +4,26 @@
 
 **Due:** Dec 12th, by 11:59pm | **Points Available** = 150
 
-The final project is a major component of this course. Each student is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. The final project must satisfy the following items:
+The final project is a major component of this course. Each student is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. Each group will need to choose one from the templates listed below for your final project. In principal, each group will have a unique template to build upon their project so that there would be a diversity in the final project. *Therefore, we encourage to connect with your group members as early as possible, since groups that make decisions later will have few options to choose from.*
+
+List of templates
+
+| Template | Assigned Group | Note |
+| -------- | -------------- | ---- |
+| 1        |                |      |
+| 2        |                |      |
+| 3        |                |      |
+| 4        |                |      |
+| 5        |                |      |
+| 6        |                |      |
+| 7        |                |      |
+| 8        |                |      |
+| 9        |                |      |
+| 10       |                |      |
+
+
+
+The final project should satisfy the following items:
 
 - Host your project on github. By doing so, your project can be visited via a url link such as `[username].github.io/[repo_name]`. (5pts)
 
