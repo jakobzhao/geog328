@@ -12,7 +12,7 @@ If you prepare slides for the presentation, please send it to the instructor bef
 
 
 
-Below are the list of topics for presentation:
+Below are the list of topics for presentation. We will assign the topic to each group during the quarter.
 
 - Create a time slider
   - https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/
