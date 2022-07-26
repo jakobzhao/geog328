@@ -167,6 +167,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Final Project:** [Web GIS Application](project/readme.md) 
+-   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog495/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8`
 
 ### Week 9 : Dealing with Time on the Web
 
@@ -177,6 +178,7 @@ In this week, we will introduce how to deal with time on the web. During the lec
 -   **Presentation 9 & 10**
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
+-   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog495/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9`
 
 
 ### Week 10 : Web-based Spatial Analysis II
