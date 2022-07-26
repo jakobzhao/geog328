@@ -67,7 +67,7 @@ Today, almost everyone have used the Internet for some purposes. To develop Web,
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
 
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) `Due: Oct 8th, by 11:59pm`
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) `Due by the end of week 2`
 
 
 ### Week 3: Front-end Coding: HTML and CSS
@@ -84,9 +84,8 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 -   [Lecture Slides](modules/module03/module03.pdf) 
--   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 3` `Thinkpiece #1 comments due by the end of week 4`
--   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) 
--   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) 
+-   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due by the end of week 3`
+-   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due by the end of week 3`
 -   **Lab 2:** [Responsive web page design](labs/lab02) `Due by the end of week 4`
 
 
@@ -113,8 +112,9 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  **Presentation 1 & 2**
 
--   **Quiz 4:** [Javascript Fundamentals](labs/lab03) 
+-   **Quiz 4:** [Javascript Fundamentals](labs/lab03) `Due by the end of week 4`
 -   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6`
+-   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 5` `Thinkpiece #1 comments due by the end of week 6`
 
 
 ### Week 5: Geospatial Web Server
@@ -137,15 +137,12 @@ In this week, we will introduce you to map making on the web. The web based inte
 <!-- Nov 1 -->
 
 -   **Presentation 5 & 6**
-    
--   **Thinkpiece #2**: Main article - [Humanistic GIS: Toward a Research Agenda](readings/thinkpiece2/Humanistic-GIS-Toward-a-Research-Agenda.pdf), [Extended readings](readings/thinkpiece2) `Thinkpiece #2 post due by the end of week 6` `Thinkpiece #2 comments due by the end of week 7`
-    
 -   **Readings:**
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
     - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
     list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
-
 -   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by the end of week 8`
+-   **Thinkpiece #2**: Main article - [Humanistic GIS: Toward a Research Agenda](readings/thinkpiece2/Humanistic-GIS-Toward-a-Research-Agenda.pdf), [Extended readings](readings/thinkpiece2) `Thinkpiece #2 post due by the end of week 7` `Thinkpiece #2 comments due by the end of week 8`
 
 
 
@@ -224,7 +221,7 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 
 **In-class presentation:** Each group will lead the presentation about an assigned topic at least once throughout this quarter. We will start assign the group presentation assignment in Week 4. Each group will present an pre-assigned web GIS related example or tutorial. If you prepare slides for the presentation, please send it to the instructor before class via email.
 
-**Think Pieces:** For week 3 and 6, there will be reading assignments. To evaluate your reflection upon each week's reading material, we set up a discussion board for the weeks. You need to submit your written response (think piece) to the assigned readings. Your think pieces should be at least 350 words and engage substantially with the reading materials, and connections to the lab assignments and lectures. Guiding questions or prompts will be included in each week's discussion section on canvas to help frame your thinking. After each think piece post is due, you will have one week to read your classmates' thinkpieces and then provide comments or thoughts on your classmates thoughts. You should submit at least two meaningful comments, with each of them being 100 words or more. Submit your think pieces on Canvas in the applicable week's discussion section (https://canvas.uw.edu/courses/1434645/discussion_topics).
+**Think Pieces:** For week 5 and 7, there will be reading assignments. To evaluate your reflection upon each week's reading material, we set up a discussion board for the weeks. You need to submit your written response (think piece) to the assigned readings. Your think pieces should be at least 350 words and engage substantially with the reading materials, and connections to the lab assignments and lectures. Guiding questions or prompts will be included in each week's discussion section on canvas to help frame your thinking. After each think piece post is due, you will have one week to read your classmates' thinkpieces and then provide comments or thoughts on your classmates thoughts. You should submit at least two meaningful comments, with each of them being 100 words or more. Submit your think pieces on Canvas in the applicable week's discussion section (https://canvas.uw.edu/courses/1434645/discussion_topics).
 
 **Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
 
@@ -235,11 +232,12 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 
 | Grading items         | %    |
 | --------------------- | ---- |
-| Participation         | 10%  |
-| In-class Presentation | 10%  |
-| Thinkpiece            | 10%  |
+| Participation         | 5%   |
+| In-class Presentation | 6%   |
+| Thinkpiece            | 8%   |
+| Quizzes               | 16%  |
 | Lab Assignments       | 40%  |
-| Final Project         | 30%  |
+| Final Project         | 25%  |
 
 > The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function). 
 
