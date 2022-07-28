@@ -6,22 +6,9 @@
 
 The final project is a major component of this course. Each student is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. Each group will need to choose one from the templates listed below for your final project. In principal, each group will have a unique template to build upon their project so that there would be a diversity in the final project. *Therefore, we encourage to connect with your group members as early as possible, since groups that make decisions later will have few options to choose from.*
 
-List of templates
+**Here is the link to the google sheet for project sign-up:**
 
-| Template | Assigned Group | Note |
-| -------- | -------------- | ---- |
-| 1        |                |      |
-| 2        |                |      |
-| 3        |                |      |
-| 4        |                |      |
-| 5        |                |      |
-| 6        |                |      |
-| 7        |                |      |
-| 8        |                |      |
-| 9        |                |      |
-| 10       |                |      |
-
-
+**https://docs.google.com/spreadsheets/d/1gpzj7CVu9lKSk0NCGZOrdndWYD6RCQx42b45fFY-3rc/edit?usp=sharing**
 
 The final project should satisfy the following items:
 
@@ -76,17 +63,9 @@ Data processing is always an important step for creating web GIS applications. B
 
 #### Week 10 - Project development
 
+## Presentation (20pts+10pts)
 
-
-## Online Presentation  (15pts)
-
-Please create a `new discussion` post to share your project to your classmate in the [discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project) at our course repository on GitHub. In the post you created, please share the url of your final project github repo and a brief summary of the readme.me file, a screenshot of your web gis application. Please get it done by **Thursday (Dec 9th by 11:59pm)**. 
-
-> A post sample can be find from [here](https://github.com/jakobzhao/geog495/discussions/41).
-
-## Peer Review  (3pts per review，15pts in total)
-
-Each student will need to share some constructive comments to at least **FIVE** of your classmates' final projects. The comments need to be submitted as a new reply to the final project post in [the discussion board](https://github.com/jakobzhao/geog495/discussions/categories/final-project). Your comment could start with something the map author does well, and then list a few items the author can improve in the future. Please get it done by **Sunday (Dec 12th by 11:59pm)**.
+Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting during the final's week (exact time TBA), each group is expected to present the final project in 8 minutes. After each group presents their project, there will be a 3-minute Q&A session during which other groups would ask questions or offer feedbacks. Each group is required to speak at least twice during the Q&A sessions (i.e., ask questions or offer feedbacks after two different presentations). 20 pts will be for the presentation and 5 pts for each question or piece of feedback offered.
 
 
 ## Submission
