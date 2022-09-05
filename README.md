@@ -1,4 +1,4 @@
-# GEOGRAPHY 495B: Web Programming for GIS Applications
+# GEOGRAPHY 495B:  Programming for Web GIS
 
 **Meetings:**
 -   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM
