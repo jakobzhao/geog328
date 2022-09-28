@@ -1,18 +1,15 @@
-# GEOGRAPHY 495B:  Programming for Web GIS
+# GEOGRAPHY 495B:  Web GIS
 
 **Meetings:**
--   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM
-    - All the lectures prior to November 1st will be held on [Zoom](https://washington.zoom.us/j/98531562117), while ones after November 1st will be held in person in SIG 224;
-    - If you happen to be on campus during the lecture session, feel free to use SIG 224 to remotely access the lectures;
-    - Watch the [recorded lectures](https://canvas.uw.edu/courses/1479441/pages/recorded-lectures).
+-   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM SMI 105
 -   **Labs:** Friday 12:30 - 1:20 PM (BA) and 1:30 -  1:20 PM (BB) in [SMI 401](https://www.google.com/maps/place/Smith+Hall+(SMI)/@47.6564039,-122.3096954,17z/data=!3m1!4b1!4m5!3m4!1s0x5490148d3c47332b:0x804039aa1d9e590b!8m2!3d47.6563716!4d-122.3074586)
 
 **Instructional Team:**
 
--   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3 to 6:00 PM on [Zoom](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) or by appointment
--   **Steven Bao**, Teaching Assistant, bxq98@uw.edu |  Office Hour: Thursdays 11:00 AM to 12:30 PM  on [Zoom](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UURaSkhXOURSSUd4fGRlZmF1bHR8Y2I1OTM0ODUyODg3ZDZiNWZiYjVlOTY3MjhmMWMwYjQ) or by appointment
+-   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM by [appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI)
+-   **Steven Bao**, Teaching Assistant, bxq98@uw.edu |  Office Hour: TBD
 
-> _This web page is the syllabus - There is no printed version, please refer here instead. Make sure refer to this page as often as possible. Also, Feel free to ask the instructor for clarifications whenever needed._
+> _This web page is the syllabus. The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on this web page. Please ensure to check it frequently. If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu)_
 
 ![course cover](assets/img/cover.jpg)
 
@@ -25,11 +22,6 @@ Web GIS, the combination of web, mobile technology, and GIS, is a promising and 
 - Develop web based GIS applications using either open source or proprietary geospatial web frameworks.
 - Demonstrate competence with hands-on experiences in managing web GIS projects (e.g., web server, apache 2 server, tomcat, etc.), coding with latest web technologies (e.g., html, css, JavaScript), getting familiar with web based geospatial cloud technologies (e.g., mapbox, leaflet, openstreetmaps, etc.), and conducting spatial analysis on the web.
 - Assess the user experience of a real-world web GIS application, and reflect upon its social implications (e.g., geo-privacy, national security, deepfake, etc.)
-
-
-
-**The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on the github repository front page. Please ensure to check it frequently.** If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu).
-
 
 ## :calendar: Weekly Schedule
 
@@ -58,7 +50,7 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
 
 Today, almost everyone have used the Internet for some purposes. To develop Web, you need to dive into some more fundamentals of the Web. So, in this week, you will learn the basics of the web, its mechanics and standards. To maximize your learning outcome,  we highly encourage you to read over the reading materials before the lectures. To test how well you are familiar with the reading materials and the lecture content, you need to complete the Quiz 1 all by yourself before the due day. 
     
--   **Readings:** 
+-   **Readings:**
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
