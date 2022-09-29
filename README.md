@@ -234,8 +234,7 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 | Lab Assignments       | 40%  |
 | Final Project         | 25%  |
 
-> The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function). 
-
+> The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function).
 
 ## :notebook_with_decorative_cover: Equity & Inclusivity
 
