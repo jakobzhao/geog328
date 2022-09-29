@@ -2,7 +2,7 @@
 
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
 
-**Due:** Oct 8th, by 11:59pm | **Points Available** = 50
+**Due:** Oct 9th, by 11:59pm | **Points Available** = 50
 
 In this lab, we will briefly introduce how to set up the project environment, how to synchronize the course material, and more importantly to help you get familiar with the major operations on project management using GitHub. You will need to install the required software on your own PC or Mac, register a GitHub account, and then learn how to use git, visual studio code and github. To test the learning outcomes, you will be asked to create a GitHub repository to publish your wiki page on the web. Okay, let us get started!
 
@@ -27,7 +27,7 @@ Visual Studio Code is a customizable IDE, so to fully prepare it for web program
 
 - Markdown Preview Enhanced
 - Live Server
-- Beautify
+- Beautify (Recently this extension has been marked as "deprecated" as it is no longer being maintained. You may choose to install it or not. But we think this is still a very handy tool for quickly formatting and styling the code.)
 
 ![install-vscodeext](img/install-vscodeext.png)
 

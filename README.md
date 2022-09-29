@@ -43,7 +43,7 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
 
     
 
--   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by the end of week 1`
+-   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by the end of week 1 (Oct. 9th, 23:59)`
 
 ### Week 2: Web Fundamentals
 
@@ -60,7 +60,7 @@ Today, almost everyone have used the Internet for some purposes. To develop Web,
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
 
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1604818/quizzes/1531301) `Due by the end of week 2`
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1604818/quizzes/1748487) `Due by the end of week 2 (Oct. 16th, 23:59)`
 
 
 ### Week 3: Front-end Coding: HTML and CSS
@@ -77,9 +77,9 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 -   [Lecture Slides](modules/module03/module03.pdf) 
--   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1531299) `Due by the end of week 3`
--   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1531540) `Due by the end of week 3`
--   **Lab 2:** [Responsive web page design](labs/lab02) `Due by the end of week 4`
+-   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748488) `Due by the end of week 3 (Oct. 23rd, 23:59)`
+-   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748485) `Due by the end of week 3 (Oct. 23rd, 23:59)` 
+-   **Lab 2:** [Responsive web page design](labs/lab02) `Due by the end of week 4 (Oct. 30th, 23:59)`
 
 
 ### Week 4: Front-end Coding: Javascript and GeoJSON
@@ -105,9 +105,9 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  **Presentation 1 & 2**
 
--   **Quiz 4:** [Javascript Fundamentals](labs/lab03) `Due by the end of week 4`
--   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6`
--   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 5` `Thinkpiece #1 comments due by the end of week 6`
+-   **Quiz 4:** [Javascript Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748486) `Due by the end of week 4 (Oct. 30th, 23:59)`
+-   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6 (Nov. 13th, 23:59)`
+-   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 5 (Nov. 6th, 23:59)` `Thinkpiece #1 comments due by the end of week 6 (Nov. 13th, 23:59)`
 
 
 ### Week 5: Geospatial Web Server
@@ -135,8 +135,8 @@ In this week, we will introduce you to map making on the web. The web based inte
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
     - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
     list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
--   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by the end of week 8`
--   **Thinkpiece #2**: Main article - [Humanistic GIS: Toward a Research Agenda](readings/thinkpiece2/Humanistic-GIS-Toward-a-Research-Agenda.pdf), [Extended readings](readings/thinkpiece2) `Thinkpiece #2 post due by the end of week 7` `Thinkpiece #2 comments due by the end of week 8`
+-   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by the end of week 8 (Nov. 27th, 23:59)`
+-   **Thinkpiece #2**: Main article - [Humanistic GIS: Toward a Research Agenda](readings/thinkpiece2/Humanistic-GIS-Toward-a-Research-Agenda.pdf), [Extended readings](readings/thinkpiece2) `Thinkpiece #2 post due by the end of week 7 (Nov. 20th, 23:59)` `Thinkpiece #2 comments due by the end of week 8 (Nov. 27th, 23:59)`
 
 
 
@@ -163,7 +163,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Final Project:** [Web GIS Application](project/readme.md) 
--   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog495/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8`
+-   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog495/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8 (Nov. 13th, 23:59)`
 
 ### Week 9 : Dealing with Time on the Web
 
@@ -174,7 +174,7 @@ In this week, we will introduce how to deal with time on the web. During the lec
 -   **Presentation 9 & 10**
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
--   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog495/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9`
+-   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog495/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9 (Dec. 4th, 23:59)`
 
 
 ### Week 10 : Web-based Spatial Analysis II

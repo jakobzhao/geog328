@@ -2,7 +2,7 @@
 
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
 
-**Due:** Oct 29th, by 11:59pm | **Points Available** = 50
+**Due:** Nov 13th, by 11:59pm | **Points Available** = 50
 
 In this lab, we will exercise on loading geoJSON data asynchronously and visualize the data as table and map. Loading geospatial data will be frequently implemented in a Web or Mobile GIS. This lab will prepare you for this fundamental skill. With it, you can conduct more advanced geospatial analyses upon the loaded dataset. More specific, you will load two pieces of geojson data - one is a point format for the global distributed earthquakes, the other is a polygon format for all the counties in Japan. Once the data were loaded, the earthquake data will be shown in a table on the left of the window screen. The table can also sorted by the earthquake magnitude. The earthquake and the county boundaries can be plotted to the map on the right of the window screen. The map is built upon the mapbox library. At the end of this lab, you will be asked to create a web page in the same function but use another pieces of geospatial data. 
 

@@ -2,7 +2,7 @@
 
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
 
-**Due:** Oct 22nd, by 11:59pm | **Points Available** = 50
+**Due:** Oct 30th, by 11:59pm | **Points Available** = 50
 
 In this lab, we will exercise on how to build a simple website with a responsive (i.e., being able to change its layout based on the size of the screen) navigation bar. You will practice writing code in HTML, CSS, and JavaScript, and then combine them together to create your own website. At the end of this lab, you will be asked to convert the wiki page you created in lab 1 into a website.
 
