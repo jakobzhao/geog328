@@ -1,8 +1,10 @@
 # GEOGRAPHY 495B:  Web GIS
 
 **Meetings:**
+
 -   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM SMI 105
--   **Labs:** Friday 12:30 - 1:20 PM (BA) and 1:30 -  1:20 PM (BB) in [SMI 401](https://www.google.com/maps/place/Smith+Hall+(SMI)/@47.6564039,-122.3096954,17z/data=!3m1!4b1!4m5!3m4!1s0x5490148d3c47332b:0x804039aa1d9e590b!8m2!3d47.6563716!4d-122.3074586)
+-   **Labs:** Friday 12:30 - 1:20 PM (BA) and 1:30 -  1:20 PM (BB) in SMI 401
+
 
 **Instructional Team:**
 
@@ -12,7 +14,6 @@
 > _This web page is the syllabus. The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on this web page. Please ensure to check it frequently. If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu)_
 
 ![course cover](assets/img/cover.jpg)
-
 
 Web GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. To cultivate the spirit of open source, all the required software, packages are open source, and the course handout will be shared on GitHub. To promote the equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including the web architecture, front-end coding, responsive design, web based spatial analyses.
 
@@ -30,12 +31,12 @@ Web GIS, the combination of web, mobile technology, and GIS, is a promising and 
 
 ### Week 1: Intro to Web GIS
 
-<!-- Sept 29 -->
+<!-- Oct 3 -->
 
 The first lecture introduces you to the fundamentals of Web GIS. Over this quarter, you wil frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web based project using GitHub.
 
 -   **Readings:** 
-    - [Intro to Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81407677)
+    - [Intro to Web GIS](https://canvas.uw.edu/courses/1604818/files/folder/assets?preview=81407677)
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module01/readme.md) `of this week.`
@@ -46,7 +47,7 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
 
 ### Week 2: Web Fundamentals
 
-<!-- Oct 4 -->
+<!-- Oct 10 -->
 
 Today, almost everyone have used the Internet for some purposes. To develop Web, you need to dive into some more fundamentals of the Web. So, in this week, you will learn the basics of the web, its mechanics and standards. To maximize your learning outcome,  we highly encourage you to read over the reading materials before the lectures. To test how well you are familiar with the reading materials and the lecture content, you need to complete the Quiz 1 all by yourself before the due day. 
     
@@ -54,17 +55,17 @@ Today, almost everyone have used the Internet for some purposes. To develop Web,
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
-    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1479441/files/folder/assets?preview=81660132)
+    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1604818/files/folder/assets?preview=81660132)
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module02/readme.md) `of this week.`
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
 
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1479441/quizzes/1531301) `Due by the end of week 2`
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1604818/quizzes/1531301) `Due by the end of week 2`
 
 
 ### Week 3: Front-end Coding: HTML and CSS
 
-<!-- Oct 11 -->
+<!-- Oct 17 -->
 
 To build websites, you should know about HTML, CSS and JavaScript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. We will spend two weeks to focus on these three primary coding languages of the Web. This week introduces you to HTML and CSS. To evaluate your learning outcomes,  we offered two quizzes and a lab for your practice. 
 
@@ -76,8 +77,8 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 -   [Lecture Slides](modules/module03/module03.pdf) 
--   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531299) `Due by the end of week 3`
--   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1479441/quizzes/1531540) `Due by the end of week 3`
+-   **Quiz 2:** [HTML Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1531299) `Due by the end of week 3`
+-   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1531540) `Due by the end of week 3`
 -   **Lab 2:** [Responsive web page design](labs/lab02) `Due by the end of week 4`
 
 
@@ -85,7 +86,7 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
 
 In this week, we will focus on learning JavaScript. Also, for web applications, geographical data are stored in the JavaScript Object Notation (JSON) format, or namely GeoJSON. This week will introduce you to the general format of GeoJSON, demonstrate how to asynchronously load GeoJSON data to your Web GIS application. Similar to the previous week, we offer a quiz on JavaScript and a new lab on how to load, parse and map GeoJSON data on the web.
 
-<!-- Oct 18 -->
+<!-- Oct 24 -->
 
 -   **Readings:** 
     - [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps). In this document,we first answer some fundamental questions such as "what is JavaScript?", "what does it look like?", and "what can it do?", before moving on to taking you through your first practical experience of writing JavaScript. After that, we discuss some key building blocks in detail, such as variables, strings, numbers and arrays.
@@ -113,7 +114,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 In this week, we will focus on geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source). 
 
-<!-- Oct 25 -->
+<!-- Oct 31 -->
 
 -   **Presentation 3 & 4**
 -   **Readings:**
@@ -126,7 +127,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 
 In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. In this week, we will walk you through at least two mapbox applications, and you will use mapbox to make an interactive web map in the lab session.
 
-<!-- Nov 1 -->
+<!-- Nov 7 -->
 
 -   **Presentation 5 & 6**
 -   **Readings:**
@@ -142,7 +143,7 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 In this week, we will start a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding based on mapbox Geocoding API. The Mapbox Geocoding API allows you to make forward geocoding, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
 
-<!-- Nov 8 -->
+<!-- Nov 14 -->
 
 -   **Presentation 7 & 8**
 -   **Readings:** 
@@ -153,7 +154,9 @@ In this week, we will start a series of lectures on web-based spatial analysis. 
 
 In this week, we will introduce you to a basic spatial analysis that uses distance to sort geographical data. This application is made upon MapBox too. Starting from this week, you will work on your final project. Its requirement will be introduced in this week's lab session. In short, you will need to make an advanced spatial analysis to deal with a real-world problem.
 
-<!-- Nov 15 -->
+<!-- Nov 21 -->
+
+<!-- Nov 24, 25 holiday, thursday and friday -->
 
 -   **Readings:** 
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
@@ -165,7 +168,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 In this week, we will introduce how to deal with time on the web. During the lectures, the instructor will walk you through a more complicated application that illustrate how geographical data changes over time. In the lab session, you will continue to work on your final project.
 
-<!-- Nov 22 -->
+<!-- Nov 28 -->
 
 -   **Presentation 9 & 10**
 -   **Readings:** 
@@ -177,19 +180,17 @@ In this week, we will introduce how to deal with time on the web. During the lec
 
 This week will still focus on web-based spatial analysis. One is on nearest neighbor analysis and the second is on buffer and isochrone analysis.
 
-<!-- Nov 29 -->
+<!-- Dec 5 -->
 
 -   **Readings:** 
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
 
 
-### Week 11 : Summary
+<!-- ### Week 11 : Summary
 
-**The lecture on Tuesday will be cancelled.** Then you can focus on your final project. In the second lecture of this week, the instructor will share with you a summary of this course and some emerging topics that you can explore in the future. 
+**The lecture on Tuesday will be cancelled.** Then you can focus on your final project. In the second lecture of this week, the instructor will share with you a summary of this course and some emerging topics that you can explore in the future.  -->
 
-
-<!-- Dec 6 -->
 
 
 ## :bell: Course Requirement
