@@ -114,7 +114,8 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 In this week, we will focus on geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source). 
 
-<!-- Oct 31 -->
+<!-- Oct 31 --> 
+<!-- needs to be covered by Steven due to my travel demands -->
 
 -   **Presentation 3 & 4**
 -   **Readings:**
