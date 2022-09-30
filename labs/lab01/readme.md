@@ -51,7 +51,7 @@ I decide to host all course material on GitHub instead of Canvas system. By doin
 
 1\. On GitHub, each project is stored as a project repository. The repository for this course is located at [https://github.com/jakobzhao/geog495](https://github.com/jakobzhao/geog495). Please navigate to this url on a browser such as `Chrome`. As indicated by the course website url, this repository is created by me; my GitHub account name is `jakobzhao`, while the repository name is `geog495`.
 
-2\. On the front page of this repository, please click the green button named after `Clone or download` . To download the course material, you can click the `Download ZIP` button, as a result, a compressed file of the course material will be downloaded.
+2\. On the front page of this repository, please click the green button named after `Code` . To download the course material, you can click on the `Code` button and then click the `Download ZIP` button, as a result, a compressed file of the course material will be downloaded.
 
 3\. However, **we recommend you to clone this project repository**. You can get the **git url** of this repository on the same information window. The git url is [https://github.com/jakobzhao/geog495.git](https://github.com/jakobzhao/geog495.git).
 
