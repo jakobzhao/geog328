@@ -230,7 +230,7 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 
 > The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function).
 
-## Troubleshooting:
+## 🛠️: Troubleshooting
 
 - Problems with labs and quizzes: visit the office hours of your TA. 
 - Problems with Canvas: Use the Help button on Canvas or contact the UW-IT helpdesk. If you are unable to access Canvas or your problems with Canvas are affecting your ability to submit course assignments, reach out to the TA or instructor via email or Canvas Message.
