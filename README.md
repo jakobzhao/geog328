@@ -11,7 +11,7 @@
 -   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM by [appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI)
 -   **Steven Bao**, Teaching Assistant, bxq98@uw.edu |  Office Hour: Mondays 2:30 to 3:30PM at SMI 401 (It is recommended to [make an appointment here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UURaSkhXOURSSUd4fGRlZmF1bHR8Y2I1OTM0ODUyODg3ZDZiNWZiYjVlOTY3MjhmMWMwYjQ) if you plan to come.)
 
-> _This web page is the syllabus. The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on this web page. Please ensure to check it frequently. If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu)_
+> _This web page is the syllabus. The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on this web page. Please ensure to check it frequently. If you have any question :raising_hand:, feel free to contact The TA or [Dr. Bo Zhao](mail://zhaobo@uw.edu)_
 
 ![course cover](assets/img/cover.jpg)
 
