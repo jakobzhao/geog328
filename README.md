@@ -199,7 +199,7 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 
 **GitHub:** This course material will be hosted on GitHub instead of UW Canvas. On this dedicated GitHub repository, you can find most of the course material, participate in group discussions by submitting GitHub issues, and create new GitHub repositories to turn in the lab deliverables. By the end of this quarter, you will be more proficient in operating a cloud-based coding environment and able to host your work online as a way to gain public and peer attentions.
 
-**Labs:** You need to finish all four labs by the due date. In order to help you work on each lab, we will walk through most of the labs during the lab sessions. If you have any questions about the lab, please look for tech support from the TA. 
+**Participation:** You should complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings.
 
 **In-class presentation:** Each group will lead the presentation about an assigned topic at least once throughout this quarter. We will start assign the group presentation assignment in Week 4. Each group will present an pre-assigned web GIS related example or tutorial. If you prepare slides for the presentation, please send it to the instructor before class via email.
 
@@ -212,7 +212,7 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 - You will be given only one attempt at each quiz.
 - After completing the quiz, the first time, you'll see which questions you got right and wrong and get feedback on your answer selections.
 
-**Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
+**Lab Assignments:** You need to finish all four labs by the due date. To help you work on each lab, we will walk through most of the labs during the lab sessions. If you have any questions about the lab, please look for tech support from the TA
 
 **Final Project:**  Final project will be conducted by a group of 4 to 5 students who are from the same Lab session. It needs to be submitted by June 8th, 11:59pm. Check out [the detailed requirement for final project](project/readme.md).
 
