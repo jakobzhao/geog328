@@ -228,8 +228,6 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 | Lab Assignments       | 40%  |
 | Final Project         | 20%  |
 
-> The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function).
-
 ## 🛠️ Troubleshooting
 
 - Problems with labs and quizzes: visit the office hours of your TA. 
