@@ -15,14 +15,15 @@
 
 ![course cover](assets/img/cover.jpg)
 
-Web GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. To cultivate the spirit of open source, all the required software, packages are open source, and the course handout will be shared on GitHub. To promote the equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be opened, debugged or further developed in either Windows or Mac OSX operating systems, and all the relevant software or services are either open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including the web architecture, front-end coding, responsive design, web based spatial analyses.
+Web GIS, the combination of web, mobile technology, and GIS, is a promising and fast-growing field. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. This course aims to provide students with the essential knowledge needed for managing web GIS projects, teach students the latest geospatial cloud technologies needed for building modern web GIS applications, and inspire students with real-world case studies. All the required software, packages are open source or free, and the course handout will be shared on GitHub. To promote the equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be executed, debugged or further developed in either Windows or Mac OSX operating systems. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including the web architecture, front-end coding, responsive design, web based spatial analyses. The labs will help students to practice what have been learnt from the lecture, and hone their skills in web programming and web GIS development. 
 
 ## :dart: Course Objectives
 
 - Grasp the fundamental knowledge of web systematic architecture, GIS project management, geospatial data client, server, and web based spatial analyses.
-- Develop web based GIS applications using either open source or proprietary geospatial web frameworks.
-- Demonstrate competence with hands-on experiences in managing web GIS projects (e.g., web server, apache 2 server, tomcat, etc.), coding with latest web technologies (e.g., html, css, JavaScript), getting familiar with web based geospatial cloud technologies (e.g., mapbox, leaflet, openstreetmaps, etc.), and conducting spatial analysis on the web.
-- Assess the user experience of a real-world web GIS application, and reflect upon its social implications (e.g., geo-privacy, national security, deepfake, etc.)
+- Develop web-based GIS applications using either open source or proprietary geospatial web frameworks.
+- Demonstrate competence with hands-on experiences in managing web GIS projects (e.g., web server, Apache 2 server, tomcat, etc.), coding with latest web technologies (e.g., html, css, JavaScript), getting familiar with web based geospatial cloud technologies (e.g., MapBox, leaflet, OpenStreetMap, etc.), and conducting spatial analysis on the web.
+- Assess the user experience of a real-world web GIS application, and reflect upon its social implications (e.g., geo-privacy, geospatial data authenticity, etc.)
+
 
 ## :calendar: Weekly Schedule
 
@@ -33,7 +34,7 @@ Web GIS, the combination of web, mobile technology, and GIS, is a promising and 
 
 <!-- Oct 3 -->
 
-The first lecture introduces you to the fundamentals of Web GIS. Over this quarter, you wil frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web based project using GitHub.
+The lecture sessions in this week introduces you to the fundamentals of Web GIS. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
 
 -   **Readings:** 
     - [Intro to Web GIS](https://canvas.uw.edu/courses/1604818/files/folder/assets?preview=81407677)
@@ -49,7 +50,7 @@ The first lecture introduces you to the fundamentals of Web GIS. Over this quart
 
 <!-- Oct 10 -->
 
-Today, almost everyone have used the Internet for some purposes. To develop Web, you need to dive into some more fundamentals of the Web. So, in this week, you will learn the basics of the web, its mechanics and standards. To maximize your learning outcome,  we highly encourage you to read over the reading materials before the lectures. To test how well you are familiar with the reading materials and the lecture content, you need to complete the Quiz 1 all by yourself before the due day. 
+Today, almost everyone has used the Internet. To develop Web applications by yourselves, you need to dive into some fundamental concepts. So, in this week, you will learn the basics of the web environment, its mechanics and standards. To maximize your learning outcome, we encourage you to read over the reading materials before the lectures. To test how well you are familiar with the materials and the lecture content, you are required to complete the Quiz 1 all by yourself before the due day.
     
 -   **Readings:**
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
@@ -67,7 +68,7 @@ Today, almost everyone have used the Internet for some purposes. To develop Web,
 
 <!-- Oct 17 -->
 
-To build websites, you should know about HTML, CSS and JavaScript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. We will spend two weeks to focus on these three primary coding languages of the Web. This week introduces you to HTML and CSS. To evaluate your learning outcomes,  we offered two quizzes and a lab for your practice. 
+To build websites, you should know about HTML, CSS and JavaScript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. We will spend two weeks to focus on these three primary coding languages of the Web. This week mainly introduces you to HTML and CSS. To evaluate your learning outcomes, we offered a quiz and a lab for your practice.
 
 -   **Readings:** 
     - [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). This document sets the stage, getting you used to important concepts and syntax, looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a webpage. *The section on "Debugging HTML" and the two following assessments are not required.* 
@@ -112,7 +113,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 ### Week 5: Geospatial Web Server
 
-In this week, we will focus on geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source). 
+In this week, we will focus on geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source).
 
 <!-- Oct 31 --> 
 <!-- needs to be covered by Steven due to my travel demands -->
@@ -126,7 +127,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 
 ### Week 6 : Thematic Map Design on the Web
 
-In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. In this week, we will walk you through at least two mapbox applications, and you will use mapbox to make an interactive web map in the lab session.
+In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. We will walk you through at least two MapBox applications, and you will use MapBox to make an interactive web map in the lab session too.
 
 <!-- Nov 7 -->
 
@@ -142,7 +143,7 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 ### Week 7 : Geocoding 
 
-In this week, we will start a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding based on mapbox Geocoding API. The Mapbox Geocoding API allows you to make forward geocoding, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
+Starting from this week to the last week, we will dive into a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding using MapBox Geocoding API. The Mapbox Geocoding API allows you to make forward geocoding, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
 
 <!-- Nov 14 -->
 
@@ -167,7 +168,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 ### Week 9 : Dealing with Time on the Web
 
-In this week, we will introduce how to deal with time on the web. During the lectures, the instructor will walk you through a more complicated application that illustrate how geographical data changes over time. In the lab session, you will continue to work on your final project.
+In this week, we will introduce how to deal with time on the web. The instructor will walk you through a more complicated application that illustrate how geographical data changes over time. In the lab session, you will continue to work on your final project.
 
 <!-- Nov 28 -->
 
@@ -179,7 +180,7 @@ In this week, we will introduce how to deal with time on the web. During the lec
 
 ### Week 10 : Web-based Spatial Analysis II
 
-This week will still focus on web-based spatial analysis. One is on nearest neighbor analysis and the second is on buffer and isochrone analysis.
+This week will focus on web-based spatial analysis. One is on nearest neighbor analysis and the second is on buffer and isochrone analysis. In the last lecturer, the instructor will summarize this course and provide you a few emerging topics in Web GIS.
 
 <!-- Dec 5 -->
 
@@ -196,21 +197,6 @@ This week will still focus on web-based spatial analysis. One is on nearest neig
 
 ## :bell: Course Requirement
 
-**Student Tech Support:**
-
-The Student Tech Loan Program is expanding as quickly as possible. We announced this to undergrads as soon as it hit the airwaves, in hopes some of them who need hardware can reserve for spring quarter. They expect new/additional machines to arrive in April. STLP Website: <https://stlp.uw.edu/> (check the [Spring Announcement](https://drive.google.com/file/d/1qlbUBPdQFJt_jXS2fAOtORwNrBVtZqCb/view)).
-
-
-**E-mail:**
-E-mail is the easiest way of reaching me. I will respond to all e-mails during office hours, and will periodically return e-mail at other times. Please note that the answer to many commonly e-mailed questions can be found in the syllabus or on the course website. Please also note that in order to respond your e-mail you MUST include the following information in every e-mail:
-
--  A Salutation (Both Dr. Zhao and Professor Zhao are acceptable)
--  Your Full Name
--  What class you are in
--  Subject line summarizing your e-mail (i.e. “Question regarding Map Design” for example)
-
-`For all the questions related to quizzes and labs, please contact the TA.`
-
 **GitHub:** This course material will be hosted on GitHub instead of UW Canvas. On this dedicated GitHub repository, you can find most of the course material, participate in group discussions by submitting GitHub issues, and create new GitHub repositories to turn in the lab deliverables. By the end of this quarter, you will be more proficient in operating a cloud-based coding environment and able to host your work online as a way to gain public and peer attentions.
 
 **Labs:** You need to finish all four labs by the due date. In order to help you work on each lab, we will walk through most of the labs during the lab sessions. If you have any questions about the lab, please look for tech support from the TA. 
@@ -218,6 +204,13 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 **In-class presentation:** Each group will lead the presentation about an assigned topic at least once throughout this quarter. We will start assign the group presentation assignment in Week 4. Each group will present an pre-assigned web GIS related example or tutorial. If you prepare slides for the presentation, please send it to the instructor before class via email.
 
 **Think Pieces:** For week 5 and 7, there will be reading assignments. To evaluate your reflection upon each week's reading material, we set up a discussion board for the weeks. You need to submit your written response (think piece) to the assigned readings. Your think pieces should be at least 350 words and engage substantially with the reading materials, and connections to the lab assignments and lectures. Guiding questions or prompts will be included in each week's discussion section on canvas to help frame your thinking. After each think piece post is due, you will have one week to read your classmates' thinkpieces and then provide comments or thoughts on your classmates thoughts. You should submit at least two meaningful comments, with each of them being 100 words or more. Submit your think pieces on Canvas in the applicable week's discussion section (https://canvas.uw.edu/courses/1434645/discussion_topics).
+
+**Quizzes:** There will be three quizzes before Week 5. Each quiz is designed not only to test your comprehension of new material. Questions may include multiple choice questions, matching questions, fill-in-the-blank questions, and short answer questions.  
+
+- You’ll have unlimited time.
+- You are welcome to use your notes, course material, and online resources, but you are asked to work alone (not in consultation with your classmates).
+- You will be given only one attempt at each quiz.
+- After completing the quiz, the first time, you'll see which questions you got right and wrong and get feedback on your answer selections.
 
 **Participation in in-class discussion:** Complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings. You should have completed all of the weekly readings before our Friday lab sections as these sections will be devoted to critical discussion and engagement with the required readings.
 
@@ -236,6 +229,22 @@ E-mail is the easiest way of reaching me. I will respond to all e-mails during o
 | Final Project         | 20%  |
 
 > The item `participation` includes your participation in the class (e.g., self-introduction, answer questions in class, etc.) and/or your response on GitHub issues (ask questions via GitHub issue, and help your classmates using the GitHub issues function).
+
+## Troubleshooting:
+
+- Problems with labs and quizzes: visit the office hours of your TA. 
+- Problems with Canvas: Use the Help button on Canvas or contact the UW-IT helpdesk. If you are unable to access Canvas or your problems with Canvas are affecting your ability to submit course assignments, reach out to the TA or instructor via email or Canvas Message.
+- Problems with QGIS:  You can also stop by your TA’s office hours to get help in real-time.  You can also get help through the Suzzallo GIS Lab or the Center for Social Science Computation and Research. Finally, if those don’t work, you can email or Canvas Message your course instructor or TA, being sure to include screenshots of what you are struggling with. 
+- Problems with Mapbox, VSCode, or GeoServer: You can also stop by your TA’s office hours to get help in real-time.  If it still cannot be solved, you can email or Canvas Message your course instructor, being sure to include screenshots of what you are struggling with. 
+- Stressed Out: If something about this course is causing you stress or your stress level is affecting your performance in this class, reach out to the course instructor via email or Canvas Message or stop by your instructor’s office hours.  You can find additional help from Student Services or the Counseling Center.
+
+
+**E-mail:** is the easiest way of reaching me. I will respond to all e-mails during office hours, and will periodically return e-mail at other times. Please note that the answer to many commonly e-mailed questions can be found in the syllabus or on the course website. Please also note that in order to respond your e-mail you MUST include the following information in every e-mail:
+
+    -  A Salutation (Both Dr. Zhao and Professor Zhao are acceptable)
+    -  Your Full Name
+    -  What class you are in
+    -  Subject line summarizing your e-mail (i.e. “Question regarding Map Design” for example)
 
 ## :notebook_with_decorative_cover: Equity & Inclusivity
 
