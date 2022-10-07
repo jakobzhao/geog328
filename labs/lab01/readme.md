@@ -285,7 +285,7 @@ We can also use `Visual Studio Code` to upload files to GitHub repository or mor
 
 If it's your first time using git, you may see the error mesasge after you hit commit. It's essentiall the same error message you see in 3.3.2 (`Author identity unknown`).
 
-![vscode-git-auth-error](/Users/stevenbao/workspaces/geog495/labs/lab01/img/vscode-git-auth-error.png)
+![vscode-git-auth-error](img/vscode-git-auth-error.png)
 
 You can click on "Open Git Log", and then switch to "TERMINAL" tab. Then provide your identification info by using the following commands as we did in 3.3.2:
 
