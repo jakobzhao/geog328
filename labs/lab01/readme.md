@@ -201,7 +201,7 @@ One or several paragraphs for subsection 3.
 
 ### 3.3 Upload files to GitHub
 
-Once you have drafted out your wiki page in the `wiki.md` file. You will upload this file to the **root** of the project repository `https://github.com/[github_username]/[github_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one.
+Once you have drafted out your wiki page in the `wiki.md` file. You will upload this file to the **root** of the project repository `https://github.com/[github_username]/[github_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one. **We recommend you to sync files using the third option (using VSCode), though knowing the first two options (especially the command line one) are also important.**
 
 #### 3.3.1 Drag & drop
 
@@ -283,7 +283,18 @@ We can also use `Visual Studio Code` to upload files to GitHub repository or mor
 
 ![vscode-gh-push](img/vscode-gh-push.gif)
 
-You may be prompted to enter your authentication information during the process, you can either choose to sign in with your browser or use the personal access token that we just acquired earlier.
+If it's your first time using git, you may see the error mesasge after you hit commit. It's essentiall the same error message you see in 3.3.2 (`Author identity unknown`).
+
+![vscode-git-auth-error](/Users/stevenbao/workspaces/geog495/labs/lab01/img/vscode-git-auth-error.png)
+
+You can click on "Open Git Log", and then switch to "TERMINAL" tab. Then provide your identification info by using the following commands as we did in 3.3.2:
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+After providing the identicaition info, we can click on "Commit" again to commit our changes. You may be prompted to enter your authentication information afterwards, you can either choose to sign in with your browser or use the personal access token that we just acquired earlier.
 
 ![vscode-git-auth](img/vscode-git-auth.png)
 
