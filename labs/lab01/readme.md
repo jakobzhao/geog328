@@ -237,7 +237,23 @@ Password for 'https://geovizlabtest@github.com':`type your personal access token
 
 **Note:** 
 
-1. If it is your first time using git, you may see the following prompt after you entered `git commit -a -m "update the wiki.md"`. Because `git` targets at supporting collaborative work, it will ask users for identification information like name and email address. As prompted by `git`, you can use the command s to add your identification information.
+1. If it is your first time using git, you may see the following prompt after you entered `git commit -a -m "update the wiki.md"`. 
+
+   ```
+   Author identity unknown
+   
+   *** Please tell me who you are.
+   
+   Run
+   
+     git config --global user.email "you@example.com"
+     git config --global user.name "Your Name"
+   
+   to set your account's default identity.
+   Omit --global to set the identity only in this repository.
+   ```
+
+   Because `git` targets at supporting collaborative work, it will ask users for identification information like name and email address. As prompted by `git`, you can use the command s to add your identification information.
 
    ```
    git config --global user.email "you@example.com"
