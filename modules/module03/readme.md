@@ -27,7 +27,7 @@
 
 2. External vs internal stylesheets
 
-3. Selectors
+3. Selectors  (refer to https://www.w3schools.com/cssref/trysel.asp)
 
 4. How does CSS work?
 
