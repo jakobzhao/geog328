@@ -23,7 +23,7 @@
 
 ### CSS First Steps
 
-1. CSS syntax
+1. CSS syntax  (refer to https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_accent-color)
 
 2. External vs internal stylesheets
 
