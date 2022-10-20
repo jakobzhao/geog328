@@ -39,6 +39,6 @@
 
 3. floats
 
-4. flexbox  (refer to https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+4. flexbox  (refer to https://coding.imweb.io/demo/flex/index.html)
 
 5. positioning
