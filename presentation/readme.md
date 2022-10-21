@@ -1,12 +1,13 @@
 **In-class presentation:** **Also, each group will lead the presentation about an assigned item at least once throughout this quarter. We will start assign the group presentation assignment in Week 4.** While we encourage you to be creative and make your presentation engaing to your classmates, we expect to see you cover the following aspects during your presentation. As the presentation worths a total of 6% of the final grade, how each item below would be counted towards the 6% is also shown below.
 
-1. A brief introduction of the feature/example being presented (1%)
-2. How this feature/example could be applied to real-life projects/scenarios (1%)
+1. Each presentation is expected to be around 12-15 minutes long. There will also be 5 minutes after the presentation for questions.
+2. A brief introduction of the feature/example being presented (1%)
+3. How this feature/example could be applied to real-life projects/scenarios (1%)
    - For example, if the presented example was time-series data vizualization, its real-life application could be tracking landscape change over time, or real-time traffic management
    - It would be even greater if you could find any existing online project that utilizes the feature.
-3. The overall structure and the logic flow of the code (1.5%)
-4. Code parts that you think need extra attention when programming (1.5%)
-5. A working example written by yourself that you would showcase to your classmates (1%)
+4. The overall structure and the logic flow of the code (1.5%)
+5. Code parts that you think need extra attention when programming (1.5%)
+6. A working example written by yourself that you would showcase to your classmates (1%)
 
 If you prepare slides for the presentation, please send it to the instructor before class via email.
 
