@@ -17,7 +17,7 @@ Below is the presentation schedule for Autumn 2022. The order is generated rando
 | Group | Topic                                                        | What Should be Covered                                       | Presentation Date |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
 | BA4   | [Debugging](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools) | Walkthrough the debugging steps with example(s)              | WK4 (10/25)       |
-| BA3   | [chroma.js (JS library)](https://gka.github.io/chroma.js/)   | How to use the library (on maps)<br />Color Schemes for maps<br />Some examples of creative use of map colors<br />(Optional) ow to create legend on web maps | WK4 (10/27)       |
+| BA3   | [chroma.js (JS library)](https://gka.github.io/chroma.js/)   | How to use the library (on maps)<br />Color Schemes for maps<br />Some examples of creative use of map colors<br />(Optional) How to create legend on web maps | WK4 (10/27)       |
 | BB4   | [Get started with Mapbox GL JS expressions](https://docs.mapbox.com/help/tutorials/mapbox-gl-js-expressions/) | Demostrate how to use (at least two) different filters with examples | WK5 (11/01)       |
 | BA5   | [Show and hide layers](https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/) | Use at least two layers<br />show how to use html, js, css together to create the layer switcher | WK5 (11/03)       |
 | BA2   | [Adjust a raster layer's opacity](https://docs.mapbox.com/mapbox-gl-js/example/adjust-layer-opacity/) | TBA                                                          | WK6 (11/08)       |
