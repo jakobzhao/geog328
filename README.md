@@ -105,11 +105,14 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
--  [**Presentation 1 & 2 (BA4 & BA3)**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-  [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+   -  Tuesday - Debugging (*BA4*)
 
--   **Quiz 4:** [Javascript Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748486) `Due by the end of week 4 (Oct. 30th, 23:59)`
--   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6 (Nov. 13th, 23:59)`
--   **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 5 (Nov. 6th, 23:59)` `Thinkpiece #1 comments due by the end of week 6 (Nov. 13th, 23:59)`
+   -  Thursday - chroma.js (*BA3*)
+
+-  **Quiz 4:** [Javascript Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748486) `Due by the end of week 4 (Oct. 30th, 23:59)`
+-  **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6 (Nov. 13th, 23:59)`
+-  **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 5 (Nov. 6th, 23:59)` `Thinkpiece #1 comments due by the end of week 6 (Nov. 13th, 23:59)`
 
 
 ### Week 5: Geospatial Web Server
@@ -119,7 +122,10 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 <!-- Oct 31 --> 
 <!-- needs to be covered by Steven due to my travel demands -->
 
--   [**Presentation 3 & 4 (BB4 & BA5)**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+    -   Tuesday - Get started with Mapbox GL JS expressions (*BB4*)
+    -   Thursday - Show and hide layers (*BA5*)
+
 -   **Readings:**
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
@@ -132,7 +138,10 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 <!-- Nov 7 -->
 
--   [**Presentation 5 & 6 (BA2 & BA1)**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentations**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+    -   Tuesday: Adjust a raster layer's opacity (*BA2*)
+    -   Thursday: Add custom markers in Mapbox GL JS (*BA1*)
+
 -   **Readings:**
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
     - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
@@ -148,7 +157,10 @@ Starting from this week to the last week, we will dive into a series of lectures
 
 <!-- Nov 14 -->
 
--   [**Presentation 7 & 8 (BB3 & BB4)**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+    -   Tuesday - Create interactive hover effects with Mapbox GL JS (*BB3*)
+    -   Thursday - Filter symbols by toggling a list (*BB4*)
+
 -   **Readings:** 
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
@@ -173,7 +185,10 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 <!-- Nov 28 -->
 
--   [**Presentation 9, 10 & 11 (BB2, BA7, BB1)**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+    -   Tuesday - Filter symbols by toggling a list (*BB2*)
+    -   Thursday - Create a time slider (*BA7*), TBA (*BB1*)
+
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
 -   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog495/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9 (Dec. 4th, 23:59)`
