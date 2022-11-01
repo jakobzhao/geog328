@@ -131,8 +131,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
     - starting from this week, we will have active learnings in class. So please make sure read the reading materials before class. Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
 
--   **Final Project:** Introduce the requirements of the final project.
-
+-   **[Final Project](project/readme.md):** Introduce the requirements of the final project.
 
 ### Week 6 : Thematic Map Design on the Web
 
@@ -179,7 +178,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Final Project:** [Web GIS Application](project/readme.md) 
--   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog495/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8 (Nov. 13th, 23:59)`
+-   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog495/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8 (Nov. 27th, 23:59)`
 
 ### Week 9 : Dealing with Time on the Web
 
