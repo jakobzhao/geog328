@@ -139,7 +139,7 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 <!-- Nov 7 -->
 
--   [**Presentations**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
     -   Tuesday: Adjust a raster layer's opacity (*BA2*)
     -   Thursday: Add custom markers in Mapbox GL JS (*BA1*)
 
@@ -174,7 +174,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 <!-- Nov 24, 25 holiday, thursday and friday -->
 
--   **Presentation**
+-   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
     -   Tuesday - Show and hide layers (*BA5*)
     
 -   **Readings:** 
