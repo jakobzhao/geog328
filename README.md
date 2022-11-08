@@ -124,7 +124,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 
 -   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
     -   Tuesday - Get started with Mapbox GL JS expressions (*BB4*)
-    -   Thursday - Show and hide layers (*BA5*)
+    -   ~~Thursday - Show and hide layers (*BA5*)~~ (Class cancelled, presentation rescheduled)
 
 -   **Readings:**
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
@@ -174,6 +174,9 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 <!-- Nov 24, 25 holiday, thursday and friday -->
 
+-   **Presentation**
+    -   Tuesday - Show and hide layers (*BA5*)
+    
 -   **Readings:** 
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
@@ -188,7 +191,7 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 -   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
     -   Tuesday - Filter symbols by toggling a list (*BB2*)
-    -   Thursday - Create a time slider (*BA7*), TBA (*BB1*)
+    -   Thursday - Create a time slider (*BA7*), Display buildings and terrain in 3D (*BB1*)
 
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
