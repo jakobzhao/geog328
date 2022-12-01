@@ -234,7 +234,7 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 
 **Lab Assignments:** You need to finish all four labs by the due date. To help you work on each lab, we will walk through most of the labs during the lab sessions. If you have any questions about the lab, please look for tech support from the TA
 
-**Final Project:**  Final project will be conducted by a group of 4 to 5 students who are from the same Lab session. It needs to be submitted by June 8th, 11:59pm. Check out [the detailed requirement for final project](project/readme.md).
+**Final Project:**  Final project will be conducted by a group of 4 to 5 students who are from the same Lab session. To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by the end of Week 11 on Sunday (Dec 12th) by 11:59 pm.Check out [the detailed requirement for final project](project/readme.md).
 
 
 ## :heavy_check_mark: Grading
