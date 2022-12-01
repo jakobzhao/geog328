@@ -69,7 +69,7 @@ Data processing is always an important step for creating web GIS applications. B
 
 ## Presentation (20pts+10pts)
 
-Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting during the final's week (exact time TBA), each group is expected to present the final project in 8 minutes. After each group presents their project, there will be a 3-minute Q&A session during which other groups would ask questions or offer feedbacks. Each group is required to speak at least twice during the Q&A sessions (i.e., ask questions or offer feedbacks after two different presentations). 20 pts will be for the presentation and 5 pts for each question or piece of feedback offered.
+Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting during the final's week (on Dec 16  at 2:30 pm in SMI 105), each group is expected to present the final project in 8 minutes. After each group presents their project, there will be a 3-minute Q&A session during which other groups would ask questions or offer feedbacks. Each group is required to speak at least twice during the Q&A sessions (i.e., ask questions or offer feedbacks after two different presentations). 20 pts will be for the presentation and 5 pts for each question or piece of feedback offered.
 
 
 ## Submission
