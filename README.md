@@ -1,4 +1,4 @@
-# GEOGRAPHY 495B:  Web GIS
+# GEOGRAPHY 328:  Web GIS
 
 **Meetings:**
 
@@ -105,7 +105,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
--  [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-  [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
    -  Tuesday - Debugging (*BA4*)
 
    -  Thursday - chroma.js (*BA3*)
@@ -122,7 +122,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 <!-- Oct 31 --> 
 <!-- needs to be covered by Steven due to my travel demands -->
 
--   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
     -   Tuesday - Get started with Mapbox GL JS expressions (*BB4*)
     -   ~~Thursday - Show and hide layers (*BA5*)~~ (Class cancelled, presentation rescheduled)
 
@@ -139,7 +139,7 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 <!-- Nov 7 -->
 
--   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
     -   Tuesday: Adjust a raster layer's opacity (*BA2*)
     -   Thursday: Add custom markers in Mapbox GL JS (*BA1*)
 
@@ -158,7 +158,7 @@ Starting from this week to the last week, we will dive into a series of lectures
 
 <!-- Nov 14 -->
 
--   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
     -   Tuesday - Create interactive hover effects with Mapbox GL JS (*BB3*)
     -   Thursday - Filter symbols by toggling a list (*BB4*)
 
@@ -174,14 +174,14 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 <!-- Nov 24, 25 holiday, thursday and friday -->
 
--   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
     -   Tuesday - Show and hide layers (*BA5*)
     
 -   **Readings:** 
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Final Project:** [Web GIS Application](project/readme.md) 
--   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog495/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8 (Nov. 27th, 23:59)`
+-   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog328/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8 (Nov. 27th, 23:59)`
 
 ### Week 9 : Dealing with Time on the Web
 
@@ -189,13 +189,13 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 <!-- Nov 28 -->
 
--   [**Presentation**](https://github.com/jakobzhao/geog495/tree/main/presentation#schedule)
+-   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
     -   Tuesday - Filter symbols by toggling a list (*BB2*)
     -   Thursday - Create a time slider (*BA7*), Display buildings and terrain in 3D (*BB1*)
 
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
--   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog495/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9 (Dec. 4th, 23:59)`
+-   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog328/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9 (Dec. 4th, 23:59)`
 
 
 ### Week 10 : Web-based Spatial Analysis II
