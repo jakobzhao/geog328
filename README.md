@@ -120,8 +120,7 @@ In this week, we will introduce you to a series of GIS analysis, including geogr
 - Problems with QGIS: You can also stop by your Instructor’s office hours to get help in real-time.  You can also get help through the Suzzallo GIS Lab or the Center for Social Science Computation and Research. Finally, if those don’t work, you can email or Canvas Message your course instructor or TA, being sure to include screenshots of what you are struggling with. 
 - Problems with Mapbox, VSCode, or GeoServer: You can also stop by your Instructor’s office hours to get help in real-time. If it still cannot be solved, you can email or Canvas Message your course instructor, being sure to include screenshots of what you are struggling with. 
 - Stressed Out: If something about this course is causing you stress or your stress level is affecting your performance in this class, reach out to the course instructor via email or Canvas Message or stop by your instructor’s office hours.  You can find additional help from Student Services or the Counseling Center.
-
-**E-mail:** is the easiest way of reaching me. I will respond to all e-mails during office hours, and will periodically return e-mail at other times. Please note that the answer to many commonly e-mailed questions can be found in the syllabus or on the course website. Please also note that in order to respond your e-mail you MUST include the following information in every e-mail:
+- **E-mail:** is the easiest way of reaching me. I will respond to all e-mails during office hours, and will periodically return e-mail at other times. Please note that the answer to many commonly e-mailed questions can be found in the syllabus or on the course website. Please also note that in order to respond your e-mail you MUST include the following information in every e-mail:
 
     -  A Salutation (Both Dr. Zhao and Professor Zhao are acceptable)
     -  Your Full Name
