@@ -1,36 +1,38 @@
-# GEOGRAPHY 328:  Web GIS
+# GEOGRAPHY 328 (Summer 2023):  Web GIS
 
-**Meetings:**
+**Instructor:** Bo Zhao, zhaobo@uw.edu | Office Hour: Thursdays 1：00 to 4:00 PM by [appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI)
 
--   **Lectures:** Tuesdays and Thursdays 1:00 - 2:20 PM SMI 105
--   **Labs:** Friday 12:30 - 1:20 PM (BA) and 1:30 -  1:20 PM (BB) in SMI 401
+The field of Web GIS, which combines web, mobile technology, and GIS, is a rapidly growing and promising area in both academia and industry. It has expanded the capabilities of GIS from local servers to the cloud, making online maps and geospatial intelligence more accessible to various fields such as geography, built environment, transportation, forestry, and oceanography. The integration of the web and GIS has led to numerous technological advancements, including smart cities, location-based services, autonomous driving, and pandemic dashboards. This course is designed to equip students with the necessary skills for managing web GIS projects, utilizing the latest geospatial cloud technologies for building modern web GIS applications, and providing real-world case studies for inspiration.
 
+**As ChatGPT continues to gain widespread usage in academia and society, this summer course will explore the potential of utilizing it for assisting Web GIS development.** For example, Its natural language interface can simplify development by enhancing productivity and reducing the learning curve. ChatGPT's error analysis and suggestion capabilities can save time and effort in debugging, while its data analysis capabilities can provide insights into patterns and trends. It can also produce GeoJson data for story maps, making web GIS applications more immersive and engaging for users. ChatGPT's user recommendation feature can provide personalized suggestions, enhancing the user experience and accessibility of web GIS applications. 
 
-**Instructional Team:**
-
--   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM by [appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI)
--   **Steven Bao**, Teaching Assistant, bxq98@uw.edu |  Office Hour: Wednesdays 2:30 to 3:30PM at SMI 401 (It is recommended to [make an appointment here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UURaSkhXOURSSUd4fGRlZmF1bHR8Y2I1OTM0ODUyODg3ZDZiNWZiYjVlOTY3MjhmMWMwYjQ) if you plan to come.)
-
-> _This web page is the syllabus. The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on this web page. Please ensure to check it frequently. If you have any question :raising_hand:, feel free to contact The TA or [Dr. Bo Zhao](mail://zhaobo@uw.edu)_
+In order to ensure equal access to web mapping technology, we have made sure that all of the Web GIS applications included in the course materials can be executed, debugged, or further developed on both Windows and Mac OSX operating systems. Additionally, all of the required software and packages are either open-source or free to use. The course is divided into two major components: lectures and lab exercises. During the lectures, students will learn about the theories and principles that underlie Web GIS, such as web architecture, front-end coding, responsive design, and web-based spatial analyses. In the labs, students will have the opportunity to put these theories into practice and develop their skills in web programming and web GIS development.
 
 ![course cover](assets/img/cover.jpg)
 
-Web GIS, the convergence of web, mobile technology, and GIS, is a promising and fast-growing field in academia and industry. It has extended the power of GIS from local servers to the cloud, and put online maps and geospatial intelligence in multiple aspects of human society. In the past decades, multiple disciplines such as geography, built environment, transportation, forestry, and oceanography have benefited from the expanded analytical power of GIS from the local to the web. The integration of the Web and GIS has catalyzed an increasing number of significant technological advances, such as smart cities, location-based services, autonomous driving, or pandemic dashboards. This course provides students with the essential knowledge for web GIS project management, teaches the latest geospatial cloud technologies for building modern web GIS applications, and inspires students with real-world case studies. To promote equal access to web mapping technology, we ensure all the Web GIS applications from course materials can be executed, debugged, or further developed in either Windows or Mac OSX operating systems. And all the required software and packages are open source or free. This course is comprised of two major components, including lectures and lab exercises. The lectures focus on the theories and principles behind Web GIS, including web architecture, front-end coding, responsive design, and web-based spatial analyses. The labs help students to practice what has been learned from the lecture sessions and hone their skills in web programming and web GIS development.
+> _This web page is the syllabus. The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on this web page. Please ensure to check it frequently. If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu)_
 
-## :dart: Course Objectives
+## Course Objectives
 
-- Grasp the fundamental knowledge of web systematic architecture, GIS project management, geospatial data client, server, and web based spatial analyses.
-- Develop web-based GIS applications using either open source or proprietary geospatial web frameworks.
-- Demonstrate competence with hands-on experiences in managing web GIS projects (e.g., web server, Apache 2 server, tomcat, etc.), coding with latest web technologies (e.g., html, css, JavaScript), getting familiar with web based geospatial cloud technologies (e.g., MapBox, leaflet, OpenStreetMap, etc.), and conducting spatial analysis on the web.
-- Assess the user experience of a real-world web GIS application, and reflect upon its social implications (e.g., geo-privacy, geospatial data authenticity, etc.)
+- Acquire a comprehensive understanding of the fundamental concepts and principles of web systematic architecture, GIS project management, geospatial data client, server, and web-based spatial analyses.
 
+- Develop the necessary skills to build web-based GIS applications using either open-source or proprietary geospatial web frameworks.
 
-## :calendar: Weekly Schedule
+- Demonstrate competence in managing web GIS projects by gaining hands-on experience in web server management (e.g., Apache 2 server, tomcat, etc.), coding with the latest web technologies (e.g., html, css, JavaScript), becoming familiar with web-based geospatial cloud technologies (e.g., MapBox, Leaflet, OpenStreetMap, etc.), and conducting spatial analysis on the web. 
 
-- **Preparation:** [Gear up the working environment](gearup.md) :computer: :beer:
-- **Weekly Expectations:** Each student is supposed to a) attend both lecture and lab sections each week, b) complete all weekly readings before the lecture begins.
+- Evaluate the user experience of a real-world web GIS application and reflect on its social implications, such as geo-privacy and geospatial data authenticity.
 
-### Week 1: Intro to Web GIS
+- Use ChatGPT to assist the design and development of WebGIS applications.
+
+## Weekly Schedule
+
+To get started, you need to [Gear up the working environment](gearup.md). For each week during this quarter, you are expected to read all the assigned readings and complete the lab assignment too.
+
+### Week 1: Fundamentals
+
+In this week, you need to cover three modules.
+
+#### Module 1: Intro to Web GIS
 
 <!-- Oct 3 -->
 
@@ -47,7 +49,7 @@ The lecture sessions in this week introduces you to the fundamentals of Web GIS.
 
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by the end of week 1 (Oct. 9th, 23:59)`
 
-### Week 2: Web Fundamentals
+#### Module 2: Web Fundamentals
 
 <!-- Oct 10 -->
 
@@ -65,7 +67,7 @@ Today, almost everyone has used the Internet. To develop Web applications by you
 -   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1604818/quizzes/1748487) `Due by the end of week 2 (Oct. 16th, 23:59)`
 
 
-### Week 3: Front-end Coding: HTML and CSS
+#### Module 3: Front-end Coding: HTML and CSS
 
 <!-- Oct 17 -->
 
@@ -83,8 +85,9 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
 -   **Quiz 3:** [CSS Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748485) `Due by the end of week 3 (Oct. 23rd, 23:59)` 
 -   **Lab 2:** [Responsive web page design](labs/lab02) `Due by the end of week 4 (Oct. 30th, 23:59)`
 
+### Week 2: Moving forward
 
-### Week 4: Front-end Coding: Javascript and GeoJSON
+#### Module 4: Front-end Coding: Javascript and GeoJSON
 
 In this week, we will focus on learning JavaScript. Also, for web applications, geographical data are stored in the JavaScript Object Notation (JSON) format, or namely GeoJSON. This week will introduce you to the general format of GeoJSON, demonstrate how to asynchronously load GeoJSON data to your Web GIS application. Similar to the previous week, we offer a quiz on JavaScript and a new lab on how to load, parse and map GeoJSON data on the web.
 
