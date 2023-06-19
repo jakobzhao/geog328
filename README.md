@@ -39,8 +39,8 @@ This week introduces you to the fundamentals of Web GIS.To test how well you are
 -   **Lab:** [Project management using GitHub](labs/lab01) `Due by Sunday, June 25, 23:59 pm PST)`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module01/readme.md) and [study questions 2](modules/module02/readme.md).*
   
-    - [Intro to Web GIS](https://canvas.uw.edu/courses/1604818/files/folder/assets?preview=81407677).
-    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1604818/files/folder/assets?preview=81660132).
+    - [Intro to Web GIS](modules/module01/intro-to-webgis.pdf).
+    - [Technical basics of Web GIS](modules/module02/tech-basics.pdf).
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development.
     - [The web, web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) and [web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics).
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
