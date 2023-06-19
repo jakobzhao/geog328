@@ -5,9 +5,15 @@
     <meta charset="utf-8">
     <title>Interactive Web Mapping</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <!-- Including the Mapbox GL CSS file -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+
+    <!-- Including the Mapbox GL JS file -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+
     <style>
+        /* CSS styles for heading and paragraphs */
         h2,
         h3 {
             margin: 10px;
@@ -195,6 +201,7 @@
             });
         }
 
+        // Call the function to fetch GeoJSON data and load the map
         geojsonFetch();
     </script>
 

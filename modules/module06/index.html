@@ -5,24 +5,30 @@
     <meta charset="utf-8">
     <title>Mapbox Customized Map Design</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <!-- Including the Mapbox GL CSS file -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+
+    <!-- Including the Mapbox GL JS file -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+
     <style>
+        /* CSS styles for the body */
         body {
             margin: 0;
             padding: 0;
         }
 
+        /* CSS styles for the container */
         #container {
             display: flex;
             height: 100vh;
         }
 
-
+        /* CSS styles for the map */
         #map {
             flex-grow: 1;
         }
-
     </style>
 </head>
 
@@ -33,11 +39,11 @@
 
     </main>
     <script>
-        // define the mapbox access token
+        // Initialize the Mapbox access token
         mapboxgl.accessToken =
             'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
 
-        // define the map object
+        // Create the map object
         let map = new mapboxgl.Map({
             container: 'map', // container ID
             style: 'mapbox://styles/jakobzhao/ckvik216t18u714pixt166rqq', // style URL
