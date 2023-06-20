@@ -1,4 +1,4 @@
-# GEOGRAPHY 328 (Summer 23):  Web GIS
+# Summer 2023: GEOGRAPHY 328 - Web GIS
 
 **Instructor:** Bo Zhao | zhaobo@uw.edu | Office Hour: Thursdays 1:00 to 4:00 PM by [appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI)
 
