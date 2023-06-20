@@ -1,7 +1,13 @@
-# Lab 1a: Interactive Web Mapping
+# Lab 1a: Participatory Mapping
 
 **Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
 
  **Points Available** = 50
 
-In this lab, we will make an interactive choropleth web map that allows you to see more information when hovering above certain areas. You will be guided to make a web map showing state-level population densities in the U.S. You will load a local GeoJSON file and add it as a map layer, similar to what you did in our previous lab. Then you will need to use different colors for different population density values, add a title and a legend. Lastly and most importantly, you will write code that allow you to see specific values when you hover your mouse over a specific state. As for your final deliverable for this lab, you will be asked to create a different interactive choropleth map using the COVID-19 related dataset that we provide.
+For this lab, we would like you to go through [the tutorial on how to create a minimum viable participatory mapping](https://github.com/jakobzhao/participatory-mapping). We expect the followings deliverables from you:
+
+- Ensure that the GitHub page URL link for this project works correctly. (5 pts)
+- Update the info panel. (5 pts)
+- Switch the basemap. (5 pts)
+- Collect your own data. (25 pts)
+- Draft a reflection on how ChatGPT or other AI tools helped you complete this lab. This reflection should be written in the repository's README.md file. (10 pts)
