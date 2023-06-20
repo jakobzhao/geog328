@@ -35,9 +35,9 @@ To get started, you need to [Gear up the working environment](gearup.md). ***Ove
 This week introduces you to the fundamentals of Web GIS.To test how well you are familiar with the reading materials and the handouts, you are required to complete the Quiz all by yourself before the due day. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
 
 -   **Handouts:** [Part 1](modules/module01/module01.pdf) and [Part 2](modules/module02/module02.pdf).
--   **Quiz:** [Web Basics](https://canvas.uw.edu/courses/1604818/quizzes/1748487) `Due by the Thursday, June 22, 23:59 pm PST)`
+-   **Quiz:** [Web Basics](https://canvas.uw.edu/courses/1655792/quizzes/1874078) `Due by the Thursday, June 22, 23:59 pm PST)`
 -   **Lab:** [Project management using GitHub](labs/lab01) `Due by Sunday, June 25, 23:59 pm PST)`
--   **Thinkpiece:** Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment. `Due by Monday, June 26, 23:59 pm PST)`
+-   **Thinkpiece:** ［Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193934) `Due by Monday, June 26, 23:59 pm PST)`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module01/readme.md) and [study questions 2](modules/module02/readme.md).*
   
     - [Intro to Web GIS](modules/module01/intro-to-webgis.pdf).
@@ -54,9 +54,9 @@ This week introduces you to the fundamentals of Web GIS.To test how well you are
 This week will introduce you to Front-end coding. You will learn the basics of HTML, CSS and Javascript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. For web applications, geographical data are stored in the JavaScript Object Notation (JSON) format, or namely GeoJSON. This week will aos introduce you to GeoJSON. Similar to the previous week, we offer a quiz on Front-end coding, and a new lab on how to do responsive design.
 
 -   **Handouts:** [Part 1](modules/module03/module03.pdf) and [Part 2](modules/module04/module04.pdf).
--   **Quiz:** [Front-end Coding](https://canvas.uw.edu/courses/1604818/quizzes/1748488) `Due by Thursday June 29, 23:59 pm PST`.
+-   **Quiz:** [Front-end Coding](https://canvas.uw.edu/courses/1655792/quizzes/1874080) `Due by Thursday June 29, 23:59 pm PST`.
 -   **Lab:** [Responsive web page design](labs/lab02) `Due by Sunday July 2, 23:59 pm PST)`
--   **Thinkpiece:** Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment. `Due by Monday July 3, 23:59 pm PST)`
+-   **Thinkpiece:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193936) `Due by Monday July 3, 23:59 pm PST)`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module03/readme.md) and [study questions 2](modules/module04/readme.md).*
     - [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) *(The section on "Debugging HTML" and the two following assessments are not required)* and [Work with Multimedia](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding). *(The section on the assessment is not required).*
     - [CSS basics](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps), [selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) and [layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction).
@@ -71,7 +71,7 @@ This week will introduce you to Front-end coding. You will learn the basics of H
 In this week, we will learn the server side of Web GIS. First, we will study geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source). In addition, we will introduce how to make basic thematic maps on the web, also practice how to load geospatial data on the web asynchronously.The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore.
 
 -   **Lab:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by Sunday, July 9, 23:59 pm PST`
--   **Thinkpiece:** Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment. `Due by Monday, July 10, 23:59 pm PST`
+-   **Thinkpiece:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193937) `Due by Monday, July 10, 23:59 pm PST`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the study questions **`To be added`**.*
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html).
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html).
@@ -86,7 +86,7 @@ In this week, we will learn the server side of Web GIS. First, we will study geo
 In this week, we will introduce you to a series of GIS analysis, including geographical measurement, nearest neighbor analysis, buffer, and isochrone analysis. These analysis are widely used in GIScience and GIS applications. In addition, we will introduce you to the concept of web mapping application programming interface (API). A web mapping API is a set of programming instructions and standards for accessing web based geospatial data and services. It is a set of routines, protocols, and tools for building software and applications. In this week, you will learn how to use the Mapbox API and Turf.js to perform GIS analysis on the web.
 
 -   **Lab:** [Interactive web mapping](labs/lab04) `Due by Sunday, July 16, 23:59 pm PST`
--   **Thinkpiece:** Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment. `Due by Monday, July 17, 23:59 pm PST`
+-   **Thinkpiece:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193938) `Due by Monday, July 17, 23:59 pm PST`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the study questions **`To be added`**.*
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
