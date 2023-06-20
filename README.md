@@ -97,16 +97,19 @@ In this week, we will introduce you to a series of GIS analysis, including geogr
 
 **GitHub:** This course material will be hosted on GitHub instead of UW Canvas. On this dedicated GitHub repository, you can find most of the course material, participate in group discussions by submitting GitHub issues, and create new GitHub repositories to turn in the lab deliverables. By the end of this quarter, you will be more proficient in operating a cloud-based coding environment and able to host your work online as a way to gain public and peer attentions.
 
-**Participation:** You should complete all assigned readings and get familiar with the lab instructions before class meetings, and actively participate in critical discussions of those readings.
+**Participation:** You should participate in the ad-hoc discussion items and complete all assigned readings and get familiar with the lab instructions before class meetings.
 
 **Quizzes:** There will be two quizzes in this quarter. Each quiz is designed to test your comprehension of new material. Questions may include multiple choice questions, matching questions, fill-in-the-blank questions, and short answer questions.  Before you answer the questions, please read the following instructions carefully:
 
+- You are forbidden to use ChatGPT or any other AI tools to help you answer the questions.
 - You’ll have unlimited time.
 - You are welcome to use your notes, course material, and online resources, but you are asked to work alone (not in consultation with your classmates).
 - You will be given only one attempt at each quiz.
 - After completing the quiz, the first time, you'll see which questions you got right and wrong and get feedback on your answer selections.
 
-**Lab Assignments:** You need to finish all four labs by the due date. ***You are encouraged to work on the lab assignments in groups. However, each student should submit their own work.*** If you have any questions about the lab further, please look for tech support from the instructor.
+**Lab Assignments:** You need to finish all four labs by the due date. ***You are encouraged to work on the lab assignments in groups, However, each student should submit their own work. In addition, you are encourahed to use ChatGPT or other AI tools to finish the Lab Assignments.*** If you have any questions about the lab further, please look for tech support from the instructor.
+
+**Thinkpieces:** Every week, you are required to compose a thinkpiece with a minimum length of 350 words and share it on the Canvas discussion board. Your thinkpiece should delve into your utilization of AI tools such as ChatGPT, Github Copilot, or any other relevant tools, in completing the lab assignment. Once you have posted your thinkpiece, please engage with your classmates' contributions by commenting on or liking at least two of their thinkpieces. To evaluate your work, I will divide the students into three groups based on the number of likes and comments they receive by the end of the following week. For instance, the thinkpiece submitted in the first week will be evaluated at the conclusion of the second week. Self-generated likes and comments will not be considered in the assessment. Students who receive the highest number of likes and comments will be awarded 7 points, while those who secure the second highest number will earn 6 points. The remaining students who submitted a thinkpiece will receive 5 points.
 
 ## Grading
 
