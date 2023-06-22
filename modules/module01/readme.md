@@ -35,7 +35,7 @@
 
 4. Get familiar with the basic git commands.
 
-5. The GitHub flow. Check out [this youtube video](https://www.youtube.com/watch?v=47E-jcuQz5c&list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4&index=2) on a detailed intro to the GitHub workflow.
+5. The GitHub flow. Check out [this youtube video](https://www.youtube.com/watch?v=lYiE5lBS13E) on a detailed intro to the GitHub workflow.
 
 #### Markdown
 
