@@ -38,7 +38,7 @@ This week introduces you to the fundamentals of Web GIS.To test how well you are
 -   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1655792/quizzes/1874078) `Due by the Thursday, June 22, 23:59 pm PST)`
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by Sunday, June 25, 23:59 pm PST)` 
     > If you have taken my Geog 495 in Autumn 2022, please skip Lab 1. However, you still need to submit a thinkpiece on how ChatGPT could assist you in finishing lab 1 assignment. In the meantime, you need to finish another lab assignment on [Lab 1a: Participatory Mapping](labs/lab01a) in two weeks. Students who have not taken my Autumn 2022's Geog 495 do not need to work on Lab 1a.  `Due by Sunday July 2, 23:59 pm PST)`
--   **Thinkpiece 1:** ［Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193934) `Due by Monday, June 26, 23:59 pm PST)`
+-   **Thinkpiece 1:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193934) `Due by Monday, June 26, 23:59 pm PST)`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module01/readme.md) and [study questions 2](modules/module02/readme.md).*
   
     - [Intro to Web GIS](modules/module01/intro-to-webgis.pdf).
