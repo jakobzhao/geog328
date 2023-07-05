@@ -4,7 +4,7 @@
     - tile map service (TMS): https://www.openstreetmap.org/
     - vector data service: https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
     - web map service (WMS): https://geoserver.org/
-    - web feature service (WFS): GeoServer
+    - web feature service (WFS): Check the references from GeoServer
 
 > **Note:** What is the web map service adopted by Google Maps?
 

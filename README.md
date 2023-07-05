@@ -72,7 +72,7 @@ In this week, we will learn the server side of Web GIS. First, we will study geo
 
 -   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by Sunday, July 9, 23:59 pm PST`
 -   **Thinkpiece 3:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193937) `Due by Monday, July 10, 23:59 pm PST`
--   **Readings:** *To help you grasp the gist of the reading material, you can refer to the study questions **`To be added`**.*
+-   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module05/readme.md) and [study questions 2](modules/module06/readme.md).*
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html).
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html).
     - [Making asynchronous programming easier with async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) More recent additions to the JavaScript language are async functions and the await keyword, added in ECMAScript 2017. These features basically act as syntactic sugar on top of promises, making asynchronous code easier to write and to read afterwards. They make async code look more like old-school synchronous code, so they're well worth learning. This article gives you what you need to know.
