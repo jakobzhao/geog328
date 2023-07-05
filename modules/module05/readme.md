@@ -1,14 +1,20 @@
 # Geospatial Web Server
 
-### Different types of Geospatial web servers
-    - tile map service (TMS): https://www.openstreetmap.org/
-    - vector data service: https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
-    - web map service (WMS): https://geoserver.org/
+In this module, we will explore GeoServer, a significant open-source geospatial web server. Through this introduction, you will gain insights into its server environment and key functionalities, which enable support for various geospatial web services such as TMS, vector data service, WMS, and WFS. GeoServer empowers you to establish your own server, host geospatial data, and publish them as web services independently. This means you can bypass the need to rely on paid services like ArcGIS Online or Mapbox for hosting and publishing your geospatial data as web services.
+
+### Different types of Geospatial web services
+    - tile map service (TMS): example: https://www.openstreetmap.org/
+    - vector data service: example: https://docs.mapbox.com/mapbox-gl-js/example/simple-map/
+    - web map service (WMS): example: https://geoserver.org/
     - web feature service (WFS): Check the references from GeoServer
 
-> **Note:** What is the web map service adopted by Google Maps?
+> **Note:** *When you look at the examples of web services, please use Google Chrome inspect to look at the network traffic. You will see the requests and responses of the web services.*
+> 
+> **Question:** What is the web map service adopted by Google Maps?
 
 ### GeoServer Environment
+
+When you study GeoServer Environment, please pay attention to the following aspects:
     - GUI
     - Configuration
     - [Major Functions](http://geoserver.org/release/stable/)
