@@ -1,4 +1,4 @@
-# Geospatial Web Server
+# Geospatial Web Server I: GeoServer
 
 In this module, we will explore GeoServer, a significant open-source geospatial web server. Through this introduction, you will gain insights into its server environment and key functionalities, which enable support for various geospatial web services such as TMS, vector data service, WMS, and WFS. GeoServer empowers you to establish your own server, host geospatial data, and publish them as web services independently. This means you can bypass the need to rely on paid services like ArcGIS Online or Mapbox for hosting and publishing your geospatial data as web services.
 
