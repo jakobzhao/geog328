@@ -10,7 +10,7 @@ In this lab, we will make an interactive choropleth web map that allows you to s
 
 ## 1. Create a new GitHub repository
 
-Like the previous two labs, you need to create a new repository to complete this lab. We recommend you **give your repository a more descriptive name** instead of  using "geog495_lab04". 
+Like the previous two labs, you need to create a new repository to complete this lab. We recommend you **give your repository a more descriptive name** instead of  using "geog328_lab04". 
 
 Once the repository is created, please create a `readme.md` file, an `index.html`, an `pop_density.html`, and another `assets` folder to the root of this repo. In the directory for Lab 4, we saved two geojson files in the folder [assets](assets). Please move these two files to the assets folder of the newly build repository.
 
@@ -425,7 +425,7 @@ Now we will publish this repository as a web application. As always, commit the 
 
 ## 5. Deliverable
 
-For your lab deliverable, we would like to ask you to create another map using the `wa-covid-data-102521.geojson` data we provided ([Right click here and choose "save link as"](assets/wa-covid-data-102521.geojson) to download the geojson file, or you can find it in the course github repo at `geog495/labs/lab04/assets/wa-covid-data-102521.geojson`). 
+For your lab deliverable, we would like to ask you to create another map using the `wa-covid-data-102521.geojson` data we provided ([Right click here and choose "save link as"](assets/wa-covid-data-102521.geojson) to download the geojson file, or you can find it in the course github repo at `geog328/labs/lab04/assets/wa-covid-data-102521.geojson`). 
 
 This data file includes the 1) **cumulative COVID-19 case rate (per 10k people)**, 2) cumulative COVID-19 death rate (per 10k people), and 3) **fully vaccinated rate (per 10k people)** in every Washington county until Oct. 25th, 2021. All of the numeric values are rounded to the nearest integer.
 
