@@ -10,7 +10,7 @@ In this lab, we will exercise on loading geoJSON data asynchronously and visuali
 
 ## 1. Create a new GitHub repository
 
-Like the previous two labs, you need to create a new repository to complete this lab. We recommend you **give your repository a more descriptive name** instead of  using "geog495_lab03". 
+Like the previous two labs, you need to create a new repository to complete this lab. We recommend you **give your repository a more descriptive name** instead of  using "geog328_lab03". 
 
 Once the repository is created, please create a `readme.md` file, an `index.html`, an `earthquake.html`, and another `assets` folder to the root of this repo. In the directory for Lab 3, we saved two geojson files in the folder [assets](assets). Please move these two files to the assets folder of the newly build repository.
 
