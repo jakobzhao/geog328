@@ -43,7 +43,7 @@ To get started, you need to [Gear up the working environment](gearup.md). ***Ove
 The lecture sessions in this week introduces you to the fundamentals of Web GIS. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
 
 -   **Readings:** 
-    - [Intro to Web GIS](https://canvas.uw.edu/courses/1604818/files/folder/assets?preview=81407677)
+    - [Intro to Web GIS](https://canvas.uw.edu/courses/1675206/files/folder/assets?preview=109758124)
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module01/readme.md) `of this week.`
@@ -63,7 +63,7 @@ Today, almost everyone has used the Internet. To develop Web applications by you
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
-    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1604818/files/folder/assets?preview=81660132)
+    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1675206/files/folder/assets?preview=109758127)
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module02/readme.md) `of this week.`
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
