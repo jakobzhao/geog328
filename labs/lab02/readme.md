@@ -8,11 +8,11 @@ In this lab, we will exercise on how to build a simple website with a responsive
 
 ## 1. Create a new GitHub repository
 
-Recalling what we did in lab 1, you should **create a new public GitHub repository** for this lab and give it a name. We recommend you to **give your repository a more descriptive name** instead of  using "geog495_lab02" It is also recommended to **add a README file** to your repo. If you have the opportunity to look at some repositories on GitHub, you will find that most of them have a README file, which serves as **a brief description of the project**. You can read more about the functionality of READMEs [**here**]([About READMEs - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)).
+Recalling what we did in lab 1, you should **create a new public GitHub repository** for this lab and give it a name. We recommend you to **give your repository a more descriptive name** instead of  using "geog328_lab02" It is also recommended to **add a README file** to your repo. If you have the opportunity to look at some repositories on GitHub, you will find that most of them have a README file, which serves as **a brief description of the project**. You can read more about the functionality of READMEs [**here**]([About READMEs - GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)).
 
 ![create_repo](img/create_repo.PNG)
 
-**After you create your own repo, clone it to your local computer. Then copy and paste the lab material from the course repository. You can find the lab material at `geog495/labs/lab02`.**
+**After you create your own repo, clone it to your local computer. Then copy and paste the lab material from the course repository. You can find the lab material at `geog328/labs/lab02`.**
 
 ## 2. Explore the files
 
@@ -24,7 +24,7 @@ Websites live on web servers. So here we will use the Visual Studio Code plugin 
 
 Open `Visual Studio Code` and open the folder for the new repository you created. You will see something like this:
 
-> Note: Remember to copy the lab material from the course repository (`geog495/labs/lab02`) to your own repository folder; otherwise you will just see an empty folder (or only with an README.md in it)!
+> Note: Remember to copy the lab material from the course repository (`geog328/labs/lab02`) to your own repository folder; otherwise you will just see an empty folder (or only with an README.md in it)!
 
 ![open-repo](img/open-repo.PNG)
 
@@ -74,14 +74,14 @@ Let's first take a look into the `index.html` file. Open it in `Visual Code Stud
 
 ```html
 <head>
-    <title>GEOG 495 LAB 02 EXAMPLE</title>
+    <title>GEOG 328 LAB 02 EXAMPLE</title>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 ```
 
-In the `<head>` tag, we have `<title>GEOG 495 LAB 02 EXAMPLE</title>` to define the website title, then we link the customized `.css` file. In addition, we see reference to a `font-awesome.min.css` file, which is used for getting the icon image for the hamburger button in the mobile version layout.
+In the `<head>` tag, we have `<title>GEOG 328 LAB 02 EXAMPLE</title>` to define the website title, then we link the customized `.css` file. In addition, we see reference to a `font-awesome.min.css` file, which is used for getting the icon image for the hamburger button in the mobile version layout.
 
 **`<body>` tag:**
 
