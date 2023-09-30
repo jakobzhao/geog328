@@ -6,7 +6,7 @@
 **Instructional Team:**
 
 -   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM, making a appointment [here](https://t.ly/7nWDj)
--   **Liz Peng**, Teaching Assistant, lp36@uw.edu |  Office Hour: TBA
+-   **Liz Peng**, Teaching Assistant, lp36@uw.edu |  Office Hour: Wednesdays 1:00 to 3:00 PM, SMI 430
 
 
  Web-based Geographic Information Systems (Web GIS), which combines web, mobile technology, and GIS, is a rapidly growing and promising area in both academia and industry. It has expanded the capabilities of GIS from local servers to the cloud, making online maps and geospatial intelligence more accessible to various fields such as geography, built environment, transportation, forestry, and oceanography. The integration of the web and GIS has led to numerous technological advancements, including smart cities, location-based services, autonomous driving, and pandemic dashboards. This course is designed to equip students with the necessary skills for managing web GIS projects, utilizing the latest geospatial cloud technologies for building modern web GIS applications, and providing real-world case studies for inspiration.
