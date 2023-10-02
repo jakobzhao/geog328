@@ -227,10 +227,9 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 
 | Grading items         | %    |
 | --------------------- | ---- |
-| Participation         | 4%   |
-| In-class Presentation | 6%   |
+| Participation         | 5%   |
 | Thinkpiece            | 10%  |
-| Quizzes               | 20%  |
+| Quizzes               | 25%  |
 | Lab Assignments       | 40%  |
 | Final Project         | 20%  |
 
