@@ -111,11 +111,6 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
--  [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-   -  Tuesday - Debugging (*BA4*)
-
-   -  Thursday - chroma.js (*BA3*)
-
 -  **Quiz 4:** [Javascript Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748486) `Due by the end of week 4 (Oct. 29th, 23:59)`
 -  **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6 (Nov. 12th, 23:59)`
 -  **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 5 (Nov. 5th, 23:59)` `Thinkpiece #1 comments due by the end of week 6 (Nov. 12th, 23:59)`
@@ -127,9 +122,9 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 
 <!-- Oct 30 -->
 
--   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-    -   Tuesday - Get started with Mapbox GL JS expressions (*BB4*)
-    -   Thursday - Show and hide layers (*BA5*) (Class cancelled, presentation rescheduled)
+-  **Presentation**
+   -  Tuesday, Oct 31: Debugging
+   -  Thursday, Nov 2: Chroma.js
 
 -   **Readings:**
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
@@ -143,10 +138,6 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. We will walk you through at least two MapBox applications, and you will use MapBox to make an interactive web map in the lab session too.
 
 <!-- Nov 6 -->
-
--   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-    -   Tuesday: Adjust a raster layer's opacity (*BA2*)
-    -   Thursday: Add custom markers in Mapbox GL JS (*BA1*)
 
 -   **Readings:**
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
@@ -162,10 +153,10 @@ Starting from this week to the last week, we will dive into a series of lectures
 <!-- Nov 13 -->
 
 -   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-    -   Tuesday - Create interactive hover effects with Mapbox GL JS (*BB3*)
-    -   Thursday - Filter symbols by toggling a list (*BB4*)
+    -   Tuesday, Nov 14: Create interactive hover effects with Mapbox GL JS
+    -   Thursday, Nov 16: Filter symbols by toggling a list
 
--   **Readings:** 
+-   **Readings:**
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
 
@@ -176,9 +167,6 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 <!-- Nov 20 -->
 
 <!-- Nov 23, 24 holiday, thursday and friday, influencing the thursday lecture and the lab sessions -->
-
--   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-    -   Tuesday - Show and hide layers (*BA5*)
     
 -   **Readings:** 
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
@@ -192,9 +180,9 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 <!-- Nov 27 -->
 
--   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-    -   Tuesday - Filter symbols by toggling a list (*BB2*)
-    -   Thursday - Create a time slider (*BA7*), Display buildings and terrain in 3D (*BB1*)
+-   **Presentation**
+    -   Tuesday, Nov 28: Filter symbols by toggling a list
+    -   Thursday, Nov 30: Display buildings and terrain in 3D
 
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
