@@ -229,9 +229,9 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 | --------------------- | ---- |
 | Participation         | 5%   |
 | Thinkpiece            | 10%  |
-| Quizzes               | 25%  |
+| Quizzes               | 20%  |
 | Lab Assignments       | 40%  |
-| Final Project         | 20%  |
+| Final Project         | 25%  |
 
 ## Troubleshooting
 
