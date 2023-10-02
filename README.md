@@ -123,8 +123,8 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 <!-- Oct 30 -->
 
 -  **Presentation**
-   -  Tuesday, Oct 31: Debugging
-   -  Thursday, Nov 2: Chroma.js
+   -  Tuesday, Oct 31: [Debugging](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools), Walkthrough the debugging steps with example(s)
+   -  Thursday, Nov 2: [Chroma.js](https://gka.github.io/chroma.js/),How to use the library (on maps), Color Schemes for maps, Some examples of creative use of map colors, (Optional) how to create legend on web maps
 
 -   **Readings:**
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
@@ -153,8 +153,8 @@ Starting from this week to the last week, we will dive into a series of lectures
 <!-- Nov 13 -->
 
 -   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-    -   Tuesday, Nov 14: Create interactive hover effects with Mapbox GL JS
-    -   Thursday, Nov 16: Filter symbols by toggling a list
+    -   Tuesday, Nov 14: [Create interactive hover effects with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/), Combine with Create a hover effect, or other features listed under the "Next steps" section of the provided document.
+    -   Thursday, Nov 16: [Filter symbols by toggling a list](https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/), Deploy your example using an individual github repository
 
 -   **Readings:**
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
@@ -168,7 +168,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 <!-- Nov 23, 24 holiday, thursday and friday, influencing the thursday lecture and the lab sessions -->
     
--   **Readings:** 
+-   **Readings:**
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
 -   **Final Project:** [Web GIS Application](project/readme.md) 
@@ -181,8 +181,7 @@ In this week, we will introduce how to deal with time on the web. The instructor
 <!-- Nov 27 -->
 
 -   **Presentation**
-    -   Tuesday, Nov 28: Filter symbols by toggling a list
-    -   Thursday, Nov 30: Display buildings and terrain in 3D
+    -   Tuesday, Nov 28: [Display buildings in 3D](https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/) and [Add 3D terrain to a map](https://docs.mapbox.com/mapbox-gl-js/example/add-terrain/), Briefly discuss scenarios that 3d mapping would be preferred over traditional 2d mapping, (Highly recommended) How to show your own data in 3D.
 
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
