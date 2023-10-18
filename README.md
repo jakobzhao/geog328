@@ -153,7 +153,7 @@ Starting from this week to the last week, we will dive into a series of lectures
 <!-- Nov 13 -->
 
 -   [**Presentation**](https://github.com/jakobzhao/geog328/tree/main/presentation#schedule)
-    -   Tuesday, Nov 14: [Create interactive hover effects with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/), Combine with Create a hover effect, or other features listed under the "Next steps" section of the provided document.
+    -   Tuesday, Nov 14 (Andres S Rovalo): [Create interactive hover effects with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/), Combine with Create a hover effect, or other features listed under the "Next steps" section of the provided document.
     -   Thursday, Nov 16: [Filter symbols by toggling a list](https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/), Deploy your example using an individual github repository
 
 -   **Readings:**
