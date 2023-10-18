@@ -181,7 +181,7 @@ In this week, we will introduce how to deal with time on the web. The instructor
 <!-- Nov 27 -->
 
 -   **Presentation**
-    -   Tuesday, Nov 28: [Display buildings in 3D](https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/) and [Add 3D terrain to a map](https://docs.mapbox.com/mapbox-gl-js/example/add-terrain/), Briefly discuss scenarios that 3d mapping would be preferred over traditional 2d mapping, (Highly recommended) How to show your own data in 3D.
+    -   Tuesday, Nov 28 (Noah Rarick): [Display buildings in 3D](https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/) and [Add 3D terrain to a map](https://docs.mapbox.com/mapbox-gl-js/example/add-terrain/), Briefly discuss scenarios that 3d mapping would be preferred over traditional 2d mapping, (Highly recommended) How to show your own data in 3D.
 
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
