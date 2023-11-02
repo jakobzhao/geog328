@@ -6,9 +6,9 @@
 
 The final project is a major component of this course. Each student group is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. Each group will need to choose one from the templates listed below for your final project. In principal, each group will have a unique template to build upon their project so that there would be a diversity in the final project. *Therefore, we encourage to connect with your group members as early as possible, since groups that make decisions later will have few options to choose from.*
 
-**Here is the link to the google sheet for project sign-up:**
+<!--**Here is the link to the google sheet for project sign-up:**
 
-**https://docs.google.com/spreadsheets/d/1gpzj7CVu9lKSk0NCGZOrdndWYD6RCQx42b45fFY-3rc/edit?usp=sharing**
+**https://docs.google.com/spreadsheets/d/1gpzj7CVu9lKSk0NCGZOrdndWYD6RCQx42b45fFY-3rc/edit?usp=sharing** -->
 
 The final project should satisfy the following items:
 
