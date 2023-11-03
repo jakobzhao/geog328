@@ -199,7 +199,9 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
 
--   **Final Project Presentation**：will be held on Friday Dec. 8th 12:30 to 2:20pm in SMI 401.
+### Week 11 : Final Project Submission and Presentation
+
+**Final Project Presentation**：will be held on Friday Dec. 11th 4:30 to 7:00 pm in SMI 401.
 
 
 ## Course Requirement
