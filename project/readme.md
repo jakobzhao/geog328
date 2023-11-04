@@ -53,13 +53,13 @@ The final project should satisfy the following items:
 
 #### Week 6 - Brainstorm
 
-#### Week 8 - Checkpoint #1: Project proposal `Due by the end of week 8 (Nov. 27th, 23:59)` (15 PTS)
+#### Week 8 - Checkpoint #1: Project proposal `Due by the end of week 8` (15 PTS)
 
 Please share your final project proposal on this discussion board. A proposal only needs to be shared once by one of your group members. In the proposal, please indicate what you want to make by the end of this quarter, the targeting audience, the available datasets, the required multimedia (e.g., texts, images, videos, etc) if applicable, and the functions. It would be great if you can find one or two digital geographies-related projects that you can learn from. It will give the instructor and TAs a better idea of how to help you. The proposal needs to have **at least 300 words** and one or two screenshots of the available projects that you want to learn from. Once a project proposal is shared, I welcome any suggestions if you have, the TAs and the instructor will participate in the discussion too.
 
 ***Submit through [Canvas](https://canvas.uw.edu/courses/1604818/discussion_topics/7658646)***
 
-#### Week 9 - Checkpoint #2 Data preparation `Due by the end of week 9 (Dec. 4th, 23:59)` (10pts)
+#### Week 9 - Checkpoint #2 Data preparation `Due by the end of week 9` (10pts)
 
 Data processing is always an important step for creating web GIS applications. Based on past experiences, students may find themselves spending significant amount of time on processing the spatial dataset before they could use it in the proposed web GIS project. Therefore, by the end of week 9, we expect you to have your dataset properly cleaned and processed, so that you could spend the rest of the time working on the coding part of the project. Besides providing the cleaned data, you should also write a few sentences to describe how you cleaned the data and why the data processing steps you take are necessary or beneficial to your final project.
 
@@ -67,15 +67,15 @@ Data processing is always an important step for creating web GIS applications. B
 
 #### Week 10 - Project development
 
-## Presentation (20pts+10pts)
+#### Week 11 Presentation (20pts+10pts)
 
-Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting during the final's week (on Dec 16  at 2:30 pm in SMI 105), each group is expected to present the final project in 8 minutes. After each group presents their project, there will be a 3-minute Q&A session during which other groups would ask questions or offer feedbacks. Each group is required to speak at least twice during the Q&A sessions (i.e., ask questions or offer feedbacks after two different presentations). 20 pts will be for the presentation and 5 pts for each question or piece of feedback offered.
+Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting during the final's week (**Monday Dec. 11th 4:30 to 7:00 pm in SMI 401**), each group is expected to present the final project in 8 minutes. After each group presents their project, there will be a 3-minute Q&A session during which other groups would ask questions or offer feedbacks. Each group is required to speak at least twice during the Q&A sessions (i.e., ask questions or offer feedbacks after two different presentations). 20 pts will be for the presentation and 5 pts for each question or piece of feedback offered.
 
 
 ## Submission
 
 
-To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by the end of Week 11 on **Sunday (Dec 12th) by 11:59 pm.**
+To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by the end of Week 11 on **Tuesday (Dec 12th) by 11:59 pm.**
 
 
 >  **Note:** The requirements to the project may be slightly changed according the progress of this course. The final requirements are subject to the instructor's notification.
