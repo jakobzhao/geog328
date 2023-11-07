@@ -77,5 +77,6 @@ Academics often attend conferences where they share their discoveries and browse
 
 To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by the end of Week 11 on **Tuesday (Dec 12th) by 11:59 pm.**
 
+***Submit through [Canvas](https://canvas.uw.edu/courses/1675206/assignments/8683766)***
 
 >  **Note:** The requirements to the project may be slightly changed according the progress of this course. The final requirements are subject to the instructor's notification.
