@@ -5,9 +5,12 @@
     <meta charset="utf-8" />
     <title>Demo: Add custom markers in Mapbox GL JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <!-- Include the Mapbox GL JS library CSS file -->
     <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
     <!-- Include the Mapbox GL JS library JavaScript file -->
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
@@ -44,7 +47,7 @@
 
         .mapboxgl-popup-content {
             text-align: center;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'lobster', sans-serif;
         }
     </style>
 </head>
@@ -98,7 +101,7 @@
         for (const feature of geojson.features) {
             // Create a HTML element for each feature
             const el = document.createElement('div');
-            el.className = 'marker';
+            el.className = 'marker'
 
             // Create a marker for each feature and add it to the map
             new mapboxgl.Marker(el)
@@ -109,6 +112,7 @@
                     }) // Add popups
                         .setHTML(
                             `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
+                            // "<h3>" + feature.properties.title + "</h3> <p>" + feature.properties.description + "</p>"
                         )
                 )
                 .addTo(map);
