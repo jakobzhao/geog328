@@ -187,18 +187,20 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 -   **Readings:** 
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
--   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog328/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9 (Dec. 3th, 23:59)`
 
-
-### Week 10 : Web-based Spatial Analysis II
-
-This week will focus on web-based spatial analysis. One is on nearest neighbor analysis and the second is on buffer and isochrone analysis. In the last lecturer, the instructor will summarize this course and provide you a few emerging topics in Web GIS.
+I move the content of next week to Thursday. In the Thursday's lecture we will introduce a few web-based spatial analysis. One is on nearest neighbor analysis and the second is on buffer and isochrone analysis. 
 
 <!-- Dec 4 -->
 
 -   **Readings:** 
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
+-   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog328/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by the end of week 9 (Dec. 3th, 23:59)`
+
+
+### Week 10 : Web-based Spatial Analysis II
+
+There will be no lectures this week, the TA wil be in the lecture room and help you with your final project. In addition, You are encouraged to work on your final project in the lab session.
 
 ### Week 11 : Final Project Submission and Presentation
 
@@ -228,13 +230,13 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 
 ## Grading
 
-| Grading items         | %    |
-| --------------------- | ---- |
-| Participation         | 5%   |
-| Thinkpiece            | 10%  |
-| Quizzes               | 20%  |
-| Lab Assignments       | 40%  |
-| Final Project         | 25%  |
+| Grading items   | %   |
+| --------------- | --- |
+| Participation   | 5%  |
+| Thinkpiece      | 10% |
+| Quizzes         | 20% |
+| Lab Assignments | 40% |
+| Final Project   | 25% |
 
 ## Troubleshooting
 
