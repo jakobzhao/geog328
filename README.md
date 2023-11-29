@@ -202,7 +202,7 @@ This week will focus on web-based spatial analysis. One is on nearest neighbor a
 
 ### Week 11 : Final Project Submission and Presentation
 
-**Final Project Presentation**：will be held on Tuesday Dec. 11th 4:30 to 7:00 pm in SMI 401.
+**Final Project Presentation**：will be held on **Monday** Dec. 11th 4:30 to 7:00 pm in SMI 401.
 
 
 ## Course Requirement
