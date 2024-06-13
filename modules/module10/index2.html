@@ -20,7 +20,7 @@
             left: 20px;
             /* height: 200px; */
             background-color: white;
-            padding: 10px; 
+            padding: 10px;
         }
 
         #map {
@@ -107,8 +107,8 @@
         async function getIso() {
             const query = await fetch(
                 `${urlBase}${profile}/${lon},${lat}?contours_minutes=${minutes}&polygons=true&access_token=${mapboxgl.accessToken}`, {
-                    method: 'GET'
-                }
+                method: 'GET'
+            }
             );
             const data = await query.json();
             // Set the 'iso' source's data to what's returned by the API query
@@ -136,15 +136,15 @@
             });
 
             map.addLayer({
-                    'id': 'isoLayer',
-                    'type': 'fill',
-                    'source': 'iso',
-                    'layout': {},
-                    'paint': {
-                        'fill-color': '#5a3fc0',
-                        'fill-opacity': 0.3
-                    }
-                },
+                'id': 'isoLayer',
+                'type': 'fill',
+                'source': 'iso',
+                'layout': {},
+                'paint': {
+                    'fill-color': '#5a3fc0',
+                    'fill-opacity': 0.3
+                }
+            },
                 'poi-label'
             );
 

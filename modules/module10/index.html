@@ -44,7 +44,7 @@
                 map.addImage('hospital2', image);
             });
 
-            map.loadImage(
+        map.loadImage(
             'img/l.png',
             (error, image) => {
                 if (error) throw error;
@@ -147,14 +147,14 @@
                     }
 
                     map.addLayer({
-                            id: 'nearest-hospital',
-                            type: 'circle',
-                            source: 'nearest-hospital',
-                            paint: {
-                                'circle-radius': 22,
-                                'circle-color': '#486DE0'
-                            }
-                        },
+                        id: 'nearest-hospital',
+                        type: 'circle',
+                        source: 'nearest-hospital',
+                        paint: {
+                            'circle-radius': 22,
+                            'circle-color': '#486DE0'
+                        }
+                    },
                         'hospitals'
                     );
                 });
