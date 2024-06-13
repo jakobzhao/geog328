@@ -2,27 +2,23 @@
 
 **Instructor:** Bo Zhao | zhaobo@uw.edu | Office Hour: Thursdays 1:00 to 4:00 PM by [appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUdCNmRmM2tIZHBYfGRlZmF1bHR8ZTJiZmY5ZWUwM2EzMWY3YWYzNDIwN2RkN2RmNzk2Y2I)
 
- Web-based Geographic Information Systems (Web GIS), which combines web, mobile technology, and GIS, is a rapidly growing and promising area in both academia and industry. It has expanded the capabilities of GIS from local servers to the cloud, making online maps and geospatial intelligence more accessible to various fields such as geography, built environment, transportation, forestry, and oceanography. The integration of the web and GIS has led to numerous technological advancements, including smart cities, location-based services, autonomous driving, and pandemic dashboards. This course is designed to equip students with the necessary skills for managing web GIS projects, utilizing the latest geospatial cloud technologies for building modern web GIS applications, and providing real-world case studies for inspiration.
+Web-based Geographic Information Systems (Web GIS) combine web, mobile technology, and GIS. It's a growing field in academia and industry, expanding GIS capabilities from local servers to the cloud. This makes online maps and geospatial data more accessible to fields like geography, transportation, and oceanography. The integration of web and GIS has led to advancements like smart cities, location-based services, and pandemic dashboards. This course teaches students to manage web GIS projects, use the latest geospatial cloud technologies, and provides real-world case studies.
 
-**As ChatGPT continues to gain widespread usage in academia and society, this summer course will explore the potential of utilizing it for assisting Web GIS development.** For example, Its natural language interface can simplify development by enhancing productivity and reducing the learning curve. ChatGPT's error analysis and suggestion capabilities can save time and effort in debugging, while its data analysis capabilities can provide insights into patterns and trends. It can also produce GeoJson data for story maps, making web GIS applications more immersive and engaging for users. ChatGPT's user recommendation feature can provide personalized suggestions, enhancing the user experience and accessibility of web GIS applications.
+***This summer course will explore using ChatGPT to assist in Web GIS development.*** ChatGPT can simplify development, enhance productivity, and reduce the learning curve with its natural language interface. It helps with error analysis, data analysis, and producing GeoJson data for story maps, making web GIS applications more engaging. ChatGPT's user recommendations can personalize and improve the user experience.
 
-In order to ensure equal access to web mapping technology, we have made sure that all of the Web GIS applications included in the course materials can be executed, debugged, or further developed on both Windows and Mac OSX operating systems. Additionally, all of the required software and packages are either open-source or free to use. The course is divided into two major components: lectures and lab exercises. During the lectures, students will learn about the theories and principles that underlie Web GIS, such as web architecture, front-end coding, responsive design, and web-based spatial analyses. In the labs, students will have the opportunity to put these theories into practice and develop their skills in web programming and web GIS development.
+All Web GIS applications in the course can be used on both Windows and Mac OSX, with all required software being open-source or free. The course includes lectures and lab exercises. Lectures cover Web GIS theories like web architecture, front-end coding, responsive design, and web-based spatial analyses. Labs provide hands-on practice in web programming and web GIS development.
 
 ![course cover](assets/img/cover.jpg)
 
-> _This web page is the syllabus. The course schedule might be slightly updated when the quarter unfolds, the latest schedule will be on this web page. Please ensure to check it frequently. If you have any question :raising_hand:, feel free to contact [Dr. Bo Zhao](mail://zhaobo@uw.edu)_
+> _This web page is the syllabus. The schedule might change during the quarter, so check it frequently. If you have any questions, feel free to contact the instructor.__
 
 ## Course Objectives
 
-- Acquire a comprehensive understanding of the fundamental concepts and principles of web systematic architecture, GIS project management, geospatial data client, server, and web-based spatial analyses.
-
-- Develop the necessary skills to build web-based GIS applications using either open-source or proprietary geospatial web frameworks.
-
-- Demonstrate competence in managing web GIS projects by gaining hands-on experience in web server management (e.g., Apache 2 server, tomcat, etc.), coding with the latest web technologies (e.g., html, css, JavaScript), becoming familiar with web-based geospatial cloud technologies (e.g., MapBox, Leaflet, OpenStreetMap, etc.), and conducting spatial analysis on the web.
-
-- Evaluate the user experience of a real-world web GIS application and reflect on its social implications, such as geo-privacy and geospatial data authenticity.
-
-- Use ChatGPT to assist the design and development of WebGIS applications.
+- Understand the basics of web architecture, GIS project management, geospatial data clients, servers, and web-based spatial analysis.
+- Learn to build web-based GIS applications using open-source or proprietary frameworks.
+- Gain hands-on experience in web server management, coding with HTML, CSS, JavaScript, and using geospatial cloud technologies like MapBox and OpenStreetMap.
+- Evaluate the user experience and social implications of real-world web GIS applications, including issues like geo-privacy and data authenticity.
+- Use ChatGPT to assist in the design and development of WebGIS applications.
 
 ## Weekly Schedule
 
@@ -30,14 +26,14 @@ To get started, you need to [Gear up the working environment](gearup.md). ***Ove
 
 ### Week 1: Fundamentals
 
-<!-- June 20 -->
+<!-- June 17 -->
 
-This week introduces you to the fundamentals of Web GIS.To test how well you are familiar with the reading materials and the handouts, you are required to complete the Quiz all by yourself before the due day. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
+This week introduces you to the fundamentals of Web GIS. To test how well you are familiar with the reading materials and the handouts, you are required to complete the Quiz all by yourself before the due day. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
 
 -   **Handouts:** [Part 1](modules/module01/module01.pdf) and [Part 2](modules/module02/module02.pdf).
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1655792/quizzes/1874078) `Due by the Thursday, June 22, 23:59 pm PST)`
--   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by Sunday, June 25, 23:59 pm PST)` 
--   **Thinkpiece 1:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193934) `Due by Monday, June 26, 23:59 pm PST)`
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1655792/quizzes/1874078) `Due by the Thursday, June 20, 23:59 pm PST)`
+-   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by Sunday, June 23, 23:59 pm PST)` 
+-   **Thinkpiece 1:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193934) `Due by Monday, June 24, 23:59 pm PST)`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module01/readme.md) and [study questions 2](modules/module02/readme.md).*
   
     - [Intro to Web GIS](modules/module01/intro-to-webgis.pdf).
@@ -49,14 +45,14 @@ This week introduces you to the fundamentals of Web GIS.To test how well you are
 
 ### Week 2: Front-End Coding
 
-<!-- June 27 -->
+<!-- June 24 -->
 
 This week will introduce you to Front-end coding. You will learn the basics of HTML, CSS and Javascript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. For web applications, geographical data are stored in the JavaScript Object Notation (JSON) format, or namely GeoJSON. This week will aos introduce you to GeoJSON. Similar to the previous week, we offer a quiz on Front-end coding, and a new lab on how to do responsive design.
 
 -   **Handouts:** [Part 1](modules/module03/module03.pdf) and [Part 2](modules/module04/module04.pdf).
--   **Quiz 2:** [Front-end Coding](https://canvas.uw.edu/courses/1655792/quizzes/1874080) `Due by Thursday June 29, 23:59 pm PST`.
--   **Lab 2 :** [Responsive web page design](labs/lab02) `Due by Sunday July 2, 23:59 pm PST)`
--   **Thinkpiece 2:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193936) `Due by Monday July 3, 23:59 pm PST)`
+-   **Quiz 2:** [Front-end Coding](https://canvas.uw.edu/courses/1655792/quizzes/1874080) `Due by Thursday June 27, 23:59 pm PST`.
+-   **Lab 2 :** [Responsive web page design](labs/lab02) `Due by Sunday June 30, 23:59 pm PST)`
+-   **Thinkpiece 2:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193936) `Due by Monday July 1, 23:59 pm PST)`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module03/readme.md) and [study questions 2](modules/module04/readme.md).*
     - [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) *(The section on "Debugging HTML" and the two following assessments are not required)* and [Work with Multimedia](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding). *(The section on the assessment is not required).*
     - [CSS basics](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps), [selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) and [layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction).
@@ -66,12 +62,12 @@ This week will introduce you to Front-end coding. You will learn the basics of H
 
 ### Week 3: Dig into the Server Side
 
-<!-- July 4 -->
+<!-- July 1 -->
 
 In this week, we will learn the server side of Web GIS. First, we will study geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source). In addition, we will introduce how to make basic thematic maps on the web, also practice how to load geospatial data on the web asynchronously.The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore.
 
--   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by Sunday, July 9, 23:59 pm PST`
--   **Thinkpiece 3:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193937) `Due by Monday, July 10, 23:59 pm PST`
+-   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by Sunday, July 7, 23:59 pm PST`
+-   **Thinkpiece 3:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193937) `Due by Monday, July 8, 23:59 pm PST`
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module05/readme.md) and [study questions 2](modules/module06/readme.md).*
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html).
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html).
@@ -81,13 +77,13 @@ In this week, we will learn the server side of Web GIS. First, we will study geo
 
 ### Week 4: GIS Analysis on the Web
 
-<!-- July 11 -->
+<!-- July 8 -->
 
 In this week, we will introduce you to a series of GIS analysis, including geographical measurement, nearest neighbor analysis, buffer, and isochrone analysis. These analysis are widely used in GIScience and GIS applications. In addition, we will introduce you to the concept of web mapping application programming interface (API). A web mapping API is a set of programming instructions and standards for accessing web based geospatial data and services. It is a set of routines, protocols, and tools for building software and applications. In this week, you will learn how to use the Mapbox API and Turf.js to perform GIS analysis on the web.
 
--   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by Sunday, July 16, 23:59 pm PST`
--   **Thinkpiece 4:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193938) `Due by Monday, July 17, 23:59 pm PST`
--   **Readings:** *To help you grasp the gist of the reading material, you can refer to the study questions **`To be added`**.*
+-   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by Sunday, July 14, 23:59 pm PST`
+-   **Thinkpiece 4:** [Sharing your experience of using ChatGPT or other AI tools in finishing this lab assignment](https://canvas.uw.edu/courses/1655792/discussion_topics/8193938) `Due by Monday, July 15, 23:59 pm PST`
+-   **Readings:** *Please walk through the tutorials below.*
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
