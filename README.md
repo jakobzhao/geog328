@@ -4,7 +4,7 @@
 
 Web-based Geographic Information Systems (Web GIS) combine web, mobile technology, and GIS. It's a growing field in academia and industry, expanding GIS capabilities from local servers to the cloud. This makes online maps and geospatial data more accessible to fields like geography, transportation, and oceanography. The integration of web and GIS has led to advancements like smart cities, location-based services, and pandemic dashboards. This course teaches students to manage web GIS projects, use the latest geospatial cloud technologies, and provides real-world case studies.
 
-***This summer course will explore using ChatGPT to assist in Web GIS development.*** ChatGPT can simplify development, enhance productivity, and reduce the learning curve with its natural language interface. It helps with error analysis, data analysis, and producing GeoJson data for story maps, making web GIS applications more engaging. ChatGPT's user recommendations can personalize and improve the user experience.
+**This summer course will explore using ChatGPT to assist in Web GIS development.** ChatGPT can simplify development, enhance productivity, and reduce the learning curve with its natural language interface. It helps with error analysis, data analysis, and producing GeoJson data for story maps, making web GIS applications more engaging. ChatGPT's user recommendations can personalize and improve the user experience.
 
 All Web GIS applications in the course can be used on both Windows and Mac OSX, with all required software being open-source or free. The course includes lectures and lab exercises. Lectures cover Web GIS theories like web architecture, front-end coding, responsive design, and web-based spatial analyses. Labs provide hands-on practice in web programming and web GIS development.
 
@@ -71,7 +71,8 @@ In this week, we will learn the server side of Web GIS. First, we will study geo
 -   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module05/readme.md) and [study questions 2](modules/module06/readme.md).*
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html).
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html).
-    - [Making asynchronous programming easier with async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) More recent additions to the JavaScript language are async functions and the await keyword, added in ECMAScript 2017. These features basically act as syntactic sugar on top of promises, making asynchronous code easier to write and to read afterwards. They make async code look more like old-school synchronous code, so they're well worth learning. This article gives you what you need to know.
+    - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
+     - [Making asynchronous programming easier with async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) More recent additions to the JavaScript language are async functions and the await keyword, added in ECMAScript 2017. These features basically act as syntactic sugar on top of promises, making asynchronous code easier to write and to read afterwards. They make async code look more like old-school synchronous code, so they're well worth learning. This article gives you what you need to know.
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/).
     - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/).
 
@@ -97,16 +98,19 @@ In this week, we will introduce you to a series of GIS analysis, including geogr
 
 **Quizzes:** There will be two quizzes in this quarter. Each quiz is designed to test your comprehension of new material. Questions may include multiple choice questions, matching questions, fill-in-the-blank questions, and short answer questions.  Before you answer the questions, please read the following instructions carefully:
 
-- You are forbidden to use ChatGPT or any other AI tools to help you answer the questions.
+- **Please do not use ChatGPT or any other AI tools to answer the questions.**
 - You’ll have unlimited time.
 - You are welcome to use your notes, course material, and online resources, but you are asked to work alone (not in consultation with your classmates).
 - You will be given only one attempt at each quiz.
 - After completing the quiz, the first time, you'll see which questions you got right and wrong and get feedback on your answer selections.
 
-**Lab Assignments:** You need to finish all four labs by the due date. ***You are encouraged to work on the lab assignments in groups, However, each student should submit their own work. In addition, you are encouraged to use ChatGPT or other AI tools to finish the Lab Assignments.*** If you have any questions about the lab further, please look for tech support from the instructor.
+**Lab Assignments:** You need to finish all four labs by the due date. You are encouraged to work on the lab assignments in groups, However, each student should submit their own work. In addition, you are encouraged to use ChatGPT to code or debug your program, but please do not use ChatGPT to create textual content that is required in your Lab Assignments. If you have any questions about the lab further, please refer to the troubleshooting section below.
 
-**Thinkpieces:** Every week, you are required to compose a thinkpiece with a minimum length of 350 words and share it on the Canvas discussion board. Your thinkpiece should delve into your utilization of AI tools such as ChatGPT, Github Copilot, or any other relevant tools, in completing the lab assignment. Once you have posted your thinkpiece, please engage with your classmates' contributions by commenting on or liking at least two of their thinkpieces. To grade your work, I will divide the students into three groups based on the number of likes and comments they receive by the end of the following week. For instance, the thinkpiece submitted in the first week will be evaluated at the conclusion of the second week. Self-generated likes and comments will not be considered in the assessment. Students who receive the highest number of likes and comments will be awarded 7 points, while those who secure the second highest number will earn 6 points. The remaining students who submitted a thinkpiece will receive 5 points.
+**Thinkpieces:** Every week, you are required to compose a thinkpiece with a minimum length of 350 words and share it on the Canvas discussion board. Your thinkpiece should delve into your utilization of AI tools such as ChatGPT, GitHub Copilot, or any other relevant tools in completing the lab assignment.
 
+- While you are encouraged to use ChatGPT for coding or debugging your program, do not use ChatGPT or any other AI writing-assistant tools to draft your thinkpiece. This piece should be completed by yourself.
+- Once you have posted your thinkpiece, engage with your classmates' contributions by commenting on or liking at least two of their thinkpieces. To grade your work, I will divide the students into three groups based on the number of likes and comments they receive by the end of the following week. For instance, the thinkpiece submitted in the first week will be evaluated at the conclusion of the second week. Self-generated likes and comments will not be considered in the assessment.
+- Students who receive the highest number of likes and comments will be awarded 7 points, while those who secure the second-highest number will earn 6 points. The remaining students who submitted a thinkpiece will receive 5 points.
 ## Grading
 
 | **Grading Items**          | **%** |
@@ -118,17 +122,24 @@ In this week, we will introduce you to a series of GIS analysis, including geogr
 
 ## Troubleshooting
 
-- Problems with labs and quizzes: visit the office hours of your Instructor.
-- Problems with Canvas: Use the Help button on Canvas or contact the UW-IT helpdesk. If you are unable to access Canvas or your problems with Canvas are affecting your ability to submit course assignments, reach out to the instructor via email or Canvas Message.
-- Problems with QGIS: You can also stop by your Instructor’s office hours to get help in real-time.  You can also get help through the Suzzallo GIS Lab or the Center for Social Science Computation and Research. Finally, if those don’t work, you can email or Canvas Message your course instructor or TA, being sure to include screenshots of what you are struggling with. 
-- Problems with Mapbox, VSCode, or GeoServer: You can also stop by your Instructor’s office hours to get help in real-time. If it still cannot be solved, you can email or Canvas Message your course instructor, being sure to include screenshots of what you are struggling with. 
-- Stressed Out: If something about this course is causing you stress or your stress level is affecting your performance in this class, reach out to the course instructor via email or Canvas Message or stop by your instructor’s office hours.  You can find additional help from Student Services or the Counseling Center.
-- **E-mail:** is the easiest way of reaching me. I will respond to all e-mails during office hours, and will periodically return e-mail at other times. Please note that the answer to many commonly e-mailed questions can be found in the syllabus or on the course website. Please also note that in order to respond your e-mail you MUST include the following information in every e-mail:
+### General Course Issues
+For course-related issues, please first check the syllabus. If you still have questions, email me directly.
 
-    -  A Salutation (Both Dr. Zhao and Professor Zhao are acceptable)
-    -  Your Full Name
-    -  What class you are in
-    -  Subject line summarizing your e-mail (i.e. “Question regarding Map Design” for example)
+### Coding Issues
+If your issue is related to coding and debugging, please follow these steps before reaching out:
+
+1. Ensure you have carefully read the course requirements.
+2. Verify that your code follows basic syntax and rules.
+3. Use the inspector or your development environment to check for system errors or warnings.
+4. Search for solutions on Google or other search engines. If you find any, try implementing them.
+5. If the issue persists, use ChatGPT to seek a solution.
+6. If you have tried all the above steps and still cannot resolve the problem, email me. In your email, describe the issue and include:
+    - The source code or a link to your GitHub repo.
+    - System errors or warnings from step 3.
+    - Links to solutions you found through Google (step 4).
+    - Screenshots of ChatGPT's responses (step 5).
+    - A subject line summarizing your email (e.g., "Question regarding Web Map Stylesheet of Lab 4").
+
 
 ## Equity & Inclusivity
 
@@ -142,12 +153,12 @@ We welcome the opportunity to work with any students with disabilities in this c
 
 Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at [Religious Accommodations Policy](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://https:/registrar.washington.edu/students/religious-accommodations-request/).
 
- ## Student Care & Safety
+## Student Care & Safety
 
 It is important that you take care of yourselves inside and outside of class as you work through stress and other obstacles. There are many different support services on campus that can help, such as the Counseling Center, Hall Health, and the IMA. UW’s Student Care program can help you connect to these and other resources. Learn more an contact them directly: http://depts.washington.edu/livewell/student-care/, livewell@uw.edu, or 206.543.6085. If you are concerned about yourself or a friend who is struggling SafeCampus is a helpful resource. Please add 206.685.7233 to your phones
 
 ## Copyright
 
-This course advocates for the open culture. The course materials are open source for both students and open source community to access. This course also builds on the work of Bo Zhao, Xiaoqi "Steven" Bao, among many others, who have designed and taught or TA-ed previous iterations of this course.
+This course advocates for the open culture. The course materials are open source for both students and open source community to access. This course also builds on the work of Bo Zhao, Xiaoqi "Steven" Bao, Liz Peng, among many others, who have designed and taught or TA-ed previous iterations of this course.
 
 Notably, students are not allow to videotape or audio-tape (record) this class in any form, and sharing recordings outside of class without the written consent of each student in the class is not permitted by [FERPA](https://registrar.washington.edu/students/ferpa/). However, I will try to record most of the classes via Zoom and share them via Canvas. Even so, I still encourage each of you attend the lectures instead of watching the recorded videos afterwards. Your in-class participation is a key factor to yield the best learning outcome. The instructor determines if their class can and cannot be recorded. This decision should be clearly communicated by the instructor at the beginning and throughout the quarter. In Zoom, the recording feature can be controlled by the instructor, as the meeting host.
