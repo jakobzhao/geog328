@@ -106,7 +106,7 @@ In this week, we will introduce you to a series of GIS analysis, including geogr
 
 **Lab Assignments:** You need to finish all four labs by the due date. You are encouraged to work on the lab assignments in groups, However, each student should submit their own work. In addition, you are encouraged to use ChatGPT to code or debug your program, but please do not use ChatGPT to create textual content that is required in your Lab Assignments. If you have any questions about the lab further, please refer to the troubleshooting section below.
 
-**Thinkpieces:** Every week, you are required to compose a thinkpiece with a minimum length of 350 words and share it on the Canvas discussion board. Your thinkpiece should delve into your utilization of AI tools such as ChatGPT, GitHub Copilot, or any other relevant tools in completing the lab assignment.
+**Thinkpieces:** Your weekly thinkpiece should be at least 350 words and share it on the Canvas discussion board. Your thinkpiece should delve into your utilization of AI tools such as ChatGPT, GitHub Copilot, or any other relevant tools in completing the lab assignment.
 
 - While you are encouraged to use ChatGPT for coding or debugging your program, do not use ChatGPT or any other AI writing-assistant tools to draft your thinkpiece. This piece should be completed by yourself.
 - Once you have posted your thinkpiece, engage with your classmates' contributions by commenting on or liking at least two of their thinkpieces. To grade your work, I will divide the students into three groups based on the number of likes and comments they receive by the end of the following week. For instance, the thinkpiece submitted in the first week will be evaluated at the conclusion of the second week. Self-generated likes and comments will not be considered in the assessment.
@@ -139,7 +139,6 @@ If your issue is related to coding and debugging, please follow these steps befo
     - Links to solutions you found through Google (step 4).
     - Screenshots of ChatGPT's responses (step 5).
     - A subject line summarizing your email (e.g., "Question regarding Web Map Stylesheet of Lab 4").
-
 
 ## Equity & Inclusivity
 
