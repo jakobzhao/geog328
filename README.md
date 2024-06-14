@@ -1,6 +1,6 @@
 # Summer 2024: GEOGRAPHY 328 - Web GIS
 
-**Instructor:** Bo Zhao | zhaobo@uw.edu | Office Hour: Thursdays 1:00 to 4:00 PM by [appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUdCNmRmM2tIZHBYfGRlZmF1bHR8ZTJiZmY5ZWUwM2EzMWY3YWYzNDIwN2RkN2RmNzk2Y2I)
+**Instructor:** Bo Zhao | zhaobo@uw.edu | Office Hour: Thursdays 1:00 to 4:00 PM by [appointment](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G)
 
 Web-based Geographic Information Systems (Web GIS) combine web, mobile technology, and GIS. It's a growing field in academia and industry, expanding GIS capabilities from local servers to the cloud. This makes online maps and geospatial data more accessible to fields like geography, transportation, and oceanography. The integration of web and GIS has led to advancements like smart cities, location-based services, and pandemic dashboards. This course teaches students to manage web GIS projects, use the latest geospatial cloud technologies, and provides real-world case studies.
 
