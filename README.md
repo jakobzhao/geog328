@@ -2,7 +2,7 @@
 
 **Instructional Team:**
 
--   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM, *making an appointment from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G)*.
+-   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3:00 to 5:00 PM, *making an appointment from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G)*.
 
 -   **Liz Peng**, Teaching Assistant, lp36@uw.edu |  Office Hour: *TBD*, SMI 430
 
