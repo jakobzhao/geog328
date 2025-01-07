@@ -241,7 +241,7 @@ If your issue is related to coding and debugging, please follow these steps befo
 3. Use the inspector or your development environment to check for system errors or warnings.
 4. Search for solutions on Google or other search engines. If you find any, try implementing them.
 5. If the issue persists, use ChatGPT to seek a solution.
-6. If you have tried all the above steps and still cannot resolve the problem, email me. In your email, describe the issue and include:
+6. If you have tried all the above steps and still cannot resolve the problem, email the TA. In your email, describe the issue and include:
     - The source code or a link to your GitHub repo.
     - System errors or warnings from step 3.
     - Links to solutions you found through Google (step 4).
