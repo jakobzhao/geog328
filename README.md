@@ -2,7 +2,7 @@
 
 **Instructional Team:**
 
--   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM, making a appointment [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G)
+-   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM, *making an appointment from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G)*.
 
 -   **Liz Peng**, Teaching Assistant, lp36@uw.edu |  Office Hour: *TBD*, SMI 430
 
@@ -36,7 +36,7 @@ To get started, you need to [Gear up the working environment](gearup.md). ***Ove
 The lecture sessions in this week introduces you to the fundamentals of Web GIS. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
 
 -   **Readings:** 
-    - [Intro to Web GIS](https://canvas.uw.edu/courses/1675206/files/folder/assets?preview=109758124)
+    - [Intro to Web GIS](https://canvas.uw.edu/courses/1782876/files/folder/assets?preview=128993703)
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module01/readme.md) `of this week.`
@@ -44,7 +44,7 @@ The lecture sessions in this week introduces you to the fundamentals of Web GIS.
 
     
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by Wednesday, Jan 15th, 23:59 PST`
--   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1782876/discussion_topics/9006522) `Due by Monday, Jan 13, 23:59 PST`
+-   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1782876/discussion_topics/9431503) `Due by Monday, Jan 13, 23:59 PST`
 
 ### Week 2: Web Fundamentals
 
@@ -56,12 +56,12 @@ Today, almost everyone has used the Internet. To develop Web applications by you
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
-    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1675206/files/folder/assets?preview=109758127)
+    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1782876/files/folder/assets?preview=128993708)
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module02/readme.md) `of this week.`
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
 
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1604818/quizzes/1748487) `Due by Friday, Jan 17th, 23:59 PST`
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153709) `Due by Friday, Jan 17th, 23:59 PST`
 
 
 ### Week 3: Front-end Coding: HTML and CSS
@@ -78,7 +78,7 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 -   [Lecture Slides](modules/module03/module03.pdf)
--   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9006521) `Due by Monday Jan 27th, 23:59 PST`
+-   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431502) `Due by Monday Jan 27th, 23:59 PST`
 -   **Lab 2:** [Responsive web page design](labs/lab02) `Due by Wednesday, Jan 29th, 23:59 PST`
 
 
@@ -103,7 +103,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
--  **Quiz 2:** [Front-end Coding Basics](https://canvas.uw.edu/courses/1604818/quizzes/1748486) `Due by Monday, Feb 3rd 23:59 PST`
+-  **Quiz 2:** [Front-end Coding Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153710) `Due by Monday, Feb 3rd 23:59 PST`
 -  **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by Wednesday Feb 5th, 23:59 PST`
 
 
@@ -123,7 +123,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - starting from this week, we will have active learnings in class. So please make sure read the reading materials before class. Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
     - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
 
--   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9006519) `Due by Monday, Feb 10, 23:59 PST`
+-   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431501) `Due by Monday, Feb 10, 23:59 PST`
 
 -   **[Final Project](project/readme.md):** Introduce the requirements of the final project.
 
@@ -180,7 +180,7 @@ In this week, we will introduce how to deal with time on the web. The instructor
     [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
--   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9006517) `Due by Friday, March 7th 23:59 PST`
+-   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431500) `Due by Friday, March 7th 23:59 PST`
 
 
 ### Week 10 : Project Development and Report
@@ -221,8 +221,8 @@ There will be no lectures this week, the TA wil be in the lecture room and help 
 
 | Grading items   | %   |
 | --------------- | --- |
-| Participation   | 5%  |
-| Thinkpiece      | 15% |
+| Participation   | 2%  |
+| Thinkpiece      | 18% |
 | Quizzes         | 15% |
 | Lab Assignments | 40% |
 | Final Project   | 25% |
