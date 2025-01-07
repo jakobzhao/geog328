@@ -1,7 +1,5 @@
 # Autumn 2024: GEOGRAPHY 328 - Web GIS
 
-**Instructor:** Bo Zhao | zhaobo@uw.edu | Office Hour: Thursdays 3:00 to 6:00 PM by [appointment](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G)
-
 **Instructional Team:**
 
 -   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:45 to 4:45 PM, making a appointment [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Jh4b5wVcZtAUS2Z973GLwqA1vgOxlZsAvai4qDgTkroQO0CpEJzYk8xicaKaUI-chESrsNd8G)
@@ -46,6 +44,7 @@ The lecture sessions in this week introduces you to the fundamentals of Web GIS.
 
     
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by the end of week 1 (Oct. 8th, 23:59)`
+-   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1729756/discussion_topics/9006522) `Due by Monday, June 24, 23:59 pm PST)`
 
 ### Week 2: Web Fundamentals
 
@@ -107,7 +106,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  **Quiz 4:** [Javascript Fundamentals](https://canvas.uw.edu/courses/1604818/quizzes/1748486) `Due by the end of week 4 (Oct. 29th, 23:59)`
 -  **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by the end of week 6 (Nov. 12th, 23:59)`
--  **Thinkpiece #1**: Main article - [Mapping COVID-19: How web-based maps contribute to the infodemic](readings/thinkpiece1/Dialogues-in-Human-Geography-2020-Mooney-Juhasz-Mapping-COVID-19-How-web-based-maps-contribute-to-the-infodemic.pdf), [Extended readings](readings/thinkpiece1) `Thinkpiece #1 post due by the end of week 5 (Nov. 5th, 23:59)` `Thinkpiece #1 comments due by the end of week 6 (Nov. 12th, 23:59)`
+-   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1729756/discussion_topics/9006521) `Due by Monday July 1, 23:59 pm PST)`
 
 
 ### Week 5: Geospatial Web Server
@@ -125,6 +124,8 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
     - starting from this week, we will have active learnings in class. So please make sure read the reading materials before class. Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
     - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
+
+-   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1729756/discussion_topics/9006519) `Due by Monday, July 8, 23:59 pm PST`
 
 -   **[Final Project](project/readme.md):** Introduce the requirements of the final project.
 
@@ -166,6 +167,9 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 -   **Readings:**
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
+
+-   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1729756/discussion_topics/9006517) `Due by Monday, July 15, 23:59 pm PST`
+
 -   **Final Project:** [Web GIS Application](project/readme.md) 
 -   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog328/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by the end of week 8 (Nov. 26th, 23:59)`
 
@@ -195,79 +199,9 @@ I move the content of next week to Thursday. In the Thursday's lecture we will i
 
 There will be no lectures this week, the TA wil be in the lecture room and help you with your final project. In addition, You are encouraged to work on your final project in the lab session.
 
-### Week 11 : Final Project Submission and Presentation
-
 **Final Project Presentation**：will be held on **Monday** Dec. 11th 4:30 to 7:00 pm in SMI 401.
 
 
-
-
-
-### Week 1: Fundamentals
-
-<!-- June 17 -->
-
-This week introduces you to the fundamentals of Web GIS. To test how well you are familiar with the reading materials and the handouts, you are required to complete the Quiz all by yourself before the due day. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
-
--   **Handouts:** [Part 1](modules/module01/module01.pdf) and [Part 2](modules/module02/module02.pdf).
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1729756/quizzes/2048566) `Due by the Thursday, June 20, 23:59 pm PST)`
--   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by Sunday, June 23, 23:59 pm PST)` 
--   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1729756/discussion_topics/9006522) `Due by Monday, June 24, 23:59 pm PST)`
--   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module01/readme.md) and [study questions 2](modules/module02/readme.md).*
-  
-    - [Intro to Web GIS](modules/module01/intro-to-webgis.pdf).
-    - [Technical basics of Web GIS](modules/module02/tech-basics.pdf).
-    - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development.
-    - [The web, web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards) and [web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics).
-    - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
-    - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown.
-
-### Week 2: Front-End Coding
-
-<!-- June 24 -->
-
-This week will introduce you to Front-end coding. You will learn the basics of HTML, CSS and Javascript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. For web applications, geographical data are stored in the JavaScript Object Notation (JSON) format, or namely GeoJSON. This week will aos introduce you to GeoJSON. Similar to the previous week, we offer a quiz on Front-end coding, and a new lab on how to do responsive design.
-
--   **Handouts:** [Part 1](modules/module03/module03.pdf) and [Part 2](modules/module04/module04.pdf).
--   **Quiz 2:** [Front-end Coding](https://canvas.uw.edu/courses/1729756/quizzes/2048565) `Due by Thursday June 27, 23:59 pm PST`.
--   **Lab 2 :** [Responsive web page design](labs/lab02) `Due by Sunday June 30, 23:59 pm PST)`
--   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1729756/discussion_topics/9006521) `Due by Monday July 1, 23:59 pm PST)`
--   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module03/readme.md) and [study questions 2](modules/module04/readme.md).*
-    - [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML) *(The section on "Debugging HTML" and the two following assessments are not required)* and [Work with Multimedia](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding). *(The section on the assessment is not required).*
-    - [CSS basics](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps), [selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors) and [layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction).
-    - [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) and [building blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks).
-    - [Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
-    - [Introduction to GeoJSON](https://en.wikipedia.org/wiki/GeoJSON).
-
-### Week 3: Dig into the Server Side
-
-<!-- July 1 -->
-
-In this week, we will learn the server side of Web GIS. First, we will study geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source). In addition, we will introduce how to make basic thematic maps on the web, also practice how to load geospatial data on the web asynchronously.The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore.
-
--   **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by Sunday, July 7, 23:59 pm PST`
--   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1729756/discussion_topics/9006519) `Due by Monday, July 8, 23:59 pm PST`
--   **Readings:** *To help you grasp the gist of the reading material, you can refer to the [study questions 1](modules/module05/readme.md) and [study questions 2](modules/module06/readme.md).*
-    - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html).
-    - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html).
-    - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
-     - [Making asynchronous programming easier with async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) More recent additions to the JavaScript language are async functions and the await keyword, added in ECMAScript 2017. These features basically act as syntactic sugar on top of promises, making asynchronous code easier to write and to read afterwards. They make async code look more like old-school synchronous code, so they're well worth learning. This article gives you what you need to know.
-    - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/).
-    - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/).
-
-### Week 4: GIS Analysis on the Web
-
-<!-- July 8 -->
-
-In this week, we will introduce you to a series of GIS analysis, including geographical measurement, nearest neighbor analysis, buffer, and isochrone analysis. These analysis are widely used in GIScience and GIS applications. In addition, we will introduce you to the concept of web mapping application programming interface (API). A web mapping API is a set of programming instructions and standards for accessing web based geospatial data and services. It is a set of routines, protocols, and tools for building software and applications. In this week, you will learn how to use the Mapbox API and Turf.js to perform GIS analysis on the web.
-
--   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by Sunday, July 14, 23:59 pm PST`
--   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1729756/discussion_topics/9006517) `Due by Monday, July 15, 23:59 pm PST`
--   **Readings:** *Please walk through the tutorials below.*
-    - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
-    - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
-    - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
-    - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
 
 ## Course Requirement
 
@@ -290,14 +224,19 @@ In this week, we will introduce you to a series of GIS analysis, including geogr
 - While you are encouraged to use ChatGPT for coding or debugging your program, do not use ChatGPT or any other AI writing-assistant tools to draft your thinkpiece. This piece should be completed by yourself.
 - Once you have posted your thinkpiece, engage with your classmates' contributions by commenting on or liking at least two of their thinkpieces. To grade your work, I will divide the students into three groups based on the number of likes and comments they receive by the end of the following week. For instance, the thinkpiece submitted in the first week will be evaluated at the conclusion of the second week. Self-generated likes and comments will not be considered in the assessment.
 - Students who receive the highest number of likes and comments will be awarded 7 points, while those who secure the second-highest number will earn 6 points. The remaining students who submitted a thinkpiece will receive 5 points.
+
+
 ## Grading
 
-| **Grading Items**          | **%** |
-| -------------------------- | ----- |
-| Participation              | 2%    |
-| Lab Assignments            | 40%   |
-| Quizzes                    | 30%   |
-| ChatGPT Experience Sharing | 28%   |
+
+| Grading items   | %   |
+| --------------- | --- |
+| Participation   | 5%  |
+| Thinkpiece      | 15% |
+| Quizzes         | 15% |
+| Lab Assignments | 40% |
+| Final Project   | 25% |
+
 
 ## Troubleshooting
 
