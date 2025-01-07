@@ -31,8 +31,6 @@ All Web GIS applications in the course can be used on both Windows and Mac OSX, 
 To get started, you need to [Gear up the working environment](gearup.md). ***Over this quarter, you are expected to read all the assigned reading materials by the end of the Wednesday of each week and complete the lab assignment and quiz by the due day***.
 
 
-
-
 ### Week 1: Intro to Web GIS
 
 <!-- Oct 2 -->
@@ -47,7 +45,6 @@ The lecture sessions in this week introduces you to the fundamentals of Web GIS.
 -  [Lecture Slides](modules/module01/module01.pdf) 
 
     
-
 -   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by the end of week 1 (Oct. 8th, 23:59)`
 
 ### Week 2: Web Fundamentals
