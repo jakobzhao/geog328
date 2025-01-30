@@ -139,7 +139,7 @@ In this week, we will introduce you to map making on the web. The web based inte
     list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
 -   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by Wednesday, Feb 19th 23:59 PST`
 
--   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog328/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by Monday, Feb 17, 23:59 PST`
+-   **Final Project Checkpoint #1**: [Project proposal](https://canvas.uw.edu/courses/1782876/discussion_topics/9431535) `Due by Monday, Feb 17, 23:59 PST`
 
 ### Week 7 : Geocoding on the Web
 
@@ -154,7 +154,7 @@ Starting from this week to the last week, we will dive into a series of lectures
 -   **Readings:**
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
--   **Final Project Checkpoint #2**: [Data preparation](https://github.com/jakobzhao/geog328/tree/main/project#week-9---checkpoint-2-data-preparation-due-by-the-end-of-week-9-10pts) `Due by Monday, Feb 24th 23:59 PST`
+-   **Final Project Checkpoint #2**: [Data preparation](https://canvas.uw.edu/courses/1782876/discussion_topics/9431536) `Due by Monday, Feb 24th 23:59 PST`
 
 
 ### Week 8 : Sorting by Distance
