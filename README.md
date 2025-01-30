@@ -14,7 +14,7 @@ All Web GIS applications in the course can be used on both Windows and Mac OSX, 
 
 ![course cover](assets/img/cover.jpg)
 
-> _This web page is the syllabus. The schedule might change during the quarter, so check it frequently. If you have any questions, feel free to contact the instructor.__
+> _This web page is the syllabus. The schedule might change during the quarter, so check it frequently. If you have any questions, feel free to contact the instructor._
 
 ## Course Objectives
 
@@ -98,7 +98,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
     
     - [Making asynchronous programming easier with async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) More recent additions to the JavaScript language are async functions and the await keyword, added in ECMAScript 2017. These features basically act as syntactic sugar on top of promises, making asynchronous code easier to write and to read afterwards. They make async code look more like old-school synchronous code, so they're well worth learning. This article gives you what you need to know.
     
-    - [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON). GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JSON format. In addition, a notable offspring of GeoJSON is TopoJSON, an extension of GeoJSON that encodes geospatial topology and that typically provides smaller file sizes.
+    - [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JSON format. In addition, a notable offspring of GeoJSON is TopoJSON, an extension of GeoJSON that encodes geospatial topology and that typically provides smaller file sizes.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module04/readme.md) `of this week.`
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
@@ -113,14 +113,14 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 
 <!-- Feb 3rd -->
 
--  **Presentation**
+<!-- -  **Presentation**
    -  Tuesday, Oct 31: [Debugging](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools), Walkthrough the debugging steps with example(s)
-   -  Thursday, Nov 2: [Chroma.js](https://gka.github.io/chroma.js/),How to use the library (on maps), Color Schemes for maps, Some examples of creative use of map colors, (Optional) how to create legend on web maps
+   -  Thursday, Nov 2: [Chroma.js](https://gka.github.io/chroma.js/),How to use the library (on maps), Color Schemes for maps, Some examples of creative use of map colors, (Optional) how to create legend on web maps -->
 
 -   **Readings:**
     - [Web map service from GeoServer](https://docs.geoserver.org/latest/en/user/services/wms/index.html)
     - [Publish geospatial data on GeoServer](https://docs.geoserver.org/latest/en/user/gettingstarted/shapefile-quickstart/index.html)
-    - starting from this week, we will have active learnings in class. So please make sure read the reading materials before class. Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
+    - Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
     - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
 
 -   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431501) `Due by Monday, Feb 10, 23:59 PST`
@@ -141,16 +141,15 @@ In this week, we will introduce you to map making on the web. The web based inte
 
 -   **Final Project Checkpoint #1**: [Project proposal](https://github.com/jakobzhao/geog328/tree/main/project#week-8---checkpoint-1-project-proposal-due-by-the-end-of-week-8-15-pts) `Due by Monday, Feb 17, 23:59 PST`
 
-
 ### Week 7 : Geocoding on the Web
 
 Starting from this week to the last week, we will dive into a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding using MapBox Geocoding API. The Mapbox Geocoding API allows you to make forward geocoding, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
 
 <!-- Feb 17 -->
 
--   **Presentation**
+<!-- -   **Presentation**
     -   Tuesday, Nov 14 (Andres S Rovalo): [Create interactive hover effects with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/), Combine with Create a hover effect, or other features listed under the "Next steps" section of the provided document.
-    -   Thursday, Nov 16: [Filter symbols by toggling a list](https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/), Deploy your example using an individual github repository
+    -   Thursday, Nov 16: [Filter symbols by toggling a list](https://docs.mapbox.com/mapbox-gl-js/example/filter-markers/), Deploy your example using an individual github repository -->
 
 -   **Readings:**
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
@@ -168,6 +167,7 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 -   **Readings:**
     - [Sort data by Distance: Part I](https://docs.mapbox.com/help/tutorials/building-a-store-locator/)
     - [Sort data by Distance: Part II](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
+    -  [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
 
 
 ### Week 9 : More advanced spatial analysis on the web
@@ -177,21 +177,17 @@ In this week, we will introduce how to deal with time on the web. The instructor
 <!-- March 3rd -->
 
 -   **Readings:** 
-    [Visualize geographical changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
 -   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431500) `Due by Friday, March 7th 23:59 PST`
 
-
-### Week 10 : Project Development and Report
+### Week 10 : Project Development and Presentations
 
 <!-- March 10th -->
 
-There will be no lectures this week, the TA wil be in the lecture room and help you with your final project. In addition, You are encouraged to work on your final project in the lab session.
+There will be no lecture on Tuesday, so we try to give you enough time to help you finish your collective final project with your team members. What's more, we will hold our final project presentation on Wednesday during the lab session this week.
 
-**Final Project Report**：needs to be delivered to Canvas by Monday, March 17th 11:59 PST.
-
-
+**Final Project Submission**：needs to be delivered to Canvas by the next Monday, March 17th 11:59 PST.
 
 ## Course Requirement
 
