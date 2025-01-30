@@ -1,7 +1,5 @@
 # Autumn 2024: GEOGRAPHY 328 - Web GIS
 
-hello, world
-test,
 **Instructional Team:**
 
 -   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3:00 to 5:00 PM, *making an appointment from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Gas8HcXjubqrZkDo97l-n-7UtI-YEUkmuuC9Wnnea1l3ntJFf0sLmMjFy3H5E8smHEdleDomg)*.
