@@ -222,7 +222,7 @@ geojsonFetch();
 ## 6. Add Map Layers
 
 
-After the two geojson files are fetched, we will add them as two independent map layers. Apparently, the map layers should be loaded once the map has successfully created and loaded. So, the map layer generation functions will be implemented in the function that is stimulated by the map load event.
+After the two geojson files are fetched, we will add them as two independent map layers. The map layers should be loaded once the map has successfully created and loaded. So, the map layer generation functions will be implemented in the function that is stimulated by the map load event. It is also important that the data is loaded and ready to be used. So make sure you have this code chunk is *within* the async function above.
 
 ```javascript
 //load data to the map as new layers and table on the side.
@@ -273,7 +273,7 @@ By this step, you should see the map on the right portion of the browser window 
 
 ## 7. Generate Table
 
-Now that the map has been generated, let us create the earthquake list. This list will be made by the same geojson data for the earthquakes. So, it is unnecessary to fetch the geojson data again.
+Now that the map has been generated, let us create the earthquake list. This list will be made by the same geojson data for the earthquakes. So, it is unnecessary to fetch the geojson data again. Similar to the last snippet, this should also go inside the async function to ensure the data is properly loaded by the time it executes.
 
 The code snippet selects the table element in the html page. Then, four variable are declared to create a row in the table. Each row stores three major parameters of an earthquake, including id, magnitude, and a timestamp. 
 
