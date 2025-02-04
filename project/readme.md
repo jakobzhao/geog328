@@ -4,34 +4,40 @@
 
 **Due:** Monday, March 17th 11:59 PST | **Points Available** = 150
 
-The final project is a major component of this course. Each student group is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. Each group will need to choose one from the templates listed below for your final project. In principal, each group will have a unique template to build upon their project so that there would be a diversity in the final project. *Therefore, we encourage to connect with your group members as early as possible, since groups that make decisions later will have few options to choose from.*
-
-<!--**Here is the link to the google sheet for project sign-up:**
-
-**https://docs.google.com/spreadsheets/d/1gpzj7CVu9lKSk0NCGZOrdndWYD6RCQx42b45fFY-3rc/edit?usp=sharing** -->
+The final project is a major component of this course. Each student group is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. Each group will need to choose one from the templates listed below for your final project. You are encouraged to use ChatGPT or other Generative AI tools only for coding and debugging. Please do not use ChatGPT to craft the readme file or other textual information on the web pages.
 
 The final project should satisfy the following items:
 
-- Host your project on github. By doing so, your project can be visited via a url link such as `[username].github.io/[repo_name]`. (5pts)
+- Web GIS Application (100 pts)
+  - Host your project on github. By doing so, your project can be visited via a url link such as `[username].github.io/[repo_name]`.
+  - your web GIS application should be based on any of the templates (e.g., geocoding, turf based spatial functions, sorting, etc.) that was introduced in Week 6 to 9. **A final project is purely built upon your Lab 04 does not meet the requirement.** If you want to build your final project upon other templates, please contact the Instructor to approve your request.
+  - You application will have base map and thematic map layers.
+  - A custom favicon for your web application.
+  - A self-designed base map using Mapbox.
+  - The geojson data which supports the visualization of the thematic layer(s) must to be hosted in the github.  
+  - The application will need to have multiple pages like the structure of your Lab 02.
+  - On the map, you need to show the legend of the thematic layer(s).
+  - Make sure your application can show properly on most desktop or laptop screens. It will be better if it can be shown on mobile devices, but it is not a requirement.
+  - make sure your javascript and css files are well-organized and well-commented.
+  - Your application should be free of errors and bugs. Prior to the submission, please test it on the dev Tools.
+  - Your application should be visually appealing and user-friendly. Please invite your peers to provide design suggestions.
 
-- your web GIS application should be based on any of the templates (e.g., geocoding, turf based spatial functions, sorting, etc.) that was introduced in Week 6 to 9. **A final project is purely built upon your Lab 04 does not meet the requirement.** If you want to build your final project upon other templates, please contact the Instructor to approve your request.  (15pts)
-
-- You application will have base map and thematic map layers. 
-    - You will need to design your own style of base map.  (10pts)
-    - The geojson data which supports the visualization of the thematic layer(s) must to be hosted in the github.  (25pts)
-
-- You need to create a `readme.md` file and save it in the root of the final project repository. This description must be **no less than 800 words**. In the repository, please describe the web map. Your description needs to include, but not limited to, the following items:  (40pts)
-    - Project title (3pts)
-    - Project description (9pts)
-    - Project goal (such as, what is the message you want to deliver through your project?) (9pts)
-    - The application URL (not the repository url) (2pts)
-    - Screenshots (2pts)
-    - Main functions (5pts)
-    - Data sources (3pts)
-    - Applied libraries (e.g., mapbox gl js) and Web Services (e.g., github, basemap) in use (2pts)
-    - Acknowledgment (2PNTS)
-    - Other things that are necessary to inform the audience.
-    - Your `readme.md` file should be well-formatted and free of grammatical errors (3pts)
+- Project management on Github  (50 pts)
+    - Make sure the name of your repository is not `final-project` or `Geog328-final_project`, Choose a unique, concise, and memorable name that reflects your project’s purpose.
+    - You need to create a `readme.md` file and save it in the root of the final project repository. This description must be **no less than 800 words**. In the repository, please describe the web map. Your description needs to include, but not limited to, the following items:  (40pts)
+      - Project title 
+      - Project description 
+      - Show your favicon
+      - Project goal (such as, what is the message you want to deliver through your project?)
+      - The application URL (not the repository url) 
+      - Screenshots 
+      - Main functions 
+      - Data sources
+      - Applied libraries (e.g., mapbox gl js) and Web Services (e.g., github, basemap) in use 
+      - Acknowledgments
+      - AI Use Disclosure: If you have used ChatGPT or other generative AI tools, please indicate how they have been used.
+      - Other things that are necessary to inform the audience.
+      - Your `readme.md` file should be well-formatted and free of grammatical errors 
 
 **Geospatial Data sources that you may find helpful**
 
