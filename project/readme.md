@@ -10,12 +10,18 @@ The final project should satisfy the following items:
 
 - Web GIS Application (100 pts)
   - Host your project on github. By doing so, your project can be visited via a url link such as `[username].github.io/[repo_name]`.
-  - your web GIS application should be based on any of the templates (e.g., geocoding, turf based spatial functions, sorting, etc.) that was introduced in Week 6 to 9. **A final project is purely built upon your Lab 04 does not meet the requirement.** If you want to build your final project upon other templates, please contact the Instructor to approve your request.
+  - your web GIS application should be based on any of the templates (e.g., geocoding, turf based spatial functions, sorting, etc.) that was introduced in Week 6 to 9. **A final project is purely built upon your Lab 04 does not meet the requirement.** If you want to build your final project upon other templates, please contact the Instructor to approve your request. Below are those templates that you can choose from:
+    - [Distance Sorting](https://docs.mapbox.com/help/tutorials/geocode-and-sort-stores/)
+    - [Heatmap](https://docs.mapbox.com/mapbox-gl-js/example/heatmap-layer/)
+    - [Cluster](https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/)
+    - [Working with Time](https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/) or [this example](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
+    - [Wind Particle Animation](https://docs.mapbox.com/mapbox-gl-js/example/raster-particle-layer/)
+    - [Isochrone](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
   - You application will have base map and thematic map layers.
-  - A custom favicon for your web application.
-  - A self-designed base map using Mapbox.
-  - The geojson data which supports the visualization of the thematic layer(s) must to be hosted in the github.  
-  - The application will need to have multiple pages like the structure of your Lab 02.
+  - Make sure the layers are shown in the right order. For example, the thematic layer should be on top of the base map layer, but under the labels.
+  - A self-designed base map using Mapbox. Check out this [tutorial](https://docs.mapbox.com/help/tutorials/design-custom-basemap-style/) for how to create base map layers via MapBox Studio.  - The geojson data which supports the visualization of the thematic layer(s) must to be hosted in the github.
+  - A custom favicon for your web application. For example, you can use ChatGPT to generate a favicon for your project.
+  - The application should include multiple pages, similar to the structure of your Lab 02. In addition to the map page, you can create pages for the project description, team, or other relevant information.
   - On the map, you need to show the legend of the thematic layer(s).
   - Make sure your application can show properly on most desktop or laptop screens. It will be better if it can be shown on mobile devices, but it is not a requirement.
   - make sure your javascript and css files are well-organized and well-commented.
@@ -24,7 +30,7 @@ The final project should satisfy the following items:
 
 - Project management on Github  (50 pts)
     - Make sure the name of your repository is not `final-project` or `Geog328-final_project`, Choose a unique, concise, and memorable name that reflects your project’s purpose.
-    - You need to create a `readme.md` file and save it in the root of the final project repository. This description must be **no less than 800 words**. In the repository, please describe the web map. Your description needs to include, but not limited to, the following items:  (40pts)
+    - You need to create a `readme.md` file and save it in the root of the final project repository. This description must be **no less than 800 words**. In the repository, please describe the web map. Your description needs to include, but not limited to, the following items: 
       - Project title 
       - Project description 
       - Show your favicon
