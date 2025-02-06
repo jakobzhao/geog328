@@ -19,7 +19,7 @@ The final project should satisfy the following items:
     - [Isochrone](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
   - You application will have base map and thematic map layers.
   - Make sure the layers are shown in the right order. For example, the thematic layer should be on top of the base map layer, but under the labels.
-  - A self-designed base map using Mapbox. Check out this [tutorial](https://docs.mapbox.com/help/tutorials/design-custom-basemap-style/) for how to create base map layers via MapBox Studio.  - The geojson data which supports the visualization of the thematic layer(s) must to be hosted in the github.
+  - A self-designed base map using Mapbox. Check out this [tutorial](https://docs.mapbox.com/help/tutorials/create-a-custom-style/) for how to create base map layers via MapBox Studio.  - The geojson data which supports the visualization of the thematic layer(s) must to be hosted in the github.
   - A custom favicon for your web application. For example, you can use ChatGPT to generate a favicon for your project.
   - The application should include multiple pages, similar to the structure of your Lab 02. In addition to the map page, you can create pages for the project description, team, or other relevant information.
   - On the map, you need to show the legend of the thematic layer(s).
