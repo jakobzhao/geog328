@@ -16,6 +16,7 @@ The final project should satisfy the following items:
     - [Cluster](https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/)
     - [Working with Time](https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/) or [this example](https://docs.mapbox.com/help/tutorials/show-changes-over-time/)
     - [Wind Particle Animation](https://docs.mapbox.com/mapbox-gl-js/example/raster-particle-layer/)
+    - [Buffer and nearest distance](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Isochrone](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
   - You application will have base map and thematic map layers.
   - Make sure the layers are shown in the right order. For example, the thematic layer should be on top of the base map layer, but under the labels.
