@@ -18,6 +18,7 @@ The final project should satisfy the following items:
     - [Wind Particle Animation](https://docs.mapbox.com/mapbox-gl-js/example/raster-particle-layer/)
     - [Buffer and nearest distance](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Isochrone](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
+    - [Participantary Mapping](https://github.com/jakobzhao/participatory-mapping)
   - You application will have base map and thematic map layers.
   - Make sure the layers are shown in the right order. For example, the thematic layer should be on top of the base map layer, but under the labels.
   - A self-designed base map using Mapbox. Check out this [tutorial](https://docs.mapbox.com/help/tutorials/create-a-custom-style/) for how to create base map layers via MapBox Studio.  - The geojson data which supports the visualization of the thematic layer(s) must to be hosted in the github.
