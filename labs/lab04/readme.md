@@ -197,10 +197,10 @@ geojsonFetch();
 
 **Starting from this section, all of the code needd to be within the async function `geojsonFetch()` to avoid errors related to the data file not being properly loaded.**
 
-We can load our GeoJSON file `stateData.geojson` by using the code below.
+We can load our GeoJSON file `state_data.geojson` by using the code below.
 
 ```javascript
-let response = await fetch('assets/stateData.geojson');
+let response = await fetch('assets/state_data.geojson');
 let stateData = await response.json();
 ```
 
