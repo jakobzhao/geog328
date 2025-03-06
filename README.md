@@ -1,4 +1,4 @@
-# Autumn 2024: GEOGRAPHY 328 - Web GIS
+# Winter 2025: GEOGRAPHY 328 - Web GIS
 
 **Instructional Team:**
 
