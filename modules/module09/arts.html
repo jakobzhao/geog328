@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Art with Smooth Colors</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <!-- Include Turf.js v7.0.0 -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7.0.0/turf.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 4px;
+            z-index: 1;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin: 5px 0;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="controls">
+        <button id="generate-art">Generate Art</button>
+    </div>
+    <script>
+        // Initialize Mapbox with your provided access token
+        mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10',
+            center: [15, 47], // Center over Europe
+            zoom: 4
+        });
+
+        // When the map loads, add a source and layer for the art
+        map.on('load', () => {
+            map.addSource('art', {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            });
+            map.addLayer({
+                id: 'art-layer',
+                type: 'fill',
+                source: 'art',
+                paint: {
+                    'fill-color': ['get', 'color'],
+                    'fill-opacity': 0.7,
+                    'fill-outline-color': '#000'
+                }
+            });
+        });
+
+        // Function to compute a color based on a feature's centroid.
+        // Using the x coordinate to determine hue and the y coordinate to adjust lightness.
+        function getSmoothColor(feature, bbox) {
+            // bbox: [minX, minY, maxX, maxY]
+            const centroid = turf.centroid(feature);
+            const [x, y] = centroid.geometry.coordinates;
+            const minX = bbox[0], maxX = bbox[2];
+            const minY = bbox[1], maxY = bbox[3];
+
+            // Normalize x coordinate to get hue (0 to 360)
+            const hue = 360 * ((x - minX) / (maxX - minX));
+            // Normalize y coordinate to adjust lightness (let's say between 50% and 70%)
+            const lightness = 50 + 20 * ((y - minY) / (maxY - minY));
+            // Use a fixed saturation
+            const saturation = 60;
+
+            return `hsl(${Math.round(hue)}, ${saturation}%, ${Math.round(lightness)}%)`;
+        }
+
+        // Function to generate "art" by creating a Voronoi diagram with smooth color transitions
+        function generateArt() {
+            // Define a bounding box covering a portion of Europe: [minX, minY, maxX, maxY]
+            const bbox = [-10, 35, 40, 60];
+            // Generate 40 random points within the bounding box
+            const randomPoints = turf.randomPoint(400, { bbox: bbox });
+            // Create a Voronoi diagram from the random points
+            const voronoiPolygons = turf.voronoi(randomPoints, { bbox: bbox });
+            if (!voronoiPolygons) {
+                alert("No Voronoi polygons generated. Try again.");
+                return;
+            }
+            // For each polygon, compute a color based on its centroid so adjacent patches are similar.
+            voronoiPolygons.features.forEach(feature => {
+                feature.properties = feature.properties || {};
+                feature.properties.color = getSmoothColor(feature, bbox);
+            });
+            // Update the 'art' source with the new Voronoi diagram
+            map.getSource('art').setData(voronoiPolygons);
+        }
+
+        // Attach event listener to the "Generate Art" button
+        document.getElementById('generate-art').addEventListener('click', generateArt);
+    </script>
+</body>
+
+</html>

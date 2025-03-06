@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transatlantic Random Points & Great Circles</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <!-- Include Turf.js v7.0.0 -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7.0.0/turf.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        button {
+            display: block;
+            margin: 5px 0;
+            padding: 5px 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+    <div id="controls">
+        <button id="generate-points">Generate Random Points</button>
+        <button id="create-great-circles">Create Great Circles</button>
+    </div>
+
+    <script>
+        // Initialize Mapbox using your provided access token
+        mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10',
+            center: [-35, 48], // Centered in the North Atlantic region
+            zoom: 3.5
+        });
+
+        // Global variable to store random points
+        let randomPoints = null;
+
+        // Bounding box for the transatlantic region (roughly spanning from eastern North America to Western Europe)
+        // Format: [minX, minY, maxX, maxY]
+        const bboxTransatlantic = [-90, 35, 20, 60];
+
+        // When the map loads, add sources and layers for points and great circles
+        map.on('load', () => {
+            // Source and layer for random points
+            map.addSource('random-points', {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            });
+            map.addLayer({
+                id: 'points-layer',
+                type: 'circle',
+                source: 'random-points',
+                paint: {
+                    'circle-radius': 6,
+                    'circle-color': '#d00'
+                }
+            });
+
+            // Source and layer for great circles
+            map.addSource('great-circles', {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            });
+            map.addLayer({
+                id: 'great-circles-layer',
+                type: 'line',
+                source: 'great-circles',
+                layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                },
+                paint: {
+                    'line-color': '#007cbf',
+                    'line-width': 3
+                }
+            });
+        });
+
+        // Generate a random set of four points within the transatlantic bounding box
+        function generateRandomPoints() {
+            // Clear any existing great circles
+            map.getSource('great-circles').setData({
+                type: 'FeatureCollection',
+                features: []
+            });
+            // Generate 4 random points using Turf.js within the transatlantic bounding box
+            randomPoints = turf.randomPoint(4, { bbox: bboxTransatlantic });
+            // Update the random points source on the map
+            map.getSource('random-points').setData(randomPoints);
+        }
+
+        // Create great circle arcs connecting the random points sequentially
+        function createGreatCircles() {
+            if (!randomPoints || randomPoints.features.length < 4) {
+                alert("Please generate random points first!");
+                return;
+            }
+            let arcs = [];
+            const pts = randomPoints.features;
+            // Create an arc between each consecutive pair of points
+            for (let i = 0; i < pts.length - 1; i++) {
+                const arc = turf.greatCircle(pts[i], pts[i + 1], { npoints: 100 });
+                arc.properties = {
+                    from: i,
+                    to: i + 1
+                };
+                arcs.push(arc);
+            }
+            // Optionally, you could close the loop by connecting the last point to the first:
+            // const closingArc = turf.greatCircle(pts[pts.length - 1], pts[0], { npoints: 100 });
+            // closingArc.properties = { from: pts.length - 1, to: 0 };
+            // arcs.push(closingArc);
+
+            // Create a FeatureCollection for the arcs
+            const arcsCollection = turf.featureCollection(arcs);
+            // Update the great circles source on the map
+            map.getSource('great-circles').setData(arcsCollection);
+        }
+
+        // Attach event listeners to the buttons
+        document.getElementById('generate-points').addEventListener('click', generateRandomPoints);
+        document.getElementById('create-great-circles').addEventListener('click', createGreatCircles);
+    </script>
+
+</body>
+
+</html>
