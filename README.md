@@ -46,7 +46,7 @@ The lecture sessions in this week introduces you to the fundamentals of Web GIS.
 
 
 -   **Lab 1:** [Project management using GitHub](labs/lab01)
--   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1782876/discussion_topics/9431503)
+-   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1830196/discussion_topics/9954186)
 
 ### Week 2: Web Fundamentals
 
@@ -63,7 +63,7 @@ Today, almost everyone has used the Internet. To develop Web applications by you
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
 
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153709) 
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1830196/quizzes/2269671) 
 
 ### Week 3: Front-end Coding: HTML and CSS
 
@@ -79,7 +79,7 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 -   [Lecture Slides](modules/module03/module03.pdf)
--   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431502) 
+-   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1830196/discussion_topics/9954185) 
 -   **Lab 2:** [Responsive web page design](labs/lab02) 
 
 
@@ -104,7 +104,7 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
--  **Quiz 2:** [Front-end Coding Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153710)
+-  **Quiz 2:** [Front-end Coding Basics](https://canvas.uw.edu/courses/1830196/quizzes/2269670)
 -  **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03)
 
 
@@ -124,7 +124,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
     - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
 
--  **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431501) 
+-  **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1830196/discussion_topics/9954184) 
 
 -  **[Final Project](project/readme.md):** Introduce the requirements of the final project.
 
@@ -180,7 +180,7 @@ In this week, we will introduce how to deal with time on the web. The instructor
 -   **Readings:** 
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
--   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431500) 
+-   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1830196/discussion_topics/9954183) 
 
 ### Week 10 : Project Development and Presentations
 

@@ -70,13 +70,12 @@ The final project should satisfy the following items:
 
 Please share your final project proposal on this discussion board. A proposal only needs to be shared once by one of your group members. In the proposal, please indicate what you want to make by the end of this quarter, the targeting audience, the available datasets, the required multimedia (e.g., texts, images, videos, etc) if applicable, and the functions. It would be great if you can find one or two digital geographies-related projects that you can learn from. It will give the instructor and TAs a better idea of how to help you. The proposal needs to have **at least 300 words** and one or two screenshots of the available projects that you want to learn from. Once a project proposal is shared, I welcome any suggestions if you have, the TAs and the instructor will participate in the discussion too.
 
-***Submit through [Canvas](https://canvas.uw.edu/courses/1782876/discussion_topics/9431535)***
+
 
 #### Week 7 - Checkpoint #2 Data preparation (10pts)
 
 Data processing is always an important step for creating web GIS applications. Based on past experiences, students may find themselves spending significant amount of time on processing the spatial dataset before they could use it in the proposed web GIS project. Therefore, by the end of week 9, we expect you to have your dataset properly cleaned and processed, so that you could spend the rest of the time working on the coding part of the project. Besides providing the cleaned data, you should also write a few sentences to describe how you cleaned the data and why the data processing steps you take are necessary or beneficial to your final project.
 
-***Submit through [Canvas](https://canvas.uw.edu/courses/1782876/discussion_topics/9431536)***
 
 #### Week 10 - Project Presentation (20pts+10pts)
 
@@ -84,8 +83,8 @@ Academics often attend conferences where they share their discoveries and browse
 
 ## Submission
 
-To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas by **Monday, March 17th 11:59 PST**.
+To submit your final project, you will need to share the url link of your final project's GitHub repository to a dedicated final project submission tab on Canvas.
 
-***Submit through [Canvas](https://canvas.uw.edu/courses/1782876/assignments/10030509)***
+
 
 >  **Note:** The requirements to the project may be slightly changed according the progress of this course. The final requirements are subject to the instructor's notification.
