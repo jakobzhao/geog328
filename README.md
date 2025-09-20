@@ -1,12 +1,12 @@
-# Winter 2025: GEOGRAPHY 328 - Web GIS
+# Autumn 2025: GEOGRAPHY 328 - Web GIS
 
 **Instructional Team:**
 
--   **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3:00 to 5:00 PM, *making an appointment from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Gas8HcXjubqrZkDo97l-n-7UtI-YEUkmuuC9Wnnea1l3ntJFf0sLmMjFy3H5E8smHEdleDomg)*.
+-  **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3:00 to 5:00 PM, *making an appointment from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Gas8HcXjubqrZkDo97l-n-7UtI-YEUkmuuC9Wnnea1l3ntJFf0sLmMjFy3H5E8smHEdleDomg)*.
 
--   **Alex Kirchmeier**, Teaching Assistant, alexak24@uw.edu |  Office Hour: TBA
--   **Hudson Dougan**, Teaching Assistant, hdougan@uw.edu |  Office Hour: TBA
--   **Se Chang Kim**, Teaching Assistant, vs5345@uw.edu |  Office Hour: TBA
+-  **Alex Kirchmeier**, Teaching Assistant, alexak24@uw.edu |  Office Hour: TBA
+-  **Hudson Dougan**, Teaching Assistant, hdougan@uw.edu |  Office Hour: TBA
+-  **Se Chang Kim**, Teaching Assistant, vs5345@uw.edu |  Office Hour: TBA
 
 Web-based Geographic Information Systems (Web GIS) combine web, mobile technology, and GIS. It's a growing field in academia and industry, expanding GIS capabilities from local servers to the cloud. This makes online maps and geospatial data more accessible to fields like geography, transportation, and oceanography. The integration of web and GIS has led to advancements like smart cities, location-based services, and pandemic dashboards. This course teaches students to manage web GIS projects, use the latest geospatial cloud technologies, and provides real-world case studies.
 
@@ -33,7 +33,7 @@ To get started, you need to [Gear up the working environment](gearup.md). ***Ove
 
 ### Week 1: Intro to Web GIS
 
-<!-- Jan 6 -->
+<!-- Sept 29 -->
 
 The lecture sessions in this week introduces you to the fundamentals of Web GIS. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
 
@@ -44,13 +44,13 @@ The lecture sessions in this week introduces you to the fundamentals of Web GIS.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module01/readme.md) `of this week.`
 -  [Lecture Slides](modules/module01/module01.pdf) 
 
-    
--   **Lab 1:** [Project management using GitHub](labs/lab01) `Due by Wednesday, Jan 15th, 23:59 PST`
--   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1782876/discussion_topics/9431503) `Due by Monday, Jan 13, 23:59 PST`
+
+-   **Lab 1:** [Project management using GitHub](labs/lab01)
+-   **Thinkpiece 1:** [Compare ChatGPT and GitHub Copilot](https://canvas.uw.edu/courses/1782876/discussion_topics/9431503)
 
 ### Week 2: Web Fundamentals
 
-<!-- Jan 13 -->
+<!-- Oct 6 -->
 
 Today, almost everyone has used the Internet. To develop Web applications by yourselves, you need to dive into some fundamental concepts. So, in this week, you will learn the basics of the web environment, its mechanics and standards. To maximize your learning outcome, we encourage you to read over the reading materials before the lectures. To test how well you are familiar with the materials and the lecture content, you are required to complete the Quiz 1 all by yourself before the due day.
     
@@ -63,12 +63,11 @@ Today, almost everyone has used the Internet. To develop Web applications by you
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
 
--   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153709) `Due by Friday, Jan 17th, 23:59 PST`
-
+-   **Quiz 1:** [Web Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153709) 
 
 ### Week 3: Front-end Coding: HTML and CSS
 
-<!-- Jan 20 -->
+<!-- Oct 13 -->
 
 To build websites, you should know about HTML, CSS and JavaScript. HTML is the fundamental technology used to define the structure of a webpage, CSS is used to style the web page, and JavaScript takes the charge of the behaviors of the Web. We will spend two weeks to focus on these three primary coding languages of the Web. This week mainly introduces you to HTML and CSS. To evaluate your learning outcomes, we offered a quiz and a lab for your practice.
 
@@ -80,15 +79,15 @@ To build websites, you should know about HTML, CSS and JavaScript. HTML is the f
     - [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction) This article will recap some of the CSS layout features we've already touched upon in previous modules, such as different display values, as well as introduce some of the concepts we'll be covering throughout this module.
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module03/readme.md) `of this week.`
 -   [Lecture Slides](modules/module03/module03.pdf)
--   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431502) `Due by Monday Jan 27th, 23:59 PST`
--   **Lab 2:** [Responsive web page design](labs/lab02) `Due by Wednesday, Jan 29th, 23:59 PST`
+-   **Thinkpiece 2:** [Responsive Design with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431502) 
+-   **Lab 2:** [Responsive web page design](labs/lab02) 
 
 
 ### Week 4: Front-end Coding: Javascript and GeoJSON
 
 In this week, we will focus on learning JavaScript. Also, for web applications, geographical data are stored in the JavaScript Object Notation (JSON) format, or namely GeoJSON. This week will introduce you to the general format of GeoJSON, demonstrate how to asynchronously load GeoJSON data to your Web GIS application. Similar to the previous week, we offer a quiz on JavaScript and a new lab on how to load, parse and map GeoJSON data on the web.
 
-<!-- Jan 27 -->
+<!-- Oct 20 -->
 
 -   **Readings:** 
     - [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps). In this document,we first answer some fundamental questions such as "what is JavaScript?", "what does it look like?", and "what can it do?", before moving on to taking you through your first practical experience of writing JavaScript. After that, we discuss some key building blocks in detail, such as variables, strings, numbers and arrays.
@@ -105,15 +104,15 @@ In this week, we will focus on learning JavaScript. Also, for web applications, 
 
 -  [Lecture Slides](modules/module04/module04.pdf) 
 
--  **Quiz 2:** [Front-end Coding Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153710) `Due by Monday, Feb 3rd 23:59 PST`
--  **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03) `Due by Wednesday Feb 5th, 23:59 PST`
+-  **Quiz 2:** [Front-end Coding Basics](https://canvas.uw.edu/courses/1782876/quizzes/2153710)
+-  **Lab 3:** [Asynchronous GeoJSON data loading and visualization](labs/lab03)
 
 
 ### Week 5: Geospatial Web Server
 
 In this week, we will focus on geospatial web servers. A geospatial web server plays a significant role in maintaining web based geospatial application. It stays in the cloud and provides multiple services relevant to geospatial data, such as geospatial data indexing, data format conversation, reprojection, and even spatial analyses. In this week, two geospatial web servers are introduced, including Mapbox (Proprietary) and GeoServer (Open Source).
 
-<!-- Feb 3rd -->
+<!-- Oct 27 -->
 
 <!-- -  **Presentation**
    -  Tuesday, Oct 31: [Debugging](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools), Walkthrough the debugging steps with example(s)
@@ -125,7 +124,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
     - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
 
--   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431501) `Due by Monday, Feb 10, 23:59 PST`
+-   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431501) 
 
 -   **[Final Project](project/readme.md):** Introduce the requirements of the final project.
 
@@ -133,7 +132,7 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
 
 In this week, we will introduce you to map making on the web. The web based interactive map is built upon MapBox, which is a popular map library. It not only contains fundamental map related functions, but also offers a lot of cool map features for your use and further explore. We will walk you through at least two MapBox applications, and you will use MapBox to make an interactive web map in the lab session too.
 
-<!-- Feb 10-->
+<!-- Nov 3 -->
 
 -   **Readings:**
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
@@ -141,13 +140,13 @@ In this week, we will introduce you to map making on the web. The web based inte
     list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
 -   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by Wednesday, Feb 19th 23:59 PST`
 
--   **Final Project Checkpoint #1**: [Project proposal](https://canvas.uw.edu/courses/1782876/discussion_topics/9431535) `Due by Monday, Feb 17, 23:59 PST`
+-   **Final Project Checkpoint #1**: [Project proposal](https://canvas.uw.edu/courses/1782876/discussion_topics/9431535)
 
 ### Week 7 : Geocoding on the Web
 
 Starting from this week to the last week, we will dive into a series of lectures on web-based spatial analysis. In this week, we will introduce you to web-based geocoding using MapBox Geocoding API. The Mapbox Geocoding API allows you to make forward geocoding, which means that a text query like University of Washington gets turned into longitude and latitude coordinates. But sometimes it's not enough to find query results. Often, you want the geocoder to find query results that are biased toward a location, limited to a specific area, or both.
 
-<!-- Feb 17 -->
+<!-- Nov 10 -->
 
 <!-- -   **Presentation**
     -   Tuesday, Nov 14 (Andres S Rovalo): [Create interactive hover effects with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/), Combine with Create a hover effect, or other features listed under the "Next steps" section of the provided document.
@@ -156,14 +155,14 @@ Starting from this week to the last week, we will dive into a series of lectures
 -   **Readings:**
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
--   **Final Project Checkpoint #2**: [Data preparation](https://canvas.uw.edu/courses/1782876/discussion_topics/9431536) `Due by Monday, Feb 24th 23:59 PST`
+-   **Final Project Checkpoint #2**: [Data preparation](https://canvas.uw.edu/courses/1782876/discussion_topics/9431536)
 
 
 ### Week 8 : Sorting by Distance
 
 In this week, we will introduce you to a basic spatial analysis that uses distance to sort geographical data. This application is made upon MapBox too. Starting from this week, you will work on your final project. Its requirement will be introduced in this week's lab session. In short, you will need to make an advanced spatial analysis to deal with a real-world problem.
 
-<!-- Feb 24th -->
+<!--  Nov 17  -->
 
     
 -   **Readings:**
@@ -176,16 +175,16 @@ In this week, we will introduce you to a basic spatial analysis that uses distan
 
 In this week, we will introduce how to deal with time on the web. The instructor will walk you through a more complicated application that illustrate how geographical data changes over time. In the lab session, you will continue to work on your final project.
 
-<!-- March 3rd -->
+<!--  Nov 24 -->
 
 -   **Readings:** 
     - [Nearest neighbor analysis](https://docs.mapbox.com/help/tutorials/analysis-with-turf/)
     - [Buffer and isochrone analysis](https://docs.mapbox.com/help/tutorials/get-started-isochrone-api/)
--   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431500) `Due by Friday, March 7th 23:59 PST`
+-   **Thinkpiece 4:** [Spatial Analysis with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431500) 
 
 ### Week 10 : Project Development and Presentations
 
-<!-- March 10th -->
+<!--  Dec 1  -->
 
 There will be no lecture on Tuesday, so we try to give you enough time to help you finish your collective final project with your team members. What's more, we will hold our final project presentation on Wednesday during the lab session this week.
 
