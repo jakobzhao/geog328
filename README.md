@@ -140,7 +140,7 @@ In this week, we will introduce you to map making on the web. The web based inte
     list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
 -   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by Wednesday, Feb 19th 23:59 PST`
 
--   **Final Project Checkpoint #1**: [Project proposal](https://canvas.uw.edu/courses/1782876/discussion_topics/9431535)
+-   **Final Project Checkpoint #1**: [Project proposal](https://canvas.uw.edu/courses/1830196/discussion_topics/9954182)
 
 ### Week 7 : Geocoding on the Web
 
@@ -155,7 +155,7 @@ Starting from this week to the last week, we will dive into a series of lectures
 -   **Readings:**
     - [Local search with the Geocoding API](https://docs.mapbox.com/help/tutorials/local-search-geocoding-api/)
 
--   **Final Project Checkpoint #2**: [Data preparation](https://canvas.uw.edu/courses/1782876/discussion_topics/9431536)
+-   **Final Project Checkpoint #2**: [Data preparation](https://canvas.uw.edu/courses/1830196/discussion_topics/9954181)
 
 
 ### Week 8 : Sorting by Distance
@@ -186,9 +186,9 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 <!--  Dec 1  -->
 
-There will be no lecture on Tuesday, so we try to give you enough time to help you finish your collective final project with your team members. What's more, we will hold our final project presentation on Wednesday during the lab session this week.
+There will be no lecture on Tuesday, so we try to give you enough time to help you finish your collective final project with your team members. What's more, we will hold our final project presentation on Friday during the lab session this week.
 
-**Final Project Submission**：needs to be delivered to Canvas by the next Monday, March 17th 11:59 PST.
+**Final Project Submission**：needs to be delivered to Canvas by the next Monday, December 8th 11:59 PST.
 
 ## Course Requirement
 
