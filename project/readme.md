@@ -1,8 +1,10 @@
 # Final Project
 
-**Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
+**Instructor:** Bo Zhao, zhaobo@uw.edu
 
-**Due:** Monday, March 17th 11:59 PST | **Points Available** = 150
+**Points Available** = 150
+
+**Due:** TBD
 
 The final project is a major component of this course. Each student group is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. Each group will need to choose one from the templates listed below for your final project. You are encouraged to use ChatGPT or other Generative AI tools only for coding and debugging. Please do not use ChatGPT to craft the readme file or other textual information on the web pages.
 
@@ -58,7 +60,6 @@ The final project should satisfy the following items:
 - [Seattle GeoData (arcgis.com)](https://data-seattlecitygis.opendata.arcgis.com/)
 
 > If you need help in finding the data you want to use for your project, please feel free to reach out to your TA.
-
 
 
 ## Timeline

@@ -1,6 +1,6 @@
 # Lab 1a: Participatory Mapping
 
-**Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
+**Instructor:** Bo Zhao, zhaobo@uw.edu
 
  **Points Available** = 100
 

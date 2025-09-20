@@ -1,6 +1,6 @@
 # Lab 3: Asynchronous GeoJSON Data Loading and Visualization
 
-**Instructor:** Bo Zhao, 206.685.3846 or zhaobo@uw.edu
+**Instructor:** Bo Zhao, zhaobo@uw.edu
 
  **Points Available** = 50
 
