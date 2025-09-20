@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Full Screen Map with Enhanced Panels</title>
+    <!-- Mapbox GL CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+    <style>
+        /* Ensure the page takes up the full viewport */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        /* Full screen map container */
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Welcome panel styling */
+        #welcome-panel {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            z-index: 2;
+            text-align: left;
+            width: 400px;
+        }
+
+        #welcome-panel button {
+            margin-top: 15px;
+            padding: 8px 15px;
+            border: none;
+            background: #0078a8;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Layer switcher styling */
+        #layer-switcher {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 2;
+        }
+
+        #layer-switcher button {
+            display: block;
+            margin: 5px 0;
+            padding: 5px 10px;
+            width: 100%;
+            border: none;
+            background: #0078a8;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        #layer-switcher button:hover {
+            background: #005f80;
+        }
+
+        /* Info panel styling with fixed width */
+        #info-panel {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            z-index: 2;
+            width: 400px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        #info-panel h3 {
+            margin: 8px 0 4px;
+            font-size: 16px;
+        }
+
+        #info-panel p,
+        #info-panel ul {
+            margin: 4px 0;
+        }
+
+        #info-panel ul {
+            padding-left: 20px;
+        }
+
+        #info-panel li {
+            list-style: none;
+            margin: 4px 0;
+        }
+
+        #info-panel li span {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Welcome panel with additional information -->
+    <div id="welcome-panel">
+        <h2>Welcome to Our Interactive Map</h2>
+        <p>This mapping project is a groundbreaking exploration of geospatial data visualization. Our platform offers a
+            dynamic view of geographic information, seamlessly integrating multiple layers of data.</p>
+        <p>Use the layer switcher at the top-right corner to toggle between different map styles, including Streets,
+            Satellite, and Outdoors.</p>
+        <p>Click on any location on the map to see detailed coordinates and additional context in the info panel below.
+        </p>
+        <p>For further details about our project, team, legends, and more, please refer to the info panel at the
+            bottom-left. We hope you enjoy exploring our interactive map!</p>
+        <button id="close-welcome">Close</button>
+    </div>
+
+    <!-- Layer switcher -->
+    <div id="layer-switcher">
+        <button data-style="mapbox/streets-v11">Streets</button>
+        <button data-style="mapbox/satellite-v9">Satellite</button>
+        <button data-style="mapbox/outdoors-v11">Outdoors</button>
+    </div>
+
+    <!-- Info panel with project details -->
+    <div id="info-panel">
+        <h3>Project Introduction</h3>
+        <p>This mapping project is an innovative platform that transforms geospatial data into interactive
+            visualizations. Explore diverse layers and real-time information to gain insights into geographic patterns.
+        </p>
+        <h3>Legends</h3>
+        <ul>
+            <li><span style="background-color: #f00;"></span>High Density</li>
+            <li><span style="background-color: #0f0;"></span>Medium Density</li>
+            <li><span style="background-color: #00f;"></span>Low Density</li>
+        </ul>
+        <h3>Team</h3>
+
+        <h3>About Us</h3>
+
+    </div>
+
+    <script>
+        // Set your Mapbox access token
+        mapboxgl.accessToken = 'pk.eyJ1Ijoiemhhb2JvIiwiYSI6ImNqaW85NzNrdDA3OXczcHQ5aTZvYmtjc2gifQ.ummEQxsRIweCIdv9CRRzOw';
+
+        // Initialize the map
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-74.5, 40],
+            zoom: 9
+        });
+
+        // Update the info panel with click location coordinates (appends to existing info)
+        map.on('click', function (e) {
+            var coords = e.lngLat;
+            var clickInfo = '<p><strong>Clicked Location:</strong><br>Longitude: ' + coords.lng.toFixed(4) + '<br>Latitude: ' + coords.lat.toFixed(4) + '</p>';
+            document.getElementById('info-panel').innerHTML += clickInfo;
+        });
+
+        // Layer switcher functionality
+        var buttons = document.querySelectorAll('#layer-switcher button');
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function () {
+                var styleName = this.getAttribute('data-style');
+                map.setStyle('mapbox://styles/' + styleName);
+            });
+        });
+
+        // Close the welcome panel when the button is clicked
+        document.getElementById('close-welcome').addEventListener('click', function () {
+            document.getElementById('welcome-panel').style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>

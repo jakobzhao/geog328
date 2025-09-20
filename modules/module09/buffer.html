@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turf.js Buffer Selector</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        input {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <div id="controls">
+        <h4>Select Buffers</h4>
+        <label><input type="checkbox" id="buffer-500" checked> 500m</label><br>
+        <label><input type="checkbox" id="buffer-1000" checked> 1000m</label><br>
+        <label><input type="checkbox" id="buffer-2000" checked> 2000m</label><br>
+    </div>
+
+    <script>
+        // Initialize Mapbox with the provided access token
+        mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10',
+            center: [-122.3321, 47.6062], // Seattle, WA
+            zoom: 12
+        });
+
+        // Define a central point
+        const centerPoint = turf.point([-122.3321, 47.6062]);
+
+        // Buffer distances
+        const bufferData = {
+            500: turf.buffer(centerPoint, 500, { units: 'meters' }),
+            1000: turf.buffer(centerPoint, 1000, { units: 'meters' }),
+            2000: turf.buffer(centerPoint, 2000, { units: 'meters' })
+        };
+
+        // Colors for buffers
+        const bufferColors = {
+            500: '#f28cb1',
+            1000: '#f1a545',
+            2000: '#40a3f1'
+        };
+
+        // Add layers dynamically when the map loads
+        map.on('load', () => {
+            Object.keys(bufferData).forEach(radius => {
+                map.addSource(`buffer-${radius}`, {
+                    type: 'geojson',
+                    data: bufferData[radius]
+                });
+
+                map.addLayer({
+                    id: `buffer-fill-${radius}`,
+                    type: 'fill',
+                    source: `buffer-${radius}`,
+                    paint: {
+                        'fill-color': bufferColors[radius],
+                        'fill-opacity': 0.4
+                    }
+                });
+
+                map.addLayer({
+                    id: `buffer-outline-${radius}`,
+                    type: 'line',
+                    source: `buffer-${radius}`,
+                    paint: {
+                        'line-color': '#000',
+                        'line-width': 1.5
+                    }
+                });
+            });
+
+            // Add the center point for reference
+            map.addLayer({
+                id: 'center-point',
+                type: 'circle',
+                source: {
+                    type: 'geojson',
+                    data: centerPoint
+                },
+                paint: {
+                    'circle-radius': 6,
+                    'circle-color': '#d00'
+                }
+            });
+
+            // Checkbox event listeners to toggle buffers on and off
+            document.querySelectorAll("input[type='checkbox']").forEach(checkbox => {
+                checkbox.addEventListener("change", (event) => {
+                    const radius = event.target.id.split("-")[1];
+                    const visibility = event.target.checked ? "visible" : "none";
+
+                    map.setLayoutProperty(`buffer-fill-${radius}`, 'visibility', visibility);
+                    map.setLayoutProperty(`buffer-outline-${radius}`, 'visibility', visibility);
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

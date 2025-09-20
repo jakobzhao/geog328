@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voronoi Diagram with Turf.js</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        button {
+            display: block;
+            margin: 5px 0;
+            padding: 5px 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+    <div id="controls">
+        <button id="generate-points">Generate Random Points</button>
+        <button id="generate-voronoi">Generate Voronoi Diagram</button>
+    </div>
+
+    <script>
+        // Initialize Mapbox with your provided token
+        mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10',
+            center: [-122.3321, 47.6062], // Center on Seattle
+            zoom: 11
+        });
+
+        // Global variables for storing data
+        let randomPoints = null;
+        let voronoiDiagram = null;
+        // Define a bounding box for Seattle [minX, minY, maxX, maxY]
+        const bbox = [-122.459696, 47.495315, -122.224433, 47.734136];
+
+        // Add empty sources and layers when the map loads
+        map.on('load', () => {
+            // Source and layer for random points
+            map.addSource('random-points', {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            });
+            map.addLayer({
+                id: 'points-layer',
+                type: 'circle',
+                source: 'random-points',
+                paint: {
+                    'circle-radius': 6,
+                    'circle-color': '#d00'
+                }
+            });
+
+            // Source and layer for the Voronoi diagram
+            map.addSource('voronoi', {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            });
+            map.addLayer({
+                id: 'voronoi-layer',
+                type: 'fill',
+                source: 'voronoi',
+                paint: {
+                    'fill-color': '#8888ff',
+                    'fill-opacity': 0.4,
+                    'fill-outline-color': '#000'
+                }
+            });
+        });
+
+        // Generate random points within the Seattle bbox
+        function generateRandomPoints() {
+            // Clear any existing Voronoi diagram
+            map.getSource('voronoi').setData({
+                type: 'FeatureCollection',
+                features: []
+            });
+
+            // Create 20 random points using Turf.js
+            randomPoints = turf.randomPoint(20, { bbox: bbox });
+
+            // Update the random points source on the map
+            map.getSource('random-points').setData(randomPoints);
+        }
+
+        // Create a Voronoi diagram from the random points
+        function generateVoronoi() {
+            if (!randomPoints || randomPoints.features.length === 0) {
+                alert("Please generate random points first!");
+                return;
+            }
+
+            // Generate the Voronoi diagram using Turf.js
+            voronoiDiagram = turf.voronoi(randomPoints, { bbox: bbox });
+
+            if (!voronoiDiagram) {
+                alert("Voronoi diagram could not be generated.");
+                return;
+            }
+
+            // Update the Voronoi diagram source
+            map.getSource('voronoi').setData(voronoiDiagram);
+        }
+
+        // Attach event listeners to the buttons
+        document.getElementById('generate-points').addEventListener('click', generateRandomPoints);
+        document.getElementById('generate-voronoi').addEventListener('click', generateVoronoi);
+    </script>
+
+</body>
+
+</html>
