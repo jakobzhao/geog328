@@ -124,9 +124,9 @@ In this week, we will focus on geospatial web servers. A geospatial web server p
     - Here in a list of [active learning activities](modules/module05/readme.md) that will be demonstrated in the lecture session.
     - **Instructions for GeoServer Installation on Windows and Mac** If you are using Windows, please download the MSI file for [the stable version of GeoServer](https://geoserver.org/release/stable/) and proceed with the installation. For Mac users, download the [Platform Independent Binary version](https://geoserver.org/release/stable/) instead. Regardless of your operating system, it's essential to [install Eclipse Adoptium's OpenJDK](https://adoptium.net/temurin/releases/?version=11) beforehand to ensure a successful GeoServer installation. Please ensure you download version 11 of OpenJDK, as the latest version (version 2*) is not compatible. Mac users can follow [this tutorial](https://docs.geoserver.org/2.19.x/en/user/installation/osx_binary.html) for detailed instructions on installing GeoServer, as well as starting and shutting it down.
 
--   **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431501) 
+-  **Thinkpiece 3:** [Generating GeoJSON Data with ChatGPT](https://canvas.uw.edu/courses/1782876/discussion_topics/9431501) 
 
--   **[Final Project](project/readme.md):** Introduce the requirements of the final project.
+-  **[Final Project](project/readme.md):** Introduce the requirements of the final project.
 
 ### Week 6 : Thematic Map Design on the Web
 
@@ -214,7 +214,6 @@ There will be no lecture on Tuesday, so we try to give you enough time to help y
 
 
 ## Grading
-
 
 | Grading items   | %   |
 | --------------- | --- |

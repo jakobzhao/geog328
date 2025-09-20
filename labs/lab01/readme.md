@@ -27,9 +27,8 @@ Visual Studio Code is a customizable IDE, so to fully prepare it for web program
 
 - Markdown Preview Enhanced
 - Live Server
-- Beautify (Recently this extension has been marked as "deprecated" as it is no longer being maintained. You may choose to install it or not. But we think this is still a very handy tool for quickly formatting and styling the code.)
 
-![install-vscodeext](img/install-vscodeext.png)
+<!-- ![install-vscodeext](img/install-vscodeext.png) -->
 
 ### 1.2 GitHub registration
 
