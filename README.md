@@ -6,7 +6,7 @@
 
 -  **Alex Kirchmeier**, Teaching Assistant, alexak24@uw.edu |  Office Hour: TBA
 -  **Hudson Dougan**, Teaching Assistant, hdougan@uw.edu |  Office Hour: TBA
--  **Se Chang Kim**, Teaching Assistant, vs5345@uw.edu |  Office Hour: TBA
+-  **Se Chang Kim**, Teaching Assistant (Grader), vs5345@uw.edu
 
 Web-based Geographic Information Systems (Web GIS) combine web, mobile technology, and GIS. It's a growing field in academia and industry, expanding GIS capabilities from local servers to the cloud. This makes online maps and geospatial data more accessible to fields like geography, transportation, and oceanography. The integration of web and GIS has led to advancements like smart cities, location-based services, and pandemic dashboards. This course teaches students to manage web GIS projects, use the latest geospatial cloud technologies, and provides real-world case studies.
 
