@@ -2,7 +2,7 @@
 
 **Instructional Team:**
 
--  **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 3:00 to 5:00 PM, *making an appt. from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Zt3gaMzcnND4GOmzwx13yU5PrDyOycI_fgjl4ko-M1CNvhgXLahQgBEwRdbPjBp-NUlgnZN70)*.
+-  **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:30 to 2:30 PM, *making an appt. from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Zt3gaMzcnND4GOmzwx13yU5PrDyOycI_fgjl4ko-M1CNvhgXLahQgBEwRdbPjBp-NUlgnZN70)*.
 
 -  **Alex Kirchmeier**, Teaching Assistant, alexak24@uw.edu |  Office Hour: TBA
 -  **Hudson Dougan**, Teaching Assistant, hdougan@uw.edu |  Office Hour: TBA
