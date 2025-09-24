@@ -58,7 +58,7 @@ Today, almost everyone has used the Internet. To develop Web applications by you
     - [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web). This document introduces you to the practicalities of web development. 
     - [The web and web standards](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards). This article provides some useful background on the Web — how it came about, what web standard technologies are, how they work together, why "web developer" is a great career to choose, and what kinds of best practices you'll learn about through the course.
     - [Common questions on Web mechanics](https://developer.mozilla.org/en-US/docs/Learn/Common_questions#web_mechanics). This document covers questions relating to general knowledge of the web ecosystem and how it works.
-    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1782876/files/folder/assets?preview=128993708)
+    - [Technical basics of Web GIS](https://canvas.uw.edu/courses/1830196/files/folder/assets?preview=138778631)
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module02/readme.md) `of this week.`
 
 -  [Lecture Slides](modules/module02/module02.pdf) 
