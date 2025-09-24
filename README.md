@@ -38,7 +38,7 @@ To get started, you need to [Gear up the working environment](gearup.md). ***Ove
 The lecture sessions in this week introduces you to the fundamentals of Web GIS. Over this quarter, you will frequently use GitHub for synchronizing course material and managing Web GIS project. So, in Lab 1, you will learn to manage a web-based project using GitHub.
 
 -   **Readings:** 
-    - [Intro to Web GIS](https://canvas.uw.edu/courses/1782876/files/folder/assets?preview=128993703)
+    - [Intro to Web GIS](https://canvas.uw.edu/courses/1830196/files/folder/assets?preview=138778626)
     - [Git Handbook `Optional`](https://guides.github.com/introduction/git-handbook/). Git is an example of a distributed version control system (DVCS) commonly used for open source and commercial software development. With Git, Developers can work anywhere and collaborate asynchronously from any time zone.
     - [Mastering Markdown `Optional`](https://guides.github.com/features/mastering-markdown/). Markdown is a lightweight and easy-to-use syntax for styling all forms of writing on the GitHub platform. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. 
     - `To grasp the gist of the reading material, you can refer to the` [study questions](modules/module01/readme.md) `of this week.`
