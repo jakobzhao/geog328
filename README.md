@@ -28,7 +28,7 @@ All Web GIS applications in the course can be used on both Windows and Mac OSX, 
 
 ## Weekly Schedule
 
-To get started, you need to [Gear up the working environment](gearup.md). ***Over this quarter, you are expected to read all the assigned reading materials by the end of the Wednesday of each week and complete the lab assignment and quiz by the due day***.
+To get started, you need to [Gear up the working environment](gearup.md). ***Over this quarter, you are expected to read all the assigned reading materials by the end of the Tuesday of each week and complete the lab assignment and quiz by the due day***.
 
 
 ### Week 1: Intro to Web GIS
