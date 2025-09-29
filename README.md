@@ -5,7 +5,7 @@
 -  **Bo Zhao**, Instructor, zhaobo@uw.edu | Office Hour: Thursdays 2:30 to 2:30 PM, *making an appt. from [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1Zt3gaMzcnND4GOmzwx13yU5PrDyOycI_fgjl4ko-M1CNvhgXLahQgBEwRdbPjBp-NUlgnZN70)*.
 
 -  **Alex Kirchmeier**, Teaching Assistant, alexak24@uw.edu |  Office Hour: Thursdays 12:00 to 2:00 PM, Smith 428
--  **Hudson Dougan**, Teaching Assistant, hdougan@uw.edu |  Office Hour: TBA
+-  **Hudson Dougan**, Teaching Assistant, hdougan@uw.edu |  Office Hour: Thursdays 11:30 to 1:30 PM, Smith 417
 -  **Se Chang Kim**, Teaching Assistant (Grader), vs5345@uw.edu
 
 Web-based Geographic Information Systems (Web GIS) combine web, mobile technology, and GIS. It's a growing field in academia and industry, expanding GIS capabilities from local servers to the cloud. This makes online maps and geospatial data more accessible to fields like geography, transportation, and oceanography. The integration of web and GIS has led to advancements like smart cities, location-based services, and pandemic dashboards. This course teaches students to manage web GIS projects, use the latest geospatial cloud technologies, and provides real-world case studies.
