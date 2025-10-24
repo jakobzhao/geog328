@@ -163,7 +163,9 @@ These properties will determine the style of the table. Notably, with tr:nth-chi
 
 Now that the html page skeleton and the style have been determined, we will then create dynamic objects and increase interactivity.
 
-We will use mapbox to create the map application. You wil need to apply for a mapbox access token from its official website. 
+We will use mapbox to create the map application. You will need to apply for a mapbox access token from its official website. 
+
+>Note that Mapbox will request your billing information when you sign up. Based on Dr. Zhao's previous experience teaching this course, there has never been any charge associated with normal class usage. The type of access and usage in this class has always stayed well within the free tier limits. If you are concerned about sharing credit card information, you may delete your tokens or close your account entirely after the course ends. While Mapbox offers features that are quite beneficial for skill development in Web GIS, it is also possible to use [MapLibre](https://maplibre.org/maplibre-gl-js/docs/) for this course instead.
 
 Once you obtain your own access token, please define a token at the beginning of the Javascript code.
 
@@ -182,6 +184,37 @@ let map = new mapboxgl.Map({
 });
 ```
 
+For those of you who would prefer to use MapLibre, you will not need a token and you can instead use the following code lines to construct your map object. You can visit [here](https://maplibre.org/maplibre-gl-js/docs/) and [here](https://github.com/maplibre/demotiles) to explore more style examples.
+
+```javascript
+const map = new maplibregl.Map({
+    container: 'map', // container id
+    center: [138, 38], // starting position [lng, lat]
+    zoom: 5.5, // starting zoom
+    style: {
+        "version": 8,
+        "sources": {
+            "satellite": {
+                "type": "raster",
+                "tiles": ["https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2020_3857/default/g/{z}/{y}/{x}.jpg"],
+                "tileSize": 256
+            }
+        },
+        "layers": [{
+            "id": "satellite",
+            "type": "raster",
+            "source": "satellite"
+        }]
+    }
+});
+```
+
+If you use MapLibre, remember to add the MapLibre javascript and css links to your html header as well.
+
+```html
+<script src="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.css" rel="stylesheet" />
+```
 
 ## 5. Load GeoJSON asynchronously
 
@@ -408,7 +441,10 @@ We expect the followings for your deliverable:
 
 ```
 
+>While the lab assignments have been designed with Mapbox in mind, it is possible to use [MapLibre](https://maplibre.org/maplibre-gl-js/docs/) as an open-source alternative. Mapping services that were once freely available have increasingly shifted toward for-profit models, and Mapbox is no exception. Fortunately, the use of Mapbox services in this course remains well within the range of the free tier. Those of you are are curious about the shift toward for-profit spatial technologies may be interested in this article: [From FOSS to profit: Digital spatial technologies and the mode of production](https://www.sciencedirect.com/science/article/pii/S2666378324000230). 
+
 ## References:
 - [Zebra Striped Table](https://www.w3schools.com/howto/howto_css_table_zebra.asp)
 - [Sort a Table](https://www.w3schools.com/howto/howto_js_sort_table.asp)
 - [async and await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+- [MapLibre - Display a satellite map](https://maplibre.org/maplibre-gl-js/docs/examples/display-a-satellite-map/)
