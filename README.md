@@ -138,7 +138,7 @@ In this week, we will introduce you to map making on the web. The web based inte
     - [Making thematic map on the web](https://docs.mapbox.com/help/tutorials/create-a-map-with-data-visualization-component/)
     - [Add interactive makers to web maps](https://docs.mapbox.com/help/tutorials/custom-markers-gl-js/)
     list of [active learning activities](modules/module06/readme.md) that will be demonstrated in the lecture session.
--   **Lab 4:** [Interactive web mapping](labs/lab04) `Due by Wednesday, Feb 19th 23:59 PST`
+-   **Lab 4:** [Interactive web mapping](labs/lab04)
 
 -   **Final Project Checkpoint #1**: [Project proposal](https://canvas.uw.edu/courses/1830196/discussion_topics/9954182)
 
