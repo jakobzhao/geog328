@@ -181,6 +181,27 @@ const map = new mapboxgl.Map({
 );
 ```
 
+If you chose to use MapLibre in Lab 3, you can use the following code to create a MabLibre map instance instead. Since the style that we had set for our cursor will not work with MapLibre, we can also manually set the cursor to the default.
+
+```javascript
+const map = new maplibregl.Map({
+    container: 'map', // container id
+    style: 'https://tiles.openfreemap.org/styles/positron', // style URL
+    zoom: 3, // starting zoom
+    center: [-100, 40], // starting center
+});
+
+map.getCanvas().style.cursor = 'default';
+```
+
+If you are using MapLibre, remember to include the following references in your header.
+
+```html
+<!-- MapLibre: https://maplibre.org/maplibre-gl-js/docs/ --> 
+<script src="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.css" rel="stylesheet"/>
+```
+
 ### 3.2 `async function`
 
 Then, we will again use the `async function` for our following operations, including loading the GeoJSON file, adding it as a map layer, adding content to our legend, and implementing the hovering effect.
