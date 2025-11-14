@@ -1,2 +1,24 @@
 .DS_Store
-.vscode
+
+# VS Code - ignore everything except extension recommendations
+.vscode/*
+!/.vscode/extensions.json
+
+# Node (if used later)
+node_modules/
+.npm/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/dist/
+/build/
+
+# Env files
+.env
+.env.*

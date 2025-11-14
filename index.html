@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GEOG 328 – Web GIS</title>
+    <meta name="description" content="Landing page for GEOGRAPHY 328 – Web GIS syllabus, labs, modules, and project." />
+    <link rel="icon" href="assets/img/cover.jpg" />
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #111827;
+            --accent: #06b6d4;
+            --text: #e5e7eb;
+            --muted: #9ca3af;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+            background: radial-gradient(1200px 800px at 15% 10%, #0b1220, var(--bg));
+            color: var(--text);
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 24px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.75rem;
+        }
+
+        header p {
+            margin: 6px 0 0;
+            color: var(--muted);
+        }
+
+        main {
+            max-width: 1100px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 12px 20px 48px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 18px;
+        }
+
+        a.card {
+            display: block;
+            padding: 18px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            color: inherit;
+            text-decoration: none;
+            transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+        }
+
+        a.card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .card h2 {
+            margin: 0 0 6px;
+            font-size: 1.1rem;
+        }
+
+        .card p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .note {
+            margin-top: 24px;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        footer {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 16px 20px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .chip {
+            padding: 4px 8px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 999px;
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>GEOGRAPHY 328 – Web GIS</h1>
+        <p>Autumn 2025 • University of Washington • Instructor: Bo Zhao</p>
+        <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Mapbox</span>
+            <span class="chip">GeoJSON</span>
+            <span class="chip">GitHub</span>
+        </div>
+    </header>
+    <main>
+        <div class="grid">
+            <a class="card" href="README.md">
+                <h2>Syllabus</h2>
+                <p>Overview, objectives, schedule, grading, and policies.</p>
+            </a>
+            <a class="card" href="gearup.md">
+                <h2>Gear Up</h2>
+                <p>Set up your environment: browser, Git, editor, and tools.</p>
+            </a>
+            <a class="card" href="labs/">
+                <h2>Labs</h2>
+                <p>Hands-on assignments and walkthroughs.</p>
+            </a>
+            <a class="card" href="modules/">
+                <h2>Modules</h2>
+                <p>Lecture examples and in-class demos.</p>
+            </a>
+            <a class="card" href="project/">
+                <h2>Final Project</h2>
+                <p>Requirements, templates, and assets for your project.</p>
+            </a>
+            <a class="card" href="presentation/">
+                <h2>Presentation</h2>
+                <p>Presentation guidance and submission notes.</p>
+            </a>
+        </div>
+
+        <p class="note">
+            Tip: To preview this site locally, run a static server (for example, Python
+            <code>http.server</code>) and open <code>http://localhost:8000/</code>. See
+            the README for details.
+        </p>
+    </main>
+    <footer>
+        <span>© 2025 GEOG 328. Licensed under MIT (see LICENSE).</span>
+    </footer>
+</body>
+
+</html>

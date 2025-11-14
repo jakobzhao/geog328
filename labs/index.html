@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GEOG 328 – Labs</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+            margin: 0;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 32px 20px;
+        }
+
+        h1 {
+            margin: 0 0 12px;
+        }
+
+        p {
+            color: #9ca3af;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 24px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card {
+            padding: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .muted {
+            color: #9ca3af;
+            font-size: .95rem;
+        }
+
+        header {
+            padding: 16px 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        header a {
+            color: #93c5fd;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">← Home</a>
+    </header>
+    <main>
+        <h1>Labs</h1>
+        <p class="muted">Instructions and demos for weekly hands-on exercises.</p>
+        <ul>
+            <li class="card">
+                <a href="lab01/readme.md"><strong>Lab 1</strong> – Project management using GitHub</a>
+                <div class="muted">Setup Git, repos, and workflow</div>
+            </li>
+            <li class="card">
+                <a href="lab01a/readme.md"><strong>Lab 1A</strong> – Supplemental setup</a>
+                <div class="muted">Extra environment preparation</div>
+            </li>
+            <li class="card">
+                <a href="lab02/index.html"><strong>Lab 2</strong> – Responsive web page design</a>
+                <div class="muted"><a href="lab02/readme.md">Instructions</a></div>
+            </li>
+            <li class="card">
+                <a href="lab03/readme.md"><strong>Lab 3</strong> – Async GeoJSON loading</a>
+                <div class="muted"><a href="lab03/earthquake.html">Demo</a></div>
+            </li>
+            <li class="card">
+                <a href="lab04/readme.md"><strong>Lab 4</strong> – Interactive web mapping</a>
+                <div class="muted"><a href="lab04/pop_density.html">Demo</a></div>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
