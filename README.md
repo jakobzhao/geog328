@@ -188,7 +188,7 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 There will be no lecture on Tuesday, so we try to give you enough time to help you finish your collective final project with your team members. What's more, we will hold our final project presentation on Friday during the lab session this week.
 
-**Final Project Presentation**: will be held on Friday during the lab sessions from 11:30am to 2:20pm PST.
+**Final Project Presentation**: will be held on Friday, December 5th, during the lab sessions from 11:30am to 2:20pm PST.
 
 **Final Project Submission**：needs to be delivered to Canvas by the next Monday, December 8th 11:59 PST.
 
