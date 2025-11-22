@@ -157,7 +157,6 @@ Starting from this week to the last week, we will dive into a series of lectures
 
 -   **Final Project Checkpoint #2**: [Data preparation](https://canvas.uw.edu/courses/1830196/discussion_topics/9954181)
 
-
 ### Week 8 : Sorting by Distance
 
 In this week, we will introduce you to a basic spatial analysis that uses distance to sort geographical data. This application is made upon MapBox too. Starting from this week, you will work on your final project. Its requirement will be introduced in this week's lab session. In short, you will need to make an advanced spatial analysis to deal with a real-world problem.
@@ -186,11 +185,17 @@ In this week, we will introduce how to deal with time on the web. The instructor
 
 <!--  Dec 1  -->
 
-There will be no lecture on Tuesday, so we try to give you enough time to help you finish your collective final project with your team members. What's more, we will hold our final project presentation on Friday during the lab session this week.
+~~There will be no lecture on Tuesday, so we try to give you enough time to help you finish your collective final project with your team members.~~
+We will still meet on Tuesday for a project development session. I will be there to help you with any questions regarding your final project. What's more, we will hold our final project presentation on Friday during the lab session this week.
 
-**Final Project Presentation**: will be held on Friday, December 5th, during the lab sessions from 11:30am to 2:20pm PST.
+
+**[Final Project Instruction](project/readme.md)**
+
+**Final Project Presentation**: will be held on Friday, December 5th, during the lab sessions from 11:30am to 3:20pm PST.
 
 **Final Project Submission**：needs to be delivered to Canvas by the next Monday, December 8th 11:59 PST.
+
+**In-Group Peer Evaluation**: Each group member needs to submit [the peer evaluation form](https://canvas.uw.edu/courses/1830196/assignments/10690264) on canvas by the next Monday, December 9th 11:59 PST.
 
 ## Course Requirement
 

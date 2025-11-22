@@ -4,8 +4,6 @@
 
 **Points Available** = 150
 
-**Due:** TBD
-
 The final project is a major component of this course. Each student group is expected to develop a web gis application. Your final projects are expected to be published online, and the codes are expected to be shared on GitHub in order to contribute to both the open-source community and academia. Each group will need to choose one from the templates listed below for your final project. You are encouraged to use ChatGPT or other Generative AI tools only for coding and debugging. Please do not use ChatGPT to craft the readme file or other textual information on the web pages.
 
 The final project should satisfy the following items:
@@ -66,7 +64,7 @@ The final project should satisfy the following items:
 
 #### Week 5 - Brainstorm
 
-#### Week 6 - Checkpoint #1: Project proposal (15 PTS)
+#### Week 6 - Checkpoint #1: Project proposal (15pts)
 
 Please share your final project proposal on this discussion board. A proposal only needs to be shared once by one of your group members. In the proposal, please indicate what you want to make by the end of this quarter, the targeting audience, the available datasets, the required multimedia (e.g., texts, images, videos, etc) if applicable, and the functions. It would be great if you can find one or two digital geographies-related projects that you can learn from. It will give the instructor and TAs a better idea of how to help you. The proposal needs to have **at least 300 words** and one or two screenshots of the available projects that you want to learn from. Once a project proposal is shared, I welcome any suggestions if you have, the TAs and the instructor will participate in the discussion too.
 
@@ -76,10 +74,9 @@ Please share your final project proposal on this discussion board. A proposal on
 
 Data processing is always an important step for creating web GIS applications. Based on past experiences, students may find themselves spending significant amount of time on processing the spatial dataset before they could use it in the proposed web GIS project. Therefore, by the end of week 9, we expect you to have your dataset properly cleaned and processed, so that you could spend the rest of the time working on the coding part of the project. Besides providing the cleaned data, you should also write a few sentences to describe how you cleaned the data and why the data processing steps you take are necessary or beneficial to your final project.
 
-
 #### Week 10 - Project Presentation (20pts+10pts)
 
-Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting during this week, each group is expected to present the final project in 8 minutes. After each group presents their project, there will be a 3-minute Q&A session during which other groups would ask questions or offer feedbacks. Each group is required to speak at least twice during the Q&A sessions (i.e., ask questions or offer feedbacks after two different presentations). 20 pts will be for the presentation and 5 pts for each question or piece of feedback offered.
+Academics often attend conferences where they share their discoveries and browse the work of others to gain new ideas and offer feedback. We will hold a final presentation meeting during this week, each group is expected to present the final project in 6 minutes. After each group presents their project, there will be a 3-minute Q&A session during which other groups would ask questions or offer feedbacks. **Each group is required to ask at least two questions or offer feedbacks after two different presentations. 20 pts will be for the presentation and 5 pts for each question or piece of feedback offered.**
 
 ## Submission
 
